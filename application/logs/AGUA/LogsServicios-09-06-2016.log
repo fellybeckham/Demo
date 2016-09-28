@@ -1,0 +1,253 @@
+09/06/2016 09:15:22   Obtiene Session: NULL NULL
+09/06/2016 09:16:19   Obtiene Session: NULL NULL
+09/06/2016 01:50:47   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '28392357140150508276078408'
+09/06/2016 01:50:57   Guardar datos de busqueda: '28392357140150508276078408' false '140326' '32'
+09/06/2016 01:50:59   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '28392357140150508276078408',
+)
+09/06/2016 01:50:59   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+09/06/2016 01:55:52   Guardar datos de busqueda: '28392357140150508276078408' false '231720' 'sn'
+09/06/2016 01:55:52   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  231720  CON NUMERO EXTERIOR  sn, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '231720',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '28392357140150508276078408',
+)
+09/06/2016 01:55:52   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  231720  CON NUMERO EXTERIOR  sn, VERIFIQUE POR FAVOR'
+09/06/2016 02:22:15   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '92593709830222185696204677'
+09/06/2016 03:59:53   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '70347867300359560550258443'
+09/06/2016 04:00:30   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '27154462570400328252389841'
+09/06/2016 04:00:46   Guardar datos de busqueda: '27154462570400328252389841' false '053163' '17'
+09/06/2016 04:00:46   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'PATIÑO OVIEDO CECILIO',
+  'numerocontrato' => '053163',
+  'domicilio' => 'LOMA LARGA NO.   17  COL. LOMAS DEL VALLE INFONAVIT',
+  'importetotal' => '$581.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 09/03/2016__12/05/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 25/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '27154462570400328252389841',
+)
+09/06/2016 04:00:46   metodo buscarAgua Respuesta correcta
+09/06/2016 04:01:45   Guardar datos de busqueda: '27154462570400328252389841' false '062751' '335'
+09/06/2016 04:01:45   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '062751',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '27154462570400328252389841',
+)
+09/06/2016 04:01:45   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+09/06/2016 04:01:57   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '38179631590402000999498223'
+09/06/2016 04:02:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '84795730260402044541918190'
+09/06/2016 04:02:15   Guardar datos de busqueda: '84795730260402044541918190' false '062751' '335'
+09/06/2016 04:02:16   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VILLASEÑOR IRMA AURORA',
+  'numerocontrato' => '062751',
+  'domicilio' => 'AV. PARAGUAY NO.  335  COL. LAS AMERICAS',
+  'importetotal' => '$559.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__14/04/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 27/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '84795730260402044541918190',
+)
+09/06/2016 04:02:16   metodo buscarAgua Respuesta correcta
+09/06/2016 04:02:24   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '74927938140402261644766007'
+09/06/2016 04:25:49   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '55943586180425528746321892'
+09/06/2016 04:26:33   Guardar datos de busqueda: '55943586180425528746321892' false '' ''
+09/06/2016 04:26:40   Guardar datos de busqueda: '55943586180425528746321892' false '15415' '56'
+09/06/2016 04:26:40   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  015415  CON NUMERO EXTERIOR  56, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '015415',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '55943586180425528746321892',
+)
+09/06/2016 04:26:40   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  015415  CON NUMERO EXTERIOR  56, VERIFIQUE POR FAVOR'
+09/06/2016 04:27:41   Guardar datos de busqueda: '55943586180425528746321892' false '15415' '56'
+09/06/2016 04:27:41   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  015415  CON NUMERO EXTERIOR  56, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '015415',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '55943586180425528746321892',
+)
+09/06/2016 04:27:41   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  015415  CON NUMERO EXTERIOR  56, VERIFIQUE POR FAVOR'
+09/06/2016 04:29:29   Guardar datos de busqueda: '55943586180425528746321892' false '085091' '56'
+09/06/2016 04:29:30   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  085091  CON NUMERO EXTERIOR  56, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '085091',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '55943586180425528746321892',
+)
+09/06/2016 04:29:30   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  085091  CON NUMERO EXTERIOR  56, VERIFIQUE POR FAVOR'
+09/06/2016 04:29:35   Guardar datos de busqueda: '55943586180425528746321892' false '085091' 'SN'
+09/06/2016 04:29:36   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  085091  CON NUMERO EXTERIOR  SN, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '085091',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '55943586180425528746321892',
+)
+09/06/2016 04:29:36   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  085091  CON NUMERO EXTERIOR  SN, VERIFIQUE POR FAVOR'
+09/06/2016 04:29:41   Guardar datos de busqueda: '55943586180425528746321892' false '085091' 'S/N'
+09/06/2016 04:29:41   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  085091  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '085091',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '55943586180425528746321892',
+)
+09/06/2016 04:29:41   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  085091  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+09/06/2016 04:29:57   Guardar datos de busqueda: '55943586180425528746321892' false '085191' 'S/N'
+09/06/2016 04:29:57   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'RODRIGUEZ AGUILAR FRANCISCA',
+  'numerocontrato' => '085191',
+  'domicilio' => 'ROCIO S/N Mz 23 Lt 7601  COL. VISTA HERMOSA',
+  'importetotal' => '$495.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 15/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '55943586180425528746321892',
+)
+09/06/2016 04:29:57   metodo buscarAgua Respuesta correcta
+09/06/2016 04:31:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '73742171800431044456642254'
+09/06/2016 04:32:19   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '17290916200432221050692934'
+09/06/2016 04:32:37   Guardar datos de busqueda: '17290916200432221050692934' false '110598' ''
+09/06/2016 04:33:26   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '87784847740433294088614197'
+09/06/2016 04:34:28   Guardar datos de busqueda: '87784847740433294088614197' false '' ''
+09/06/2016 04:35:43   Guardar datos de busqueda: '87784847740433294088614197' false '345645' ''
+09/06/2016 04:36:09   Guardar datos de busqueda: '87784847740433294088614197' false '110598' 'S/N'
+09/06/2016 04:36:10   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  110598  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '110598',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '87784847740433294088614197',
+)
+09/06/2016 04:36:10   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  110598  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+09/06/2016 04:40:54   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '92706577860440572431620879'
+09/06/2016 04:41:13   Guardar datos de busqueda: '92706577860440572431620879' false '085191' ''
+09/06/2016 04:41:19   Guardar datos de busqueda: '92706577860440572431620879' false '085191' 'S/N'
+09/06/2016 04:41:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'RODRIGUEZ AGUILAR FRANCISCA',
+  'numerocontrato' => '085191',
+  'domicilio' => 'ROCIO S/N Mz 23 Lt 7601  COL. VISTA HERMOSA',
+  'importetotal' => '$495.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 15/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '92706577860440572431620879',
+)
+09/06/2016 04:41:19   metodo buscarAgua Respuesta correcta

@@ -1,0 +1,321 @@
+03/06/2016 12:52:09   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '28898047551252118327738338'
+03/06/2016 12:52:15   Guardar datos de busqueda: '28898047551252118327738338' '770891840205160000002' false false
+03/06/2016 12:52:16   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ESCOBEDO ZAVALA D G EVANGELINA',
+  'numerocontrato' => '089184',
+  'domicilio' => 'EMBAJADA DE GHANA NO.   72  COL. ADOLFO LOPEZ MATEOS',
+  'importetotal' => '$215.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 17/02/2016__18/04/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 02/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 12:52:16   metodo buscarAgua Respuesta correcta
+03/06/2016 12:52:28   Paso pantalla de  pago, Pagara'$215.00'
+03/06/2016 12:52:44   Paso pantalla método vendingcobrar
+03/06/2016 12:52:45   Paso pantalla método vendingcobrar
+03/06/2016 12:54:01   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'ESCOBEDO ZAVALA D G EVANGELINA',
+  'numerocontrato' => '089184',
+  'domicilio' => 'EMBAJADA DE GHANA NO.   72  COL. ADOLFO LOPEZ MATEOS',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '03-06-2016 12:54:02',
+  'cantidadletra' => 'doscientos quince  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880891843257295349',
+  'montocobrado' => '$215.00',
+  'codigobarra' => '77089184020516000000215007',
+  'id_kiosko' => '1',
+)
+03/06/2016 12:54:01   entra a generar ticket.
+03/06/2016 12:54:01   genero ticket de pago OK 
+03/06/2016 12:59:35   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '09151141961259376452057789'
+03/06/2016 12:59:48   Guardar datos de busqueda: '09151141961259376452057789' '770941362504160000001' false false
+03/06/2016 12:59:48   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'TORRES LOPEZ FAUSTINO',
+  'numerocontrato' => '094136',
+  'domicilio' => 'GREGORIO DE AVI?A NO.    7-324  COL. DIEGO DE BASALENQUE',
+  'importetotal' => '$150.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/03/2016__30/04/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 12:59:48   metodo buscarAgua Respuesta correcta
+03/06/2016 12:59:54   Paso pantalla de  pago, Pagara'$150.00'
+03/06/2016 12:59:59   Paso pantalla método vendingcobrar
+03/06/2016 01:00:00   Paso pantalla método vendingcobrar
+03/06/2016 01:01:30   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'TORRES LOPEZ FAUSTINO',
+  'numerocontrato' => '094136',
+  'domicilio' => 'GREGORIO DE AVIÑA NO.    7-324  COL. DIEGO DE BASALENQUE',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '03-06-2016 01:01:32',
+  'cantidadletra' => 'ciento cincuenta  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880941361624897719',
+  'montocobrado' => '$150.00',
+  'codigobarra' => '77094136250416000000150007',
+  'id_kiosko' => '1',
+)
+03/06/2016 01:01:30   entra a generar ticket.
+03/06/2016 01:01:31   genero ticket de pago OK 
+03/06/2016 01:06:31   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '17096849060106338136527599'
+03/06/2016 01:06:34   Guardar datos de busqueda: '17096849060106338136527599' '771057000706160000001' false false
+03/06/2016 01:06:34   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MEJIA DUE?AS MARIA AUXILIO',
+  'numerocontrato' => '105700',
+  'domicilio' => 'LEAL DE CARRANZA NO.  334  COL. MARTIN CASTREJON',
+  'importetotal' => '$167.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 20,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 01:06:34   metodo buscarAgua Respuesta correcta
+03/06/2016 01:06:43   Paso pantalla de  pago, Pagara'$167.00'
+03/06/2016 01:06:49   Paso pantalla método vendingcobrar
+03/06/2016 01:06:51   Paso pantalla método vendingcobrar
+03/06/2016 01:07:39   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'MEJIA DUEÑAS MARIA AUXILIO',
+  'numerocontrato' => '105700',
+  'domicilio' => 'LEAL DE CARRANZA NO.  334  COL. MARTIN CASTREJON',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '03-06-2016 01:07:41',
+  'cantidadletra' => 'ciento sesenta y siete  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881057006627232134',
+  'montocobrado' => '$167.00',
+  'codigobarra' => '77105700070616000000167007',
+  'id_kiosko' => '1',
+)
+03/06/2016 01:07:39   entra a generar ticket.
+03/06/2016 01:07:39   genero ticket de pago OK 
+03/06/2016 01:10:10   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '21716967330110128343021807'
+03/06/2016 01:10:47   Guardar datos de busqueda: '21716967330110128343021807' '771135580606160000001' false false
+03/06/2016 01:10:47   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'GARCIA PARRA ESPERNAZA',
+  'numerocontrato' => '113558',
+  'domicilio' => 'MANUEL GOMEZ PEDRAZA NO.   56 L-2  COL. SOLIDARIDAD',
+  'importetotal' => '$175.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 22/03/2016__24/05/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 06/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 01:10:47   metodo buscarAgua Respuesta correcta
+03/06/2016 01:11:13   Paso pantalla de  pago, Pagara'$175.00'
+03/06/2016 01:11:43   Paso pantalla método vendingcobrar
+03/06/2016 01:11:45   Paso pantalla método vendingcobrar
+03/06/2016 01:13:01   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'GARCIA PARRA ESPERNAZA',
+  'numerocontrato' => '113558',
+  'domicilio' => 'MANUEL GOMEZ PEDRAZA NO.   56 L-2  COL. SOLIDARIDAD',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '03-06-2016 01:13:03',
+  'cantidadletra' => 'ciento setenta y cinco  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881135589643450597',
+  'montocobrado' => '$175.00',
+  'codigobarra' => '77113558060616000000175007',
+  'id_kiosko' => '1',
+)
+03/06/2016 01:13:01   entra a generar ticket.
+03/06/2016 01:13:01   genero ticket de pago OK 
+03/06/2016 01:14:22   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '81640182970114249360800441'
+03/06/2016 01:14:32   Guardar datos de busqueda: '81640182970114249360800441' '771220890706160000001' false false
+03/06/2016 01:14:33   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ORTIZ SANCHEZ RAMON',
+  'numerocontrato' => '122089',
+  'domicilio' => 'GARDENIA NO.   26  COL. TORREON NUEVO',
+  'importetotal' => '$102.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 01:14:33   metodo buscarAgua Respuesta correcta
+03/06/2016 01:14:55   Paso pantalla de  pago, Pagara'$102.00'
+03/06/2016 01:15:00   Paso pantalla método vendingcobrar
+03/06/2016 01:15:02   Paso pantalla método vendingcobrar
+03/06/2016 01:15:36   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'ORTIZ SANCHEZ RAMON',
+  'numerocontrato' => '122089',
+  'domicilio' => 'GARDENIA NO.   26  COL. TORREON NUEVO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '03-06-2016 01:15:37',
+  'cantidadletra' => 'ciento dos  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881220892443421968',
+  'montocobrado' => '$102.00',
+  'codigobarra' => '77122089070616000000102007',
+  'id_kiosko' => '1',
+)
+03/06/2016 01:15:36   entra a generar ticket.
+03/06/2016 01:15:36   genero ticket de pago OK 
+03/06/2016 01:16:15   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '91132860350116174330431169'
+03/06/2016 01:16:19   Guardar datos de busqueda: '91132860350116174330431169' '771403262504160000001' false false
+03/06/2016 01:16:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACU?A MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 01:16:19   metodo buscarAgua Respuesta correcta
+03/06/2016 01:16:46   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '97991971160116481985989360'
+03/06/2016 03:38:55   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '12625643720338577609498065'
+03/06/2016 03:39:12   Guardar datos de busqueda: '12625643720338577609498065' false '140326' '32 l-3'
+03/06/2016 03:39:12   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  140326  CON NUMERO EXTERIOR  32 l-3, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '140326',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 03:39:12   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  140326  CON NUMERO EXTERIOR  32 l-3, VERIFIQUE POR FAVOR'
+03/06/2016 03:39:19   Guardar datos de busqueda: '12625643720338577609498065' false '140326' '32'
+03/06/2016 03:39:20   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACU?A MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 03:39:20   metodo buscarAgua Respuesta correcta
+03/06/2016 03:39:52   Guardar datos de busqueda: '12625643720338577609498065' false '140326' '32 l-3'
+03/06/2016 03:39:52   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  140326  CON NUMERO EXTERIOR  32 l-3, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '140326',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 03:39:52   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  140326  CON NUMERO EXTERIOR  32 l-3, VERIFIQUE POR FAVOR'
+03/06/2016 04:25:59   Guardar datos de busqueda: '12625643720338577609498065' false '140326' '32'
+03/06/2016 04:25:59   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACU?A MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 04:25:59   metodo buscarAgua Respuesta correcta
+03/06/2016 04:37:03   Guardar datos de busqueda: '12625643720338577609498065' false '140326' '32 L-3'
+03/06/2016 04:37:03   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '140326',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 04:37:03   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+03/06/2016 04:37:19   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '94655972620437215992430856'
+03/06/2016 04:37:58   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '52261792110438001763913894'
+03/06/2016 04:38:11   Guardar datos de busqueda: '52261792110438001763913894' false '140326' '32 L-3'
+03/06/2016 04:38:11   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  140326  CON NUMERO EXTERIOR  32 L-3, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '140326',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+03/06/2016 04:38:11   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  140326  CON NUMERO EXTERIOR  32 L-3, VERIFIQUE POR FAVOR'

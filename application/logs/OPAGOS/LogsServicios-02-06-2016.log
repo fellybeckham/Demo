@@ -1,0 +1,341 @@
+02/06/2016 08:36:32   Inicio de Servicio Obtine Session
+02/06/2016 08:36:32   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:36:32   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:36:32   Valida Si hay Session
+02/06/2016 08:38:51   Inicio de Servicio Obtine Session
+02/06/2016 08:38:52   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:38:52   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:38:52   Valida Si hay Session
+02/06/2016 08:39:18   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ESPECTACULOS\',\'nota\':\'Referencia:ESPPUB(ESPECTACULOS%20PUBLICOS)-1431617-BAILE%20EN:%20SIN%20NOMBRE(EL%2018/03/2016%20CED.16268)\',\'propietario\':\'DELGADO%20LOPEZ%20JOSE%20ROBERTO\',\'ubicacion\':\'0%20%20SIN%20NOMBRE,%20CP:0\',\'domicilio\':\'ACERO%201133%20,%20INDUSTRIAL,%20CP:58130%20LOC.:MORELIA,%20MICH\',\'totaladeudo\':\'7,350.00\',\'noprop\':396879,\'genero\':\'\',\'conceptos\':\'ACCESO%20A%20BAILES%20PUBLICOS%20$%207,350.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+02/06/2016 08:39:18   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14316 DELGADo'
+02/06/2016 08:39:18   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ESPECTACULOS\'',
+  3 => 'nota\':\'Referencia:ESPPUB(ESPECTACULOS PUBLICOS)-1431617-BAILE EN: SIN NOMBRE(EL 18/03/2016 CED.16268)\'',
+  4 => 'propietario\':\'DELGADO LOPEZ JOSE ROBERTO\'',
+  5 => 'ubicacion\':\'0  SIN NOMBRE, CP:0\'',
+  6 => 'domicilio\':\'ACERO 1133 , INDUSTRIAL, CP:58130 LOC.:MORELIA, MICH\'',
+  7 => 'totaladeudo\':\'7,350.00\'',
+  8 => 'noprop\':396879',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ACCESO A BAILES PUBLICOS $ 7,350.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 08:39:23   Paso pantalla de  pago, Pagara'7350.00'
+02/06/2016 08:39:48   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1193,\'folio\':\'Folio: 14316\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 08:39\',\'propietario\':\'DELGADO LOPEZ JOSE ROBERTO\',\'ubicacion\':\'0  SIN NOMBRE, CP:0\',\'domicilio\':\'ACERO 1133 , INDUSTRIAL, CP:58130 LOC.:MORELIA, MICH\',\'observaciones\':\'No. Folio 14316 17-BAILE EN: SIN NOMBRE(EL 18/03/2016 CED.16268)\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ESPECTACULOS\',\'recibo\':6261847,\'montocobrado\':\'7,350.00\',\'losconceptos\':\'ACCESO A BAILES PUBLICOS $ 7,350.00\',\'cantidadletra\':\'(SIETE MIL TRESCIENTOS CINCUENTA PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $7,350.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':371098}]'
+02/06/2016 08:39:48   entra a generar ticket.
+02/06/2016 08:39:48   genero ticket de pago OK
+02/06/2016 08:40:22   Inicio de Servicio Obtine Session
+02/06/2016 08:40:22   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:40:22   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:40:22   Valida Si hay Session
+02/06/2016 08:40:51   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+02/06/2016 08:40:51   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14392 RAMIREz'
+02/06/2016 08:40:51   No encontro Resultado: 
+02/06/2016 08:41:04   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+02/06/2016 08:41:04   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14392 RAMIREs'
+02/06/2016 08:41:04   No encontro Resultado: 
+02/06/2016 08:42:21   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ESPECTACULOS\',\'nota\':\'Referencia:ESPPUB(ESPECTACULOS%20PUBLICOS)-1428917-BAILE%20LA%20ARROLLADORA%20EN:%20EXPLANADA%20DE%20LA%20FERIA(EL%2005/03/2016%20CED.16232)\',\'propietario\':\'AVALOS%20ORTIZ%20ELIO%20JOSE\',\'ubicacion\':\'EXTERIOR%20DE%20LA%20FERIA%200%20%20EXPLANADA%20DE%20LA%20FERIA,%20CP:0\',\'domicilio\':\'JACARANDAS%20226%20,%20JARDINES%20DEL%20RINCON,%20CP:58270%20LOC.:LA%20ARTESA,%20MICH\',\'totaladeudo\':\'78,165.00\',\'noprop\':675521,\'genero\':\'\',\'conceptos\':\'AUDICIONES%20MUSICALES%20CON%20MUSICOS%20Y%20ARTISTAS%20$%2078,165.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+02/06/2016 08:42:21   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14289 AVALOs'
+02/06/2016 08:42:21   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ESPECTACULOS\'',
+  3 => 'nota\':\'Referencia:ESPPUB(ESPECTACULOS PUBLICOS)-1428917-BAILE LA ARROLLADORA EN: EXPLANADA DE LA FERIA(EL 05/03/2016 CED.16232)\'',
+  4 => 'propietario\':\'AVALOS ORTIZ ELIO JOSE\'',
+  5 => 'ubicacion\':\'EXTERIOR DE LA FERIA 0  EXPLANADA DE LA FERIA, CP:0\'',
+  6 => 'domicilio\':\'JACARANDAS 226 , JARDINES DEL RINCON, CP:58270 LOC.:LA ARTESA, MICH\'',
+  7 => 'totaladeudo\':\'78,165.00\'',
+  8 => 'noprop\':675521',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'AUDICIONES MUSICALES CON MUSICOS Y ARTISTAS $ 78,165.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 08:42:27   Paso pantalla de  pago, Pagara'78165.00'
+02/06/2016 08:44:08   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1194,\'folio\':\'Folio: 14289\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 08:44\',\'propietario\':\'AVALOS ORTIZ ELIO JOSE\',\'ubicacion\':\'EXTERIOR DE LA FERIA 0  EXPLANADA DE LA FERIA, CP:0\',\'domicilio\':\'JACARANDAS 226 , JARDINES DEL RINCON, CP:58270 LOC.:LA ARTESA, MICH\',\'observaciones\':\'No. Folio 14289 17-BAILE LA ARROLLADORA EN: EXPLANADA DE LA FERIA(EL 05/03/2016 CED.16232)\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ESPECTACULOS\',\'recibo\':6261848,\'montocobrado\':\'78,165.00\',\'losconceptos\':\'AUDICIONES MUSICALES CON MUSICOS Y ARTISTAS $ 78,165.00\',\'cantidadletra\':\'(SETENTA Y OCHO MIL CIENTO SESENTA Y CINCO PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $78,165.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':367296}]'
+02/06/2016 08:44:08   entra a generar ticket.
+02/06/2016 08:44:08   genero ticket de pago OK
+02/06/2016 08:44:42   Inicio de Servicio Obtine Session
+02/06/2016 08:44:42   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:44:42   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:44:42   Valida Si hay Session
+02/06/2016 08:45:44   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-728516%20Cta.%20Predial:101-1-999997Licencia%2016436%20-%20C\',\'propietario\':\'BARRIGA%20DE%20LA%20TORRE%20CARLOS%20ARMANDO\',\'ubicacion\':\'PREDIO%20EJIDAL%20S%20%20ENTRE%20CALLE(S):%20CORREGIDORA,%20ALLENDE,%20S,%20CP:0\',\'domicilio\':\'HIDALGO%2063%20,%20CENTRO%20HISTORICO,%20CP:58000\',\'totaladeudo\':\'1,128.00\',\'noprop\':196579,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M².%20BAJO%20G.P%20$%201,128.47%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.47\',\'rfc\':\'BATC5603056\'}]'
+02/06/2016 08:45:44   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 728516 BARRIGa'
+02/06/2016 08:45:44   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-728516 Cta. Predial:101-1-999997Licencia 16436 - C\'',
+  4 => 'propietario\':\'BARRIGA DE LA TORRE CARLOS ARMANDO\'',
+  5 => 'ubicacion\':\'PREDIO EJIDAL S  ENTRE CALLE(S): CORREGIDORA, ALLENDE, S, CP:0\'',
+  6 => 'domicilio\':\'HIDALGO 63 , CENTRO HISTORICO, CP:58000\'',
+  7 => 'totaladeudo\':\'1,128.00\'',
+  8 => 'noprop\':196579',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 MÂ². BAJO G.P $ 1,128.47 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.47\'',
+  11 => 'rfc\':\'BATC5603056\'',
+)
+02/06/2016 08:45:49   Paso pantalla de  pago, Pagara'1128.00'
+02/06/2016 08:46:22   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1195,\'folio\':\'Solicitud: 728516\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 08:46\',\'propietario\':\'BARRIGA DE LA TORRE CARLOS ARMANDO\',\'ubicacion\':\'PREDIO EJIDAL S  ENTRE CALLE(S): CORREGIDORA, ALLENDE, S, CP:0\',\'domicilio\':\'HIDALGO 63 , CENTRO HISTORICO, CP:58000\',\'observaciones\':\'No. Folio 728516 Cta. predial: 101-1-999997  Licencia 16436 - C\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261849,\'montocobrado\':\'1,128.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 1,128.47 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.47\',\'cantidadletra\':\'(MIL CIENTO VEINTIOCHO PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $1,128.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':365522}]'
+02/06/2016 08:46:22   entra a generar ticket.
+02/06/2016 08:46:23   genero ticket de pago OK
+02/06/2016 08:46:34   Inicio de Servicio Obtine Session
+02/06/2016 08:46:34   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:46:34   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:46:34   Valida Si hay Session
+02/06/2016 08:47:02   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-728816%20Cta.%20Predial:101-1-269689Licencia%2021049%20-%20C\',\'propietario\':\'GONZALEZ%20PEDRAZA%20JUDITH%20JOSEFINA\',\'ubicacion\':\'AV%20CONVENTO%20DE%20SANTA%20CATALINA%20201%20%20ENTRE%20CALLE(S):%20CONVENTO%20DE%20JESUS%20MARIA,%20CONVENTO%20DE%20CHIMALHUACAN,%20CONJ%20HAB%20MISION%20DEL%20VALLE%20II,%20CP:58304\',\'domicilio\':\'CONVENTO%20DE%20BALVANERA%2084%20,%20CONJ%20HAB%20MISION%20DEL%20VALLE%20II,%20CP:58304\',\'totaladeudo\':\'1,655.00\',\'noprop\':220464,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M².%20BAJO%20G.P%20$%20150.46%20|%20REVALIDACION%20DE%20LICENCIAS%20MPALES%20$%201,504.62%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.08\',\'rfc\':\'\'}]'
+02/06/2016 08:47:02   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 728816 GONZALEz'
+02/06/2016 08:47:02   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-728816 Cta. Predial:101-1-269689Licencia 21049 - C\'',
+  4 => 'propietario\':\'GONZALEZ PEDRAZA JUDITH JOSEFINA\'',
+  5 => 'ubicacion\':\'AV CONVENTO DE SANTA CATALINA 201  ENTRE CALLE(S): CONVENTO DE JESUS MARIA, CONVENTO DE CHIMALHUACAN, CONJ HAB MISION DEL VALLE II, CP:58304\'',
+  6 => 'domicilio\':\'CONVENTO DE BALVANERA 84 , CONJ HAB MISION DEL VALLE II, CP:58304\'',
+  7 => 'totaladeudo\':\'1,655.00\'',
+  8 => 'noprop\':220464',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 MÂ². BAJO G.P $ 150.46 | REVALIDACION DE LICENCIAS MPALES $ 1,504.62 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.08\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 08:49:13   Inicio de Servicio Obtine Session
+02/06/2016 08:49:13   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:49:13   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:49:13   Valida Si hay Session
+02/06/2016 08:49:58   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+02/06/2016 08:49:58   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 729416 HUITZACHe'
+02/06/2016 08:49:58   No encontro Resultado: 
+02/06/2016 08:51:06   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-729616%20Cta.%20Predial:101-1-999997Licencia%2019762%20-%20C\',\'propietario\':\'CERVEZAS%20CUAUHTEMOC%20MOCTEZUMA,%20SA%20DE%20CV\',\'ubicacion\':\'PREDIO%20EJIDAL%20S%20,%20S,%20CP:0\',\'domicilio\':\'AV%20PERIODISMO%20455%20,%20NUEVA%20VALLADOLID,%20CP:58190\',\'totaladeudo\':\'752.00\',\'noprop\':174646,\'genero\':\'\',\'conceptos\':\'REVALIDACION%20DE%20LICENCIAS%20MPALES%20$%20752.31%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.31\',\'rfc\':\'CCM010710UU1\'}]'
+02/06/2016 08:51:06   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 729616 CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE Cv'
+02/06/2016 08:51:06   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-729616 Cta. Predial:101-1-999997Licencia 19762 - C\'',
+  4 => 'propietario\':\'CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV\'',
+  5 => 'ubicacion\':\'PREDIO EJIDAL S , S, CP:0\'',
+  6 => 'domicilio\':\'AV PERIODISMO 455 , NUEVA VALLADOLID, CP:58190\'',
+  7 => 'totaladeudo\':\'752.00\'',
+  8 => 'noprop\':174646',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REVALIDACION DE LICENCIAS MPALES $ 752.31 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.31\'',
+  11 => 'rfc\':\'CCM010710UU1\'',
+)
+02/06/2016 08:51:19   Paso pantalla de  pago, Pagara'752.00'
+02/06/2016 08:52:05   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1196,\'folio\':\'Solicitud: 729616\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 08:52\',\'propietario\':\'CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV\',\'ubicacion\':\'PREDIO EJIDAL S , S, CP:0\',\'domicilio\':\'AV PERIODISMO 455 , NUEVA VALLADOLID, CP:58190\',\'observaciones\':\'No. Folio 729616 Cta. predial: 101-1-999997  Licencia 19762 - C\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261850,\'montocobrado\':\'752.00\',\'losconceptos\':\'OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.31 | REVALIDACION DE LICENCIAS MPALES $ 752.31\',\'cantidadletra\':\'(SETECIENTOS CINCUENTA Y DOS PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $752.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':365542}]'
+02/06/2016 08:52:05   entra a generar ticket.
+02/06/2016 08:52:05   genero ticket de pago OK
+02/06/2016 08:52:42   Inicio de Servicio Obtine Session
+02/06/2016 08:52:43   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:52:43   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:52:43   Valida Si hay Session
+02/06/2016 08:53:43   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+02/06/2016 08:53:43   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 136960 474EU1'
+02/06/2016 08:53:43   No encontro Resultado: 
+02/06/2016 08:54:16   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-139660NO.%20PLACA:%20474EU1,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'CAMELINAS%20,%20LAS%20AMERICAS\',\'domicilio\':\'\',\'totaladeudo\':\'1,096.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'LOS%20VEHICULOS%20CON%20LONGITUD%20MAYOR%20A%20SEIS%20METROS%20Y%20ALTURA%20DE%20CUATRO%20METROS,%20NO%20DEBERAN%20TRANSITAR%20POR%20A%20$%20657.36%20|%20CONDUCIR%20SIN%20LICENCIA%20Y/O%20PERMISO%20PARA%20CONDUCIR%20VIGENTES%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.40\',\'rfc\':\'\'}]'
+02/06/2016 08:54:16   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 139660 474EU1'
+02/06/2016 08:54:16   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-139660NO. PLACA: 474EU1, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'CAMELINAS , LAS AMERICAS\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'1,096.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'LOS VEHICULOS CON LONGITUD MAYOR A SEIS METROS Y ALTURA DE CUATRO METROS, NO DEBERAN TRANSITAR POR A $ 657.36 | CONDUCIR SIN LICENCIA Y/O PERMISO PARA CONDUCIR VIGENTES $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.40\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 08:55:33   Paso pantalla de  pago, Pagara'1096.00'
+02/06/2016 08:56:28   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1197,\'folio\':\'Num. de Infraccion: 139660\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 08:56\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'CAMELINAS , LAS AMERICAS\',\'domicilio\':\'\',\'observaciones\':\'No. Folio 139660 NO. PLACA: 474EU1, Fec. Infracc:01/03/2016\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRANSITO\',\'recibo\':6261851,\'montocobrado\':\'1,096.00\',\'losconceptos\':\'CONDUCIR SIN LICENCIA Y/O PERMISO PARA CONDUCIR VIGENTES $ 438.24 | LOS VEHICULOS CON LONGITUD MAYOR A SEIS METROS Y ALTURA DE CUATRO METROS, NO DEBERAN TRANSITAR POR A $ 657.36 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.40\',\'cantidadletra\':\'(MIL NOVENTA Y SEIS PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $1,096.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364633}]'
+02/06/2016 08:56:28   entra a generar ticket.
+02/06/2016 08:56:28   genero ticket de pago OK
+02/06/2016 08:57:01   Inicio de Servicio Obtine Session
+02/06/2016 08:57:01   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:57:01   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:57:01   Valida Si hay Session
+02/06/2016 08:57:37   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-146203NO.%20PLACA:%20PFR2765,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'NIÑOS%20HEROES%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+02/06/2016 08:57:37   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 146203 PFR2765'
+02/06/2016 08:57:37   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-146203NO. PLACA: PFR2765, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'NIÃ‘OS HEROES , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 08:57:46   Paso pantalla de  pago, Pagara'219.00'
+02/06/2016 08:59:41   Inicio de Servicio Obtine Session
+02/06/2016 08:59:41   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 08:59:41   Inicio de Servicio Obtine Ingresos
+02/06/2016 08:59:41   Valida Si hay Session
+02/06/2016 09:00:23   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-146203NO.%20PLACA:%20PFR2765,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'NIÑOS%20HEROES%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+02/06/2016 09:00:23   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 146203 PFR2765'
+02/06/2016 09:00:23   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-146203NO. PLACA: PFR2765, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'NIÃ‘OS HEROES , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 09:00:27   Paso pantalla de  pago, Pagara'219.00'
+02/06/2016 09:00:49   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1198,\'folio\':\'Num. de Infraccion: 146203\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 09:00\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'NIÑOS HEROES , CENTRO\',\'domicilio\':\'\',\'observaciones\':\'No. Folio 146203 NO. PLACA: PFR2765, Fec. Infracc:01/03/2016\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRANSITO\',\'recibo\':6261852,\'montocobrado\':\'219.00\',\'losconceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\',\'cantidadletra\':\'(DOSCIENTOS DIECINUEVE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $219.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364663}]'
+02/06/2016 09:00:49   entra a generar ticket.
+02/06/2016 09:00:50   genero ticket de pago OK
+02/06/2016 09:01:03   Inicio de Servicio Obtine Session
+02/06/2016 09:01:03   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 09:01:03   Inicio de Servicio Obtine Ingresos
+02/06/2016 09:01:03   Valida Si hay Session
+02/06/2016 09:01:39   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-447916%20Cta.%20Predial:101-1-287915\',\'propietario\':\'WALPG%20MEX,%20I%20S%20DE%20R.L.%20DE%20C.V.\',\'ubicacion\':\'PERIF%20PASEO%20DE%20LA%20REPUBLICA%203380%20,%20EX%20HDA%20DE%20QUINCEO\',\'domicilio\':\'AV.%20SANTA%20FE%20481%20PISO%205%20,%20CRUZ%20MANCA\',\'totaladeudo\':\'67,489.00\',\'noprop\':679069,\'genero\':\'\',\'conceptos\':\'REVALIDACION%20DE%20ANUNCIOS%20PUBLICITARIOS%20$%206,135.36%20|%20ADICIONAL%20ANUNCIOS%20PUBLICITARIOS%20$%2061,353.60%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.04\',\'rfc\':\'WMI100630JT9\'}]'
+02/06/2016 09:01:39   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 447916 WALPG MEx,'
+02/06/2016 09:01:39   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-447916 Cta. Predial:101-1-287915\'',
+  4 => 'propietario\':\'WALPG MEX, I S DE R.L. DE C.V.\'',
+  5 => 'ubicacion\':\'PERIF PASEO DE LA REPUBLICA 3380 , EX HDA DE QUINCEO\'',
+  6 => 'domicilio\':\'AV. SANTA FE 481 PISO 5 , CRUZ MANCA\'',
+  7 => 'totaladeudo\':\'67,489.00\'',
+  8 => 'noprop\':679069',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REVALIDACION DE ANUNCIOS PUBLICITARIOS $ 6,135.36 | ADICIONAL ANUNCIOS PUBLICITARIOS $ 61,353.60 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.04\'',
+  11 => 'rfc\':\'WMI100630JT9\'',
+)
+02/06/2016 09:02:03   Paso pantalla de  pago, Pagara'67489.00'
+02/06/2016 09:03:22   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1199,\'folio\':\'Solicitud: 447916\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 09:03\',\'propietario\':\'WALPG MEX, I S DE R.L. DE C.V.\',\'ubicacion\':\'PERIF PASEO DE LA REPUBLICA 3380 , EX HDA DE QUINCEO\',\'domicilio\':\'AV. SANTA FE 481 PISO 5 , CRUZ MANCA\',\'observaciones\':\'No. Folio 447916 Cta. predial: 101-1-287915\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRAMITES SDUMA\',\'recibo\':6261853,\'montocobrado\':\'67,489.00\',\'losconceptos\':\'ADICIONAL ANUNCIOS PUBLICITARIOS $ 61,353.60 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.04 | REVALIDACION DE ANUNCIOS PUBLICITARIOS $ 6,135.36\',\'cantidadletra\':\'(SESENTA Y SIETE MIL CUATROCIENTOS OCHENTA Y NUEVE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $67,489.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':370705}]'
+02/06/2016 09:03:22   entra a generar ticket.
+02/06/2016 09:03:22   genero ticket de pago OK
+02/06/2016 09:03:34   Inicio de Servicio Obtine Session
+02/06/2016 09:03:34   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 09:03:34   Inicio de Servicio Obtine Ingresos
+02/06/2016 09:03:34   Valida Si hay Session
+02/06/2016 09:04:02   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-964516%20Cta.%20Predial:101-1-54979Licencia%2019104%20-%20C\',\'propietario\':\'VILLICAÑA%20BALCAZAR%20ALFONSO\',\'ubicacion\':\'BLVD%20RAFAEL%20GARCIA%20DE%20LEON%201415%20,%20CHAPULTEPEC%20SUR,%20CP:58260\',\'domicilio\':\'BRUNO%20PATIÑO%20215%20,%20NUEVA%20CHAPULTEPEC,%20CP:58280\',\'totaladeudo\':\'1,128.00\',\'noprop\':202869,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M².%20BAJO%20G.P%20$%201,128.47%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.47\',\'rfc\':\'VIBA660219D\'}]'
+02/06/2016 09:04:02   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 964516 VILLICAÃ‘a'
+02/06/2016 09:04:02   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-964516 Cta. Predial:101-1-54979Licencia 19104 - C\'',
+  4 => 'propietario\':\'VILLICAÃ‘A BALCAZAR ALFONSO\'',
+  5 => 'ubicacion\':\'BLVD RAFAEL GARCIA DE LEON 1415 , CHAPULTEPEC SUR, CP:58260\'',
+  6 => 'domicilio\':\'BRUNO PATIÃ‘O 215 , NUEVA CHAPULTEPEC, CP:58280\'',
+  7 => 'totaladeudo\':\'1,128.00\'',
+  8 => 'noprop\':202869',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 MÂ². BAJO G.P $ 1,128.47 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.47\'',
+  11 => 'rfc\':\'VIBA660219D\'',
+)
+02/06/2016 09:04:05   Paso pantalla de  pago, Pagara'1128.00'
+02/06/2016 09:04:36   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1200,\'folio\':\'Solicitud: 964516\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 09:04\',\'propietario\':\'VILLICAÑA BALCAZAR ALFONSO\',\'ubicacion\':\'BLVD RAFAEL GARCIA DE LEON 1415 , CHAPULTEPEC SUR, CP:58260\',\'domicilio\':\'BRUNO PATIÑO 215 , NUEVA CHAPULTEPEC, CP:58280\',\'observaciones\':\'No. Folio 964516 Cta. predial: 101-1-54979  Licencia 19104 - C\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261854,\'montocobrado\':\'1,128.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 1,128.47 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.47\',\'cantidadletra\':\'(MIL CIENTO VEINTIOCHO PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $1,128.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':370421}]'
+02/06/2016 09:04:36   entra a generar ticket.
+02/06/2016 09:04:36   genero ticket de pago OK
+02/06/2016 09:04:48   Inicio de Servicio Obtine Session
+02/06/2016 09:04:49   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 09:04:49   Inicio de Servicio Obtine Ingresos
+02/06/2016 09:04:49   Valida Si hay Session
+02/06/2016 09:05:13   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(RASTRO%20MUNICIPAL)-293116%20%20RESES\',\'propietario\':\'CEDEÑO%20LAGUNAS%20ALEJANDRO\',\'ubicacion\':\'ANTONIO%20CHAVEZ%20SORIA%20274%20,%20LA%20SOLEDAD,%20CP:58118\',\'domicilio\':\'ANTONIO%20CHAVEZ%20SORIA%20274%20,%20LA%20SOLEDAD,%20CP:58118\',\'totaladeudo\':\'1,256.00\',\'noprop\':775347,\'genero\':\'\',\'conceptos\':\'SACRIFICIO%20DE%20GANADO%20VACUNO%20$%201,170.08%20|%20USO%20DE%20BASCULA%20$%2085.60%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.32\',\'rfc\':\'CELA711124R41\'}]'
+02/06/2016 09:05:13   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 370161 CEDEÃ‘o'
+02/06/2016 09:05:13   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(RASTRO MUNICIPAL)-293116  RESES\'',
+  4 => 'propietario\':\'CEDEÃ‘O LAGUNAS ALEJANDRO\'',
+  5 => 'ubicacion\':\'ANTONIO CHAVEZ SORIA 274 , LA SOLEDAD, CP:58118\'',
+  6 => 'domicilio\':\'ANTONIO CHAVEZ SORIA 274 , LA SOLEDAD, CP:58118\'',
+  7 => 'totaladeudo\':\'1,256.00\'',
+  8 => 'noprop\':775347',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'SACRIFICIO DE GANADO VACUNO $ 1,170.08 | USO DE BASCULA $ 85.60 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.32\'',
+  11 => 'rfc\':\'CELA711124R41\'',
+)
+02/06/2016 09:05:48   Paso pantalla de  pago, Pagara'1256.00'
+02/06/2016 09:06:17   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1201,\'folio\':\'Folio: 2931\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'02/06/2016 09:06\',\'propietario\':\'CEDEÑO LAGUNAS ALEJANDRO\',\'ubicacion\':\'ANTONIO CHAVEZ SORIA 274 , LA SOLEDAD, CP:58118\',\'domicilio\':\'ANTONIO CHAVEZ SORIA 274 , LA SOLEDAD, CP:58118\',\'observaciones\':\'No. Folio 2931 SOE(RASTRO MUNICIPAL) 16  RESES\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261855,\'montocobrado\':\'1,256.00\',\'losconceptos\':\'OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.32 | SACRIFICIO DE GANADO VACUNO $ 1,170.08 | USO DE BASCULA $ 85.60\',\'cantidadletra\':\'(MIL DOSCIENTOS CINCUENTA Y SEIS PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $1,256.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':370161}]'
+02/06/2016 09:06:17   entra a generar ticket.
+02/06/2016 09:06:17   genero ticket de pago OK
+02/06/2016 09:06:38   Inicio de Servicio Obtine Session
+02/06/2016 09:06:38   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 09:06:38   Inicio de Servicio Obtine Ingresos
+02/06/2016 09:06:38   Valida Si hay Session
+02/06/2016 09:07:08   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145742NO.%20PLACA:%20U52WL,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'RAMOS%20GALINDO%20CHRISTIAN%20ISRAEL\',\'ubicacion\':\'NOCUPETARO%20,%20INDUSTRIAL\',\'domicilio\':\'\',\'totaladeudo\':\'657.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'NO%20RESPETAR%20LOS%20CONDUCTORES%20DE%20VEHÍCULOS%20SEÑAL%20DE%20SEMÁFORO%20$%20657.36%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.36\',\'rfc\':\'\'}]'
+02/06/2016 09:07:08   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145742 U52Wl'
+02/06/2016 09:07:08   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145742NO. PLACA: U52WL, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'RAMOS GALINDO CHRISTIAN ISRAEL\'',
+  5 => 'ubicacion\':\'NOCUPETARO , INDUSTRIAL\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'657.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'NO RESPETAR LOS CONDUCTORES DE VEHÃCULOS SEÃ‘AL DE SEMÃFORO $ 657.36 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.36\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 09:07:16   Paso pantalla de  pago, Pagara'657.00'
+02/06/2016 09:07:53   Inicio de Servicio Obtine Session
+02/06/2016 09:07:53   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 09:07:53   Inicio de Servicio Obtine Ingresos
+02/06/2016 09:07:53   Valida Si hay Session
+02/06/2016 09:08:17   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+02/06/2016 09:08:17   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 733516 FLOREs'
+02/06/2016 09:08:17   No encontro Resultado: 
+02/06/2016 12:18:45   Inicio de Servicio Obtine Session
+02/06/2016 12:18:45   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 12:18:45   Inicio de Servicio Obtine Ingresos
+02/06/2016 12:18:45   Valida Si hay Session
+02/06/2016 12:20:04   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-925216%20Cta.%20Predial:101-1-999999Licencia%2047956%20-%20B\',\'propietario\':\'CASTAÑEDA%20HIDALGO%20NOELIA%20DEL%20CARMEN\',\'ubicacion\':\'BARTOLOME%20DE%20LAS%20CASAS%20NO.%20147,%20CENTRO%20HISTORICO%20S/N%20%20ENTRE%20CALLE(S):%20FRAY%20DE%20SAN%20MIGUEL,%20PRIV.%20ALONSO%20DE%20VERACRUZ,%20CP:0\',\'domicilio\':\'BARTOLOME%20DE%20LAS%20CASAS%20147%20,%20CENTRO%20HISTORICO,%20CP:58000\',\'totaladeudo\':\'301.00\',\'noprop\':202266,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M².%20BAJO%20G.P%20$%20300.92%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.08\',\'rfc\':\'\'}]'
+02/06/2016 12:20:04   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 925216 CASTAÃ‘EDa'
+02/06/2016 12:20:04   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-925216 Cta. Predial:101-1-999999Licencia 47956 - B\'',
+  4 => 'propietario\':\'CASTAÃ‘EDA HIDALGO NOELIA DEL CARMEN\'',
+  5 => 'ubicacion\':\'BARTOLOME DE LAS CASAS NO. 147, CENTRO HISTORICO S/N  ENTRE CALLE(S): FRAY DE SAN MIGUEL, PRIV. ALONSO DE VERACRUZ, CP:0\'',
+  6 => 'domicilio\':\'BARTOLOME DE LAS CASAS 147 , CENTRO HISTORICO, CP:58000\'',
+  7 => 'totaladeudo\':\'301.00\'',
+  8 => 'noprop\':202266',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 MÂ². BAJO G.P $ 300.92 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.08\'',
+  11 => 'rfc\':\'\'',
+)
+02/06/2016 12:22:55   Inicio de Servicio Obtine Session
+02/06/2016 12:22:55   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+02/06/2016 12:22:55   Inicio de Servicio Obtine Ingresos
+02/06/2016 12:22:55   Valida Si hay Session
+02/06/2016 12:23:16   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-731716%20Cta.%20Predial:101-1-999997\',\'propietario\':\'GONZALEZ%20SOTO%20KEVIN%20SAMUEL\',\'ubicacion\':\'PREDIO%20EJIDAL%20S%20,%20S,%20CP:0\',\'domicilio\':\'AV%20HEROES%20ANONIMOS%20DE%20LA%20INDEPENDENCIA%20DE%20MEXICO%20,%20***NO%20DETERMINADO***,%20CP:0\',\'totaladeudo\':\'950.00\',\'noprop\':713544,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20PROTECCION%20AL%20MEDIO%20AMBIENTE%20LIC.TIPO%20B%20$%20949.52%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.48\',\'rfc\':\'gosk951006hmn\'}]'
+02/06/2016 12:23:16   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 731716 GONZALEz'
+02/06/2016 12:23:16   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-731716 Cta. Predial:101-1-999997\'',
+  4 => 'propietario\':\'GONZALEZ SOTO KEVIN SAMUEL\'',
+  5 => 'ubicacion\':\'PREDIO EJIDAL S , S, CP:0\'',
+  6 => 'domicilio\':\'AV HEROES ANONIMOS DE LA INDEPENDENCIA DE MEXICO , ***NO DETERMINADO***, CP:0\'',
+  7 => 'totaladeudo\':\'950.00\'',
+  8 => 'noprop\':713544',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN PROTECCION AL MEDIO AMBIENTE LIC.TIPO B $ 949.52 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.48\'',
+  11 => 'rfc\':\'gosk951006hmn\'',
+)

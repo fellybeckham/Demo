@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	Options -Indexes
+	RewriteBase /MoreliaPruebas
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond $1 !^(index\.php|public|img|js|datos|robots\.txt|css)
+	RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+ErrorDocument 404 /MoreliaPruebas/index.php
+</IfModule>

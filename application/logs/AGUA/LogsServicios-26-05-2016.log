@@ -1,0 +1,48 @@
+26/05/2016 12:13:36   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '20410339451213398588977538'
+26/05/2016 12:16:18   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '74317070141216210947188727'
+26/05/2016 12:55:24   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '47117549841255280158597677'
+26/05/2016 01:09:35   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '24156033930109388952547986'
+26/05/2016 01:10:00   Guardar datos de busqueda: '24156033930109388952547986' false '' ''
+26/05/2016 01:10:18   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '61750351050110218691406818'
+26/05/2016 01:10:20   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '54540097980110231981933471'
+26/05/2016 01:10:21   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '51390295370110241211554691'
+26/05/2016 01:10:22   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '19075167540110254414087467'
+26/05/2016 01:20:12   Guardar datos de busqueda: '19075167540110254414087467' false '' '3d'
+26/05/2016 01:20:18   Guardar datos de busqueda: '19075167540110254414087467' false '333333' '3d'
+26/05/2016 01:20:19   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '333333',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+26/05/2016 01:20:19   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+26/05/2016 01:20:28   Guardar datos de busqueda: '19075167540110254414087467' false '333333' '3d'
+26/05/2016 01:20:29   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '333333',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+26/05/2016 01:20:29   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+26/05/2016 01:21:08   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '56207299190121121167662592'
+26/05/2016 01:22:39   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '98649675270122432380448230'

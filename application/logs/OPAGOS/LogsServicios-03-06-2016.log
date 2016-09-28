@@ -1,0 +1,459 @@
+03/06/2016 08:55:43   Inicio de Servicio Obtine Session
+03/06/2016 08:55:45   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 08:55:45   Inicio de Servicio Obtine Ingresos
+03/06/2016 08:55:45   Valida Si hay Session
+03/06/2016 08:56:15   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-925216%20Cta.%20Predial:101-1-999999Licencia%2047956%20-%20B\',\'propietario\':\'CASTAÑEDA%20HIDALGO%20NOELIA%20DEL%20CARMEN\',\'ubicacion\':\'BARTOLOME%20DE%20LAS%20CASAS%20NO.%20147,%20CENTRO%20HISTORICO%20S/N%20%20ENTRE%20CALLE(S):%20FRAY%20DE%20SAN%20MIGUEL,%20PRIV.%20ALONSO%20DE%20VERACRUZ,%20CP:0\',\'domicilio\':\'BARTOLOME%20DE%20LAS%20CASAS%20147%20,%20CENTRO%20HISTORICO,%20CP:58000\',\'totaladeudo\':\'301.00\',\'noprop\':202266,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M².%20BAJO%20G.P%20$%20300.92%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.08\',\'rfc\':\'\'}]'
+03/06/2016 08:56:15   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 925216 CASTAÃ‘EDa'
+03/06/2016 08:56:15   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-925216 Cta. Predial:101-1-999999Licencia 47956 - B\'',
+  4 => 'propietario\':\'CASTAÃ‘EDA HIDALGO NOELIA DEL CARMEN\'',
+  5 => 'ubicacion\':\'BARTOLOME DE LAS CASAS NO. 147, CENTRO HISTORICO S/N  ENTRE CALLE(S): FRAY DE SAN MIGUEL, PRIV. ALONSO DE VERACRUZ, CP:0\'',
+  6 => 'domicilio\':\'BARTOLOME DE LAS CASAS 147 , CENTRO HISTORICO, CP:58000\'',
+  7 => 'totaladeudo\':\'301.00\'',
+  8 => 'noprop\':202266',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 MÂ². BAJO G.P $ 300.92 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.08\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 08:58:13   Paso pantalla de  pago, Pagara'301.00'
+03/06/2016 08:59:23   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1202,\'folio\':\'Solicitud: 925216\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 08:59\',\'propietario\':\'CASTAÑEDA HIDALGO NOELIA DEL CARMEN\',\'ubicacion\':\'BARTOLOME DE LAS CASAS NO. 147, CENTRO HISTORICO S/N  ENTRE CALLE(S): FRAY DE SAN MIGUEL, PRIV. ALONSO DE VERACRUZ, CP:0\',\'domicilio\':\'BARTOLOME DE LAS CASAS 147 , CENTRO HISTORICO, CP:58000\',\'observaciones\':\'No. Folio 925216 Cta. predial: 101-1-999999  Licencia 47956 - B\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261856,\'montocobrado\':\'301.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 300.92 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.08\',\'cantidadletra\':\'(TRESCIENTOS UN PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $301.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':370008}]'
+03/06/2016 08:59:23   entra a generar ticket.
+03/06/2016 08:59:23   genero ticket de pago OK
+03/06/2016 09:01:25   Inicio de Servicio Obtine Session
+03/06/2016 09:01:25   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 09:01:25   Inicio de Servicio Obtine Ingresos
+03/06/2016 09:01:25   Valida Si hay Session
+03/06/2016 09:01:58   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:01:58   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:01:58   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:02:27   Inicio de Servicio Obtine Session
+03/06/2016 09:02:27   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 09:02:27   Inicio de Servicio Obtine Ingresos
+03/06/2016 09:02:27   Valida Si hay Session
+03/06/2016 09:03:20   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:03:20   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:03:20   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:03:54   Inicio de Servicio Obtine Session
+03/06/2016 09:03:54   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 09:03:54   Inicio de Servicio Obtine Ingresos
+03/06/2016 09:03:54   Valida Si hay Session
+03/06/2016 09:03:55   Paso pantalla de  pago, Pagara'15.00'
+03/06/2016 09:05:29   Inicio de Servicio Obtine Session
+03/06/2016 09:05:29   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 09:05:29   Inicio de Servicio Obtine Ingresos
+03/06/2016 09:05:29   Valida Si hay Session
+03/06/2016 09:06:01   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:06:01   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:06:01   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:06:56   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:06:56   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:06:56   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:07:45   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:07:45   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:07:45   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:08:26   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:08:26   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:08:26   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:08:39   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:08:39   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:08:39   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:09:16   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:09:16   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:09:16   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:09:40   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:09:40   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:09:40   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:09:59   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:09:59   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:09:59   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:11:50   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:11:50   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:11:50   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:12:47   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:12:47   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:12:47   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:13:01   Inicio de Servicio Obtine Session
+03/06/2016 09:13:01   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 09:13:01   Inicio de Servicio Obtine Ingresos
+03/06/2016 09:13:01   Valida Si hay Session
+03/06/2016 09:13:38   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:13:38   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:13:38   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:13:59   Inicio de Servicio Obtine Session
+03/06/2016 09:13:59   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 09:13:59   Inicio de Servicio Obtine Ingresos
+03/06/2016 09:13:59   Valida Si hay Session
+03/06/2016 09:15:24   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-852INST.%20DE%20TIANGUIS.%20GIRO%20ROPA%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%206%20MARZO%202016%20-----%20F%2056673\',\'propietario\':\'NUÑEZ%20TINOCO%20SOCORRO\',\'ubicacion\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'domicilio\':\'EMILIANO%20ZAPATA%20,%20SOCIALISTA\',\'totaladeudo\':\'15.00\',\'noprop\':1333569,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 09:15:24   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369867 NUÃ‘Ez'
+03/06/2016 09:15:24   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-852INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\'',
+  4 => 'propietario\':\'NUÃ‘EZ TINOCO SOCORRO\'',
+  5 => 'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  6 => 'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1333569',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 09:15:53   Paso pantalla de  pago, Pagara'15.00'
+03/06/2016 09:16:50   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1203,\'folio\':\'Folio: 852\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 09:16\',\'propietario\':\'NUÑEZ TINOCO SOCORRO\',\'ubicacion\':\'EMILIANO ZAPATA , SOCIALISTA\',\'domicilio\':\'EMILIANO ZAPATA , SOCIALISTA\',\'observaciones\':\'No. Folio 852 SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA) INST. DE TIANGUIS. GIRO ROPA EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 6 MARZO 2016 ----- F 56673\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261857,\'montocobrado\':\'15.00\',\'losconceptos\':\'TIANGUIS $ 15.00\',\'cantidadletra\':\'(QUINCE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $15.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':369867}]'
+03/06/2016 09:16:50   entra a generar ticket.
+03/06/2016 09:16:50   genero ticket de pago OK
+03/06/2016 12:54:21   Inicio de Servicio Obtine Session
+03/06/2016 12:54:21   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 12:54:21   Inicio de Servicio Obtine Ingresos
+03/06/2016 12:54:22   Valida Si hay Session
+03/06/2016 12:54:56   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+03/06/2016 12:54:56   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14329 MACIAs'
+03/06/2016 12:54:56   No encontro Resultado: 
+03/06/2016 12:55:36   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+03/06/2016 12:55:36   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 11432946620 NN50344'
+03/06/2016 12:55:36   No encontro Resultado: 
+03/06/2016 12:56:03   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-146620NO.%20PLACA:%20NN50344,%20Fec.%20Infracc:11/03/2016\',\'propietario\':\'MESA%20CISNEROS%20ROBERTO\',\'ubicacion\':\'MADERO%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'876.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'NO%20RESPETAR%20RUTAS,%20HORARIOS%20DE%20MANIOBRAS%20DE%20CARGA%20Y%20DESCARGA%20$%20438.24%20|%20ENTORPECER%20LA%20CIRCULACIÓN%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.48\',\'rfc\':\'\'}]'
+03/06/2016 12:56:03   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 146620 NN50344'
+03/06/2016 12:56:03   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-146620NO. PLACA: NN50344, Fec. Infracc:11/03/2016\'',
+  4 => 'propietario\':\'MESA CISNEROS ROBERTO\'',
+  5 => 'ubicacion\':\'MADERO , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'876.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'NO RESPETAR RUTAS, HORARIOS DE MANIOBRAS DE CARGA Y DESCARGA $ 438.24 | ENTORPECER LA CIRCULACIÃ“N $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.48\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 12:56:43   Paso pantalla de  pago, Pagara'876.00'
+03/06/2016 12:58:39   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1204,\'folio\':\'Num. de Infraccion: 146620\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 12:58\',\'propietario\':\'MESA CISNEROS ROBERTO\',\'ubicacion\':\'MADERO , CENTRO\',\'domicilio\':\'\',\'observaciones\':\'No. Folio 146620 NO. PLACA: NN50344, Fec. Infracc:11/03/2016\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRANSITO\',\'recibo\':6261858,\'montocobrado\':\'876.00\',\'losconceptos\':\'ENTORPECER LA CIRCULACIÓN $ 438.24 | NO RESPETAR RUTAS, HORARIOS DE MANIOBRAS DE CARGA Y DESCARGA $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.48\',\'cantidadletra\':\'(OCHOCIENTOS SETENTA Y SEIS PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $876.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':371066}]'
+03/06/2016 12:58:39   entra a generar ticket.
+03/06/2016 12:58:39   genero ticket de pago OK
+03/06/2016 01:02:28   Inicio de Servicio Obtine Session
+03/06/2016 01:02:28   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:02:28   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:02:28   Valida Si hay Session
+03/06/2016 01:03:10   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-923116%20Cta.%20Predial:101-1-58397Licencia%2019389%20-%20C\',\'propietario\':\'CERVEZAS%20CUAUHTEMOC%20MOCTEZUMA,%20SA%20DE%20CV\',\'ubicacion\':\'EUGENIO%20DE%20SALAZAR%2047%20,%20LAS%20TORRECILLAS,%20CP:58090\',\'domicilio\':\'AV%20PERIODISMO%20455%20,%20NUEVA%20VALLADOLID,%20CP:58190\',\'totaladeudo\':\'752.00\',\'noprop\':174646,\'genero\':\'\',\'conceptos\':\'REVALIDACION%20DE%20LICENCIAS%20MPALES%20$%20752.31%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.31\',\'rfc\':\'CCM010710UU1\'}]'
+03/06/2016 01:03:10   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 923116 CERVEZAS CUAUh'
+03/06/2016 01:03:10   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-923116 Cta. Predial:101-1-58397Licencia 19389 - C\'',
+  4 => 'propietario\':\'CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV\'',
+  5 => 'ubicacion\':\'EUGENIO DE SALAZAR 47 , LAS TORRECILLAS, CP:58090\'',
+  6 => 'domicilio\':\'AV PERIODISMO 455 , NUEVA VALLADOLID, CP:58190\'',
+  7 => 'totaladeudo\':\'752.00\'',
+  8 => 'noprop\':174646',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REVALIDACION DE LICENCIAS MPALES $ 752.31 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.31\'',
+  11 => 'rfc\':\'CCM010710UU1\'',
+)
+03/06/2016 01:03:28   Paso pantalla de  pago, Pagara'752.00'
+03/06/2016 01:06:05   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1205,\'folio\':\'Solicitud: 923116\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 13:06\',\'propietario\':\'CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV\',\'ubicacion\':\'EUGENIO DE SALAZAR 47 , LAS TORRECILLAS, CP:58090\',\'domicilio\':\'AV PERIODISMO 455 , NUEVA VALLADOLID, CP:58190\',\'observaciones\':\'No. Folio 923116 Cta. predial: 101-1-58397  Licencia 19389 - C\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261859,\'montocobrado\':\'752.00\',\'losconceptos\':\'OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.31 | REVALIDACION DE LICENCIAS MPALES $ 752.31\',\'cantidadletra\':\'(SETECIENTOS CINCUENTA Y DOS PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $752.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':371027}]'
+03/06/2016 01:06:05   entra a generar ticket.
+03/06/2016 01:06:05   genero ticket de pago OK
+03/06/2016 01:08:04   Inicio de Servicio Obtine Session
+03/06/2016 01:08:04   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:08:04   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:08:04   Valida Si hay Session
+03/06/2016 01:08:44   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-806INST.%20DE%20TIANGUIS.%20GIRO%20CHICHARRON%20EN%20MARIANO%20JIMENEZ.%20COL.%20SOCIALISTA.%20-----%2028%20FEBRERO%202016%20------%20F%2056635\',\'propietario\':\'GUILLEN%20BARAJAS%20SAUL\',\'ubicacion\':\'BENITO%20JUAREZ%20169%20,%20SOCIALISTA,%20CP:58341\',\'domicilio\':\'BENITO%20JUAREZ%20169%20,%20SOCIALISTA,%20CP:58341\',\'totaladeudo\':\'15.00\',\'noprop\':922912,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 01:08:44   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 370828 GUILLEn'
+03/06/2016 01:08:44   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-806INST. DE TIANGUIS. GIRO CHICHARRON EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 28 FEBRERO 2016 ------ F 56635\'',
+  4 => 'propietario\':\'GUILLEN BARAJAS SAUL\'',
+  5 => 'ubicacion\':\'BENITO JUAREZ 169 , SOCIALISTA, CP:58341\'',
+  6 => 'domicilio\':\'BENITO JUAREZ 169 , SOCIALISTA, CP:58341\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':922912',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 01:09:04   Paso pantalla de  pago, Pagara'15.00'
+03/06/2016 01:09:25   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1206,\'folio\':\'Folio: 806\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 13:09\',\'propietario\':\'GUILLEN BARAJAS SAUL\',\'ubicacion\':\'BENITO JUAREZ 169 , SOCIALISTA, CP:58341\',\'domicilio\':\'BENITO JUAREZ 169 , SOCIALISTA, CP:58341\',\'observaciones\':\'No. Folio 806 SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA) INST. DE TIANGUIS. GIRO CHICHARRON EN MARIANO JIMENEZ. COL. SOCIALISTA. ----- 28 FEBRERO 2016 ------ F 56635\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261860,\'montocobrado\':\'15.00\',\'losconceptos\':\'TIANGUIS $ 15.00\',\'cantidadletra\':\'(QUINCE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $15.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':370828}]'
+03/06/2016 01:09:25   entra a generar ticket.
+03/06/2016 01:09:25   genero ticket de pago OK
+03/06/2016 01:13:20   Inicio de Servicio Obtine Session
+03/06/2016 01:13:21   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:13:21   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:13:21   Valida Si hay Session
+03/06/2016 01:13:54   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-452616%20Cta.%20Predial:101-1-247050CASA%20HABITACION%20PLANTA%20BAJA\',\'propietario\':\'VILLAGOMEZ%20BUENO%20ALEJANDRA\',\'ubicacion\':\'CAÑON%20DE%20SANTA%20BARBARA%20231%20,%20TRES%20MARIAS\',\'domicilio\':\'CAÑON%20DE%20SANTA%20BARBARA%20231%20,%20TRES%20MARIAS\',\'totaladeudo\':\'6,230.00\',\'noprop\':93,\'genero\':\'\',\'conceptos\':\'LIC.%20DE%20CONSTRUCC.%20VIVIENDA%20RESIDENCIAL%20HASTA%20250M2%20$%206,230.34%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.34\',\'rfc\':\'BAF950102JP5\'}]'
+03/06/2016 01:13:54   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 452616 VILLAGOMEz'
+03/06/2016 01:13:54   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-452616 Cta. Predial:101-1-247050CASA HABITACION PLANTA BAJA\'',
+  4 => 'propietario\':\'VILLAGOMEZ BUENO ALEJANDRA\'',
+  5 => 'ubicacion\':\'CAÃ‘ON DE SANTA BARBARA 231 , TRES MARIAS\'',
+  6 => 'domicilio\':\'CAÃ‘ON DE SANTA BARBARA 231 , TRES MARIAS\'',
+  7 => 'totaladeudo\':\'6,230.00\'',
+  8 => 'noprop\':93',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'LIC. DE CONSTRUCC. VIVIENDA RESIDENCIAL HASTA 250M2 $ 6,230.34 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.34\'',
+  11 => 'rfc\':\'BAF950102JP5\'',
+)
+03/06/2016 01:14:10   Inicio de Servicio Obtine Session
+03/06/2016 01:14:10   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:14:10   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:14:10   Valida Si hay Session
+03/06/2016 01:31:22   Inicio de Servicio Obtine Session
+03/06/2016 01:31:22   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:31:22   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:31:22   Valida Si hay Session
+03/06/2016 01:33:26   Inicio de Servicio Obtine Session
+03/06/2016 01:33:26   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:33:26   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:33:26   Valida Si hay Session
+03/06/2016 01:33:52   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-863MULTAS%20AL%20REGLAMENTO,%20GIRO%20CREMA%20COCO%20EN%20CENTRO,%20COL.%20CENTRO.%20---%20MARZO%202016%20---%20%20F%2058059\',\'propietario\':\'BENAL%20BLANCAS%20JESUS%20ANGEL\',\'ubicacion\':\'CENTRO%20,%20CENTRO%20HISTORICO\',\'domicilio\':\'CENTRO%20,%20CENTRO%20HISTORICO\',\'totaladeudo\':\'140.00\',\'noprop\':1341141,\'genero\':\'\',\'conceptos\':\'MULTAS%20DE%20MERCADOS%20MPLES%20$%20140.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 01:33:52   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 369984 BENAl'
+03/06/2016 01:33:52   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-863MULTAS AL REGLAMENTO, GIRO CREMA COCO EN CENTRO, COL. CENTRO. --- MARZO 2016 ---  F 58059\'',
+  4 => 'propietario\':\'BENAL BLANCAS JESUS ANGEL\'',
+  5 => 'ubicacion\':\'CENTRO , CENTRO HISTORICO\'',
+  6 => 'domicilio\':\'CENTRO , CENTRO HISTORICO\'',
+  7 => 'totaladeudo\':\'140.00\'',
+  8 => 'noprop\':1341141',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'MULTAS DE MERCADOS MPLES $ 140.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 01:34:26   Paso pantalla de  pago, Pagara'140.00'
+03/06/2016 01:35:20   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1207,\'folio\':\'Folio: 863\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 13:35\',\'propietario\':\'BENAL BLANCAS JESUS ANGEL\',\'ubicacion\':\'CENTRO , CENTRO HISTORICO\',\'domicilio\':\'CENTRO , CENTRO HISTORICO\',\'observaciones\':\'No. Folio 863 SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA) MULTAS AL REGLAMENTO, GIRO CREMA COCO EN CENTRO, COL. CENTRO. --- MARZO 2016 ---  F 58059\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261861,\'montocobrado\':\'140.00\',\'losconceptos\':\'MULTAS DE MERCADOS MPLES $ 140.00\',\'cantidadletra\':\'(CIENTO CUARENTA PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $140.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':369984}]'
+03/06/2016 01:35:20   entra a generar ticket.
+03/06/2016 01:35:20   genero ticket de pago OK
+03/06/2016 01:38:17   Inicio de Servicio Obtine Session
+03/06/2016 01:38:17   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:38:17   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:38:18   Valida Si hay Session
+03/06/2016 01:38:56   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-983216%20Cta.%20Predial:101-1-999999Licencia%2052185%20-%20B\',\'propietario\':\'VALENCIA%20COUTO%20SALOMON%20CARLOS\',\'ubicacion\':\'OBISPO%20DEL%20ACUEDUCTO%20364%20-%204%20FRAY%20ANT.%20DE%20SAN%20MIGU%20S/N%20,%20CP:0\',\'domicilio\':\'FACULTAD%20DE%20DERECHO%20Y%20CIENCIAS%20SOCIALES%2072%20,%20FRACC%20REAL%20UNIVERSIDAD,%20CP:58000\',\'totaladeudo\':\'150.00\',\'noprop\':266377,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M².%20BAJO%20G.P%20$%20150.46%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.46\',\'rfc\':\'\'}]'
+03/06/2016 01:38:56   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 983216 VALENCIa'
+03/06/2016 01:38:56   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-983216 Cta. Predial:101-1-999999Licencia 52185 - B\'',
+  4 => 'propietario\':\'VALENCIA COUTO SALOMON CARLOS\'',
+  5 => 'ubicacion\':\'OBISPO DEL ACUEDUCTO 364 - 4 FRAY ANT. DE SAN MIGU S/N , CP:0\'',
+  6 => 'domicilio\':\'FACULTAD DE DERECHO Y CIENCIAS SOCIALES 72 , FRACC REAL UNIVERSIDAD, CP:58000\'',
+  7 => 'totaladeudo\':\'150.00\'',
+  8 => 'noprop\':266377',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 MÂ². BAJO G.P $ 150.46 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.46\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 01:39:21   Paso pantalla de  pago, Pagara'150.00'
+03/06/2016 01:39:45   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1208,\'folio\':\'Solicitud: 983216\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 13:39\',\'propietario\':\'VALENCIA COUTO SALOMON CARLOS\',\'ubicacion\':\'OBISPO DEL ACUEDUCTO 364 - 4 FRAY ANT. DE SAN MIGU S/N , CP:0\',\'domicilio\':\'FACULTAD DE DERECHO Y CIENCIAS SOCIALES 72 , FRACC REAL UNIVERSIDAD, CP:58000\',\'observaciones\':\'No. Folio 983216 Cta. predial: 101-1-999999  Licencia 52185 - B\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261862,\'montocobrado\':\'150.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 150.46 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.46\',\'cantidadletra\':\'(CIENTO CINCUENTA PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $150.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':370982}]'
+03/06/2016 01:39:45   entra a generar ticket.
+03/06/2016 01:39:45   genero ticket de pago OK
+03/06/2016 01:44:49   Inicio de Servicio Obtine Session
+03/06/2016 01:44:50   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:44:50   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:44:50   Valida Si hay Session
+03/06/2016 01:45:54   Inicio de Servicio Obtine Session
+03/06/2016 01:45:54   Modelo- Resultado inicio sesion: 'ï»¿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+03/06/2016 01:45:54   Inicio de Servicio Obtine Ingresos
+03/06/2016 01:45:54   Valida Si hay Session
+03/06/2016 01:46:24   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-722INST.%20DE%20TIANGUIS,%20GIRO%20VARIOS%20EN%20AV.%20PEDREGAL,%20COL.%20EDUARDO%20RUIZ.%20---%20FEBRERO%202016%20---%20%20F%2057735\',\'propietario\':\'SANTIBAÑEZ%20HERRERA%20OTILIO\',\'ubicacion\':\'AV.PEDREGAL%20,%20EDUARDO%20RUIZ\',\'domicilio\':\'AV.PEDREGAL%20,%20EDUARDO%20RUIZ\',\'totaladeudo\':\'50.00\',\'noprop\':1331700,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2050.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+03/06/2016 01:46:24   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364581 SANTIb'
+03/06/2016 01:46:24   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-722INST. DE TIANGUIS, GIRO VARIOS EN AV. PEDREGAL, COL. EDUARDO RUIZ. --- FEBRERO 2016 ---  F 57735\'',
+  4 => 'propietario\':\'SANTIBAÃ‘EZ HERRERA OTILIO\'',
+  5 => 'ubicacion\':\'AV.PEDREGAL , EDUARDO RUIZ\'',
+  6 => 'domicilio\':\'AV.PEDREGAL , EDUARDO RUIZ\'',
+  7 => 'totaladeudo\':\'50.00\'',
+  8 => 'noprop\':1331700',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 50.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+03/06/2016 01:46:33   Paso pantalla de  pago, Pagara'50.00'
+03/06/2016 01:47:01   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1209,\'folio\':\'Folio: 722\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'03/06/2016 13:47\',\'propietario\':\'SANTIBAÑEZ HERRERA OTILIO\',\'ubicacion\':\'AV.PEDREGAL , EDUARDO RUIZ\',\'domicilio\':\'AV.PEDREGAL , EDUARDO RUIZ\',\'observaciones\':\'No. Folio 722 SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA) INST. DE TIANGUIS, GIRO VARIOS EN AV. PEDREGAL, COL. EDUARDO RUIZ. --- FEBRERO 2016 ---  F 57735\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261863,\'montocobrado\':\'50.00\',\'losconceptos\':\'TIANGUIS $ 50.00\',\'cantidadletra\':\'(CINCUENTA PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $50.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364581}]'
+03/06/2016 01:47:01   entra a generar ticket.
+03/06/2016 01:47:01   genero ticket de pago OK

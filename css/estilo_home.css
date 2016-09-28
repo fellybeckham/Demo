@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}
+body{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:768px;
+	width:1024px;
+	background-image:url(../img/Kiosko_inicio_RC.png);
+	background-repeat:no-repeat;	
+	}
+#Contenido{
+	top:310px;
+	left:240px;
+	height:330px;
+	width:500px;
+	position:absolute;
+	/*border-color:#FFF;
+	border-style:double;*/
+	background-repeat:no-repeat;	
+}
+#regresar{
+	top:673px;
+	left:30px;
+	height:88px;
+	width:173px;
+	position:absolute;
+	background-repeat: no-repeat;
+	background-image:url(../img/regresar.png);
+	}
+#regresar:hover, #regresar.hover_effect{		
+	background-image: url(../img/regresar1.png);
+	background-repeat: no-repeat;
+	}
+#RC{
+	top:0px;
+	left:190px;
+	height:224px ;
+	width:152px;
+	position:absolute;
+	background-image:url(../img/RC_logo.png);
+	background-repeat:no-repeat;
+}
+#RC:hover, #RC.hover_effect{
+	background-image:url(../img/RC_logo_pres.png);
+	background-repeat:no-repeat;
+}
+#MAT{
+	top:0px;
+	left:-00px;
+	height:224px ;
+	width:152px;
+	position:absolute;
+	background-image:url(../img/Matrimonio.png);
+	background-repeat:no-repeat;
+	
+}
+#MAT:hover, #MAT.hover_effect{
+	background-image:url(../img/Matrimonio_pres.png);
+	background-repeat:no-repeat;
+}
+#NAC{
+	top:0px;
+	left:200px;
+	height:224px ;
+	width:152px;
+	position:absolute;
+	background-image:url(../img/Nacimiento.png);
+	background-repeat:no-repeat;
+	
+}
+#NAC:hover, #NAC.hover_effect{
+	background-image:url(../img/Nacimiento_pres.png);
+	background-repeat:no-repeat;
+}
+#CURP{
+	top:0px;
+	left:400px;
+	height:224px ;
+	width:152px;
+	position:absolute;
+	background-image:url(../img/CURP.png);
+	background-repeat:no-repeat;
+	
+}
+#CURP:hover, #CURP.hover_effect{
+	background-image:url(../img/CURP_pres.png);
+	background-repeat:no-repeat;
+}

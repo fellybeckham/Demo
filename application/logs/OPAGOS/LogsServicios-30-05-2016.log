@@ -1,0 +1,157 @@
+30/05/2016 10:49:33   Inicio de Servicio Obtine Session
+30/05/2016 10:49:33   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 10:49:33   Inicio de Servicio Obtine Ingresos
+30/05/2016 10:49:33   Valida Si hay Session
+30/05/2016 10:50:21   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145564NO.%20PLACA:%20PSJ9444,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BENITO%20JUAREZ%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+30/05/2016 10:50:21   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145564 PSJ9444'
+30/05/2016 10:50:21   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145564NO. PLACA: PSJ9444, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'BENITO JUAREZ , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+30/05/2016 10:50:42   Inicio de Servicio Obtine Session
+30/05/2016 10:50:42   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 10:50:42   Inicio de Servicio Obtine Ingresos
+30/05/2016 10:50:42   Valida Si hay Session
+30/05/2016 04:39:03   Inicio de Servicio Obtine Session
+30/05/2016 04:39:04   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 04:39:04   Inicio de Servicio Obtine Ingresos
+30/05/2016 04:39:04   Valida Si hay Session
+30/05/2016 04:39:54   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-702PUESTOS%20FIJOS%20Y%20SEMIFIJOS,%20GIRO%20POLLO%20CRUDO%20EN%20AV.%20PEDREGAL,%20COL.%20AMPL.%20EDUARDO%20RUIZ.%20---%20FEBRERO%202016%20---%20%20F%2057723\',\'propietario\':\'HERNANDEZ%20AYALA%20MARIA\',\'ubicacion\':\'AV.%20PEDREGAL%201418%20,%20AMPLIACION%20EDUARDO%20RUIZ,%20CP:58149\',\'domicilio\':\'AV.%20PEDREGAL%201418%20,%20AMPLIACION%20EDUARDO%20RUIZ,%20CP:58149\',\'totaladeudo\':\'90.00\',\'noprop\':938864,\'genero\':\'\',\'conceptos\':\'PUESTOS%20FIJOS%20O%20SEMIJOS,%20INCLUSO%20DE%20TIPO%20METALICO%20$%2090.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+30/05/2016 04:39:54   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364468 HERNANDEz'
+30/05/2016 04:39:54   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-702PUESTOS FIJOS Y SEMIFIJOS, GIRO POLLO CRUDO EN AV. PEDREGAL, COL. AMPL. EDUARDO RUIZ. --- FEBRERO 2016 ---  F 57723\'',
+  4 => 'propietario\':\'HERNANDEZ AYALA MARIA\'',
+  5 => 'ubicacion\':\'AV. PEDREGAL 1418 , AMPLIACION EDUARDO RUIZ, CP:58149\'',
+  6 => 'domicilio\':\'AV. PEDREGAL 1418 , AMPLIACION EDUARDO RUIZ, CP:58149\'',
+  7 => 'totaladeudo\':\'90.00\'',
+  8 => 'noprop\':938864',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'PUESTOS FIJOS O SEMIJOS, INCLUSO DE TIPO METALICO $ 90.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+30/05/2016 04:40:29   Inicio de Servicio Obtine Session
+30/05/2016 04:40:29   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 04:40:29   Inicio de Servicio Obtine Ingresos
+30/05/2016 04:40:30   Valida Si hay Session
+30/05/2016 04:40:40   Inicio de Servicio Obtine Session
+30/05/2016 04:40:40   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 04:40:40   Inicio de Servicio Obtine Ingresos
+30/05/2016 04:40:40   Valida Si hay Session
+30/05/2016 04:41:19   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145564NO.%20PLACA:%20PSJ9444,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BENITO%20JUAREZ%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+30/05/2016 04:41:19   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145564 PSJ9444'
+30/05/2016 04:41:19   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145564NO. PLACA: PSJ9444, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'BENITO JUAREZ , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+30/05/2016 04:41:49   Inicio de Servicio Obtine Session
+30/05/2016 04:41:49   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 04:41:49   Inicio de Servicio Obtine Ingresos
+30/05/2016 04:41:49   Valida Si hay Session
+30/05/2016 04:42:22   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-340116%20Cta.%20Predial:101-1-13377\',\'propietario\':\'SOLIS%20SOSA%20MARCO%20ANTONIO\',\'ubicacion\':\'AV%20ACUEDUCTO%20344%20,%20CHAPULTEPEC%20NORTE\',\'domicilio\':\'AV%20ACUEDUCTO%20344%20,%20CHAPULTEPEC%20NORTE\',\'totaladeudo\':\'750,967.00\',\'noprop\':113106,\'genero\':\'\',\'conceptos\':\'TRANSFERENCIA%20DE%20POTENCIALIDAD%20DE%20DESARROLLO%20URBANO%20$%20750,967.43%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.43\',\'rfc\':\'\'}]'
+30/05/2016 04:42:22   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 340116 SOLIs'
+30/05/2016 04:42:22   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-340116 Cta. Predial:101-1-13377\'',
+  4 => 'propietario\':\'SOLIS SOSA MARCO ANTONIO\'',
+  5 => 'ubicacion\':\'AV ACUEDUCTO 344 , CHAPULTEPEC NORTE\'',
+  6 => 'domicilio\':\'AV ACUEDUCTO 344 , CHAPULTEPEC NORTE\'',
+  7 => 'totaladeudo\':\'750,967.00\'',
+  8 => 'noprop\':113106',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TRANSFERENCIA DE POTENCIALIDAD DE DESARROLLO URBANO $ 750,967.43 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.43\'',
+  11 => 'rfc\':\'\'',
+)
+30/05/2016 04:43:30   Inicio de Servicio Obtine Session
+30/05/2016 04:43:30   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 04:43:30   Inicio de Servicio Obtine Ingresos
+30/05/2016 04:43:30   Valida Si hay Session
+30/05/2016 05:09:09   Inicio de Servicio Obtine Session
+30/05/2016 05:09:09   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 05:09:09   Inicio de Servicio Obtine Ingresos
+30/05/2016 05:09:09   Valida Si hay Session
+30/05/2016 05:51:51   Inicio de Servicio Obtine Session
+30/05/2016 05:51:51   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 05:51:51   Inicio de Servicio Obtine Ingresos
+30/05/2016 05:51:51   Valida Si hay Session
+30/05/2016 05:52:28   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145564NO.%20PLACA:%20PSJ9444,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BENITO%20JUAREZ%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+30/05/2016 05:52:28   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145564 PSJ9444'
+30/05/2016 05:52:28   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145564NO. PLACA: PSJ9444, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'BENITO JUAREZ , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+30/05/2016 05:52:41   Paso pantalla de  pago, Pagara'219.00'
+30/05/2016 05:52:57   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145564NO.%20PLACA:%20PSJ9444,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BENITO%20JUAREZ%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+30/05/2016 05:52:57   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145564 PSJ9444'
+30/05/2016 05:52:57   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145564NO. PLACA: PSJ9444, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'BENITO JUAREZ , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+30/05/2016 05:53:02   Inicio de Servicio Obtine Session
+30/05/2016 05:53:02   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 05:53:02   Inicio de Servicio Obtine Ingresos
+30/05/2016 05:53:02   Valida Si hay Session
+30/05/2016 05:53:44   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-742316%20Cta.%20Predial:101-1-999999Licencia%2035794%20-%20B\',\'propietario\':\'RADIADORES%20PREN%20DE%20CELAYA,%20SA%20DE%20CV\',\'ubicacion\':\'AV.%20FRANCISCO%20I.%20MADERO%20ORIENTE%202309%20%20ISAAC%20ARRIAG%20S/N%20,%20CP:0\',\'domicilio\':\'S/N%20,%20885,%20CP:0\',\'totaladeudo\':\'1,881.00\',\'noprop\':595460,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M�.%20BAJO%20G.P%20$%201,880.78%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.22\',\'rfc\':\'RPC980121CA8\'}]'
+30/05/2016 05:53:44   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 742316 RADIADORES PREn'
+30/05/2016 05:53:44   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-742316 Cta. Predial:101-1-999999Licencia 35794 - B\'',
+  4 => 'propietario\':\'RADIADORES PREN DE CELAYA, SA DE CV\'',
+  5 => 'ubicacion\':\'AV. FRANCISCO I. MADERO ORIENTE 2309  ISAAC ARRIAG S/N , CP:0\'',
+  6 => 'domicilio\':\'S/N , 885, CP:0\'',
+  7 => 'totaladeudo\':\'1,881.00\'',
+  8 => 'noprop\':595460',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 1,880.78 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.22\'',
+  11 => 'rfc\':\'RPC980121CA8\'',
+)
+30/05/2016 05:54:06   Inicio de Servicio Obtine Session
+30/05/2016 05:54:06   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/05/2016 05:54:06   Inicio de Servicio Obtine Ingresos
+30/05/2016 05:54:06   Valida Si hay Session

@@ -1,0 +1,65 @@
+26/05/2016 09:52:52   Inicio de Servicio Obtine Session
+26/05/2016 09:52:55   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 09:52:55   Inicio de Servicio Obtine Ingresos
+26/05/2016 09:52:55   Valida Si hay Session
+26/05/2016 09:54:51   Inicio de Servicio Obtine Session
+26/05/2016 09:54:52   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 09:54:52   Inicio de Servicio Obtine Ingresos
+26/05/2016 09:54:52   Valida Si hay Session
+26/05/2016 09:54:54   Datos Incorrectos de busqueda no paso validacion
+26/05/2016 09:55:51   Inicio de Servicio Obtine Session
+26/05/2016 09:55:51   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 09:55:51   Inicio de Servicio Obtine Ingresos
+26/05/2016 09:55:51   Valida Si hay Session
+26/05/2016 10:21:27   Inicio de Servicio Obtine Session
+26/05/2016 10:21:27   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 10:21:27   Inicio de Servicio Obtine Ingresos
+26/05/2016 10:21:27   Valida Si hay Session
+26/05/2016 10:22:15   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-426816%20Cta.%20Predial:101-1-67282\',\'propietario\':\'TIENDAS%20EXTRA%20S.A.%20DE%20C.V.\',\'ubicacion\':\'AVENIDA%20%20SIERVO%20DE%20LA%20NACION%201050%20,%20INFONAVIT%20LOMAS%20DEL%20VALLE\',\'domicilio\':\'JAVIER%20BARRIOS%20SIERRA%20555%20PISO%202%20,%20ZEDEC%20EDIFICIO,%20PLAZA%20SANTA%20FE%20DELEGACION%20ALVARO%20OBREGON,%20MEXICO%20D.F.\',\'totaladeudo\':\'5,401.00\',\'noprop\':21648,\'genero\':\'\',\'conceptos\':\'LICENCIA%20DE%20USO%20DE%20SUELO%20COMERC.,%20OFICINAS%20DE%20101%20A%20500M2%20$%205,401.32%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.3200\',\'rfc\':\'TEX9302097F3\'}]'
+26/05/2016 10:22:15   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 426816 TIENDAs'
+26/05/2016 10:22:15   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-426816 Cta. Predial:101-1-67282\'',
+  4 => 'propietario\':\'TIENDAS EXTRA S.A. DE C.V.\'',
+  5 => 'ubicacion\':\'AVENIDA  SIERVO DE LA NACION 1050 , INFONAVIT LOMAS DEL VALLE\'',
+  6 => 'domicilio\':\'JAVIER BARRIOS SIERRA 555 PISO 2 , ZEDEC EDIFICIO, PLAZA SANTA FE DELEGACION ALVARO OBREGON, MEXICO D.F.\'',
+  7 => 'totaladeudo\':\'5,401.00\'',
+  8 => 'noprop\':21648',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'LICENCIA DE USO DE SUELO COMERC., OFICINAS DE 101 A 500M2 $ 5,401.32 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.3200\'',
+  11 => 'rfc\':\'TEX9302097F3\'',
+)
+26/05/2016 10:23:26   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-426816%20Cta.%20Predial:101-1-67282\',\'propietario\':\'TIENDAS%20EXTRA%20S.A.%20DE%20C.V.\',\'ubicacion\':\'AVENIDA%20%20SIERVO%20DE%20LA%20NACION%201050%20,%20INFONAVIT%20LOMAS%20DEL%20VALLE\',\'domicilio\':\'JAVIER%20BARRIOS%20SIERRA%20555%20PISO%202%20,%20ZEDEC%20EDIFICIO,%20PLAZA%20SANTA%20FE%20DELEGACION%20ALVARO%20OBREGON,%20MEXICO%20D.F.\',\'totaladeudo\':\'5,401.00\',\'noprop\':21648,\'genero\':\'\',\'conceptos\':\'LICENCIA%20DE%20USO%20DE%20SUELO%20COMERC.,%20OFICINAS%20DE%20101%20A%20500M2%20$%205,401.32%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.3200\',\'rfc\':\'TEX9302097F3\'}]'
+26/05/2016 10:23:26   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 426816 TIENDAs'
+26/05/2016 10:23:26   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-426816 Cta. Predial:101-1-67282\'',
+  4 => 'propietario\':\'TIENDAS EXTRA S.A. DE C.V.\'',
+  5 => 'ubicacion\':\'AVENIDA  SIERVO DE LA NACION 1050 , INFONAVIT LOMAS DEL VALLE\'',
+  6 => 'domicilio\':\'JAVIER BARRIOS SIERRA 555 PISO 2 , ZEDEC EDIFICIO, PLAZA SANTA FE DELEGACION ALVARO OBREGON, MEXICO D.F.\'',
+  7 => 'totaladeudo\':\'5,401.00\'',
+  8 => 'noprop\':21648',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'LICENCIA DE USO DE SUELO COMERC., OFICINAS DE 101 A 500M2 $ 5,401.32 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.3200\'',
+  11 => 'rfc\':\'TEX9302097F3\'',
+)
+26/05/2016 11:04:26   Paso pantalla de  pago, Pagara'5401.00'
+26/05/2016 12:13:43   Inicio de Servicio Obtine Session
+26/05/2016 12:13:43   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 12:13:43   Inicio de Servicio Obtine Ingresos
+26/05/2016 12:13:43   Valida Si hay Session
+26/05/2016 12:56:38   Inicio de Servicio Obtine Session
+26/05/2016 12:56:39   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 12:56:39   Inicio de Servicio Obtine Ingresos
+26/05/2016 12:56:39   Valida Si hay Session
+26/05/2016 01:23:02   Inicio de Servicio Obtine Session
+26/05/2016 01:23:02   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+26/05/2016 01:23:02   Inicio de Servicio Obtine Ingresos
+26/05/2016 01:23:02   Valida Si hay Session
+26/05/2016 01:23:32   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+26/05/2016 01:23:32   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 2 a'
+26/05/2016 01:23:32   No encontro Resultado: 

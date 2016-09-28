@@ -1,0 +1,397 @@
+08/06/2016 08:59:34   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '96495883720859364841735291'
+08/06/2016 12:17:37   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '43060951991217390743938773'
+08/06/2016 12:17:51   Guardar datos de busqueda: '43060951991217390743938773' false '140326' '32'
+08/06/2016 12:17:51   Resultado Busqueda Agua: array (
+)
+08/06/2016 12:17:51   metodo buscarAgua Estatus 0: NULL
+08/06/2016 12:18:10   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '52560057751218121793948468'
+08/06/2016 12:19:46   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '16484051591219497175249743'
+08/06/2016 12:19:57   Guardar datos de busqueda: '16484051591219497175249743' false '140326' '32'
+08/06/2016 12:19:57   Resultado Busqueda Agua: array (
+)
+08/06/2016 12:19:57   metodo buscarAgua Estatus 0: NULL
+08/06/2016 12:20:32   Guardar datos de busqueda: '16484051591219497175249743' false '143999' '34'
+08/06/2016 12:20:33   Resultado Busqueda Agua: array (
+)
+08/06/2016 12:20:33   metodo buscarAgua Estatus 0: NULL
+08/06/2016 12:20:58   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '63080065641221018815587377'
+08/06/2016 12:30:28   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '52187310391230308735102743'
+08/06/2016 12:30:40   Guardar datos de busqueda: '52187310391230308735102743' false '143999' '34'
+08/06/2016 12:30:41   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MEDINA ESCOBAR OFELIA',
+  'numerocontrato' => '143999',
+  'domicilio' => 'PASEO DEL VALLE NO.   34 L-2  COL. EJIDAL TRES PUENTES',
+  'importetotal' => '$119.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 22/03/2016__24/05/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 06/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+08/06/2016 12:30:41   metodo buscarAgua Respuesta correcta
+08/06/2016 01:07:15   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '77964783170107180202949020'
+08/06/2016 01:07:35   Guardar datos de busqueda: '77964783170107180202949020' false '143999' '34'
+08/06/2016 01:07:35   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MEDINA ESCOBAR OFELIA',
+  'numerocontrato' => '143999',
+  'domicilio' => 'PASEO DEL VALLE NO.   34 L-2  COL. EJIDAL TRES PUENTES',
+  'importetotal' => '$119.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 22/03/2016__24/05/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 06/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '77964783170107180202949020',
+)
+08/06/2016 01:07:35   metodo buscarAgua Respuesta correcta
+08/06/2016 01:08:02   Guardar datos de busqueda: '77964783170107180202949020' false '140326' '32'
+08/06/2016 01:08:03   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '77964783170107180202949020',
+)
+08/06/2016 01:08:03   metodo buscarAgua Respuesta correcta
+08/06/2016 01:09:38   Guardar datos de busqueda: '77964783170107180202949020' false '140326' '32'
+08/06/2016 01:09:38   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '140326',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '77964783170107180202949020',
+)
+08/06/2016 01:09:38   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+08/06/2016 01:09:41   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '13351356250109447517570799'
+08/06/2016 01:09:44   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '53864083200109478892989033'
+08/06/2016 01:09:53   Guardar datos de busqueda: '53864083200109478892989033' false '140326' '32'
+08/06/2016 01:09:54   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '53864083200109478892989033',
+)
+08/06/2016 01:09:54   metodo buscarAgua Respuesta correcta
+08/06/2016 01:10:33   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '22302800490110365856761752'
+08/06/2016 01:12:13   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '63323987640112169584461947'
+08/06/2016 01:12:27   Guardar datos de busqueda: '63323987640112169584461947' false '140326' '32'
+08/06/2016 01:12:27   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '63323987640112169584461947',
+)
+08/06/2016 01:12:27   metodo buscarAgua Respuesta correcta
+08/06/2016 01:12:42   Guardar datos de busqueda: false false false false
+08/06/2016 01:12:42   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '',
+)
+08/06/2016 01:12:42   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+08/06/2016 01:12:54   Guardar datos de busqueda: '' false '1' ''
+08/06/2016 01:13:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '35624937810113039009337364'
+08/06/2016 01:13:10   Guardar datos de busqueda: '35624937810113039009337364' false '140326' '32'
+08/06/2016 01:13:12   Guardar datos de busqueda: '35624937810113039009337364' false '140326' '32'
+08/06/2016 01:13:14   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '35624937810113039009337364',
+)
+08/06/2016 01:13:14   metodo buscarAgua Respuesta correcta
+08/06/2016 01:13:15   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '35624937810113039009337364',
+)
+08/06/2016 01:13:15   metodo buscarAgua Respuesta correcta
+08/06/2016 01:13:37   Guardar datos de busqueda: '35624937810113039009337364' false '140326' '32'
+08/06/2016 01:13:38   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '35624937810113039009337364',
+)
+08/06/2016 01:13:38   metodo buscarAgua Respuesta correcta
+08/06/2016 01:15:11   Guardar datos de busqueda: '35624937810113039009337364' false '140326' '32'
+08/06/2016 01:15:12   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '35624937810113039009337364',
+)
+08/06/2016 01:15:12   metodo buscarAgua Respuesta correcta
+08/06/2016 02:30:21   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '97909393550230235227872938'
+08/06/2016 02:49:12   Guardar datos de busqueda: '22302800490110365856761752' false '140326' '32'
+08/06/2016 02:49:12   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => '140326',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '22302800490110365856761752',
+)
+08/06/2016 02:49:12   metodo buscarAgua Estatus 0: 'LA SESION ENVIADA EN BUSQUEDA NO EXISTE'
+08/06/2016 02:49:15   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '67159019380249179231373641'
+08/06/2016 02:49:18   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '36890012560249200026944840'
+08/06/2016 02:49:27   Guardar datos de busqueda: '36890012560249200026944840' false '140326' '32'
+08/06/2016 02:49:27   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '36890012560249200026944840',
+)
+08/06/2016 02:49:27   metodo buscarAgua Respuesta correcta
+08/06/2016 04:39:42   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '10277425090439457464685192'
+08/06/2016 05:18:21   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '05916761710518246938519765'
+08/06/2016 05:18:25   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '10833948290518284509875532'
+08/06/2016 05:18:41   Guardar datos de busqueda: '10833948290518284509875532' false '140326' '32'
+08/06/2016 05:18:41   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '10833948290518284509875532',
+)
+08/06/2016 05:18:41   metodo buscarAgua Respuesta correcta
+08/06/2016 05:30:02   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '03340244410530056861967135'
+08/06/2016 05:30:09   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '04973731710530127670718235'
+08/06/2016 05:30:18   Guardar datos de busqueda: '04973731710530127670718235' false '140326' '32'
+08/06/2016 05:30:18   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '04973731710530127670718235',
+)
+08/06/2016 05:30:18   metodo buscarAgua Respuesta correcta
+08/06/2016 05:32:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '87169753850532041232446088'
+08/06/2016 05:37:44   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '67633848050537473100228499'
+08/06/2016 05:38:05   Guardar datos de busqueda: '67633848050537473100228499' false '140326' '32'
+08/06/2016 05:38:06   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '67633848050537473100228499',
+)
+08/06/2016 05:38:06   metodo buscarAgua Respuesta correcta
+08/06/2016 05:39:19   Guardar datos de busqueda: '67633848050537473100228499' false '140326' '32'
+08/06/2016 05:39:21   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '67633848050537473100228499',
+)
+08/06/2016 05:39:21   metodo buscarAgua Respuesta correcta
+08/06/2016 05:39:30   Guardar datos de busqueda: '67633848050537473100228499' false '140326' '32'
+08/06/2016 05:39:30   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '67633848050537473100228499',
+)
+08/06/2016 05:39:30   metodo buscarAgua Respuesta correcta
+08/06/2016 06:17:13   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '48141858400617164045786154'
+08/06/2016 06:17:29   Guardar datos de busqueda: '48141858400617164045786154' false '140326' '32'
+08/06/2016 06:17:33   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'importetotal' => '$116.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/02/2016__12/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 25/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '48141858400617164045786154',
+)
+08/06/2016 06:17:33   metodo buscarAgua Respuesta correcta
+08/06/2016 06:17:39   Paso pantalla de  pago, Pagara'$116.00'
+08/06/2016 06:17:45   Paso pantalla método vendingcobrar
+08/06/2016 06:17:46   Paso pantalla método vendingcobrar
+08/06/2016 06:18:15   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'ACUÑA MA BELEM',
+  'numerocontrato' => '140326',
+  'domicilio' => 'EL RENOVADOR NO.   32 L-3  COL. CAYETANO ANDRADE AMPL.',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '08-06-2016 06:18:18',
+  'cantidadletra' => 'ciento dieciseis  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881403265289334089',
+  'montocobrado' => '$116.00',
+  'codigobarra' => '77140326250416000000116007',
+  'id_kiosko' => '1',
+)
+08/06/2016 06:18:15   entra a generar ticket.
+08/06/2016 06:18:15   genero ticket de pago OK 

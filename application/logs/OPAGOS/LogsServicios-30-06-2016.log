@@ -1,0 +1,24 @@
+30/06/2016 03:33:56   Inicio de Servicio Obtine Session
+30/06/2016 03:33:56   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/06/2016 03:33:56   Inicio de Servicio Obtine Ingresos
+30/06/2016 03:33:56   Valida Si hay Session
+30/06/2016 03:34:51   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-143430NO.%20PLACA:%20136TXG,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'AV%20ACUEDUCTO%20,%20CHAPULTEPEC\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+30/06/2016 03:34:51   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 143430 136TXg'
+30/06/2016 03:34:51   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-143430NO. PLACA: 136TXG, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'AV ACUEDUCTO , CHAPULTEPEC\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+30/06/2016 03:35:01   Inicio de Servicio Obtine Session
+30/06/2016 03:35:01   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+30/06/2016 03:35:01   Inicio de Servicio Obtine Ingresos
+30/06/2016 03:35:01   Valida Si hay Session

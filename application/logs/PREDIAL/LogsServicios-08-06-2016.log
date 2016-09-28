@@ -1,0 +1,34 @@
+08/06/2016 02:27:14   Obtiene Session y Oficinas
+08/06/2016 02:28:11   metodo buscarPredial Datos Incorrectos de busqueda no paso validacion
+08/06/2016 02:29:22   Obtiene Session y Oficinas
+08/06/2016 02:29:57   Resultado Busqueda: 'No hay parametros'
+08/06/2016 02:29:57   metodo buscarPredial No encontro Resultado
+08/06/2016 02:30:19   Obtiene Session y Oficinas
+08/06/2016 02:30:40   metodo buscarPredial Datos Incorrectos de busqueda no paso validacion
+08/06/2016 02:31:09   Resultado Busqueda: 'No hay parametros'
+08/06/2016 02:31:09   metodo buscarPredial No encontro Resultado
+08/06/2016 03:01:19   Obtiene Session y Oficinas
+08/06/2016 03:01:58   Resultado Busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION%20ENCONTRADA\'',
+  2 => 'oficina\':101',
+  3 => 'tipopredio\':1',
+  4 => 'numpredio\':73390',
+  5 => 'propietario\':\'VALTIERRA%20SORIA%20ELBA%20RAQUEL\'',
+  6 => 'ubicacion\':\'PASEO%20DEL%20ROBLE%20839,MZ%2016,%20PRADOS%20VERDES\'',
+  7 => 'domicilio\':\'ANDRES%20QUINTANA%20ROO%20675,%20CENTRO%20HISTORICO%20CP%2058000\'',
+  8 => 'conceptopredial\':\'\'',
+  9 => 'totalpredial\':\'.0000\'',
+  10 => 'conceptobaldios\':\'\'',
+  11 => 'totalbaldios\':\'.0000\'',
+  12 => 'conceptodap\':\'\'',
+  13 => 'totaldap\':\'.0000\'',
+  14 => 'conceptoisai\':\'\'',
+  15 => 'totalisai\':\'.0000\'',
+  16 => 'totaladeudo\':\'.0000\'',
+  17 => 'noprop\':661561',
+  18 => 'genero\':\'\'',
+  19 => 'dato\':\'Año%20Efecto:2013%20Bim%20Efecto:4,Valor%20Fiscal:%20$%20456,332.00\'',
+)
+08/06/2016 03:01:58   metodo buscarPredial Si se encontro Los datos de busqueda
+08/06/2016 03:02:11   Obtiene Session y Oficinas

@@ -1,0 +1,41 @@
+19/08/2016 08:34:53   Inicio de Servicio Obtine Session
+19/08/2016 08:34:53   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+19/08/2016 08:34:53   Inicio de Servicio Obtine Ingresos
+19/08/2016 08:34:54   Valida Si hay Session
+19/08/2016 08:37:34   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+19/08/2016 08:37:34   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 729416 HUITZACHE'
+19/08/2016 08:37:34   No encontro Resultado: 
+19/08/2016 08:40:44   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ESPECTACULOS\',\'nota\':\'Referencia:ESPPUB(ESPECTACULOS%20PUBLICOS)-1433517-BAILE%20BRINDYS%20Y%20MOJADO%20EN:%20SALON%20ARENA(EL%2001/04/2016%20CED.16295)\',\'propietario\':\'DELGADO%20LOPEZ%20JOSE%20ROBERTO\',\'ubicacion\':\'EDUARDO%20RUIZ%20620%20%20SALON%20ARENA,%20CENTRO%20HISTORICO,%20CP:0\',\'domicilio\':\'ACERO%201133%20,%20INDUSTRIAL,%20CP:58130%20LOC.:MORELIA,%20MICH\',\'totaladeudo\':\'5,600.00\',\'noprop\':396879,\'genero\':\'\',\'conceptos\':\'ACCESO%20A%20BAILES%20PUBLICOS%20$%205,600.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+19/08/2016 08:40:44   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14335 DELGADO'
+19/08/2016 08:40:44   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ESPECTACULOS\'',
+  3 => 'nota\':\'Referencia:ESPPUB(ESPECTACULOS PUBLICOS)-1433517-BAILE BRINDYS Y MOJADO EN: SALON ARENA(EL 01/04/2016 CED.16295)\'',
+  4 => 'propietario\':\'DELGADO LOPEZ JOSE ROBERTO\'',
+  5 => 'ubicacion\':\'EDUARDO RUIZ 620  SALON ARENA, CENTRO HISTORICO, CP:0\'',
+  6 => 'domicilio\':\'ACERO 1133 , INDUSTRIAL, CP:58130 LOC.:MORELIA, MICH\'',
+  7 => 'totaladeudo\':\'5,600.00\'',
+  8 => 'noprop\':396879',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ACCESO A BAILES PUBLICOS $ 5,600.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+19/08/2016 08:42:25   Paso pantalla de  pago, Pagara'5600.00'
+19/08/2016 08:42:40   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ESPECTACULOS\',\'nota\':\'Referencia:ESPPUB(ESPECTACULOS%20PUBLICOS)-1433517-BAILE%20BRINDYS%20Y%20MOJADO%20EN:%20SALON%20ARENA(EL%2001/04/2016%20CED.16295)\',\'propietario\':\'DELGADO%20LOPEZ%20JOSE%20ROBERTO\',\'ubicacion\':\'EDUARDO%20RUIZ%20620%20%20SALON%20ARENA,%20CENTRO%20HISTORICO,%20CP:0\',\'domicilio\':\'ACERO%201133%20,%20INDUSTRIAL,%20CP:58130%20LOC.:MORELIA,%20MICH\',\'totaladeudo\':\'5,600.00\',\'noprop\':396879,\'genero\':\'\',\'conceptos\':\'ACCESO%20A%20BAILES%20PUBLICOS%20$%205,600.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+19/08/2016 08:42:40   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14335 DELGADO'
+19/08/2016 08:42:40   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ESPECTACULOS\'',
+  3 => 'nota\':\'Referencia:ESPPUB(ESPECTACULOS PUBLICOS)-1433517-BAILE BRINDYS Y MOJADO EN: SALON ARENA(EL 01/04/2016 CED.16295)\'',
+  4 => 'propietario\':\'DELGADO LOPEZ JOSE ROBERTO\'',
+  5 => 'ubicacion\':\'EDUARDO RUIZ 620  SALON ARENA, CENTRO HISTORICO, CP:0\'',
+  6 => 'domicilio\':\'ACERO 1133 , INDUSTRIAL, CP:58130 LOC.:MORELIA, MICH\'',
+  7 => 'totaladeudo\':\'5,600.00\'',
+  8 => 'noprop\':396879',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ACCESO A BAILES PUBLICOS $ 5,600.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+19/08/2016 09:16:35   Paso pantalla de  pago, Pagara'5600.00'

@@ -1,0 +1,98 @@
+10/06/2016 09:14:16   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '84416052170914185878549891'
+10/06/2016 09:19:14   Guardar datos de busqueda: '84416052170914185878549891' false '231720' 's/n'
+10/06/2016 09:19:15   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CASETA DE VIGILANCIA DEL FRACC. MISION DE SAN DIEGO',
+  'numerocontrato' => '231720',
+  'domicilio' => 'CIRCUITO SIERRA MORENA NO.  S/N  FRACC. MISION DE SAN DIEGO',
+  'importetotal' => '$490.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 30/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '84416052170914185878549891',
+)
+10/06/2016 09:19:15   metodo buscarAgua Respuesta correcta
+10/06/2016 09:19:55   Guardar datos de busqueda: '84416052170914185878549891' false '064255' '1084'
+10/06/2016 09:19:55   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'PEÑALOZA CAMACHO GABINO',
+  'numerocontrato' => '064255',
+  'domicilio' => 'AV. OLIVARES NO. 1084  COL. VASCO DE QUIROGA',
+  'importetotal' => '$838.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 31/03/2016__31/05/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 13/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '84416052170914185878549891',
+)
+10/06/2016 09:19:55   metodo buscarAgua Respuesta correcta
+10/06/2016 09:20:05   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '83319030250920094878846619'
+10/06/2016 09:29:43   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '65660155940929463903858177'
+10/06/2016 09:30:03   Guardar datos de busqueda: '65660155940929463903858177' false '061586' '125'
+10/06/2016 09:30:04   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'JAIMES TREVIÑO ESTEBAN RICARDO',
+  'numerocontrato' => '061586',
+  'domicilio' => 'CUMACHUEN NO.  125  COL. LOMAS DE GUAYANGAREO',
+  'importetotal' => '$544.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 31/03/2016__31/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 13/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '65660155940929463903858177',
+)
+10/06/2016 09:30:04   metodo buscarAgua Respuesta correcta
+10/06/2016 09:30:11   Paso pantalla de  pago, Pagara'$544.00'
+10/06/2016 09:30:52   Guardar datos de busqueda: '65660155940929463903858177' false '229697' ''
+10/06/2016 09:31:19   Guardar datos de busqueda: '65660155940929463903858177' false '229697' 's/n'
+10/06/2016 09:31:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CITARIS DESARROLLOS INMOBILIARIOS S.A. DE C.V. (AREA VERDE)',
+  'numerocontrato' => '229697',
+  'domicilio' => 'MOLINO DEL BADEN NO.  S/N  COL. SOLEAR TORREMOLINOS',
+  'importetotal' => '$274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 29/03/2016__27/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 09/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '65660155940929463903858177',
+)
+10/06/2016 09:31:19   metodo buscarAgua Respuesta correcta
+10/06/2016 09:32:25   Guardar datos de busqueda: '65660155940929463903858177' false '231720' 's/n'
+10/06/2016 09:32:25   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CASETA DE VIGILANCIA DEL FRACC. MISION DE SAN DIEGO',
+  'numerocontrato' => '231720',
+  'domicilio' => 'CIRCUITO SIERRA MORENA NO.  S/N  FRACC. MISION DE SAN DIEGO',
+  'importetotal' => '$490.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 30/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '65660155940929463903858177',
+)
+10/06/2016 09:32:25   metodo buscarAgua Respuesta correcta
+10/06/2016 09:32:30   Paso pantalla de  pago, Pagara'$490.00'
+10/06/2016 09:32:48   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '57920243580932518219595061'
+10/06/2016 09:48:39   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '50600835150948438586454228'

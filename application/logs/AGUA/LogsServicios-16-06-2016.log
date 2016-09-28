@@ -1,0 +1,107 @@
+16/06/2016 10:19:54   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '32069473771019559743880950'
+16/06/2016 10:20:52   Guardar datos de busqueda: '32069473771019559743880950' false '' 'S/N'
+16/06/2016 10:21:24   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '75362337051021243973176399'
+16/06/2016 10:21:29   Guardar datos de busqueda: '75362337051021243973176399' false '' 'S/N'
+16/06/2016 10:22:22   Guardar datos de busqueda: '32069473771019559743880950' false '' 'S/N'
+16/06/2016 11:20:03   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '54457913271120041982634910'
+16/06/2016 11:20:05   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '85785138301120051094985533'
+16/06/2016 11:20:15   Guardar datos de busqueda: '85785138301120051094985533' false '' 'S/N'
+16/06/2016 11:20:40   Guardar datos de busqueda: '85785138301120051094985533' false '085191' 'S/N'
+16/06/2016 11:20:43   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'RODRIGUEZ AGUILAR FRANCISCA',
+  'numerocontrato' => '085191',
+  'domicilio' => 'ROCIO S/N Mz 23 Lt 7601  COL. VISTA HERMOSA',
+  'importetotal' => '$495.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 15/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '85785138301120051094985533',
+)
+16/06/2016 11:20:43   metodo buscarAgua Respuesta correcta
+16/06/2016 11:21:54   Guardar datos de busqueda: '85785138301120051094985533' false '086536' 'S/N'
+16/06/2016 11:22:03   Resultado Busqueda Agua: array (
+)
+16/06/2016 11:22:03   metodo buscarAgua Estatus 0: NULL
+16/06/2016 11:24:50   Guardar datos de busqueda: '85785138301120051094985533' false '200311' 'S/N'
+16/06/2016 11:24:50   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  200311  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '200311',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '85785138301120051094985533',
+)
+16/06/2016 11:24:50   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  200311  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+16/06/2016 11:25:18   Guardar datos de busqueda: '85785138301120051094985533' false '200311' '155'
+16/06/2016 11:25:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'DUARTE RUIZ ALMA ROSA',
+  'numerocontrato' => '200311',
+  'domicilio' => 'HACIENDA SAN BLAS NO.  155  COL. HACIENDA DEL VALLE',
+  'importetotal' => '$1,126.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/04/2016__09/06/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 22/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '85785138301120051094985533',
+)
+16/06/2016 11:25:19   metodo buscarAgua Respuesta correcta
+16/06/2016 11:26:22   Guardar datos de busqueda: '85785138301120051094985533' false '200311' 'S/N'
+16/06/2016 11:26:22   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  200311  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '200311',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '85785138301120051094985533',
+)
+16/06/2016 11:26:22   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  200311  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+16/06/2016 11:27:06   Guardar datos de busqueda: '85785138301120051094985533' false '200311' '155'
+16/06/2016 11:27:07   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'DUARTE RUIZ ALMA ROSA',
+  'numerocontrato' => '200311',
+  'domicilio' => 'HACIENDA SAN BLAS NO.  155  COL. HACIENDA DEL VALLE',
+  'importetotal' => '$1,126.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/04/2016__09/06/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 22/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '85785138301120051094985533',
+)
+16/06/2016 11:27:07   metodo buscarAgua Respuesta correcta
+16/06/2016 11:27:09   Paso pantalla de  pago, Pagara'$1,126.00'
+16/06/2016 11:27:17   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '97327443791127176904189443'
+16/06/2016 11:27:24   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '01569335101127243317006694'
+16/06/2016 11:28:40   Guardar datos de busqueda: '01569335101127243317006694' false '' 'S/N'
+16/06/2016 11:28:44   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '00199322791128456556776862'

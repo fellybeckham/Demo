@@ -1,0 +1,855 @@
+@charset "utf-8";
+/* CSS Document */
+.hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;        
+}
+body{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:768px;
+    width:1024px;
+    background-image:url(../img/Kiosko_inicio_curp.png);
+    background-repeat:no-repeat;	
+}
+#Contenido{
+    top:310px;
+    left:240px;
+    height:330px;
+    width:500px;
+    position:absolute;
+    /*border-color:#FFF;
+    border-style:double;*/
+    background-repeat:no-repeat;	
+}
+#Contopago{
+    top:300px;
+    left:120px;
+    height:314px;
+    width:709px;
+    position:absolute;
+    background-repeat:no-repeat;	
+
+}
+#Contenidodatos
+{	top:30px;
+  left:-10px;
+  height:204px;
+  width:809px;
+  position:absolute;
+}
+#ContenidoNom{
+    top:225px;
+    left:20px;
+    height:444px;
+    width:809px;
+    position:absolute;
+    background-image:url(../img/fondo_nombre_copia.png);
+}
+#Contenidoactas{
+    top:218px;
+    left:100px;
+    height:500px;
+    width:809px;
+    position:absolute;
+    background-image:url(../img/contenedorCopias.png);
+    background-repeat:no-repeat;
+}
+#ContenidoCurp{
+    top:224px;
+    left:20px;
+    height:465px;
+    width:809px;
+    position:absolute;
+    background-image:url(../img/contenedor_cURP1.png);
+    background-repeat:no-repeat;
+    /*background-image:url(../img/contCURP2.png);
+    border: 1px solid black;
+    */
+
+}
+#ContenidoNombre{
+    top:224px;
+    left:20px;
+    height:465px;
+    width:809px;
+    position:absolute;
+    background-image:url(../img/fondo_nombre_copia.png);
+    background-repeat:no-repeat;
+    /*background-image:url(../img/contCURP2.png);
+    border: 1px solid black;
+    */
+
+}
+#regresar{
+    top:673px;
+    left:30px;
+    height:88px;
+    width:173px;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-image:url(../img/regresar.png);
+}
+#regresar:hover, #regresar.hover_effect{		
+    background-image: url(../img/regresarpress.png);
+    background-repeat: no-repeat;
+}
+#baner{
+    top:110px;
+    left:30px;
+    height:110px;
+    width:520px;
+    position:absolute;
+    background-image:url(../img/banerNac.png);
+    background-repeat:no-repeat;
+}
+#divVal{
+    top:420px;
+    left:280px;
+    position:absolute;
+    height:auto;
+    width:auto;
+}
+#divValCurp{
+    top:-20px;
+    left:240px;
+    position:absolute;
+    height:auto;
+    width:auto;
+
+}
+#lblCurp{
+    top:27px;
+    left:45px;
+    position:absolute;
+    font-size:18px;
+    font-family: "Lucida Sans" ;
+    font-weight: bold;
+    color:rgb(25,69,120);
+    height:22px;
+    width:740px;
+}
+#txtClave{
+    top:60px;
+    left:53px;
+    position:absolute;
+    font-size:25px;
+    /*height:26px;*/
+    width:710px;	
+}
+#txtNombre{
+    top:58px;
+    left:45px;
+    position:absolute;
+    font-size:20px;
+    height:20px;
+    width:210px;	
+}
+#txtApe1{
+    top:58px;
+    left:299px;
+    position:absolute;
+    font-size:20px;
+    height:20px;
+    width:225px;	
+}
+#txtApe2{
+    top:58px;
+    left:555px;
+    position:absolute;
+    font-size:20px;
+    height:20px;
+    width:220px;	
+}
+#txtDia{
+    top:120px;
+    left:45px;
+    position:absolute;
+    font-size:20px;
+    height:22px;
+    width:100px;	
+}
+#mes{
+    top:120px;
+    left:185px;
+    position:absolute;
+    font-size:20px;
+    height:28px;
+    width:175px;	
+}
+#txtanio{
+    top:120px;
+    left:390px;
+    position:absolute;
+    font-size:20px;
+    height:22px;
+    width:80px;	
+}
+#sexo{
+    top:120px;
+    left:505px;
+    position:absolute;
+    font-size:20px;
+    height:28px;
+    width:130px;	
+}
+.pos_load {
+    position:absolute;
+    top:200px;
+    left:415px;
+}
+.overlay{
+    background:transparent url(../img/overlay.png) repeat top left;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+}
+
+#btnBuscar{
+    top:225px;
+    left:845px;
+    height:75px;
+    width:157px;
+    position:absolute;
+    border:none;
+    background-color:transparent;
+    background-image:url(../img/btn_buscar1.png);
+    background-repeat:no-repeat;
+}
+#btnBuscar:hover, #btnBuscar.hover_effect{		
+    background-image: url(../img/btn_buscar.png);
+    background-repeat: no-repeat;
+}
+#btnimprimir{
+    top:300px;
+    left:840px;
+    height:75px;
+    width:157px;
+    position:absolute;
+    border:none;
+    background-color:transparent;
+    background-image:url(../img/btn_imprimir_normal.png);
+    background-repeat:no-repeat;
+}
+#btnimprimir:hover, #btnimprimir.hover_effect{		
+    background-image: url(../img/btn_imprimir_press.png);
+    background-repeat: no-repeat;
+}
+
+#busNombre{
+    top:160px;
+    left:100px;
+    height:100px;
+    width:347px;
+    position:absolute;
+    background-image:url(../img/bus_nombre_on1.png);
+    background-repeat:no-repeat;
+}
+#busNombre:hover, #busNombre.hover_effect{		
+    background-image: url(../img/bus_nombre_on.png);
+    background-repeat: no-repeat;
+}
+#busCurp{
+    top:10px;
+    left:100px;
+    height:100px;
+    width:347px;
+    position:absolute;
+    background-image:url(../img/bus_curp_on1.png);
+    background-repeat:no-repeat;
+}
+#busCurp:hover, #busCurp.hover_effect{		
+    background-image: url(../img/bus_curp_on.png);
+    background-repeat: no-repeat;
+}
+/*#cop1{
+        top:225px;
+        left:20px;
+        height:147px;
+        width:198px;
+        position:absolute;
+        background-image:url(../img/uno.png);
+        border:none; 
+        background-color:transparent
+        border-color:#FFF;
+        border-style:double;
+        }
+*/
+#cop1{
+    position:absolute;
+    top:18px;
+    left:50px;
+    height:110px;
+    width:88px;
+    border:none; 
+    background-image:url(../img/c1.png);	
+    background-color:transparent;
+    background-repeat:no-repeat;
+}
+#cop1:hover, #cop1.hover_effect{		
+    background-image: url(../img/c1Pres.png);
+    background-repeat: no-repeat;
+}
+#poscop1{
+    top:70px;
+    left:80px;
+    height:147px;
+    width:198px;
+    position:absolute;
+    border:none; 
+    background-color:transparent;
+}
+#cop2{
+    top:10px;
+    left:75px;
+    height:125px;
+    width:98px;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-image:url(../img/c2.png);
+    border:none; 
+    background-color:transparent;
+}
+#cop2:hover, #cop2.hover_effect{		
+    background-image: url(../img/c2Pres.png);
+    background-repeat: no-repeat;
+}
+#poscop2{
+    top:70px;
+    left:275px;
+    height:147px;
+    width:263px;
+    position:absolute;
+    border:none; 
+    background-color:transparent;
+}
+#cop3{
+    top:0px;
+    left:75px;
+    height:147px;
+    width:114px;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-image:url(../img/c3.png);
+    border:none; 
+    background-color:transparent;
+
+}
+#cop3:hover, #cop3.hover_effect{		
+    background-image: url(../img/c3Pres.png);
+    background-repeat: no-repeat;
+}
+#poscop3{
+    top:70px;
+    left:530px;
+    height:147px;
+    width:263px;
+    position:absolute;
+    border:none; 
+    background-color:transparent;
+}
+#cop4{
+    top:0px;
+    left:5px;
+    height:194px;
+    width:136px;
+    position:absolute;
+    background-image:url(../img/c4.png);
+    border:none; 
+    background-color:transparent;
+    background-repeat:no-repeat;
+}
+#cop4:hover, #cop4.hover_effect{		
+    background-image: url(../img/c4Pres.png);
+    background-repeat: no-repeat;
+}
+#poscop4{
+    top:225px;
+    left:80px;
+    height:194px;
+    width:198px;
+    position:absolute;
+    border:none; 
+    background-color:transparent;
+}
+#cop5{
+    top:0px;
+    left:40px;
+    height:194px;
+    width:140px;
+    position:absolute;
+    background-image:url(../img/c5.png);
+    border:none; 
+    background-color:transparent;
+    background-repeat:no-repeat;
+}
+#cop5:hover, #cop5.hover_effect{		
+    background-image: url(../img/c5Pres.png);
+    background-repeat: no-repeat;
+}
+#poscop5{
+    top:225px;
+    left:275px;
+    height:194px;
+    width:263px;
+    position:absolute;
+    border:none; 
+    background-color:transparent;
+}
+#copmas5{
+    top:0px;
+    left:30px;
+    height:194px;
+    width:152px;
+    position:absolute;
+    background-image:url(../img/c6.png);
+    border:none; 
+    background-color:transparent;
+    background-repeat:no-repeat;
+}
+#copmas5:hover, #copmas5.hover_effect{		
+    background-image: url(../img/c6Pres.png);
+    background-repeat: no-repeat;
+}
+#poscopmas5{
+    top:225px;
+    left:530px;
+    height:194px;
+    width:219px;
+    position:absolute;
+    border:none; 
+    background-color:transparent;
+}
+#btntarjeta{
+    top:0px;
+    left:80px;
+    height:287px;
+    width:231px;
+    position:absolute;
+    border:none;
+    background-color:transparent;
+    background-image:url(../img/tarjeta.png);
+    background-repeat:no-repeat;
+}
+#btntarjeta:hover, #btntarjeta.hover_effect{		
+    background-image: url(../img/tarjetapres.png);
+    background-repeat: no-repeat;
+}	
+#btnefectivo{
+    top:0px;
+    left:420px;
+    height:287px;
+    width:234px;
+    position:absolute;
+    border:none;
+    background-color:transparent;
+    background-image:url(../img/efectivo.png);
+    background-repeat:no-repeat;
+}
+#btnefectivo:hover, #btnefectivo.hover_effect{		
+    background-image: url(../img/efectivopres.png);
+    background-repeat: no-repeat;
+}
+
+.buscar_reg {
+    position:absolute;
+    /*z-index: 1000;*/
+    top: 5px;
+    left: 840px;
+    width:145px;
+    height:69px;
+    overflow: visible;
+    background-image: url(../img/btn_buscar1.png);
+    background-repeat:no-repeat;
+}
+.buscar_reg:hover, .buscar_reg.hover_effect{
+    background-image:url(../img/btn_buscar.png);
+    background-repeat:no-repeat;
+}
+.verificadatos
+{
+    position: relative;
+    z-index: 1000;
+    top: 365px;
+    left: 50px;	
+    font: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: inherit;
+    width:760px;
+    height:300px;
+}
+.noDatos_ {
+    position:absolute;
+    width:300px;
+    height:200px;
+/*    border: 1px black solid;*/
+    z-index: 1000;
+    top:490px;
+    left:300px;
+}
+
+.csscurp
+{
+    background-image: url(../img/curp.png);
+    background-repeat: no-repeat;
+    width: 449px;
+    height: 310px;
+    position:absolute;
+    top:5px;left:150px;		
+}
+#posCurp
+{
+    position:absolute;
+    top:100px;
+    left:10px;
+    text-align:center;
+    font-weight: bold;
+    height:20px;
+    width:207px;
+}
+#posP1
+{
+    position:absolute;
+    top:163px;
+    left:12px;
+    text-align:center;
+    font-weight: bold;
+
+    width:207px;
+}
+#posP2
+{
+    position:absolute;
+    top:189px;
+    left:12px;
+    text-align:center;
+    font-weight: bold;
+    height:20px;
+    width:207px;
+}
+#posNom
+{
+    position:absolute;
+    top:137px;
+    left:12px;
+    text-align:center;
+    font-weight: bold;
+    width:205px;
+}
+/*Para nombres muy grandes*/
+#posP1mayor
+{
+    position:absolute;
+    top:165px;
+    left:12px;
+    text-align:center;
+    font-weight: bold;
+    width:207px;
+}
+#posP2mayor
+{
+    position:absolute;
+    top:180px;
+    left:12px;
+    text-align:center;
+    font-weight: bold;
+    height:20px;
+    width:207px;
+}
+#posNommayor
+{
+    position:absolute;
+    top:138px;
+    left:12px;
+    text-align:center;
+    font-weight: bold;
+    width:207px;
+}
+/**/
+
+
+
+#posEntidad
+{
+    position:absolute;
+    top:102px;
+    left:278px;
+    text-align:center;
+    font-weight: bold;
+}
+#posLocalidad
+{
+    position:absolute;
+    top:124px;
+    left:280px;
+    width: 230px;
+    /*border:1px solid black;*/
+    text-align:left;
+    font-weight: bold;
+}
+#posFechaAlt
+{
+    position:absolute;
+    top:225px;
+    left:10px;
+    text-align:center;
+    font-weight: bold;
+    height:20px;
+    width:207px;
+}
+#posFolio
+{
+    position:absolute;
+    top:255px;
+    left:10px;
+    text-align:center;
+    font-weight: bold;
+    height:20px;
+    width:207px;
+}
+#posAnioReg
+{
+    position:absolute;
+    top:138px;
+    left:324px;
+    text-align:center;
+    font-weight: bold;
+}
+#posLibro
+{
+    position:absolute;
+    top:155px;
+    left:324px;
+    text-align:center;
+    font-weight: bold;
+}
+#posActa
+{
+    position:absolute;
+    top:171px;
+    left:320px;
+    text-align:center;
+    font-weight: bold;
+}
+#posFoja
+{
+    position:absolute;
+    top:189px;
+    left:320px;
+    text-align:center;
+    font-weight: bold;
+}
+#posTomo
+{
+    position:absolute;
+    top:210px;
+    left:320px;
+    text-align:center;
+    font-weight: bold;
+}
+#posCrip
+{
+    position:absolute;
+    top:225px;
+    left:260px;
+    text-align:center;
+    font-weight: bold;
+}
+.clase_cargando {
+    position:absolute;
+    background-image: url(../img/loading.gif);
+    top:-15px;
+    left:-10px;
+    width:110%;
+    height:110%;
+}
+.imprimir_reg {
+    position:absolute;
+    z-index: 1000;
+    top: -40px;
+    left: 800px;
+/*    top: 50px;
+    left: 800px;*/
+    width: 145px;
+    height:67px;
+    overflow: visible;
+    background-image: url(../img/btn_imprimir_normal.png);
+    background-repeat:no-repeat;
+}
+.imprimir_reg:hover, .imprimir_reg.hover_effect{
+    background-image: url(../img/btn_imprimir_press.png);
+    background-repeat:no-repeat;
+}
+/*#NOM {
+        position: absolute;
+        width: 107px;
+        top: 225px;
+        left: 54px;
+        overflow: visible;
+        background: url(../images/buscarNombre/anombre.png);
+        background-repeat: no-repeat;
+        height: 30px;
+        }*/
+#textnom {
+    position: absolute;
+    top: 49px;
+    left: 38px;
+    font-size: 25px;
+    /*	height: 25px;*/
+    width: 230px;
+    font-family: "Lucida Sans" ;
+}
+/*#AP1 {
+position: absolute;
+top: 222px;
+left: 575px;
+background-image:url(../images/buscarNombre/amaterno.png);
+background-repeat: no-repeat;
+height: 30px;
+width: 200px;
+}*/
+#textap1 {
+    position: absolute;
+    top: 49px;
+    left: 290px;
+    font-size: 25px;
+    /*	height: 24px;*/
+    width: 230px;
+    font-family: "Lucida Sans" ;
+}
+/*	#AP2 {
+        position: absolute;
+        top: 222px;
+        left: 318px;
+        background: url(../images/buscarNombre/apaterno.png);
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 200px;
+        }*/
+#textap2 {
+    position: absolute;
+    top: 49px;
+    left: 545px;
+    font-size: 25px;
+    /*	height: 24px;*/
+    width: 225px;
+    font-family: "Lucida Sans" ;
+}
+/*#dia {
+position: absolute;
+top: 275px;
+left: 48px;
+background: url(../images/buscarNombre/adia.png);
+background-repeat: no-repeat;
+height: 30px;
+width: 300px;
+}*/
+#textdia {
+    position:absolute;
+    top:100px;
+    left:40px;
+    font-size:25px;
+    height: 30px;
+    width: 35px;
+    font-family: "Lucida Sans" ;
+}
+/*#mes {
+position: absolute;
+top: 275px;
+left: 130px;
+background: url(../images/buscarNombre/ames.png);
+background-repeat: no-repeat;
+height: 300px;
+width: 300px;
+}*/
+#textmes {
+    position:absolute;
+    top:100px;
+    left:85px;
+    font-size:23px;
+    height: 30px;
+    font-family: "Lucida Sans" ;
+}
+/*#anio {
+position: absolute;
+top: 275px;
+left: 295px;
+background: url(../images/buscarNombre/aano.png);
+background-repeat: no-repeat;
+height: 21px;
+width: 60px;
+}*/
+#textanio {
+    position: absolute;
+    top: 100px;
+    left: 265px;
+    width: 70px;
+    font-size: 25px;
+    height: 30px;
+    font-family: "Lucida Sans" ;
+}
+/*#sexo {
+position: absolute;
+top: 275px;
+left: 393px;
+background: url(../images/buscarNombre/asexo.png);
+background-repeat: no-repeat;
+height: 300px;
+width: 300px;
+}*/
+#textsexo {
+    position:absolute;
+    top:100px;
+    left:347px;
+    font-size:23px;
+    height: 30px;
+    font-family: "Lucida Sans" ;
+}
+/*#entidad {
+position: absolute;
+top: 275px;
+left:510px;
+background: url(../images/buscarNombre/entidad3.png);
+background-repeat: no-repeat;
+height: 300px;
+width: 300px;	
+}*/
+#textentidad {
+    position:absolute;
+
+    top:100px;
+    left:533px;
+    height: 30px;
+    font-size:23px;
+    width: 245px;
+    font-family: "Lucida Sans" ;
+}
+/*#nombre{
+        border: 1px solid black;
+        top:0px;
+        left:20px;
+        height:444px;
+        width:809px;
+        position:absolute;
+        background:url(img/contenedorDatos.png);
+}*/
+.borrar_reg {
+    position:absolute;
+    z-index: 1000;
+    top: 100px;
+    left: 840px;
+    width:145px;
+    height:69px;
+    overflow: visible;
+    background-image: url(../img/btn_borrar1.png);
+    background-repeat:no-repeat;
+}
+.borrar_reg:hover, .borrar_reg.hover_effect{
+    background-image:url(../img/btn_borrar.png);
+    background-repeat:no-repeat;
+}

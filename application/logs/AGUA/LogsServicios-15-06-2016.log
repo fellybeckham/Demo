@@ -1,0 +1,64 @@
+15/06/2016 09:45:42   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '39569458530945429394888446'
+15/06/2016 09:45:57   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '48382072780945570375140861'
+15/06/2016 09:57:59   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '41656733320957590692506925'
+15/06/2016 10:02:53   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '96283154001002535166258093'
+15/06/2016 10:03:58   Guardar datos de busqueda: '96283154001002535166258093' false '061187' '1001'
+15/06/2016 10:03:59   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VILLASEÑOR RAMIREZ GUADALUPE',
+  'numerocontrato' => '061187',
+  'domicilio' => 'HERREROS DE SAN FELIPE NO. 1001  COL. BUENA VISTA I',
+  'importetotal' => '$626.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 31/03/2016__31/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 13/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '96283154001002535166258093',
+)
+15/06/2016 10:03:59   metodo buscarAgua Respuesta correcta
+15/06/2016 10:04:59   Guardar datos de busqueda: '96283154001002535166258093' false '229697' 'S/N'
+15/06/2016 10:04:59   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CITARIS DESARROLLOS INMOBILIARIOS S.A. DE C.V. (AREA VERDE)',
+  'numerocontrato' => '229697',
+  'domicilio' => 'MOLINO DEL BADEN NO.  S/N  COL. SOLEAR TORREMOLINOS',
+  'importetotal' => '$274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 29/03/2016__27/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 09/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '96283154001002535166258093',
+)
+15/06/2016 10:04:59   metodo buscarAgua Respuesta correcta
+15/06/2016 10:05:21   Guardar datos de busqueda: '96283154001002535166258093' false '210307' 'S/N'
+15/06/2016 10:05:23   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VALLE GOMEZ JOSE SANTOS',
+  'numerocontrato' => '210307',
+  'domicilio' => 'YUCATAN S/N-M-14 L-7 Mz 25 Lt 2806  COL. LOMA BONITA DEL SUR AMP.',
+  'importetotal' => '$173.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/03/2016__30/04/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 02/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '96283154001002535166258093',
+)
+15/06/2016 10:05:23   metodo buscarAgua Respuesta correcta
+15/06/2016 10:23:17   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '46272177671023177243788471'
+15/06/2016 12:19:32   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '07942099381219337131142521'
+15/06/2016 12:20:12   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '42623183801220130700251973'
+15/06/2016 12:47:21   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '99385867701247215375420453'
+15/06/2016 03:30:54   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '47802880620330547207750776'
+15/06/2016 03:31:13   Guardar datos de busqueda: '47802880620330547207750776' false '' 'S/N'

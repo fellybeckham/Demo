@@ -1,0 +1,26 @@
+31/05/2016 09:50:22   Obtiene Session y Oficinas
+31/05/2016 04:13:00   Obtiene Session y Oficinas
+31/05/2016 04:13:20   Resultado Busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION%20ENCONTRADA\'',
+  2 => 'oficina\':101',
+  3 => 'tipopredio\':1',
+  4 => 'numpredio\':51744',
+  5 => 'propietario\':\'VIEYRA%20DURAN%20ERICELIA%20Y%20SOC\'',
+  6 => 'ubicacion\':\'PASEO%20DEL%20ROBLE%20223,L%202028%20MZ%2059,%20PRADOS%20VERDES\'',
+  7 => 'domicilio\':\'PLATINO%20121,%20INDUSTRIAL%20CP%2058130\'',
+  8 => 'conceptopredial\':\'Adeuda%20desde:2016-6%20al%202016-6\'',
+  9 => 'totalpredial\':\'593.0000\'',
+  10 => 'conceptobaldios\':\'\'',
+  11 => 'totalbaldios\':\'.0000\'',
+  12 => 'conceptodap\':\'Adeuda%20desde:2016-1%20al%202016-6\'',
+  13 => 'totaldap\':\'146.0000\'',
+  14 => 'conceptoisai\':\'\'',
+  15 => 'totalisai\':\'.0000\'',
+  16 => 'totaladeudo\':\'739.0000\'',
+  17 => 'noprop\':39499',
+  18 => 'genero\':\'\'',
+  19 => 'dato\':\'Año%20Efecto:1988%20Bim%20Efecto:1,Valor%20Fiscal:%20$%2010,454.00\'',
+)
+31/05/2016 04:13:20   metodo buscarPredial Si se encontro Los datos de busqueda
+31/05/2016 04:13:27   Obtiene Session y Oficinas

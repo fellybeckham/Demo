@@ -1,0 +1,61 @@
+30/05/2016 10:50:48   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '41202884341050480667121018'
+30/05/2016 10:51:18   Guardar datos de busqueda: '41202884341050480667121018' false '007921' '50'
+30/05/2016 10:51:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MAGA?A JAIME Y SOC',
+  'numerocontrato' => '007921',
+  'domicilio' => 'ALAMO NO.   50  COL. MELCHOR OCAMPO',
+  'importetotal' => '$2,083.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 26/01/2016__28/03/2016,   MESES_ADEUDO 10,   FECHA LIMITE PAGO 08/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+30/05/2016 10:51:19   metodo buscarAgua Respuesta correcta
+30/05/2016 11:01:46   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '40016664191101470448599002'
+30/05/2016 11:01:59   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '13143875101101598851220103'
+30/05/2016 04:44:03   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '14162793720444047943113955'
+30/05/2016 04:44:23   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '07716247660444246218468349'
+30/05/2016 05:50:36   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '57709896330550371218822217'
+30/05/2016 05:50:56   Guardar datos de busqueda: '57709896330550371218822217' false '018022' '86'
+30/05/2016 05:50:57   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS,  DE 1537.50 PESOS',
+  'propietario' => 'JUAREZ A MARIA ASCENCION',
+  'numerocontrato' => '018022',
+  'domicilio' => 'HORTENCIA NO.   86  COL. LAS FLORES',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 7,   FECHA LIMITE PAGO 12/04/2016.  TIENE CONVENIO A PAGAR, EN OFICINAS, DE 1537.50  PESOS',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+30/05/2016 05:50:57   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS,  DE 1537.50 PESOS'
+30/05/2016 05:51:24   Guardar datos de busqueda: '57709896330550371218822217' false '042378' '1168'
+30/05/2016 05:51:24   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS,  DE 1524.18 PESOS',
+  'propietario' => 'ROMERO MORALES SALVADOR',
+  'numerocontrato' => '042378',
+  'domicilio' => 'GARDENIA NO. 1168  COL. SANTA ANITA',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 12/04/2016.  TIENE CONVENIO A PAGAR, EN OFICINAS, DE 1524.18  PESOS',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+30/05/2016 05:51:24   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS,  DE 1524.18 PESOS'
+30/05/2016 05:51:40   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '59507147100551418476295414'

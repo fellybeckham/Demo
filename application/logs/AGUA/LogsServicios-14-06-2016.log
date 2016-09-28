@@ -1,0 +1,280 @@
+14/06/2016 09:41:50   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '37638999680941549200733641'
+14/06/2016 09:42:02   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '52997091440942061637542737'
+14/06/2016 09:43:55   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '33582089110943599895141594'
+14/06/2016 09:48:39   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '78302399430948433367172527'
+14/06/2016 11:02:40   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '62780371301102442615970724'
+14/06/2016 11:02:47   Guardar datos de busqueda: '62780371301102442615970724' false '5' 'S/N'
+14/06/2016 11:02:47   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000005  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '000005',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '62780371301102442615970724',
+)
+14/06/2016 11:02:47   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000005  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+14/06/2016 11:02:51   Guardar datos de busqueda: '62780371301102442615970724' false '5' '55'
+14/06/2016 11:02:51   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000005  CON NUMERO EXTERIOR  55, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '000005',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '62780371301102442615970724',
+)
+14/06/2016 11:02:51   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000005  CON NUMERO EXTERIOR  55, VERIFIQUE POR FAVOR'
+14/06/2016 11:03:18   Guardar datos de busqueda: '62780371301102442615970724' false '085191' 'S/N'
+14/06/2016 11:03:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'RODRIGUEZ AGUILAR FRANCISCA',
+  'numerocontrato' => '085191',
+  'domicilio' => 'ROCIO S/N Mz 23 Lt 7601  COL. VISTA HERMOSA',
+  'importetotal' => '$495.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/05/2016__30/06/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 15/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '62780371301102442615970724',
+)
+14/06/2016 11:03:19   metodo buscarAgua Respuesta correcta
+14/06/2016 11:13:25   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '42668400581113257772222751'
+14/06/2016 11:13:29   Guardar datos de busqueda: '42668400581113257772222751' false '' 'S/N'
+14/06/2016 11:13:33   Guardar datos de busqueda: '42668400581113257772222751' false '9418' 'S/N'
+14/06/2016 11:13:34   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  009418  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '009418',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '42668400581113257772222751',
+)
+14/06/2016 11:13:34   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  009418  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+14/06/2016 11:13:38   Guardar datos de busqueda: '42668400581113257772222751' false '9418' '6'
+14/06/2016 11:13:38   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  009418  CON NUMERO EXTERIOR  6, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '009418',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '42668400581113257772222751',
+)
+14/06/2016 11:13:38   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  009418  CON NUMERO EXTERIOR  6, VERIFIQUE POR FAVOR'
+14/06/2016 12:51:52   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '33182955091251520855038192'
+14/06/2016 12:51:56   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '15320084291251563048579222'
+14/06/2016 12:52:25   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '61100399701252252657972553'
+14/06/2016 12:52:45   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '87979334991252454234876082'
+14/06/2016 12:52:59   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '37257889641252599907213028'
+14/06/2016 12:54:57   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '25068177031254578943751397'
+14/06/2016 12:55:18   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '53179816571255188824352350'
+14/06/2016 12:56:27   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '53383717171256272410806781'
+14/06/2016 01:09:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '65477243670109018063295060'
+14/06/2016 01:09:05   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '42704706560109048432443840'
+14/06/2016 01:12:42   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '39446467420112423174247955'
+14/06/2016 01:12:45   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '47168882800112457222269994'
+14/06/2016 01:12:50   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '92449597860112496317484850'
+14/06/2016 01:32:48   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '01252285690132484376392753'
+14/06/2016 01:32:54   Guardar datos de busqueda: '01252285690132484376392753' false '' 'S/N'
+14/06/2016 01:33:36   Guardar datos de busqueda: '01252285690132484376392753' false '546564' 'S/N'
+14/06/2016 01:33:40   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  546564  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '546564',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '01252285690132484376392753',
+)
+14/06/2016 01:33:40   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  546564  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+14/06/2016 01:34:29   Guardar datos de busqueda: '01252285690132484376392753' false '086536' 'S/N'
+14/06/2016 01:34:33   Resultado Busqueda Agua: array (
+)
+14/06/2016 01:34:33   metodo buscarAgua Estatus 0: NULL
+14/06/2016 01:34:42   Guardar datos de busqueda: '01252285690132484376392753' false '086536' 'S/N'
+14/06/2016 01:34:45   Resultado Busqueda Agua: array (
+)
+14/06/2016 01:34:45   metodo buscarAgua Estatus 0: NULL
+14/06/2016 01:56:14   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '95106934590156145957436132'
+14/06/2016 02:01:26   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '51101407770201257626512470'
+14/06/2016 02:01:59   Guardar datos de busqueda: '51101407770201257626512470' false '' 'S/N'
+14/06/2016 02:02:06   Guardar datos de busqueda: '95106934590156145957436132' false '' 'S/N'
+14/06/2016 02:10:58   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '20195379440210589182062018'
+14/06/2016 02:11:12   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '93445530130211119675154227'
+14/06/2016 02:13:56   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '71719788670213563481017290'
+14/06/2016 02:14:10   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '83121761480214101691843681'
+14/06/2016 03:09:05   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '62129995600309052659832253'
+14/06/2016 03:09:12   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '19191596420309124436620355'
+14/06/2016 03:09:30   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '26270419640309308064984558'
+14/06/2016 03:14:13   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '60927116690314132539554252'
+14/06/2016 03:17:20   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '36405357560317206167006469'
+14/06/2016 03:23:06   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '93205646970323066502999751'
+14/06/2016 03:23:18   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '69646741870323199480056881'
+14/06/2016 03:28:06   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '86286921000328064891037274'
+14/06/2016 03:28:25   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '71980107410328254370445815'
+14/06/2016 03:28:38   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '84071778820328381659240066'
+14/06/2016 03:31:39   Guardar datos de busqueda: '84071778820328381659240066' false '229697' 'S/N'
+14/06/2016 03:31:39   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CITARIS DESARROLLOS INMOBILIARIOS S.A. DE C.V. (AREA VERDE)',
+  'numerocontrato' => '229697',
+  'domicilio' => 'MOLINO DEL BADEN NO.  S/N  COL. SOLEAR TORREMOLINOS',
+  'importetotal' => '$274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 29/03/2016__27/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 09/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '84071778820328381659240066',
+)
+14/06/2016 03:31:39   metodo buscarAgua Respuesta correcta
+14/06/2016 03:32:29   Guardar datos de busqueda: '84071778820328381659240066' false '063241' 'S/N'
+14/06/2016 03:32:29   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  063241  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '063241',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '84071778820328381659240066',
+)
+14/06/2016 03:32:29   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  063241  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+14/06/2016 03:32:40   Guardar datos de busqueda: '84071778820328381659240066' false '063241' '35'
+14/06/2016 03:32:41   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VILLASEÑOR IRMA YOLANDA',
+  'numerocontrato' => '063241',
+  'domicilio' => 'INGENIEROS ELECTRICIST NO.   35  COL. BUENA VISTA I',
+  'importetotal' => '$274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 31/03/2016__31/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 13/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '84071778820328381659240066',
+)
+14/06/2016 03:32:41   metodo buscarAgua Respuesta correcta
+14/06/2016 03:33:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '48697049080333024190305112'
+14/06/2016 05:08:24   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '12128240320508247759767625'
+14/06/2016 05:08:34   Guardar datos de busqueda: '12128240320508247759767625' false '' 'S/N'
+14/06/2016 05:10:34   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '13356381070510353852109811'
+14/06/2016 05:10:38   Guardar datos de busqueda: '13356381070510353852109811' false '' 'S/N'
+14/06/2016 05:12:08   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '73499171690512083886851753'
+14/06/2016 05:12:11   Guardar datos de busqueda: '73499171690512083886851753' false '' 'S/N'
+14/06/2016 05:12:13   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '80264491530512131542820856'
+14/06/2016 05:14:45   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '90116442410514455183089305'
+14/06/2016 05:16:22   Guardar datos de busqueda: '90116442410514455183089305' false '' 'S/N'
+14/06/2016 05:17:51   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '21614695510517515687831265'
+14/06/2016 05:17:55   Guardar datos de busqueda: '21614695510517515687831265' false '' 'S/N'
+14/06/2016 05:18:19   Guardar datos de busqueda: '21614695510517515687831265' false '' 'm'
+14/06/2016 05:18:25   Guardar datos de busqueda: '21614695510517515687831265' false '75' 'm'
+14/06/2016 05:18:25   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000075  CON NUMERO EXTERIOR  m, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '000075',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '21614695510517515687831265',
+)
+14/06/2016 05:18:25   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000075  CON NUMERO EXTERIOR  m, VERIFIQUE POR FAVOR'
+14/06/2016 05:18:38   Guardar datos de busqueda: '21614695510517515687831265' false '75' 'S/N'
+14/06/2016 05:18:38   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000075  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '000075',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '21614695510517515687831265',
+)
+14/06/2016 05:18:38   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000075  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+14/06/2016 05:18:47   Guardar datos de busqueda: '21614695510517515687831265' false '75' 'S/N'
+14/06/2016 05:18:48   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000075  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '000075',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '21614695510517515687831265',
+)
+14/06/2016 05:18:48   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  000075  CON NUMERO EXTERIOR  , VERIFIQUE POR FAVOR'
+14/06/2016 05:19:00   Guardar datos de busqueda: '21614695510517515687831265' false '' 'S/N'
+14/06/2016 05:21:18   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '46357838560521187886756040'
+14/06/2016 05:21:22   Guardar datos de busqueda: '46357838560521187886756040' false '' 'S/N'

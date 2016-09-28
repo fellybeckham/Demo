@@ -1,0 +1,37 @@
+19/08/2016 10:38:04   Obtiene Session y Oficinas
+19/08/2016 10:51:49   metodo buscarPredial Datos Incorrectos de busqueda no paso validacion
+19/08/2016 10:51:59   Resultado Busqueda: 'No hay parametros'
+19/08/2016 10:51:59   metodo buscarPredial No encontro Resultado
+19/08/2016 11:25:21   Resultado Busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION%20ENCONTRADA\'',
+  2 => 'oficina\':101',
+  3 => 'tipopredio\':2',
+  4 => 'numpredio\':1346',
+  5 => 'propietario\':\'GOBIERNO%20DEL%20ESTADO%20DE%20MICHOACAN\'',
+  6 => 'ubicacion\':\'CARRETERA%20ESTATAL%20MORELIA%20A%20COINTZIO%20S/N,%20COINTZIO\'',
+  7 => 'domicilio\':\'AV%20FRANCISCO%20I%20MADERO%20PTE%2063,PALACIO%20DE%20GOBIERNO%20PB,%20CENTRO%20HISTORICO%20CP%2058000\'',
+  8 => 'conceptopredial\':\'Adeuda%20desde:2016-7%20al%202016-7\'',
+  9 => 'totalpredial\':\'595.0000\'',
+  10 => 'conceptobaldios\':\'\'',
+  11 => 'totalbaldios\':\'.0000\'',
+  12 => 'conceptodap\':\'Adeuda%20desde:2010-1%20al%202016-6\'',
+  13 => 'totaldap\':\'609.0000\'',
+  14 => 'conceptoisai\':\'\'',
+  15 => 'totalisai\':\'.0000\'',
+  16 => 'totaladeudo\':\'1204.0000\'',
+  17 => 'noprop\':220193',
+  18 => 'genero\':\'E\'',
+  19 => 'dato\':\'Año%20Efecto:1991%20Bim%20Efecto:1,Valor%20Fiscal:%20$%201,053.00\'',
+  20 => 'conceptoconvpredial\':\'\'',
+  21 => 'totalconvpredial\':\'.0000\'',
+)
+19/08/2016 11:25:21   metodo buscarPredial Si se encontro Los datos de busqueda
+19/08/2016 11:54:26   Paso pantalla de  pago, Pagara'1204.0000'
+19/08/2016 11:54:49   Paso pantalla de  pago, Pagarafalse
+19/08/2016 11:54:50   Paso pantalla de  pago, Pagarafalse
+19/08/2016 11:55:01   Obtiene Session y Oficinas
+19/08/2016 12:38:38   Obtiene Session y Oficinas
+19/08/2016 12:48:23   Obtiene Session y Oficinas
+19/08/2016 02:51:36   Obtiene Session y Oficinas
+19/08/2016 05:16:53   Obtiene Session y Oficinas

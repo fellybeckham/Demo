@@ -1,0 +1,7 @@
+ul.btns-opt-servicio li #busNombre{
+	background: url('../img/curp_op_nombre.jpg');
+}
+
+ul.btns-opt-servicio li #busCurp{
+    background: url('../img/curp_op_curp.jpg');
+}

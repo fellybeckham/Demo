@@ -1,0 +1,19 @@
+17/08/2016 05:42:55   Inicio de Servicio Obtine Session
+17/08/2016 05:42:55   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+17/08/2016 05:42:55   Inicio de Servicio Obtine Ingresos
+17/08/2016 05:42:55   Valida Si hay Session
+17/08/2016 05:45:46   Inicio de Servicio Obtine Session
+17/08/2016 05:45:46   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+17/08/2016 05:45:46   Inicio de Servicio Obtine Ingresos
+17/08/2016 05:45:46   Valida Si hay Session
+17/08/2016 05:46:32   Inicio de Servicio Obtine Session
+17/08/2016 05:46:32   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+17/08/2016 05:46:32   Inicio de Servicio Obtine Ingresos
+17/08/2016 05:46:32   Valida Si hay Session
+17/08/2016 05:49:12   Inicio de Servicio Obtine Session
+17/08/2016 05:49:12   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+17/08/2016 05:49:12   Inicio de Servicio Obtine Ingresos
+17/08/2016 05:49:13   Valida Si hay Session
+17/08/2016 06:03:33   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+17/08/2016 06:03:33   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364086 LOPEz'
+17/08/2016 06:03:33   No encontro Resultado: 

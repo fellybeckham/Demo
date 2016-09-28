@@ -1,0 +1,25 @@
+28/06/2016 09:25:32   Obtiene Session y Oficinas
+28/06/2016 09:25:52   Resultado Busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION%20ENCONTRADA\'',
+  2 => 'oficina\':101',
+  3 => 'tipopredio\':1',
+  4 => 'numpredio\':111',
+  5 => 'propietario\':\'RAMIREZ%20HERNANDEZ%20DEMETRIA\'',
+  6 => 'ubicacion\':\'GRANADITAS%2035,(INDEPENDENCIA),%20CENTRO%20HISTORICO\'',
+  7 => 'domicilio\':\'GRANADITAS%2035,%20CENTRO%20HISTORICO%20CP%2058000\'',
+  8 => 'conceptopredial\':\'\'',
+  9 => 'totalpredial\':\'.0000\'',
+  10 => 'conceptobaldios\':\'\'',
+  11 => 'totalbaldios\':\'.0000\'',
+  12 => 'conceptodap\':\'\'',
+  13 => 'totaldap\':\'.0000\'',
+  14 => 'conceptoisai\':\'\'',
+  15 => 'totalisai\':\'.0000\'',
+  16 => 'totaladeudo\':\'.0000\'',
+  17 => 'noprop\':31477',
+  18 => 'genero\':\'\'',
+  19 => 'dato\':\'Año%20Efecto:2004%20Bim%20Efecto:3,Valor%20Fiscal:%20$%20336,619.00\'',
+)
+28/06/2016 09:25:52   metodo buscarPredial Si se encontro Los datos de busqueda
+28/06/2016 09:26:00   Obtiene Session y Oficinas

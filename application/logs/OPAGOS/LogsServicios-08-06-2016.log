@@ -1,0 +1,27 @@
+08/06/2016 04:39:13   Inicio de Servicio Obtine Session
+08/06/2016 04:39:15   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+08/06/2016 04:39:15   Inicio de Servicio Obtine Ingresos
+08/06/2016 04:39:15   Valida Si hay Session
+08/06/2016 05:32:04   Inicio de Servicio Obtine Session
+08/06/2016 05:32:04   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+08/06/2016 05:32:04   Inicio de Servicio Obtine Ingresos
+08/06/2016 05:32:04   Valida Si hay Session
+08/06/2016 05:32:23   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+08/06/2016 05:32:23   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364074 MUÑOz'
+08/06/2016 05:32:23   No encontro Resultado: 
+08/06/2016 05:37:21   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-740INST.%20DE%20TIANGUIS,%20GIRO%20VARIOS%20EN%20AV.%20PEDREGAL,%20COL.%20EDUARDO%20RUIZ.%20---%2020%20FEBRERO%202016%20---%20%20F%2057747\',\'propietario\':\'NU�EZ%20MENDOZA%20ARTURO\',\'ubicacion\':\'AV.PEDREGAL%20,%20EDUARDO%20RUIZ\',\'domicilio\':\'AV.PEDREGAL%20,%20EDUARDO%20RUIZ\',\'totaladeudo\':\'15.00\',\'noprop\':1331576,\'genero\':\'\',\'conceptos\':\'TIANGUIS%20$%2015.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+08/06/2016 05:37:21   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364615 NUÑEz'
+08/06/2016 05:37:21   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-740INST. DE TIANGUIS, GIRO VARIOS EN AV. PEDREGAL, COL. EDUARDO RUIZ. --- 20 FEBRERO 2016 ---  F 57747\'',
+  4 => 'propietario\':\'NUÑEZ MENDOZA ARTURO\'',
+  5 => 'ubicacion\':\'AV.PEDREGAL , EDUARDO RUIZ\'',
+  6 => 'domicilio\':\'AV.PEDREGAL , EDUARDO RUIZ\'',
+  7 => 'totaladeudo\':\'15.00\'',
+  8 => 'noprop\':1331576',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TIANGUIS $ 15.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)

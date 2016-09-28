@@ -1,0 +1,242 @@
+18/08/2016 08:36:52   Inicio de Servicio Obtine Session
+18/08/2016 08:36:52   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 08:36:52   Inicio de Servicio Obtine Ingresos
+18/08/2016 08:36:52   Valida Si hay Session
+18/08/2016 09:20:11   Datos Incorrectos de busqueda no paso validacion
+18/08/2016 09:20:48   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:20:48   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 723416 BORJA'
+18/08/2016 09:20:48   No encontro Resultado: 
+18/08/2016 09:24:08   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:24:08   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14289 AVALOS'
+18/08/2016 09:24:08   No encontro Resultado: 
+18/08/2016 09:24:25   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:24:25   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14289 AVALOS'
+18/08/2016 09:24:25   No encontro Resultado: 
+18/08/2016 09:25:03   Inicio de Servicio Obtine Session
+18/08/2016 09:25:03   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:25:03   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:25:03   Valida Si hay Session
+18/08/2016 09:26:11   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:26:11   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364445 MORALEs'
+18/08/2016 09:26:11   No encontro Resultado: 
+18/08/2016 09:27:23   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-442516%20Cta.%20Predial:3008-2-5883\',\'propietario\':\'INMOBILIARIA%20Y%20CONSTRUCTORA%20SOLORZANO,%20S.A.%20DE%20C.V.\',\'ubicacion\':\'\',\'domicilio\':\'MIGUEL%20ARREOLA%20177%20,%20POBLADO%20OCOLUSEN\',\'totaladeudo\':\'8,077.00\',\'noprop\':641,\'genero\':\'\',\'conceptos\':\'LICENCIA%20DE%20USO%20DE%20SUELO%20COMERC.,%20OFICINAS%20MAS%20DE%20500M2%20$%208,077.26%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.26\',\'rfc\':\'ISC9201245B2\'}]'
+18/08/2016 09:27:23   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 442516 INMOBILIARIA Y CONSTRUCTORA SOLORZANO, S.A. DE C.V.'
+18/08/2016 09:27:23   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-442516 Cta. Predial:3008-2-5883\'',
+  4 => 'propietario\':\'INMOBILIARIA Y CONSTRUCTORA SOLORZANO, S.A. DE C.V.\'',
+  5 => 'ubicacion\':\'\'',
+  6 => 'domicilio\':\'MIGUEL ARREOLA 177 , POBLADO OCOLUSEN\'',
+  7 => 'totaladeudo\':\'8,077.00\'',
+  8 => 'noprop\':641',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'LICENCIA DE USO DE SUELO COMERC., OFICINAS MAS DE 500M2 $ 8,077.26 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.26\'',
+  11 => 'rfc\':\'ISC9201245B2\'',
+)
+18/08/2016 09:28:21   Paso pantalla de  pago, Pagara'8077.00'
+18/08/2016 09:28:37   Inicio de Servicio Obtine Session
+18/08/2016 09:28:37   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:28:37   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:28:37   Valida Si hay Session
+18/08/2016 09:29:27   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:29:27   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 139660 474EU1'
+18/08/2016 09:29:27   No encontro Resultado: 
+18/08/2016 09:32:00   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:32:00   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 425016 INMOBILIARIA Y CONSTRUCTORA SOLORZANO, S.A. DE C.V.'
+18/08/2016 09:32:00   No encontro Resultado: 
+18/08/2016 09:32:14   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:32:14   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 425016 INMOBILIARIA Y CONSTRUCTORA SOLORZANO, S.A. DE C.V.'
+18/08/2016 09:32:14   No encontro Resultado: 
+18/08/2016 09:40:10   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-141415NO.%20PLACA:%20NK70289,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'CORTES%20TRUJILLO%20BENJAMIN\',\'ubicacion\':\'MANUEL%20SABINO%20CRESPO%20,%20NP\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'TRAER%20PARABRISAS%20ESTRELLADO%20O%20POLARIZADOS,%20O%20CON%20CUALQUIER%20OTRO%20ADITAMENTO%20QUE%20IMPIDA%20LA%20VISIBILIDAD%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+18/08/2016 09:40:10   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 141415 NK70289'
+18/08/2016 09:40:10   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-141415NO. PLACA: NK70289, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'CORTES TRUJILLO BENJAMIN\'',
+  5 => 'ubicacion\':\'MANUEL SABINO CRESPO , NP\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'TRAER PARABRISAS ESTRELLADO O POLARIZADOS, O CON CUALQUIER OTRO ADITAMENTO QUE IMPIDA LA VISIBILIDAD $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+18/08/2016 09:41:50   Inicio de Servicio Obtine Session
+18/08/2016 09:41:50   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:41:50   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:41:50   Valida Si hay Session
+18/08/2016 09:42:26   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(SEGURIDAD%20CIUDADANA)-1605PLACAS%20DE%20CIRCULACION%2098ER2%20PLACAS%20PLANA%20232WT3%20NUMERO%20DE%20SERIE%203C9PL35248A003554%20PERMISO%20POR%20UN%20MES%202016\',\'propietario\':\'GRUPO%20DE%20ORO%20FUERTE%20SA%20DE%20CV\',\'ubicacion\':\'PROLONGACION%20TEPEYAC%201701%20,%20MARIANO%20OTERO,%20CP:45067\',\'domicilio\':\'PROLONGACION%20TEPEYAC%201701%20,%20MARIANO%20OTERO,%20CP:45067%20LOC.:ZAPOPAN%20ZAPOPAN%20JAL\',\'totaladeudo\':\'214.00\',\'noprop\':1335841,\'genero\':\'\',\'conceptos\':\'PERMISO%20MENSUAL%20DE%20TRANSPORTE%20PRIVADO%20DE%20CARGA%20Y%20DESCARGA,%20POR%20UNIDAD%20$%20214.25%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.25\',\'rfc\':\'GOF150818U73\'}]'
+18/08/2016 09:42:26   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364403 GRUPO DE ORO FUERTE SA DE CV'
+18/08/2016 09:42:26   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(SEGURIDAD CIUDADANA)-1605PLACAS DE CIRCULACION 98ER2 PLACAS PLANA 232WT3 NUMERO DE SERIE 3C9PL35248A003554 PERMISO POR UN MES 2016\'',
+  4 => 'propietario\':\'GRUPO DE ORO FUERTE SA DE CV\'',
+  5 => 'ubicacion\':\'PROLONGACION TEPEYAC 1701 , MARIANO OTERO, CP:45067\'',
+  6 => 'domicilio\':\'PROLONGACION TEPEYAC 1701 , MARIANO OTERO, CP:45067 LOC.:ZAPOPAN ZAPOPAN JAL\'',
+  7 => 'totaladeudo\':\'214.00\'',
+  8 => 'noprop\':1335841',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'PERMISO MENSUAL DE TRANSPORTE PRIVADO DE CARGA Y DESCARGA, POR UNIDAD $ 214.25 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.25\'',
+  11 => 'rfc\':\'GOF150818U73\'',
+)
+18/08/2016 09:43:26   Inicio de Servicio Obtine Session
+18/08/2016 09:43:26   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:43:26   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:43:26   Valida Si hay Session
+18/08/2016 09:44:03   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-437916%20Cta.%20Predial:101-1-131436\',\'propietario\':\'TUROTEL,%20S.A.%20DE%20C.V.%20PIERRES%20LUISA%20VICTORIA\',\'ubicacion\':\'AV%20ACUEDUCTO%203805%20,%20PASEO%20DE%20LAS%20LOMAS\',\'domicilio\':\'AV%20ACUEDUCTO%203805%20,%20FRAY%20ANTONIO%20DE%20LISBOA\',\'totaladeudo\':\'6,689.00\',\'noprop\':197578,\'genero\':\'\',\'conceptos\':\'REVALIDACION%20DE%20ANUNCIOS%20PUBLICITARIOS%20$%20714.33%20|%20ADICIONAL%20ANUNCIOS%20PUBLICITARIOS%20$%205,974.70%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.03\',\'rfc\':\'TURO112136I2\'}]'
+18/08/2016 09:44:03   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 437916 TUROTEL, S.A. DE C.V.'
+18/08/2016 09:44:03   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-437916 Cta. Predial:101-1-131436\'',
+  4 => 'propietario\':\'TUROTEL, S.A. DE C.V. PIERRES LUISA VICTORIA\'',
+  5 => 'ubicacion\':\'AV ACUEDUCTO 3805 , PASEO DE LAS LOMAS\'',
+  6 => 'domicilio\':\'AV ACUEDUCTO 3805 , FRAY ANTONIO DE LISBOA\'',
+  7 => 'totaladeudo\':\'6,689.00\'',
+  8 => 'noprop\':197578',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REVALIDACION DE ANUNCIOS PUBLICITARIOS $ 714.33 | ADICIONAL ANUNCIOS PUBLICITARIOS $ 5,974.70 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.03\'',
+  11 => 'rfc\':\'TURO112136I2\'',
+)
+18/08/2016 09:44:44   Inicio de Servicio Obtine Session
+18/08/2016 09:44:44   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:44:44   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:44:44   Valida Si hay Session
+18/08/2016 09:45:11   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-581716%20Cta.%20Predial:101-1-846Licencia%2017509%20-%20C\',\'propietario\':\'CERVEZAS%20CUAUHTEMOC%20MOCTEZUMA,%20SA%20DE%20CV\',\'ubicacion\':\'ZAMORA%20346%20,%20JUAREZ,%20CP:58010\',\'domicilio\':\'AV%20PERIODISMO%20455%20,%20NUEVA%20VALLADOLID,%20CP:58190\',\'totaladeudo\':\'752.00\',\'noprop\':174646,\'genero\':\'\',\'conceptos\':\'REVALIDACION%20DE%20LICENCIAS%20MPALES%20$%20752.31%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.31\',\'rfc\':\'CCM010710UU1\'}]'
+18/08/2016 09:45:11   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 581716 CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV'
+18/08/2016 09:45:11   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-581716 Cta. Predial:101-1-846Licencia 17509 - C\'',
+  4 => 'propietario\':\'CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV\'',
+  5 => 'ubicacion\':\'ZAMORA 346 , JUAREZ, CP:58010\'',
+  6 => 'domicilio\':\'AV PERIODISMO 455 , NUEVA VALLADOLID, CP:58190\'',
+  7 => 'totaladeudo\':\'752.00\'',
+  8 => 'noprop\':174646',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REVALIDACION DE LICENCIAS MPALES $ 752.31 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.31\'',
+  11 => 'rfc\':\'CCM010710UU1\'',
+)
+18/08/2016 09:46:02   Inicio de Servicio Obtine Session
+18/08/2016 09:46:02   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:46:02   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:46:02   Valida Si hay Session
+18/08/2016 09:46:29   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:46:29   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14392 RAMIREz'
+18/08/2016 09:46:29   No encontro Resultado: 
+18/08/2016 09:47:01   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:47:01   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14319 ORGANIZADOR Y/O REPRESENTANTE LEGAL'
+18/08/2016 09:47:01   No encontro Resultado: 
+18/08/2016 09:47:26   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:47:26   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14316 DELGADO'
+18/08/2016 09:47:26   No encontro Resultado: 
+18/08/2016 09:47:54   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ESPECTACULOS\',\'nota\':\'Referencia:ESPPUB(ESPECTACULOS%20PUBLICOS)-1435913-CONFERENCIAS%20MAGISTRALES%20EN:%20TEATRO%20JOSE%20MARIA%20MORELOS(EL%2010/04/2016%20CED.16306)\',\'propietario\':\'MENJIVAR%20QUIJANO%20JENNIFER%20ARLETTE\',\'ubicacion\':\'CALZ%20VENTURA%20PUENTE%200%20%20TEATRO%20JOSE%20MARIA%20MORELOS,%20FELIX%20IRETA,%20CP:0\',\'domicilio\':\'CANTERA%20ROSA%20175%20,%20NACIONAL%20LAS%20CANTERAS,%20CP:58190%20LOC.:MORELIA,%20MICH\',\'totaladeudo\':\'6,007.00\',\'noprop\':714509,\'genero\':\'\',\'conceptos\':\'OTROS%20ESPECTACULOS%20NO%20ESPECIFICADOS%20$%206,007.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+18/08/2016 09:47:54   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14359 MENJIVAR'
+18/08/2016 09:47:54   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ESPECTACULOS\'',
+  3 => 'nota\':\'Referencia:ESPPUB(ESPECTACULOS PUBLICOS)-1435913-CONFERENCIAS MAGISTRALES EN: TEATRO JOSE MARIA MORELOS(EL 10/04/2016 CED.16306)\'',
+  4 => 'propietario\':\'MENJIVAR QUIJANO JENNIFER ARLETTE\'',
+  5 => 'ubicacion\':\'CALZ VENTURA PUENTE 0  TEATRO JOSE MARIA MORELOS, FELIX IRETA, CP:0\'',
+  6 => 'domicilio\':\'CANTERA ROSA 175 , NACIONAL LAS CANTERAS, CP:58190 LOC.:MORELIA, MICH\'',
+  7 => 'totaladeudo\':\'6,007.00\'',
+  8 => 'noprop\':714509',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'OTROS ESPECTACULOS NO ESPECIFICADOS $ 6,007.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+18/08/2016 09:49:45   Paso pantalla de  pago, Pagara'6007.00'
+18/08/2016 09:50:58   Inicio de Servicio Obtine Session
+18/08/2016 09:50:58   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:50:58   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:50:58   Valida Si hay Session
+18/08/2016 09:51:25   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ESPECTACULOS\',\'nota\':\'Referencia:ESPPUB(ESPECTACULOS%20PUBLICOS)-1435913-CONFERENCIAS%20MAGISTRALES%20EN:%20TEATRO%20JOSE%20MARIA%20MORELOS(EL%2010/04/2016%20CED.16306)\',\'propietario\':\'MENJIVAR%20QUIJANO%20JENNIFER%20ARLETTE\',\'ubicacion\':\'CALZ%20VENTURA%20PUENTE%200%20%20TEATRO%20JOSE%20MARIA%20MORELOS,%20FELIX%20IRETA,%20CP:0\',\'domicilio\':\'CANTERA%20ROSA%20175%20,%20NACIONAL%20LAS%20CANTERAS,%20CP:58190%20LOC.:MORELIA,%20MICH\',\'totaladeudo\':\'6,007.00\',\'noprop\':714509,\'genero\':\'\',\'conceptos\':\'OTROS%20ESPECTACULOS%20NO%20ESPECIFICADOS%20$%206,007.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+18/08/2016 09:51:25   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 14359 MENJIVAr'
+18/08/2016 09:51:25   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ESPECTACULOS\'',
+  3 => 'nota\':\'Referencia:ESPPUB(ESPECTACULOS PUBLICOS)-1435913-CONFERENCIAS MAGISTRALES EN: TEATRO JOSE MARIA MORELOS(EL 10/04/2016 CED.16306)\'',
+  4 => 'propietario\':\'MENJIVAR QUIJANO JENNIFER ARLETTE\'',
+  5 => 'ubicacion\':\'CALZ VENTURA PUENTE 0  TEATRO JOSE MARIA MORELOS, FELIX IRETA, CP:0\'',
+  6 => 'domicilio\':\'CANTERA ROSA 175 , NACIONAL LAS CANTERAS, CP:58190 LOC.:MORELIA, MICH\'',
+  7 => 'totaladeudo\':\'6,007.00\'',
+  8 => 'noprop\':714509',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'OTROS ESPECTACULOS NO ESPECIFICADOS $ 6,007.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+18/08/2016 09:51:27   Paso pantalla de  pago, Pagara'6007.00'
+18/08/2016 09:53:39   Inicio de Servicio Obtine Session
+18/08/2016 09:53:39   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 09:53:39   Inicio de Servicio Obtine Ingresos
+18/08/2016 09:53:39   Valida Si hay Session
+18/08/2016 09:54:25   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:54:25   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 139660 474EU1'
+18/08/2016 09:54:25   No encontro Resultado: 
+18/08/2016 09:56:24   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:56:24   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 723416 CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV'
+18/08/2016 09:56:24   No encontro Resultado: 
+18/08/2016 09:56:26   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 09:56:26   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 723416 CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV'
+18/08/2016 09:56:26   No encontro Resultado: 
+18/08/2016 12:03:31   Inicio de Servicio Obtine Session
+18/08/2016 12:03:31   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 12:03:31   Inicio de Servicio Obtine Ingresos
+18/08/2016 12:03:31   Valida Si hay Session
+18/08/2016 01:38:08   Inicio de Servicio Obtine Session
+18/08/2016 01:38:08   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 01:38:08   Inicio de Servicio Obtine Ingresos
+18/08/2016 01:38:08   Valida Si hay Session
+18/08/2016 01:42:28   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 01:42:28   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 723416 474EU1'
+18/08/2016 01:42:28   No encontro Resultado: 
+18/08/2016 01:42:43   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 01:42:43   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 139660 474EU1'
+18/08/2016 01:42:43   No encontro Resultado: 
+18/08/2016 01:42:48   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 01:42:48   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 14359 474EU1'
+18/08/2016 01:42:48   No encontro Resultado: 
+18/08/2016 01:42:55   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 01:42:55   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 364086 474EU1'
+18/08/2016 01:42:55   No encontro Resultado: 
+18/08/2016 01:43:00   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 01:43:00   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 364445 474EU1'
+18/08/2016 01:43:00   No encontro Resultado: 
+18/08/2016 01:43:06   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 01:43:06   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 442516 474EU1'
+18/08/2016 01:43:06   No encontro Resultado: 
+18/08/2016 02:00:20   Inicio de Servicio Obtine Session
+18/08/2016 02:00:20   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 02:00:20   Inicio de Servicio Obtine Ingresos
+18/08/2016 02:00:20   Valida Si hay Session
+18/08/2016 03:52:11   Inicio de Servicio Obtine Session
+18/08/2016 03:52:12   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 03:52:12   Inicio de Servicio Obtine Ingresos
+18/08/2016 03:52:12   Valida Si hay Session
+18/08/2016 03:52:39   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 03:52:39   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 723416 CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV'
+18/08/2016 03:52:39   No encontro Resultado: 
+18/08/2016 03:53:29   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 03:53:29   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 723416 CERVEZAS CUAUHTEMOC MOCTEZUMA, SA DE CV'
+18/08/2016 03:53:29   No encontro Resultado: 
+18/08/2016 04:02:06   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+18/08/2016 04:02:06   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 364086 BORJA'
+18/08/2016 04:02:06   No encontro Resultado: 
+18/08/2016 04:13:34   Inicio de Servicio Obtine Session
+18/08/2016 04:13:34   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 04:13:34   Inicio de Servicio Obtine Ingresos
+18/08/2016 04:13:35   Valida Si hay Session
+18/08/2016 06:48:10   Inicio de Servicio Obtine Session
+18/08/2016 06:48:10   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+18/08/2016 06:48:10   Inicio de Servicio Obtine Ingresos
+18/08/2016 06:48:10   Valida Si hay Session

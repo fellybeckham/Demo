@@ -1,0 +1,88 @@
+29/08/2016 09:24:34   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '85366273610924274063560045'
+29/08/2016 09:29:44   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '53452015420929372882145236'
+29/08/2016 10:34:49   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '77050898271034413142922411'
+29/08/2016 10:36:10   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '44524629281036030989305511'
+29/08/2016 10:42:57   Guardar datos de busqueda: '44524629281036030989305511' false '' 'S/N'
+29/08/2016 10:49:10   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '91986792901049025535513983'
+29/08/2016 10:55:30   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '27219121931055225248393806'
+29/08/2016 10:55:40   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '79098470711055324181372135'
+29/08/2016 03:35:53   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '33336254170335469770468000'
+29/08/2016 03:36:08   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '69901135370336002437056111'
+29/08/2016 03:41:57   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '29676033880341495473184091'
+29/08/2016 03:43:29   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '81442188820343214216743956'
+29/08/2016 03:44:12   Guardar datos de busqueda: '81442188820343214216743956' false '209804' '101'
+29/08/2016 03:44:13   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARTINEZ AVILA ABEL',
+  'numerocontrato' => '209804',
+  'domicilio' => 'CERRADA 6A  I NO.  101  COL. VILLAS DEL PEDREGAL III',
+  'importetotal' => '$379.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/11/2010__31/12/2010,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 21/12/2010',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '81442188820343214216743956',
+)
+29/08/2016 03:44:13   metodo buscarAgua Respuesta correcta
+29/08/2016 03:44:21   Paso pantalla de  pago, Pagara'$379.00'
+29/08/2016 03:44:27   Paso pantalla método vendingcobrar
+29/08/2016 03:57:41   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '03822536820357336829196275'
+29/08/2016 04:01:29   Guardar datos de busqueda: '03822536820357336829196275' false '209804' '101'
+29/08/2016 04:01:29   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARTINEZ AVILA ABEL',
+  'numerocontrato' => '209804',
+  'domicilio' => 'CERRADA 6A  I NO.  101  COL. VILLAS DEL PEDREGAL III',
+  'importetotal' => '$379.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/11/2010__31/12/2010,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 21/12/2010',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '03822536820357336829196275',
+)
+29/08/2016 04:01:29   metodo buscarAgua Respuesta correcta
+29/08/2016 04:05:27   Guardar datos de busqueda: '03822536820357336829196275' false '209804' '101'
+29/08/2016 04:05:27   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARTINEZ AVILA ABEL',
+  'numerocontrato' => '209804',
+  'domicilio' => 'CERRADA 6A  I NO.  101  COL. VILLAS DEL PEDREGAL III',
+  'importetotal' => '$379.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/11/2010__31/12/2010,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 21/12/2010',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '03822536820357336829196275',
+)
+29/08/2016 04:05:27   metodo buscarAgua Respuesta correcta
+29/08/2016 04:10:24   Guardar datos de busqueda: '03822536820357336829196275' false '209804' '101'
+29/08/2016 04:10:24   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARTINEZ AVILA ABEL',
+  'numerocontrato' => '209804',
+  'domicilio' => 'CERRADA 6A  I NO.  101  COL. VILLAS DEL PEDREGAL III',
+  'importetotal' => '$379.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/11/2010__31/12/2010,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 21/12/2010',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'id_sesion' => '03822536820357336829196275',
+)
+29/08/2016 04:10:24   metodo buscarAgua Respuesta correcta
+29/08/2016 04:10:54   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '63019884220410479818450136'

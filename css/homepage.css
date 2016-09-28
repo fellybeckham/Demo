@@ -1,0 +1,44 @@
+ul.btns-servicios{
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    max-width: 821px;
+    padding: 0;
+    margin: 60px auto 0;
+}
+
+ul.btns-servicios li{
+ margin-bottom: 115px;
+}
+
+ul.btns-servicios li.pull-left{
+ float: left;
+}
+
+ul.btns-servicios li.pull-right{
+ float: right;
+}
+
+ul.btns-servicios #MAT,  ul.btns-servicios #CURP, ul.btns-servicios #NAC, ul.btns-servicios #DEF{
+ 	width: 380px;
+    height: 82px;
+    display: block; 
+}
+
+
+ul.btns-servicios #MAT{
+	background: url('../img/btn_matrimonio.jpg');
+}
+
+ul.btns-servicios #CURP{
+	background: url('../img/btn_curp.jpg');
+}
+
+ul.btns-servicios #NAC{
+	background: url('../img/btn_nacimiento.jpg');
+}
+
+ul.btns-servicios #DEF{
+	background: url('../img/btn_defuncion.jpg');
+}
+

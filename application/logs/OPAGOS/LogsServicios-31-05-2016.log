@@ -1,0 +1,340 @@
+31/05/2016 09:50:26   Inicio de Servicio Obtine Session
+31/05/2016 09:50:26   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 09:50:26   Inicio de Servicio Obtine Ingresos
+31/05/2016 09:50:27   Valida Si hay Session
+31/05/2016 09:50:59   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+31/05/2016 09:50:59   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145344 NK70289'
+31/05/2016 09:50:59   No encontro Resultado: 
+31/05/2016 09:51:29   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145344NO.%20PLACA:%20559VUY,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'VIRREY%20DE%20MENDOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ENTORPECER%20LA%20CIRCULACI�N%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.24\',\'rfc\':\'\'}]'
+31/05/2016 09:51:29   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145344 559VUy'
+31/05/2016 09:51:29   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145344NO. PLACA: 559VUY, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'VIRREY DE MENDOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ENTORPECER LA CIRCULACIÓN $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.24\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 09:51:38   Paso pantalla de  pago, Pagara'438.00'
+31/05/2016 09:53:51   Inicio de Servicio Obtine Session
+31/05/2016 09:53:51   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 09:53:51   Inicio de Servicio Obtine Ingresos
+31/05/2016 09:53:51   Valida Si hay Session
+31/05/2016 09:53:52   Inicio de Servicio Obtine Session
+31/05/2016 09:53:52   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 09:53:52   Inicio de Servicio Obtine Ingresos
+31/05/2016 09:53:52   Valida Si hay Session
+31/05/2016 09:54:36   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145344NO.%20PLACA:%20559VUY,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'VIRREY%20DE%20MENDOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ENTORPECER%20LA%20CIRCULACI�N%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.24\',\'rfc\':\'\'}]'
+31/05/2016 09:54:36   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145344 559VUy'
+31/05/2016 09:54:36   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145344NO. PLACA: 559VUY, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'VIRREY DE MENDOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ENTORPECER LA CIRCULACIÓN $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.24\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 09:54:46   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145344NO.%20PLACA:%20559VUY,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'VIRREY%20DE%20MENDOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ENTORPECER%20LA%20CIRCULACI�N%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.24\',\'rfc\':\'\'}]'
+31/05/2016 09:54:46   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145344 559VUy'
+31/05/2016 09:54:46   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145344NO. PLACA: 559VUY, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'VIRREY DE MENDOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ENTORPECER LA CIRCULACIÓN $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.24\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 09:54:49   Paso pantalla de  pago, Pagara'438.00'
+31/05/2016 09:54:50   Paso pantalla de  pago, Pagarafalse
+31/05/2016 09:55:21   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1170,\'folio\':\'Num. de Infraccion: 145344\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 09:55\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'VIRREY DE MENDOZA , CENTRO\',\'domicilio\':\'\',\'observaciones\':\'No. Folio 145344 NO. PLACA: 559VUY, Fec. Infracc:01/03/2016\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRANSITO\',\'recibo\':6261821,\'montocobrado\':\'438.00\',\'losconceptos\':\'ENTORPECER LA CIRCULACI�N $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.24\',\'cantidadletra\':\'(CUATROCIENTOS TREINTA Y OCHO PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $438.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364631}]'
+31/05/2016 09:55:21   entra a generar ticket.
+31/05/2016 09:55:21   genero ticket de pago OK
+31/05/2016 10:04:10   Inicio de Servicio Obtine Session
+31/05/2016 10:04:10   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:04:10   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:04:10   Valida Si hay Session
+31/05/2016 10:04:10   Inicio de Servicio Obtine Session
+31/05/2016 10:04:10   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:04:10   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:04:11   Valida Si hay Session
+31/05/2016 10:04:49   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145579NO.%20PLACA:%20PPH4252,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BELISARIO%20DOMINGUEZ%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+31/05/2016 10:04:49   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145579 PPH4252'
+31/05/2016 10:04:49   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145579NO. PLACA: PPH4252, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'BELISARIO DOMINGUEZ , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 10:05:04   Paso pantalla de  pago, Pagara'219.00'
+31/05/2016 10:05:04   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:06:20   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1171,\'folio\':\'Num. de Infraccion: 145579\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 10:06\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BELISARIO DOMINGUEZ , CENTRO\',\'domicilio\':\'\',\'observaciones\':\'No. Folio 145579 NO. PLACA: PPH4252, Fec. Infracc:01/03/2016\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRANSITO\',\'recibo\':6261823,\'montocobrado\':\'219.00\',\'losconceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\',\'cantidadletra\':\'(DOSCIENTOS DIECINUEVE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $219.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364680}]'
+31/05/2016 10:06:20   entra a generar ticket.
+31/05/2016 10:06:20   genero ticket de pago OK
+31/05/2016 10:07:02   Inicio de Servicio Obtine Session
+31/05/2016 10:07:02   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:07:02   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:07:02   Valida Si hay Session
+31/05/2016 10:07:03   Inicio de Servicio Obtine Session
+31/05/2016 10:07:03   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:07:03   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:07:03   Valida Si hay Session
+31/05/2016 10:07:28   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRAMITES%20SDUMA\',\'nota\':\'Referencia:SDUMA-434916%20Cta.%20Predial:103-1-353PRESENTA%20SENTENCIA%20DEFINITIVA%20DE%20JUICIO%20CIVIL%20EXPEDIENTE%20914/2013\',\'propietario\':\'PI�ON%20MENDOZA%20LAZARO\',\'ubicacion\':\'\',\'domicilio\':\'JOSE%20MARIA%20MORELOS%20595%20,%20SANTIAGO%20UNDAMEO\',\'totaladeudo\':\'129.00\',\'noprop\':68035,\'genero\':\'\',\'conceptos\':\'CONSTANCIA%20DE%20N�MERO%20OFICIAL%20$%20128.75%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.25\',\'rfc\':\'\'}]'
+31/05/2016 10:07:28   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 434916 PIÑOn'
+31/05/2016 10:07:28   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRAMITES SDUMA\'',
+  3 => 'nota\':\'Referencia:SDUMA-434916 Cta. Predial:103-1-353PRESENTA SENTENCIA DEFINITIVA DE JUICIO CIVIL EXPEDIENTE 914/2013\'',
+  4 => 'propietario\':\'PIÑON MENDOZA LAZARO\'',
+  5 => 'ubicacion\':\'\'',
+  6 => 'domicilio\':\'JOSE MARIA MORELOS 595 , SANTIAGO UNDAMEO\'',
+  7 => 'totaladeudo\':\'129.00\'',
+  8 => 'noprop\':68035',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'CONSTANCIA DE NÚMERO OFICIAL $ 128.75 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.25\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 10:07:50   Paso pantalla de  pago, Pagara'129.00'
+31/05/2016 10:07:51   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:08:21   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1172,\'folio\':\'Solicitud: 434916\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 10:08\',\'propietario\':\'PI�ON MENDOZA LAZARO\',\'ubicacion\':\'\',\'domicilio\':\'JOSE MARIA MORELOS 595 , SANTIAGO UNDAMEO\',\'observaciones\':\'No. Folio 434916 Cta. predial: 103-1-353  PRESENTA SENTENCIA DEFINITIVA DE JUICIO CIVIL EXPEDIENTE 914/2013\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRAMITES SDUMA\',\'recibo\':6261824,\'montocobrado\':\'129.00\',\'losconceptos\':\'CONSTANCIA DE N�MERO OFICIAL $ 128.75 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.25\',\'cantidadletra\':\'(CIENTO VEINTINUEVE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $129.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':369489}]'
+31/05/2016 10:08:21   entra a generar ticket.
+31/05/2016 10:08:21   genero ticket de pago OK
+31/05/2016 10:19:35   Inicio de Servicio Obtine Session
+31/05/2016 10:19:36   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:19:36   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:19:36   Valida Si hay Session
+31/05/2016 10:19:36   Inicio de Servicio Obtine Session
+31/05/2016 10:19:36   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:19:36   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:19:37   Valida Si hay Session
+31/05/2016 10:20:13   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(RASTRO%20MUNICIPAL)-22492%20%20%20CERDOS\',\'propietario\':\'MU�OZ%20MELCHOR%20OLIVIA\',\'ubicacion\':\'CAPITAN%20PANINI%20343%20,%20JARDINES%20DE%20GUADALUPE,%20CP:58140\',\'domicilio\':\'CAPITAN%20PANINI%20343%20,%20JARDINES%20DE%20GUADALUPE,%20CP:58140\',\'totaladeudo\':\'79.00\',\'noprop\':1074260,\'genero\':\'\',\'conceptos\':\'USO%20DE%20BASCULA%20$%2010.70%20|%20DEG�ELLO%20PORCINO%20$%2068.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.30\',\'rfc\':\'MUMO7703165V7\'}]'
+31/05/2016 10:20:13   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364074 MUÑOz'
+31/05/2016 10:20:13   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(RASTRO MUNICIPAL)-22492   CERDOS\'',
+  4 => 'propietario\':\'MUÑOZ MELCHOR OLIVIA\'',
+  5 => 'ubicacion\':\'CAPITAN PANINI 343 , JARDINES DE GUADALUPE, CP:58140\'',
+  6 => 'domicilio\':\'CAPITAN PANINI 343 , JARDINES DE GUADALUPE, CP:58140\'',
+  7 => 'totaladeudo\':\'79.00\'',
+  8 => 'noprop\':1074260',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'USO DE BASCULA $ 10.70 | DEGÜELLO PORCINO $ 68.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.30\'',
+  11 => 'rfc\':\'MUMO7703165V7\'',
+)
+31/05/2016 10:20:16   Paso pantalla de  pago, Pagara'79.00'
+31/05/2016 10:20:16   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:20:34   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1173,\'folio\':\'Folio: 2249\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 10:20\',\'propietario\':\'MU�OZ MELCHOR OLIVIA\',\'ubicacion\':\'CAPITAN PANINI 343 , JARDINES DE GUADALUPE, CP:58140\',\'domicilio\':\'CAPITAN PANINI 343 , JARDINES DE GUADALUPE, CP:58140\',\'observaciones\':\'No. Folio 2249 SOE(RASTRO MUNICIPAL) 2   CERDOS\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261827,\'montocobrado\':\'79.00\',\'losconceptos\':\'DEG�ELLO PORCINO $ 68.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.30 | USO DE BASCULA $ 10.70\',\'cantidadletra\':\'(SETENTA Y NUEVE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $79.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364074}]'
+31/05/2016 10:20:34   entra a generar ticket.
+31/05/2016 10:20:34   genero ticket de pago OK
+31/05/2016 10:22:18   Inicio de Servicio Obtine Session
+31/05/2016 10:22:18   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:22:18   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:22:18   Valida Si hay Session
+31/05/2016 10:22:18   Inicio de Servicio Obtine Session
+31/05/2016 10:22:18   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:22:18   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:22:19   Valida Si hay Session
+31/05/2016 10:28:17   Inicio de Servicio Obtine Session
+31/05/2016 10:28:17   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:28:17   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:28:17   Valida Si hay Session
+31/05/2016 10:28:17   Inicio de Servicio Obtine Session
+31/05/2016 10:28:17   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:28:17   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:28:17   Valida Si hay Session
+31/05/2016 10:28:33   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+31/05/2016 10:28:33   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 718716 SANCHEz'
+31/05/2016 10:28:33   No encontro Resultado: 
+31/05/2016 10:28:52   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+31/05/2016 10:28:52   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 718516 BARRIGa'
+31/05/2016 10:28:52   No encontro Resultado: 
+31/05/2016 10:29:31   Inicio de Servicio Obtine Session
+31/05/2016 10:29:31   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:29:31   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:29:31   Valida Si hay Session
+31/05/2016 10:29:33   Inicio de Servicio Obtine Session
+31/05/2016 10:29:33   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:29:33   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:29:33   Valida Si hay Session
+31/05/2016 10:29:53   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+31/05/2016 10:29:53   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 729416 HUITZACHe'
+31/05/2016 10:29:53   No encontro Resultado: 
+31/05/2016 10:30:16   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-729416%20Cta.%20Predial:101-1-999999Licencia%2045787%20-%20B\',\'propietario\':\'HUITZACHE%20HERNANDEZ%20MIGUEL%20ANGEL\',\'ubicacion\':\'PERIFCO.%20PASEO%20DE%20LA%20REPUBLICA%205996%20BUENA%20VISTA%20S/N%20%20ENTRE%20CALLE(S):%20JUAN%20DE%20BAEZA,%20FRAY%20SEBASTIAN%20DE%20APARICIO,%20CP:0\',\'domicilio\':\'GUERRERO%20136%20,%20BARR%20SAN%20PEDRO%20Y%20SAN%20PABLO,%20CP:61300%20LOC.:CHARO\',\'totaladeudo\':\'1,414.00\',\'noprop\':581882,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M�.%20BAJO%20G.P%20$%20902.77%20|%20DICTAMEN%20PROTECCION%20AL%20MEDIO%20AMBIENTE%20LIC.TIPO%20B%20$%20511.28%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.05\',\'rfc\':\'\'}]'
+31/05/2016 10:30:16   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 729416 HUITZACHe'
+31/05/2016 10:30:16   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-729416 Cta. Predial:101-1-999999Licencia 45787 - B\'',
+  4 => 'propietario\':\'HUITZACHE HERNANDEZ MIGUEL ANGEL\'',
+  5 => 'ubicacion\':\'PERIFCO. PASEO DE LA REPUBLICA 5996 BUENA VISTA S/N  ENTRE CALLE(S): JUAN DE BAEZA, FRAY SEBASTIAN DE APARICIO, CP:0\'',
+  6 => 'domicilio\':\'GUERRERO 136 , BARR SAN PEDRO Y SAN PABLO, CP:61300 LOC.:CHARO\'',
+  7 => 'totaladeudo\':\'1,414.00\'',
+  8 => 'noprop\':581882',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 902.77 | DICTAMEN PROTECCION AL MEDIO AMBIENTE LIC.TIPO B $ 511.28 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.05\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 10:30:25   Paso pantalla de  pago, Pagara'1414.00'
+31/05/2016 10:30:26   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:30:50   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1174,\'folio\':\'Solicitud: 729416\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 10:30\',\'propietario\':\'HUITZACHE HERNANDEZ MIGUEL ANGEL\',\'ubicacion\':\'PERIFCO. PASEO DE LA REPUBLICA 5996 BUENA VISTA S/N  ENTRE CALLE(S): JUAN DE BAEZA, FRAY SEBASTIAN DE APARICIO, CP:0\',\'domicilio\':\'GUERRERO 136 , BARR SAN PEDRO Y SAN PABLO, CP:61300 LOC.:CHARO\',\'observaciones\':\'No. Folio 729416 Cta. predial: 101-1-999999  Licencia 45787 - B\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261828,\'montocobrado\':\'1,414.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M�. BAJO G.P $ 902.77 | DICTAMEN PROTECCION AL MEDIO AMBIENTE LIC.TIPO B $ 511.28 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.05\',\'cantidadletra\':\'(MIL CUATROCIENTOS CATORCE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $1,414.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':365537}]'
+31/05/2016 10:30:50   entra a generar ticket.
+31/05/2016 10:30:50   genero ticket de pago OK
+31/05/2016 10:35:43   Inicio de Servicio Obtine Session
+31/05/2016 10:35:43   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:35:43   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:35:43   Valida Si hay Session
+31/05/2016 10:35:46   Inicio de Servicio Obtine Session
+31/05/2016 10:35:47   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:35:47   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:35:47   Valida Si hay Session
+31/05/2016 10:36:19   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-732416%20Cta.%20Predial:101-1-136691\',\'propietario\':\'ESQUIVEL%20TORRES%20MA%20LUISA\',\'ubicacion\':\'AV%20SIERVO%20DE%20LA%20NACION%201148%20%20ENTRE%20CALLE(S):%20PUENTE%20CALDERON,%20INSURGENCIA%20DE%201810,%20LIBERTAD,%20CP:58178\',\'domicilio\':\'AV%20ESCUADRON%20201%20(DECIMA)%20587%20,%20GUADALUPE,%20CP:58140\',\'totaladeudo\':\'150.00\',\'noprop\':574289,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M�.%20BAJO%20G.P%20$%20150.46%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.46\',\'rfc\':\'EUTL490116G29\'}]'
+31/05/2016 10:36:19   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 732416 ESQUIVEl'
+31/05/2016 10:36:19   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-732416 Cta. Predial:101-1-136691\'',
+  4 => 'propietario\':\'ESQUIVEL TORRES MA LUISA\'',
+  5 => 'ubicacion\':\'AV SIERVO DE LA NACION 1148  ENTRE CALLE(S): PUENTE CALDERON, INSURGENCIA DE 1810, LIBERTAD, CP:58178\'',
+  6 => 'domicilio\':\'AV ESCUADRON 201 (DECIMA) 587 , GUADALUPE, CP:58140\'',
+  7 => 'totaladeudo\':\'150.00\'',
+  8 => 'noprop\':574289',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 150.46 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.46\'',
+  11 => 'rfc\':\'EUTL490116G29\'',
+)
+31/05/2016 10:36:23   Paso pantalla de  pago, Pagara'150.00'
+31/05/2016 10:36:25   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:36:42   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1175,\'folio\':\'Solicitud: 732416\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 10:36\',\'propietario\':\'ESQUIVEL TORRES MA LUISA\',\'ubicacion\':\'AV SIERVO DE LA NACION 1148  ENTRE CALLE(S): PUENTE CALDERON, INSURGENCIA DE 1810, LIBERTAD, CP:58178\',\'domicilio\':\'AV ESCUADRON 201 (DECIMA) 587 , GUADALUPE, CP:58140\',\'observaciones\':\'No. Folio 732416 Cta. predial: 101-1-136691\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261829,\'montocobrado\':\'150.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M�. BAJO G.P $ 150.46 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.46\',\'cantidadletra\':\'(CIENTO CINCUENTA PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $150.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':365655}]'
+31/05/2016 10:36:42   entra a generar ticket.
+31/05/2016 10:36:42   genero ticket de pago OK
+31/05/2016 10:42:29   Inicio de Servicio Obtine Session
+31/05/2016 10:42:29   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:42:29   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:42:29   Valida Si hay Session
+31/05/2016 10:42:31   Inicio de Servicio Obtine Session
+31/05/2016 10:42:31   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 10:42:31   Inicio de Servicio Obtine Ingresos
+31/05/2016 10:42:31   Valida Si hay Session
+31/05/2016 10:42:57   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'LICENCIAS%20MPALES.\',\'nota\':\'Referencia:LICFUN-733516%20Cta.%20Predial:101-1-999999Licencia%2039429%20-%20B\',\'propietario\':\'FLORES%20TORRES%20MARTHA%20ELVA\',\'ubicacion\':\'AV%20MORELOS%20SUR%20778%20VENTURA%20PUENTE%20S/N%20%20ENTRE%20CALLE(S):%20BENDICTO%20LOPEZ,%20LAGO%20DE%20TEQUESQUITENGO,%20CP:0\',\'domicilio\':\'AV%20MORELOS%20SUR%20776-7%20,%20VENTURA%20PUENTE,%20CP:58020\',\'totaladeudo\':\'150.00\',\'noprop\':463388,\'genero\':\'\',\'conceptos\':\'DICTAMEN%20(PROTECCION%20CIVIL)%20ESTABLECIMIENTOS%20HASTA%2075%20M�.%20BAJO%20G.P%20$%20150.46%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.46\',\'rfc\':\'\'}]'
+31/05/2016 10:42:57   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 733516 FLOREs'
+31/05/2016 10:42:57   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'LICENCIAS MPALES.\'',
+  3 => 'nota\':\'Referencia:LICFUN-733516 Cta. Predial:101-1-999999Licencia 39429 - B\'',
+  4 => 'propietario\':\'FLORES TORRES MARTHA ELVA\'',
+  5 => 'ubicacion\':\'AV MORELOS SUR 778 VENTURA PUENTE S/N  ENTRE CALLE(S): BENDICTO LOPEZ, LAGO DE TEQUESQUITENGO, CP:0\'',
+  6 => 'domicilio\':\'AV MORELOS SUR 776-7 , VENTURA PUENTE, CP:58020\'',
+  7 => 'totaladeudo\':\'150.00\'',
+  8 => 'noprop\':463388',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M². BAJO G.P $ 150.46 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.46\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 10:43:02   Paso pantalla de  pago, Pagara'150.00'
+31/05/2016 10:43:04   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:43:08   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:43:40   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:43:43   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:43:46   Paso pantalla de  pago, Pagara'150.00'
+31/05/2016 10:43:50   Paso pantalla de  pago, Pagarafalse
+31/05/2016 10:44:08   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1176,\'folio\':\'Solicitud: 733516\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 10:44\',\'propietario\':\'FLORES TORRES MARTHA ELVA\',\'ubicacion\':\'AV MORELOS SUR 778 VENTURA PUENTE S/N  ENTRE CALLE(S): BENDICTO LOPEZ, LAGO DE TEQUESQUITENGO, CP:0\',\'domicilio\':\'AV MORELOS SUR 776-7 , VENTURA PUENTE, CP:58020\',\'observaciones\':\'No. Folio 733516 Cta. predial: 101-1-999999  Licencia 39429 - B\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'LICENCIAS MPALES.\',\'recibo\':6261830,\'montocobrado\':\'150.00\',\'losconceptos\':\'DICTAMEN (PROTECCION CIVIL) ESTABLECIMIENTOS HASTA 75 M�. BAJO G.P $ 150.46 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.46\',\'cantidadletra\':\'(CIENTO CINCUENTA PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $150.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':365656}]'
+31/05/2016 10:44:08   entra a generar ticket.
+31/05/2016 10:44:08   genero ticket de pago OK
+31/05/2016 11:14:10   Inicio de Servicio Obtine Session
+31/05/2016 11:14:10   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 11:14:10   Inicio de Servicio Obtine Ingresos
+31/05/2016 11:14:10   Valida Si hay Session
+31/05/2016 11:23:54   Inicio de Servicio Obtine Session
+31/05/2016 11:23:54   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 11:23:54   Inicio de Servicio Obtine Ingresos
+31/05/2016 11:23:54   Valida Si hay Session
+31/05/2016 11:24:20   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+31/05/2016 11:24:20   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364380 TINOCo'
+31/05/2016 11:24:20   No encontro Resultado: 
+31/05/2016 11:24:50   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(DIRECCION%20DE%20MERCADOS%20Y%20COMERCIO%20EN%20VIA%20PUBLICA)-691PUESTOS%20FIJOS%20Y%20SEMIFIJOS,%20GIRO%20GASPACHOS%20EN%20STA.%20MARIA%20DE%20LOS%20URDIALES%20ESQ.%20DALIA,%20COL.%20EL%20PORVENIR.%20---%20FEBRERO%202016%20---%20%20F%2057715\',\'propietario\':\'TINOCO%20JACUINDE%20ENRIQUE\',\'ubicacion\':\'SANTA%20MARIA%20DE%20LOS%20URDIALES%20,%20EL%20PORVENIR\',\'domicilio\':\'SANTA%20MARIA%20DE%20LOS%20URDIALES%20,%20EL%20PORVENIR\',\'totaladeudo\':\'120.00\',\'noprop\':1329482,\'genero\':\'\',\'conceptos\':\'PUESTOS%20FIJOS%20O%20SEMIJOS,%20INCLUSO%20DE%20TIPO%20METALICO%20$%20120.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.00\',\'rfc\':\'\'}]'
+31/05/2016 11:24:50   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364279 TINOCo'
+31/05/2016 11:24:50   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA)-691PUESTOS FIJOS Y SEMIFIJOS, GIRO GASPACHOS EN STA. MARIA DE LOS URDIALES ESQ. DALIA, COL. EL PORVENIR. --- FEBRERO 2016 ---  F 57715\'',
+  4 => 'propietario\':\'TINOCO JACUINDE ENRIQUE\'',
+  5 => 'ubicacion\':\'SANTA MARIA DE LOS URDIALES , EL PORVENIR\'',
+  6 => 'domicilio\':\'SANTA MARIA DE LOS URDIALES , EL PORVENIR\'',
+  7 => 'totaladeudo\':\'120.00\'',
+  8 => 'noprop\':1329482',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'PUESTOS FIJOS O SEMIJOS, INCLUSO DE TIPO METALICO $ 120.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.00\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 11:25:02   Paso pantalla de  pago, Pagara'120.00'
+31/05/2016 11:25:38   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1177,\'folio\':\'Folio: 691\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 11:25\',\'propietario\':\'TINOCO JACUINDE ENRIQUE\',\'ubicacion\':\'SANTA MARIA DE LOS URDIALES , EL PORVENIR\',\'domicilio\':\'SANTA MARIA DE LOS URDIALES , EL PORVENIR\',\'observaciones\':\'No. Folio 691 SOE(DIRECCION DE MERCADOS Y COMERCIO EN VIA PUBLICA) PUESTOS FIJOS Y SEMIFIJOS, GIRO GASPACHOS EN STA. MARIA DE LOS URDIALES ESQ. DALIA, COL. EL PORVENIR. --- FEBRERO 2016 ---  F 57715\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'ORDENES DE ENTERO\',\'recibo\':6261831,\'montocobrado\':\'120.00\',\'losconceptos\':\'PUESTOS FIJOS O SEMIJOS, INCLUSO DE TIPO METALICO $ 120.00\',\'cantidadletra\':\'(CIENTO VEINTE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $120.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364279}]'
+31/05/2016 11:25:38   entra a generar ticket.
+31/05/2016 11:25:38   genero ticket de pago OK
+31/05/2016 02:10:56   Inicio de Servicio Obtine Session
+31/05/2016 02:10:57   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 02:10:57   Inicio de Servicio Obtine Ingresos
+31/05/2016 02:10:57   Valida Si hay Session
+31/05/2016 04:12:34   Inicio de Servicio Obtine Session
+31/05/2016 04:12:34   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 04:12:34   Inicio de Servicio Obtine Ingresos
+31/05/2016 04:12:34   Valida Si hay Session
+31/05/2016 04:13:34   Inicio de Servicio Obtine Session
+31/05/2016 04:13:34   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 04:13:34   Inicio de Servicio Obtine Ingresos
+31/05/2016 04:13:34   Valida Si hay Session
+31/05/2016 04:14:20   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145564NO.%20PLACA:%20PSJ9444,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BENITO%20JUAREZ%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+31/05/2016 04:14:20   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145564 PSJ9444'
+31/05/2016 04:14:20   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145564NO. PLACA: PSJ9444, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'BENITO JUAREZ , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+31/05/2016 04:14:29   Paso pantalla de  pago, Pagara'219.00'
+31/05/2016 04:16:15   Modelo- Resultado Registra PAgo: '[{\'estatus\':1,\'respuesta\':\'INFORMACION ACTUALIZADA\',\'numerodetransaccion\':1178,\'folio\':\'Num. de Infraccion: 145564\',\'oficinadecobro\':\'Kiosco Mpal.\',\'fechadecobro\':\'31/05/2016 16:16\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'BENITO JUAREZ , CENTRO\',\'domicilio\':\'\',\'observaciones\':\'No. Folio 145564 NO. PLACA: PSJ9444, Fec. Infracc:01/03/2016\',\'notainformativa\':\'\',\'cadenaverificacion\':\'\',\'concepto\':\'TRANSITO\',\'recibo\':6261832,\'montocobrado\':\'219.00\',\'losconceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\',\'cantidadletra\':\'(DOSCIENTOS DIECINUEVE PESOS 00/100 M. N.)\',\'formadepago\':\'Efectivo: $219.00\',\'cajerocobro\':\'KIOSCOESOL\',\'notransaccion\':364658}]'
+31/05/2016 04:16:15   entra a generar ticket.
+31/05/2016 04:16:15   genero ticket de pago OK
+31/05/2016 05:43:12   Inicio de Servicio Obtine Session
+31/05/2016 05:43:13   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+31/05/2016 05:43:13   Inicio de Servicio Obtine Ingresos
+31/05/2016 05:43:13   Valida Si hay Session

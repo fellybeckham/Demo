@@ -1,0 +1,989 @@
+01/06/2016 09:10:17   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '63355571820910172772491766'
+01/06/2016 09:48:46   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '16055977270948477042430410'
+01/06/2016 09:51:20   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '35448925370951215050363230'
+01/06/2016 09:51:32   Guardar datos de busqueda: '35448925370951215050363230' '7503006758348' false false
+01/06/2016 09:51:33   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'SANDOVAL RAMIREZ JOSE ANTONIO',
+  'numerocontrato' => '030067',
+  'domicilio' => 'LAGO DE CHAPALA NO.  108  COL. VENTURA PUENTE',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 11/03/2016__13/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 27/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 09:51:33   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 09:52:35   Guardar datos de busqueda: '35448925370951215050363230' false '014320' '251'
+01/06/2016 09:52:36   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'SALTO LIDIA Y COP',
+  'numerocontrato' => '014320',
+  'domicilio' => 'HORTENCIA NO.  251  COL. LAS FLORES',
+  'importetotal' => '622.90',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 09:52:36   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 09:53:13   Guardar datos de busqueda: '35448925370951215050363230' false '013950' '26'
+01/06/2016 09:53:16   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'importetotal' => '$918.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 09:53:16   metodo buscarAgua Respuesta correcta
+01/06/2016 09:57:53   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '02242554210957546761198005'
+01/06/2016 10:00:35   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '85785800241000361085061737'
+01/06/2016 10:01:05   Guardar datos de busqueda: '85785800241000361085061737' false '' 'zxcv'
+01/06/2016 10:08:06   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '45606711071008070007515790'
+01/06/2016 10:08:19   Guardar datos de busqueda: '45606711071008070007515790' false '013950' '26'
+01/06/2016 10:08:19   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'importetotal' => '$918.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 10:08:19   metodo buscarAgua Respuesta correcta
+01/06/2016 10:08:27   Paso pantalla de  pago, Pagara'$918.00'
+01/06/2016 10:08:30   Paso pantalla método vendingcobrar
+01/06/2016 10:08:31   Paso pantalla método vendingcobrar
+01/06/2016 10:09:40   Resultado Registro pago: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN PAGO NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => NULL,
+  'domicilio' => '',
+  'concepto' => '',
+  'fechacobro' => NULL,
+  'cantidadletra' => NULL,
+  'cadenaverificacion' => NULL,
+  'montocobrado' => NULL,
+  'codigobarra' => NULL,
+  'id_kiosko' => NULL,
+)
+01/06/2016 10:20:31   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '35462461981020329718771252'
+01/06/2016 10:21:53   Guardar datos de busqueda: '35462461981020329718771252' false '013950' '26'
+01/06/2016 10:21:55   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'importetotal' => '$918.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 10:21:55   metodo buscarAgua Respuesta correcta
+01/06/2016 10:22:04   Paso pantalla de  pago, Pagara'$918.00'
+01/06/2016 10:22:18   Paso pantalla método vendingcobrar
+01/06/2016 10:22:19   Paso pantalla método vendingcobrar
+01/06/2016 10:22:44   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 10:22:45',
+  'cantidadletra' => 'novecientos dieciocho  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880139507604924035',
+  'montocobrado' => '$918.00',
+  'codigobarra' => '77013950080616000000918007',
+  'id_kiosko' => '1',
+)
+01/06/2016 10:23:59   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '46569724531024017817945647'
+01/06/2016 10:24:17   Guardar datos de busqueda: '46569724531024017817945647' false '102406' '350'
+01/06/2016 10:24:18   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VAZQUEZ DIAZ FRANCISCO',
+  'numerocontrato' => '102406',
+  'domicilio' => 'AV. MICHOACAN NO.  350  COL. MELCHOR OCAMPO',
+  'importetotal' => '$274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 10:24:18   metodo buscarAgua Respuesta correcta
+01/06/2016 10:24:21   Paso pantalla de  pago, Pagara'$274.00'
+01/06/2016 10:24:29   Paso pantalla método vendingcobrar
+01/06/2016 10:24:30   Paso pantalla método vendingcobrar
+01/06/2016 10:25:06   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'VAZQUEZ DIAZ FRANCISCO',
+  'numerocontrato' => '102406',
+  'domicilio' => 'AV. MICHOACAN NO.  350  COL. MELCHOR OCAMPO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 10:25:06',
+  'cantidadletra' => 'doscientos setenta y cuatro  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881024066111037276',
+  'montocobrado' => '$274.00',
+  'codigobarra' => '77102406070616000000274007',
+  'id_kiosko' => '1',
+)
+01/06/2016 10:53:24   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '14829035961053257929846180'
+01/06/2016 11:05:52   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '78755495241105539391010237'
+01/06/2016 11:05:58   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '32771640001105599714908693'
+01/06/2016 11:06:02   Guardar datos de busqueda: '32771640001105599714908693' '545454545454444446446' false false
+01/06/2016 11:06:02   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  545454, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '545454',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:06:02   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  545454, VERIFIQUE POR FAVOR'
+01/06/2016 11:06:13   Guardar datos de busqueda: '32771640001105599714908693' false '215241' '111'
+01/06/2016 11:06:14   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  215241  CON NUMERO EXTERIOR  111, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '215241',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:06:14   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  215241  CON NUMERO EXTERIOR  111, VERIFIQUE POR FAVOR'
+01/06/2016 11:12:42   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '54327727771112438958244470'
+01/06/2016 11:12:46   Guardar datos de busqueda: '54327727771112438958244470' '771115242604160000005' false false
+01/06/2016 11:12:51   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'VALDEZ ESCOBEDO GUSTAVO',
+  'numerocontrato' => '111524',
+  'domicilio' => 'JOSE FRANCISCO GOMEZ NO.   38  COL. NUEVA ESPERANZA',
+  'importetotal' => '541.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/03/2016__30/04/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 26/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:12:51   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:13:00   Guardar datos de busqueda: '54327727771112438958244470' '770989111504160000001' false false
+01/06/2016 11:13:04   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'BALTAZAR SOSA CARLOS',
+  'numerocontrato' => '098911',
+  'domicilio' => 'CORREGIDORES DE QUERETARO NO.   16 L-1  COL. JOSEFA ORTIZ DE DOMINGUEZ',
+  'importetotal' => '174.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 01/03/2016__30/04/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 15/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:13:04   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:13:14   Guardar datos de busqueda: '54327727771112438958244470' '445645644544477878787' false false
+01/06/2016 11:13:16   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  564564, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '564564',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:13:16   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  564564, VERIFIQUE POR FAVOR'
+01/06/2016 11:14:02   Guardar datos de busqueda: '54327727771112438958244470' false '014320' '26'
+01/06/2016 11:14:04   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  014320  CON NUMERO EXTERIOR  26, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '014320',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:14:04   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  014320  CON NUMERO EXTERIOR  26, VERIFIQUE POR FAVOR'
+01/06/2016 11:14:24   Guardar datos de busqueda: '54327727771112438958244470' false '014320' '26'
+01/06/2016 11:14:24   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  014320  CON NUMERO EXTERIOR  26, VERIFIQUE POR FAVOR',
+  'propietario' => '',
+  'numerocontrato' => '014320',
+  'domicilio' => '',
+  'importetotal' => '',
+  'concepto' => '',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:14:24   metodo buscarAgua Estatus 0: 'NO SE ENCONTRO EN LA BASE DE DATOS EL CONTRATO  014320  CON NUMERO EXTERIOR  26, VERIFIQUE POR FAVOR'
+01/06/2016 11:14:37   Guardar datos de busqueda: '54327727771112438958244470' false '014320' '251'
+01/06/2016 11:14:37   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'SALTO LIDIA Y COP',
+  'numerocontrato' => '014320',
+  'domicilio' => 'HORTENCIA NO.  251  COL. LAS FLORES',
+  'importetotal' => '622.90',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:14:37   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:14:55   Guardar datos de busqueda: '54327727771112438958244470' false '014320' '251'
+01/06/2016 11:14:55   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'SALTO LIDIA Y COP',
+  'numerocontrato' => '014320',
+  'domicilio' => 'HORTENCIA NO.  251  COL. LAS FLORES',
+  'importetotal' => '622.90',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:14:55   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:15:12   Guardar datos de busqueda: '54327727771112438958244470' false '013950' '26'
+01/06/2016 11:15:12   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'importetotal' => '918.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:15:12   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:15:27   Guardar datos de busqueda: '54327727771112438958244470' false '102406' '350'
+01/06/2016 11:15:27   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'VAZQUEZ DIAZ FRANCISCO',
+  'numerocontrato' => '102406',
+  'domicilio' => 'AV. MICHOACAN NO.  350  COL. MELCHOR OCAMPO',
+  'importetotal' => '274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:15:27   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:15:49   Guardar datos de busqueda: '54327727771112438958244470' false '019171' '416'
+01/06/2016 11:15:50   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'AVILA ZALAZAR LEONARDO',
+  'numerocontrato' => '019171',
+  'domicilio' => 'MAGNOLIA NO.  416  COL. LAS FLORES',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 8,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:15:50   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:16:11   Guardar datos de busqueda: '54327727771112438958244470' false '026661' '305'
+01/06/2016 11:16:12   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'BALDERAS HERNANDEZ ESTEBAN',
+  'numerocontrato' => '026661',
+  'domicilio' => 'CLAVEL NO.  305  COL. LAS FLORES',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:16:12   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:16:25   Guardar datos de busqueda: '54327727771112438958244470' false '009338' '90'
+01/06/2016 11:16:26   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'JUAREZ GUILLERMO',
+  'numerocontrato' => '009338',
+  'domicilio' => 'ACACIA NO.   90  COL. MELCHOR OCAMPO',
+  'importetotal' => '$358.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 08/06/2016.  TIENE CONVENIO A PAGAR, EN OFICINAS, DE 518.71  PESOS',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:16:26   metodo buscarAgua Respuesta correcta
+01/06/2016 11:16:34   Paso pantalla de  pago, Pagara'$358.00'
+01/06/2016 11:16:43   Paso pantalla método vendingcobrar
+01/06/2016 11:16:44   Paso pantalla método vendingcobrar
+01/06/2016 11:16:59   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'JUAREZ GUILLERMO',
+  'numerocontrato' => '009338',
+  'domicilio' => 'ACACIA NO.   90  COL. MELCHOR OCAMPO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 11:17:00',
+  'cantidadletra' => 'trescientos cincuenta y ocho  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880093382350321907',
+  'montocobrado' => '$358.00',
+  'codigobarra' => '77009338080616000000358007',
+  'id_kiosko' => '1',
+)
+01/06/2016 11:17:34   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '89691469351117354307070618'
+01/06/2016 11:17:53   Guardar datos de busqueda: '89691469351117354307070618' false '009338' '90'
+01/06/2016 11:17:53   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS, DE 518.71  PESOS',
+  'propietario' => 'JUAREZ GUILLERMO',
+  'numerocontrato' => '009338',
+  'domicilio' => 'ACACIA NO.   90  COL. MELCHOR OCAMPO',
+  'importetotal' => '358.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 08/06/2016.  TIENE CONVENIO A PAGAR, EN OFICINAS, DE 518.71  PESOS',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:17:53   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS, DE 518.71  PESOS'
+01/06/2016 11:19:01   Guardar datos de busqueda: '89691469351117354307070618' false '011790' '65'
+01/06/2016 11:19:02   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'ALCALA GIL AUGUSTO',
+  'numerocontrato' => '011790',
+  'domicilio' => 'NARDO NO.   65  COL. LAS FLORES',
+  'importetotal' => '826.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:19:02   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:19:15   Guardar datos de busqueda: '89691469351117354307070618' false '017865' '59'
+01/06/2016 11:19:15   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MANZO JULIA',
+  'numerocontrato' => '017865',
+  'domicilio' => 'PRIV. ZIRANDA 3RA NO.   59  COL. MELCHOR OCAMPO',
+  'importetotal' => '$616.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:19:15   metodo buscarAgua Respuesta correcta
+01/06/2016 11:19:37   Paso pantalla de  pago, Pagara'$616.00'
+01/06/2016 11:19:41   Paso pantalla método vendingcobrar
+01/06/2016 11:19:42   Paso pantalla método vendingcobrar
+01/06/2016 11:20:03   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'MANZO JULIA',
+  'numerocontrato' => '017865',
+  'domicilio' => 'PRIV. ZIRANDA 3RA NO.   59  COL. MELCHOR OCAMPO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 11:20:04',
+  'cantidadletra' => 'seiscientos dieciseis  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880178650173793037',
+  'montocobrado' => '$616.00',
+  'codigobarra' => '77017865070616000000616007',
+  'id_kiosko' => '1',
+)
+01/06/2016 11:20:16   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '90531771951120177328597458'
+01/06/2016 11:20:28   Guardar datos de busqueda: '90531771951120177328597458' false '017865' '59'
+01/06/2016 11:20:29   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'MANZO JULIA',
+  'numerocontrato' => '017865',
+  'domicilio' => 'PRIV. ZIRANDA 3RA NO.   59  COL. MELCHOR OCAMPO',
+  'importetotal' => '616.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:20:29   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:31:53   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '09318151791131546379758752'
+01/06/2016 11:33:03   Guardar datos de busqueda: '09318151791131546379758752' false '013950' '26'
+01/06/2016 11:33:04   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'importetotal' => '918.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:33:04   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:33:10   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '07263212021133115170280595'
+01/06/2016 11:48:06   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '02121222821148079212134026'
+01/06/2016 11:51:15   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '06571320751151162173504788'
+01/06/2016 11:52:19   Guardar datos de busqueda: '06571320751151162173504788' false '017865' '59'
+01/06/2016 11:52:19   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'MANZO JULIA',
+  'numerocontrato' => '017865',
+  'domicilio' => 'PRIV. ZIRANDA 3RA NO.   59  COL. MELCHOR OCAMPO',
+  'importetotal' => '616.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:52:19   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 11:52:44   Guardar datos de busqueda: '06571320751151162173504788' false '008002' '43'
+01/06/2016 11:52:45   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'DELGADO DOMINGUEZ OMAR',
+  'numerocontrato' => '008002',
+  'domicilio' => 'CHOPO NO.   43  COL. MELCHOR OCAMPO',
+  'importetotal' => '$1,069.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:52:45   metodo buscarAgua Respuesta correcta
+01/06/2016 11:52:56   Paso pantalla de  pago, Pagara'$1,069.00'
+01/06/2016 11:53:14   Paso pantalla método vendingcobrar
+01/06/2016 11:53:15   Paso pantalla método vendingcobrar
+01/06/2016 11:53:48   Resultado Registro pago: array (
+  'estatus' => '0',
+  'respuesta' => 'LA SESION ENVIADA EN PAGO NO EXISTE',
+  'propietario' => '',
+  'numerocontrato' => NULL,
+  'domicilio' => '',
+  'concepto' => '',
+  'fechacobro' => NULL,
+  'cantidadletra' => NULL,
+  'cadenaverificacion' => NULL,
+  'montocobrado' => NULL,
+  'codigobarra' => NULL,
+  'id_kiosko' => NULL,
+)
+01/06/2016 11:55:39   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '37885714361155408033439829'
+01/06/2016 11:55:55   Guardar datos de busqueda: '37885714361155408033439829' false '008002' '43'
+01/06/2016 11:55:55   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'DELGADO DOMINGUEZ OMAR',
+  'numerocontrato' => '008002',
+  'domicilio' => 'CHOPO NO.   43  COL. MELCHOR OCAMPO',
+  'importetotal' => '$1,069.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 11:55:55   metodo buscarAgua Respuesta correcta
+01/06/2016 11:55:58   Paso pantalla de  pago, Pagara'$1,069.00'
+01/06/2016 11:56:01   Paso pantalla método vendingcobrar
+01/06/2016 11:56:01   Paso pantalla método vendingcobrar
+01/06/2016 11:56:22   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'DELGADO DOMINGUEZ OMAR',
+  'numerocontrato' => '008002',
+  'domicilio' => 'CHOPO NO.   43  COL. MELCHOR OCAMPO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 11:56:23',
+  'cantidadletra' => 'un mil sesenta y nueve  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880080028600018375',
+  'montocobrado' => '$1,069.00',
+  'codigobarra' => '77008002080616000001069007',
+  'id_kiosko' => '1',
+)
+01/06/2016 12:00:47   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '69155298381200489431000541'
+01/06/2016 12:01:22   Guardar datos de busqueda: '69155298381200489431000541' false '055834' '698'
+01/06/2016 12:01:23   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'DIMAS QUIROZ SEBASTIAN',
+  'numerocontrato' => '055834',
+  'domicilio' => 'AV. MICHOACAN NO.  698  COL. LAS MARGARITAS',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 12:01:23   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 12:01:33   Guardar datos de busqueda: '69155298381200489431000541' false '171671' '370'
+01/06/2016 12:01:34   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'AGUILAR FERREYRA MA.CARMEN',
+  'numerocontrato' => '171671',
+  'domicilio' => 'PINO NO.  370  COL. MELCHOR OCAMPO',
+  'importetotal' => '$647.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 3,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 12:01:34   metodo buscarAgua Respuesta correcta
+01/06/2016 12:01:35   Paso pantalla de  pago, Pagara'$647.00'
+01/06/2016 12:01:37   Paso pantalla método vendingcobrar
+01/06/2016 12:01:38   Paso pantalla método vendingcobrar
+01/06/2016 12:02:02   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'AGUILAR FERREYRA MA.CARMEN',
+  'numerocontrato' => '171671',
+  'domicilio' => 'PINO NO.  370  COL. MELCHOR OCAMPO',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 12:02:03',
+  'cantidadletra' => 'seiscientos cuarenta y siete  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881716712418949787',
+  'montocobrado' => '$647.00',
+  'codigobarra' => '77171671080616000000647007',
+  'id_kiosko' => '1',
+)
+01/06/2016 12:02:02   entra a generar ticket.
+01/06/2016 12:02:02   genero ticket de pago OK 
+01/06/2016 01:59:56   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '36570251400159579094969734'
+01/06/2016 02:00:39   Guardar datos de busqueda: '36570251400159579094969734' false '028365' '66'
+01/06/2016 02:00:40   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS,  DE 758.97 PESOS',
+  'propietario' => 'MAGA?A MARIA HERMINIA',
+  'numerocontrato' => '028365',
+  'domicilio' => 'PRIV. ZIRANDA 1ERA - CHOPO PRIV NO.   66  COL. MELCHOR OCAMPO',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 10,   FECHA LIMITE PAGO 07/06/2016.  TIENE CONVENIO A PAGAR, EN OFICINAS, DE 758.97  PESOS',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 02:00:40   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA, LO QUE TIENE ES UN CONVENIO A PAGAR, EN OFICINAS,  DE 758.97 PESOS'
+01/06/2016 02:01:04   Guardar datos de busqueda: '36570251400159579094969734' false '102406' '350'
+01/06/2016 02:01:05   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'VAZQUEZ DIAZ FRANCISCO',
+  'numerocontrato' => '102406',
+  'domicilio' => 'AV. MICHOACAN NO.  350  COL. MELCHOR OCAMPO',
+  'importetotal' => '274.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 02:01:05   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 02:02:10   Guardar datos de busqueda: '36570251400159579094969734' false '160183' '14'
+01/06/2016 02:02:11   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'TAPIA ARMANDO',
+  'numerocontrato' => '160183',
+  'domicilio' => 'PAROTA NO.   14  COL. LAS MARGARITAS',
+  'importetotal' => '$1,593.82',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 02:02:11   metodo buscarAgua Respuesta correcta
+01/06/2016 02:02:53   Guardar datos de busqueda: '36570251400159579094969734' false '008002' '43'
+01/06/2016 02:02:54   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'DELGADO DOMINGUEZ OMAR',
+  'numerocontrato' => '008002',
+  'domicilio' => 'CHOPO NO.   43  COL. MELCHOR OCAMPO',
+  'importetotal' => '1069.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 02:02:54   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 02:03:00   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '05931461970203016920089780'
+01/06/2016 02:03:53   Guardar datos de busqueda: '05931461970203016920089780' false '017865' '59'
+01/06/2016 02:03:53   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'MANZO JULIA',
+  'numerocontrato' => '017865',
+  'domicilio' => 'PRIV. ZIRANDA 3RA NO.   59  COL. MELCHOR OCAMPO',
+  'importetotal' => '616.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 23/03/2016__25/05/2016,   MESES_ADEUDO 6,   FECHA LIMITE PAGO 07/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 02:03:53   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 02:03:59   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '38490169970204006365488600'
+01/06/2016 04:27:01   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '64805352370427022818378820'
+01/06/2016 04:27:30   Guardar datos de busqueda: '64805352370427022818378820' '000000177' false false
+01/06/2016 04:27:35   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'PUEBLA CALDERON MARHA',
+  'numerocontrato' => '000017',
+  'domicilio' => 'VICENTE SANTA MARIA NO.  169  COL. CENTRO',
+  'importetotal' => '0.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 29/02/2016__02/05/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 16/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:27:35   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+01/06/2016 04:27:39   Guardar datos de busqueda: '64805352370427022818378820' '7501000142804' false false
+01/06/2016 04:27:45   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VILLANUEVA ANGEL',
+  'numerocontrato' => '010001',
+  'domicilio' => 'VALENTIN GOMEZ FARIAS NO.  900  COL. INDUSTRIAL',
+  'importetotal' => '$10,688.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 25/02/2016__27/04/2016,   MESES_ADEUDO 58,   FECHA LIMITE PAGO 12/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:27:45   metodo buscarAgua Respuesta correcta
+01/06/2016 04:28:25   Paso pantalla de  pago, Pagara'$10,688.00'
+01/06/2016 04:28:37   Paso pantalla método vendingcobrar
+01/06/2016 04:28:37   Paso pantalla método vendingcobrar
+01/06/2016 04:29:14   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '32236484140429149760581098'
+01/06/2016 04:29:24   Guardar datos de busqueda: '32236484140429149760581098' false '010001' '900'
+01/06/2016 04:29:29   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'VILLANUEVA ANGEL',
+  'numerocontrato' => '010001',
+  'domicilio' => 'VALENTIN GOMEZ FARIAS NO.  900  COL. INDUSTRIAL',
+  'importetotal' => '$10,688.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 25/02/2016__27/04/2016,   MESES_ADEUDO 58,   FECHA LIMITE PAGO 12/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:29:29   metodo buscarAgua Respuesta correcta
+01/06/2016 04:29:45   Paso pantalla de  pago, Pagara'$10,688.00'
+01/06/2016 04:29:46   Paso pantalla método vendingcobrar
+01/06/2016 04:29:47   Paso pantalla método vendingcobrar
+01/06/2016 04:30:40   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'VILLANUEVA ANGEL',
+  'numerocontrato' => '010001',
+  'domicilio' => 'VALENTIN GOMEZ FARIAS NO.  900  COL. INDUSTRIAL',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 04:30:41',
+  'cantidadletra' => 'diez mil seiscientos ochenta y ocho  pesos 00/100  M.N.',
+  'cadenaverificacion' => '880100017268120416',
+  'montocobrado' => '$10,688.00',
+  'codigobarra' => '77010001120516000010688007',
+  'id_kiosko' => '1',
+)
+01/06/2016 04:30:40   entra a generar ticket.
+01/06/2016 04:30:40   genero ticket de pago OK 
+01/06/2016 04:31:06   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '20913046830431077218658717'
+01/06/2016 04:31:23   Guardar datos de busqueda: '20913046830431077218658717' '7501073836730' false false
+01/06/2016 04:31:28   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'IBARRA DE GUZMAN AMANDA',
+  'numerocontrato' => '010738',
+  'domicilio' => 'GERTRUDIS SANCHEZ NO.  359  COL. OBRERA',
+  'importetotal' => '$2,592.10',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 26/02/2016__28/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 13/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:31:28   metodo buscarAgua Respuesta correcta
+01/06/2016 04:31:45   Paso pantalla de  pago, Pagara'$2,592.10'
+01/06/2016 04:31:56   Paso pantalla método vendingcobrar
+01/06/2016 04:31:57   Paso pantalla método vendingcobrar
+01/06/2016 04:34:07   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '01898253540434083695297067'
+01/06/2016 04:34:46   Guardar datos de busqueda: '01898253540434083695297067' false '010738' '359'
+01/06/2016 04:34:50   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'IBARRA DE GUZMAN AMANDA',
+  'numerocontrato' => '010738',
+  'domicilio' => 'GERTRUDIS SANCHEZ NO.  359  COL. OBRERA',
+  'importetotal' => '$2,592.10',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 26/02/2016__28/04/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 13/05/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:34:50   metodo buscarAgua Respuesta correcta
+01/06/2016 04:34:53   Paso pantalla de  pago, Pagara'$2,592.10'
+01/06/2016 04:34:56   Paso pantalla método vendingcobrar
+01/06/2016 04:34:57   Paso pantalla método vendingcobrar
+01/06/2016 04:35:23   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'IBARRA DE GUZMAN AMANDA',
+  'numerocontrato' => '010738',
+  'domicilio' => 'GERTRUDIS SANCHEZ NO.  359  COL. OBRERA',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 04:35:24',
+  'cantidadletra' => 'dos mil quinientos noventa y dos  pesos 10/100  M.N.',
+  'cadenaverificacion' => '880107389290627416',
+  'montocobrado' => '$2,592.10',
+  'codigobarra' => '77010738130516000002592107',
+  'id_kiosko' => '1',
+)
+01/06/2016 04:35:23   entra a generar ticket.
+01/06/2016 04:35:23   genero ticket de pago OK 
+01/06/2016 04:44:43   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '91300381750444442747410888'
+01/06/2016 04:44:51   Guardar datos de busqueda: '91300381750444442747410888' '771422310806160000005' false false
+01/06/2016 04:44:57   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARSHALL CUILTY ROSA MARIA',
+  'numerocontrato' => '142231',
+  'domicilio' => 'PRIMO SERRANIA MERCADO NO.  399 L-8  COL. CONGRESO CONST.DE MICHOACAN',
+  'importetotal' => '$539.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:44:57   metodo buscarAgua Respuesta correcta
+01/06/2016 04:45:15   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '07094814080445166136315192'
+01/06/2016 04:46:23   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '19005885880446247082013642'
+01/06/2016 04:46:31   Guardar datos de busqueda: '19005885880446247082013642' '771422310806160000005' false false
+01/06/2016 04:46:36   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARSHALL CUILTY ROSA MARIA',
+  'numerocontrato' => '142231',
+  'domicilio' => 'PRIMO SERRANIA MERCADO NO.  399 L-8  COL. CONGRESO CONST.DE MICHOACAN',
+  'importetotal' => '$539.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/03/2016__26/05/2016,   MESES_ADEUDO 2,   FECHA LIMITE PAGO 08/06/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+01/06/2016 04:46:36   metodo buscarAgua Respuesta correcta
+01/06/2016 04:46:46   Paso pantalla de  pago, Pagara'$539.00'
+01/06/2016 04:47:05   Paso pantalla método vendingcobrar
+01/06/2016 04:47:07   Paso pantalla método vendingcobrar
+01/06/2016 04:50:22   Resultado Registro pago: array (
+  'estatus' => '1',
+  'respuesta' => 'COBRO VALIDO',
+  'propietario' => 'MARSHALL CUILTY ROSA MARIA',
+  'numerocontrato' => '142231',
+  'domicilio' => 'PRIMO SERRANIA MERCADO NO.  399 L-8  COL. CONGRESO CONST.DE MICHOACAN',
+  'concepto' => 'COBRO DE RECIBO AGUA OOAPAS.',
+  'fechacobro' => '01-06-2016 04:50:23',
+  'cantidadletra' => 'quinientos treinta y nueve  pesos 00/100  M.N.',
+  'cadenaverificacion' => '881422315413707118',
+  'montocobrado' => '$539.00',
+  'codigobarra' => '77142231080616000000539007',
+  'id_kiosko' => '1',
+)
+01/06/2016 04:50:22   entra a generar ticket.
+01/06/2016 04:50:22   genero ticket de pago OK 
+01/06/2016 04:51:02   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '83636306130451036628050977'

@@ -1,0 +1,101 @@
+27/05/2016 10:51:28   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '10859953741051288523839067'
+27/05/2016 10:52:43   Guardar datos de busqueda: '10859953741051288523839067' false '028379' '427'
+27/05/2016 10:52:43   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'ARREDONDO N BONIFACIO',
+  'numerocontrato' => '028379',
+  'domicilio' => 'DALIA NO.  427  COL. LAS FLORES',
+  'importetotal' => '$1,689.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 8,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+27/05/2016 10:52:43   metodo buscarAgua Respuesta correcta
+27/05/2016 10:53:42   Guardar datos de busqueda: '10859953741051288523839067' false '081536' '46'
+27/05/2016 10:53:42   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'MARTINEZ OROZCO LUIS',
+  'numerocontrato' => '081536',
+  'domicilio' => 'GUAMUCHIL NO.   46  COL. LAS MARGARITAS',
+  'importetotal' => '$1,959.67',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 8,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+27/05/2016 10:53:42   metodo buscarAgua Respuesta correcta
+27/05/2016 10:53:50   Paso pantalla de  pago, Pagara'$1,959.67'
+27/05/2016 10:53:58   Paso pantalla método vendingcobrar
+27/05/2016 12:08:43   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '76735039371208433010347521'
+27/05/2016 12:08:59   Guardar datos de busqueda: '76735039371208433010347521' false '014320' '251'
+27/05/2016 12:08:59   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'SALTO LIDIA Y COP',
+  'numerocontrato' => '014320',
+  'domicilio' => 'HORTENCIA NO.  251  COL. LAS FLORES',
+  'importetotal' => '$622.90',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+27/05/2016 12:08:59   metodo buscarAgua Respuesta correcta
+27/05/2016 12:20:34   Paso pantalla de  pago, Pagara'$622.90'
+27/05/2016 12:23:06   Paso pantalla método vendingcobrar
+27/05/2016 03:54:07   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '99459602500354075382703843'
+27/05/2016 03:54:27   Guardar datos de busqueda: '99459602500354075382703843' false '014320' '251'
+27/05/2016 03:54:27   Resultado Busqueda Agua: array (
+  'estatus' => '0',
+  'respuesta' => 'UD. NO TIENE ADEUDO ACTUAL DE AGUA',
+  'propietario' => 'SALTO LIDIA Y COP',
+  'numerocontrato' => '014320',
+  'domicilio' => 'HORTENCIA NO.  251  COL. LAS FLORES',
+  'importetotal' => '622.90',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 28/01/2016__30/03/2016,   MESES_ADEUDO 0,   FECHA LIMITE PAGO 12/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+27/05/2016 03:54:27   metodo buscarAgua Estatus 0: 'UD. NO TIENE ADEUDO ACTUAL DE AGUA'
+27/05/2016 03:54:30   Obtiene Session: 'CONEXION EXITOSA AL SERVIDOR DEL OOAPAS' '83112750870354304858119670'
+27/05/2016 03:54:38   Guardar datos de busqueda: '83112750870354304858119670' false '013950' '26'
+27/05/2016 03:54:38   Resultado Busqueda Agua: array (
+  'estatus' => '1',
+  'respuesta' => 'SI UD. ESTA RESTRINGIDO EN SU SERVICIO, AL PAGAR, LE RECOMENDAMOS QUE LLAME AL 113-22-00 EXT. 334 O 236,  DE OTRA MANERA SE REINSTALARA SU SERVICIO DE AGUA DESPUES DE DOS DIAS LABORABLES',
+  'propietario' => 'CHAVEZ SANCHEZ SOFIA',
+  'numerocontrato' => '013950',
+  'domicilio' => 'PRIV. MICHOACAN NO.   26  COL. MELCHOR OCAMPO',
+  'importetotal' => '$626.00',
+  'concepto' => 'PAGO DE AGUA A TRAVES DE KIOSKO ,   PERIODO DE PAGO 26/01/2016__28/03/2016,   MESES_ADEUDO 4,   FECHA LIMITE PAGO 08/04/2016',
+  'fechacobro' => '',
+  'cantidadletra' => '',
+  'cadenaverificacion' => '',
+  'montocobrado' => '',
+  'descripcion' => '',
+  'id_kiosko' => '',
+  'sesion' => '',
+)
+27/05/2016 03:54:38   metodo buscarAgua Respuesta correcta
+27/05/2016 03:54:43   Paso pantalla de  pago, Pagara'$626.00'
+27/05/2016 03:54:45   Paso pantalla método vendingcobrar
+27/05/2016 03:55:17   Paso pantalla método vendingcobrar

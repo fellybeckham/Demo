@@ -1,0 +1,321 @@
+27/05/2016 09:58:32   Inicio de Servicio Obtine Session
+27/05/2016 09:58:33   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 09:58:33   Inicio de Servicio Obtine Ingresos
+27/05/2016 09:58:33   Valida Si hay Session
+27/05/2016 09:59:56   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 09:59:56   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 2249 MUÑOz'
+27/05/2016 09:59:56   No encontro Resultado: 
+27/05/2016 10:00:16   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:00:16   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 2249 MU'
+27/05/2016 10:00:16   No encontro Resultado: 
+27/05/2016 10:02:44   Inicio de Servicio Obtine Session
+27/05/2016 10:02:44   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:02:44   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:02:44   Valida Si hay Session
+27/05/2016 10:05:28   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(RASTRO%20MUNICIPAL)-22492%20%20%20CERDOS\',\'propietario\':\'MU�OZ%20MELCHOR%20OLIVIA\',\'ubicacion\':\'CAPITAN%20PANINI%20343%20,%20JARDINES%20DE%20GUADALUPE,%20CP:58140\',\'domicilio\':\'CAPITAN%20PANINI%20343%20,%20JARDINES%20DE%20GUADALUPE,%20CP:58140\',\'totaladeudo\':\'79.00\',\'noprop\':1074260,\'genero\':\'\',\'conceptos\':\'USO%20DE%20BASCULA%20$%2010.70%20|%20DEG�ELLO%20PORCINO%20$%2068.00%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%200.3000\',\'rfc\':\'MUMO7703165V7\'}]'
+27/05/2016 10:05:28   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364074 MU'
+27/05/2016 10:05:28   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(RASTRO MUNICIPAL)-22492   CERDOS\'',
+  4 => 'propietario\':\'MUÑOZ MELCHOR OLIVIA\'',
+  5 => 'ubicacion\':\'CAPITAN PANINI 343 , JARDINES DE GUADALUPE, CP:58140\'',
+  6 => 'domicilio\':\'CAPITAN PANINI 343 , JARDINES DE GUADALUPE, CP:58140\'',
+  7 => 'totaladeudo\':\'79.00\'',
+  8 => 'noprop\':1074260',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'USO DE BASCULA $ 10.70 | DEGÜELLO PORCINO $ 68.00 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ 0.3000\'',
+  11 => 'rfc\':\'MUMO7703165V7\'',
+)
+27/05/2016 10:05:53   Inicio de Servicio Obtine Session
+27/05/2016 10:05:53   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:05:53   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:05:53   Valida Si hay Session
+27/05/2016 10:06:25   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(RASTRO%20MUNICIPAL)-2306REFRENDO%20%20%202016\',\'propietario\':\'REYES%20CEDE�O%20JAVIER\',\'ubicacion\':\'RAFAELA%20LOPEZ%20231%20A%20,%20GERTRUDIS%20BOCANEGRA,%20CP:58150\',\'domicilio\':\'RAFAELA%20LOPEZ%20231%20A%20,%20GERTRUDIS%20BOCANEGRA,%20CP:58150\',\'totaladeudo\':\'16.00\',\'noprop\':1163075,\'genero\':\'\',\'conceptos\':\'REGISTRO%20Y%20REFRENDO%20DE%20FIERROS%20$%2016.48%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.4800\',\'rfc\':\'\'}]'
+27/05/2016 10:06:25   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364380 REYEs'
+27/05/2016 10:06:25   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(RASTRO MUNICIPAL)-2306REFRENDO   2016\'',
+  4 => 'propietario\':\'REYES CEDEÑO JAVIER\'',
+  5 => 'ubicacion\':\'RAFAELA LOPEZ 231 A , GERTRUDIS BOCANEGRA, CP:58150\'',
+  6 => 'domicilio\':\'RAFAELA LOPEZ 231 A , GERTRUDIS BOCANEGRA, CP:58150\'',
+  7 => 'totaladeudo\':\'16.00\'',
+  8 => 'noprop\':1163075',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REGISTRO Y REFRENDO DE FIERROS $ 16.48 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.4800\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:08:32   Paso pantalla de  pago, Pagara'16.00'
+27/05/2016 10:09:18   Inicio de Servicio Obtine Session
+27/05/2016 10:09:18   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:09:18   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:09:18   Valida Si hay Session
+27/05/2016 10:09:48   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'ORDENES%20DE%20ENTERO\',\'nota\':\'Referencia:SOE(RASTRO%20MUNICIPAL)-2306REFRENDO%20%20%202016\',\'propietario\':\'REYES%20CEDE�O%20JAVIER\',\'ubicacion\':\'RAFAELA%20LOPEZ%20231%20A%20,%20GERTRUDIS%20BOCANEGRA,%20CP:58150\',\'domicilio\':\'RAFAELA%20LOPEZ%20231%20A%20,%20GERTRUDIS%20BOCANEGRA,%20CP:58150\',\'totaladeudo\':\'16.00\',\'noprop\':1163075,\'genero\':\'\',\'conceptos\':\'REGISTRO%20Y%20REFRENDO%20DE%20FIERROS%20$%2016.48%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.4800\',\'rfc\':\'\'}]'
+27/05/2016 10:09:48   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 364380 REYEs'
+27/05/2016 10:09:48   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'ORDENES DE ENTERO\'',
+  3 => 'nota\':\'Referencia:SOE(RASTRO MUNICIPAL)-2306REFRENDO   2016\'',
+  4 => 'propietario\':\'REYES CEDEÑO JAVIER\'',
+  5 => 'ubicacion\':\'RAFAELA LOPEZ 231 A , GERTRUDIS BOCANEGRA, CP:58150\'',
+  6 => 'domicilio\':\'RAFAELA LOPEZ 231 A , GERTRUDIS BOCANEGRA, CP:58150\'',
+  7 => 'totaladeudo\':\'16.00\'',
+  8 => 'noprop\':1163075',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'REGISTRO Y REFRENDO DE FIERROS $ 16.48 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.4800\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:10:30   Inicio de Servicio Obtine Session
+27/05/2016 10:10:30   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:10:30   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:10:30   Valida Si hay Session
+27/05/2016 10:11:19   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145576NO.%20PLACA:%20634RVE,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'IGNACIO%20ZARAGOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGARES%20CONSIDERADOS%20PROHIBIDOS%20EN%20EL%20PRESENTE%20REGLAMENTO%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.2400\',\'rfc\':\'\'}]'
+27/05/2016 10:11:19   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 10:11:19   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145576NO. PLACA: 634RVE, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'IGNACIO ZARAGOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGARES CONSIDERADOS PROHIBIDOS EN EL PRESENTE REGLAMENTO $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.2400\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:11:32   Paso pantalla de  pago, Pagara'438.00'
+27/05/2016 10:16:53   Inicio de Servicio Obtine Session
+27/05/2016 10:16:53   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:16:53   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:16:53   Valida Si hay Session
+27/05/2016 10:19:03   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145576NO.%20PLACA:%20634RVE,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'IGNACIO%20ZARAGOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGARES%20CONSIDERADOS%20PROHIBIDOS%20EN%20EL%20PRESENTE%20REGLAMENTO%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.2400\',\'rfc\':\'\'}]'
+27/05/2016 10:19:03   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 10:19:03   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145576NO. PLACA: 634RVE, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'IGNACIO ZARAGOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGARES CONSIDERADOS PROHIBIDOS EN EL PRESENTE REGLAMENTO $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.2400\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:21:17   Paso pantalla de  pago, Pagara'438.00'
+27/05/2016 10:21:42   Inicio de Servicio Obtine Session
+27/05/2016 10:21:42   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:21:42   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:21:42   Valida Si hay Session
+27/05/2016 10:22:30   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:22:30   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 145576 634RVE'
+27/05/2016 10:22:30   No encontro Resultado: 
+27/05/2016 10:22:35   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:22:35   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 145576 634RVE'
+27/05/2016 10:22:35   No encontro Resultado: 
+27/05/2016 10:22:45   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:22:45   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 145576 634RVE'
+27/05/2016 10:22:45   No encontro Resultado: 
+27/05/2016 10:22:48   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:22:48   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 145576 634RVE'
+27/05/2016 10:22:48   No encontro Resultado: 
+27/05/2016 10:23:24   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:23:24   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 145576 634RVE'
+27/05/2016 10:23:24   No encontro Resultado: 
+27/05/2016 10:23:27   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:23:27   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 145576 634RVE'
+27/05/2016 10:23:27   No encontro Resultado: 
+27/05/2016 10:23:39   Datos Incorrectos de busqueda no paso validacion
+27/05/2016 10:23:43   Inicio de Servicio Obtine Session
+27/05/2016 10:23:43   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:23:43   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:23:43   Valida Si hay Session
+27/05/2016 10:24:31   Datos Incorrectos de busqueda no paso validacion
+27/05/2016 10:24:39   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:24:39   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 145576 634RVE'
+27/05/2016 10:24:39   No encontro Resultado: 
+27/05/2016 10:24:49   Inicio de Servicio Obtine Session
+27/05/2016 10:24:49   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:24:49   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:24:49   Valida Si hay Session
+27/05/2016 10:25:07   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:25:07   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 145576 634RVE'
+27/05/2016 10:25:07   No encontro Resultado: 
+27/05/2016 10:25:25   Datos Incorrectos de busqueda no paso validacion
+27/05/2016 10:25:35   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:25:35   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30009 145576 634RVE'
+27/05/2016 10:25:35   No encontro Resultado: 
+27/05/2016 10:25:41   Inicio de Servicio Obtine Session
+27/05/2016 10:25:41   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:25:41   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:25:41   Valida Si hay Session
+27/05/2016 10:26:03   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:26:03   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30005 145576 634RVE'
+27/05/2016 10:26:03   No encontro Resultado: 
+27/05/2016 10:26:09   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:26:09   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30055 145576 634RVE'
+27/05/2016 10:26:09   No encontro Resultado: 
+27/05/2016 10:26:13   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:26:13   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 145576 634RVE'
+27/05/2016 10:26:13   No encontro Resultado: 
+27/05/2016 10:26:15   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:26:15   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 145576 634RVE'
+27/05/2016 10:26:15   No encontro Resultado: 
+27/05/2016 10:26:28   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145576NO.%20PLACA:%20634RVE,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'IGNACIO%20ZARAGOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGARES%20CONSIDERADOS%20PROHIBIDOS%20EN%20EL%20PRESENTE%20REGLAMENTO%20$%20438.24\',\'rfc\':\'\'}]'
+27/05/2016 10:26:28   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 10:26:28   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145576NO. PLACA: 634RVE, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'IGNACIO ZARAGOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGARES CONSIDERADOS PROHIBIDOS EN EL PRESENTE REGLAMENTO $ 438.24\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:26:31   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 10:26:31   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 10:26:31   No encontro Resultado: 
+27/05/2016 10:26:41   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145576NO.%20PLACA:%20634RVE,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'IGNACIO%20ZARAGOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGARES%20CONSIDERADOS%20PROHIBIDOS%20EN%20EL%20PRESENTE%20REGLAMENTO%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.2400\',\'rfc\':\'\'}]'
+27/05/2016 10:26:41   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 10:26:41   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145576NO. PLACA: 634RVE, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'IGNACIO ZARAGOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGARES CONSIDERADOS PROHIBIDOS EN EL PRESENTE REGLAMENTO $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.2400\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:34:20   Inicio de Servicio Obtine Session
+27/05/2016 10:34:20   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:34:20   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:34:20   Valida Si hay Session
+27/05/2016 10:34:45   Paso pantalla de  pago, Pagara'438.00'
+27/05/2016 10:50:28   Inicio de Servicio Obtine Session
+27/05/2016 10:50:28   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:50:28   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:50:28   Valida Si hay Session
+27/05/2016 10:51:08   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145576NO.%20PLACA:%20634RVE,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'IGNACIO%20ZARAGOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGARES%20CONSIDERADOS%20PROHIBIDOS%20EN%20EL%20PRESENTE%20REGLAMENTO%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.24\',\'rfc\':\'\'}]'
+27/05/2016 10:51:08   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 10:51:08   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145576NO. PLACA: 634RVE, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'IGNACIO ZARAGOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGARES CONSIDERADOS PROHIBIDOS EN EL PRESENTE REGLAMENTO $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.24\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 10:51:22   Inicio de Servicio Obtine Session
+27/05/2016 10:51:22   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 10:51:22   Inicio de Servicio Obtine Ingresos
+27/05/2016 10:51:22   Valida Si hay Session
+27/05/2016 11:01:50   Inicio de Servicio Obtine Session
+27/05/2016 11:01:51   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 11:01:51   Inicio de Servicio Obtine Ingresos
+27/05/2016 11:01:51   Valida Si hay Session
+27/05/2016 11:02:29   Inicio de Servicio Obtine Session
+27/05/2016 11:02:29   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 11:02:29   Inicio de Servicio Obtine Ingresos
+27/05/2016 11:02:29   Valida Si hay Session
+27/05/2016 11:03:04   Inicio de Servicio Obtine Session
+27/05/2016 11:03:04   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 11:03:04   Inicio de Servicio Obtine Ingresos
+27/05/2016 11:03:04   Valida Si hay Session
+27/05/2016 11:11:33   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-145576NO.%20PLACA:%20634RVE,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'IGNACIO%20ZARAGOZA%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'438.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGARES%20CONSIDERADOS%20PROHIBIDOS%20EN%20EL%20PRESENTE%20REGLAMENTO%20$%20438.24%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.24\',\'rfc\':\'\'}]'
+27/05/2016 11:11:33   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 145576 634RVE'
+27/05/2016 11:11:33   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-145576NO. PLACA: 634RVE, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'IGNACIO ZARAGOZA , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'438.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGARES CONSIDERADOS PROHIBIDOS EN EL PRESENTE REGLAMENTO $ 438.24 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.24\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 11:45:54   Inicio de Servicio Obtine Session
+27/05/2016 11:45:54   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 11:45:54   Inicio de Servicio Obtine Ingresos
+27/05/2016 11:45:54   Valida Si hay Session
+27/05/2016 11:58:47   Paso pantalla de  pago, Pagara'438.00'
+27/05/2016 03:49:35   Inicio de Servicio Obtine Session
+27/05/2016 03:49:35   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 03:49:35   Inicio de Servicio Obtine Ingresos
+27/05/2016 03:49:36   Valida Si hay Session
+27/05/2016 03:50:53   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-146301NO.%20PLACA:%20PSG7060,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'ALLENDE%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+27/05/2016 03:50:53   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 146301 PSG7060'
+27/05/2016 03:50:53   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-146301NO. PLACA: PSG7060, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'ALLENDE , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 03:51:34   Modelo- Resultado busqueda otros pagos: '[{\'estatus\':1,\'respuesta\':\'INFORMACION%20ENCONTRADA\',\'concepto\':\'TRANSITO\',\'nota\':\'Referencia:DGSC-146301NO.%20PLACA:%20PSG7060,%20Fec.%20Infracc:01/03/2016\',\'propietario\':\'AUSENTE\',\'ubicacion\':\'ALLENDE%20,%20CENTRO\',\'domicilio\':\'\',\'totaladeudo\':\'219.00\',\'noprop\':0,\'genero\':\'\',\'conceptos\':\'ESTACIONARSE%20EN%20LUGAR%20PROHIBIDO%20$%20219.12%20|%20OTROS%20NO%20ESPECIFICADOS(CARGOS%20POR%20REDONDEO)%20$%20-0.12\',\'rfc\':\'\'}]'
+27/05/2016 03:51:34   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30057 146301 PSG7060'
+27/05/2016 03:51:34   Si se encontro Los datos de busqueda: array (
+  0 => '\'estatus\':1',
+  1 => 'respuesta\':\'INFORMACION ENCONTRADA\'',
+  2 => 'concepto\':\'TRANSITO\'',
+  3 => 'nota\':\'Referencia:DGSC-146301NO. PLACA: PSG7060, Fec. Infracc:01/03/2016\'',
+  4 => 'propietario\':\'AUSENTE\'',
+  5 => 'ubicacion\':\'ALLENDE , CENTRO\'',
+  6 => 'domicilio\':\'\'',
+  7 => 'totaladeudo\':\'219.00\'',
+  8 => 'noprop\':0',
+  9 => 'genero\':\'\'',
+  10 => 'conceptos\':\'ESTACIONARSE EN LUGAR PROHIBIDO $ 219.12 | OTROS NO ESPECIFICADOS(CARGOS POR REDONDEO) $ -0.12\'',
+  11 => 'rfc\':\'\'',
+)
+27/05/2016 03:51:46   Paso pantalla de  pago, Pagara'219.00'
+27/05/2016 03:52:32   Paso pantalla de  pago, Pagara'219.00'
+27/05/2016 04:02:35   Inicio de Servicio Obtine Session
+27/05/2016 04:02:35   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 04:02:35   Inicio de Servicio Obtine Ingresos
+27/05/2016 04:02:35   Valida Si hay Session
+27/05/2016 04:03:07   Inicio de Servicio Obtine Session
+27/05/2016 04:03:07   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 04:03:07   Inicio de Servicio Obtine Ingresos
+27/05/2016 04:03:07   Valida Si hay Session
+27/05/2016 04:03:14   Inicio de Servicio Obtine Session
+27/05/2016 04:03:14   Modelo- Resultado inicio sesion: '﻿[{\'estatus\':1,\'respuesta\':\'TODO%20BIEN\',\'sesion\':\'7gjricmccg6ckie8b5g05f5j46\'}]'
+27/05/2016 04:03:14   Inicio de Servicio Obtine Ingresos
+27/05/2016 04:03:14   Valida Si hay Session
+27/05/2016 04:03:33   Modelo- Resultado busqueda otros pagos: '[{"estatus":0,"respuesta":"No%20se%20encontro%20Adeudos%20con%20los%20parametros%20proporcionados"}]'
+27/05/2016 04:03:33   Datos de Busqueda: '7gjricmccg6ckie8b5g05f5j46 30004 723416 borja'
+27/05/2016 04:03:33   No encontro Resultado: 
