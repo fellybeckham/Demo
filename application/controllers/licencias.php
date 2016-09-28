@@ -15,23 +15,32 @@ class Licencias extends CI_Controller{
     
     public function index() {
     
-        $resp = $this->licencias_model->inicioSession();
-        $data['session']= $resp["sesion"];
-        $data['Barra']= "";
-        $data['MensajeError'] = "";
-        $data['MensajeAudio'] = "";
-        $this->logSW("Obtiene Session: ".var_export($resp["respuesta"],true)." ".var_export($resp["sesion"],true));
-        if ($resp['estatus']=='1') {
+        // $resp = $this->licencias_model->inicioSession();
+        // $data['session']= $resp["sesion"];
+        // $data['Barra']= "";
+        // $data['MensajeError'] = "";
+        // $data['MensajeAudio'] = "";
+        // $this->logSW("Obtiene Session: ".var_export($resp["respuesta"],true)." ".var_export($resp["sesion"],true));
+        // if ($resp['estatus']=='1') {
             $data['vista'] = $this->load->view('licencias/index.php',$data, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);
-        }
-        else{
-            $datas['Error'] = "NoSession";
-            $data['vista'] = $this->load->view('frmErrorServicio.php', $datas, TRUE); //True para pasar la vista como dato
-            $this->load->view('templates/layout', $data);
+        // }
+        // else{
+        //     $datas['Error'] = "NoSession";
+        //     $data['vista'] = $this->load->view('frmErrorServicio.php', $datas, TRUE); //True para pasar la vista como dato
+        //     $this->load->view('templates/layout', $data);
             
-        }
+        // }
         
+    }
+
+     public function apertura() {
+        $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE); //True para pasar la vista como dato
+            $this->load->view('templates/layout', $data);
+     }
+
+    public function revalidacion(){
+
     }
 
     public function RegresarDatos()
