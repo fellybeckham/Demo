@@ -1468,6 +1468,11 @@ tr:nth-child(even) {
     top:445px;
     left:771px;
 }
+.btn-limpiarr{
+    position: absolute;
+    top:470px;
+    left:771px;
+}
 /* ---------------------- Labels Respuestas -----------------------*/
 .reprpietario{
     position: absolute;
@@ -1524,6 +1529,6 @@ position: center;
 }
 .boton_revalidacion{
     margin-top: 5px;
-    margin-left: 380px;
+    margin-left: 370px;
 position: center;
 }

@@ -104,6 +104,12 @@ class Licencias_model extends CI_Model {
 		//$resp = "[{'estatus':1,'respuesta':'INFORMACION ACTUALIZADA','numerodetransaccion':52,'cuentapredial':'101-1-1437','oficinadecobro':'Kiosco','fechadecobro':'18/01/2016 10:15','propietario':'HERNANDEZ GARNICA RODOLFO','ubicacion':'JUAN BARRAGAN S/N,L 29 MZ 27, AGUSTIN ARRIAGA RIVERA','domicilio':'COBALTO 867,L 29 MZ 27, INDUSTRIAL CP 58130','conceptopredial':'PREDIAL, Pago desde:2016-1 al 2016-6','recibopredial':1,'adeudopredial':'10.0','conceptobaldios':'LOTES, Pago desde:2016-1 al 2016-6','recibobaldios':2,'adeudobaldios':'10.0','conceptodap':'DAP, Pago desde:2016-1 al 2016-6','recibodap':3,'adeudodap':'0.0','conceptoisai':'ISAI, Pago desde:2016-1 al 2016-6','reciboisai':4,'adeudoisai':'10.0','montocobrado':'584.00','cantidadletra':'(QUINIENTOS OCHENTA Y CUATRO PESOS 00/100 M. N.)','formadepago':'Efectivo: $584.00','cajerocobro':'KIOSCO','observaciones':'','notainformativa':'SU NUEVA CUENTA PREDIAL ES:1-101-1-1437','cadenaverificacion':''}]" ;
 		
     }*/
+/*$paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada,*/ 
+     
+     public function imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, /*$giro,*/ $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion){
+      	echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. /*$giro,*/$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
+     
+    }
       
 
 }

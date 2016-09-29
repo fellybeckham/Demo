@@ -2,6 +2,13 @@
 <?php echo $MensajeAudio; 
 //echo $Oficinas; 
 
+if (!empty($dataapertura)) {
+    echo $dataapertura;
+    }
+    else{
+        echo $dataapertura;
+    }
+
 ?>
 <div class="fondolicencias">
 
@@ -9,15 +16,15 @@
 <label>Datos del solicitante</label>
 </br>
 </br>
-<form action="POST">
+
  <label class="radio-inline">
-  <input type="radio" checked="checked" name="checkboxPFISICA" id="checkboxPFISICA" value="0"> P. Fisica
+  <input type="radio" name="checkboxPFISICA" id="checkboxPFISICA" value="0"> P. Fisica
 </label>
 <!--<label class="radio-inline">
   <input type="radio" name="checkboxPMORAL" id="inlineRadio2" value="1"> 2
 </label>-->
 
-<input type="radio" value="1" name="checkboxPFISICA" id="checkboxPMORAL">
+<input type="radio" checked="checked" value="1" name="checkboxPFISICA" id="checkboxPMORAL">
 <label>P. Moral</label>
 <!--<input type="radio" value="1" name="checkboxPMORAL" id="checkboxPMORAL"> 
 <label>P. Moral</label>-->
@@ -30,9 +37,11 @@
 <label class="labeles2">Nombre</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" class="text" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" /> 
-<input type="textbox" class="text" name="textboxMaterno" id="textboxMaterno" /> 
-<input type="textbox" class="text" name="textboxMaterno" id="textboxMaterno" /> 
+
+<form action="<?php echo base_url().'licencias/apertura'; ?>" method="POST">
+<input type="textbox" class="text" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_POST['textboxPaternoEmpresa']) ?'': $_POST['textboxPaternoEmpresa']; ?>"/> 
+<input type="textbox" class="text" name="textboxMaterno" id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ?'': $_POST['textboxMaterno']; ?>"/> 
+<input type="textbox" class="text" name="textboxNombre" id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ?'': $_POST['textboxNombre']; ?>"/> 
 <br>
 <div id="fisica">
 <label>Num. de Telefono</label>
@@ -40,8 +49,8 @@
 <label>Email</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" name="textboxtelefono" id="textboxtelefono" /> 
-<input type="textbox" class="text" name="textboxEmail" id="textboxEmail" /> 
+<input type="textbox" name="textboxtelefono" id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>"/> 
+<input type="textbox" class="text" name="textboxEmail" id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>"/> 
 </div>
 </br>
 </br>
@@ -58,7 +67,7 @@
 <option>Lista de giros3</option>
 <option>Lista de giros4</option>
 </select>
-<input type="textbox" class="text-complete" name="textboxEmail" id="textboxEmail" /> 
+<input type="textbox" class="text-complete" name="textboxNombreEstablecimiento" id="textboxEmail" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>"/> 
 </br>
 </br>
 
@@ -67,22 +76,22 @@
 <label class="labeles3">No. ext. No. Int.</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" class="text-calle" name="textboxcalle" id="textboxcalle" /> 
-<input type="textbox" name="textboxnum" id="textboxnum" /> 
+<input type="textbox" class="text-calle" name="textboxcalle" id="textboxcalle" value="<?php echo empty($_POST['textboxcalle']) ?'': $_POST['textboxcalle']; ?>"/> 
+<input type="textbox" name="textboxnum" id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ?'': $_POST['textboxnum']; ?>"/> 
 </br>
 
 <label>Colonia</label>
 <label><font color="#7401DF">*</font></label>
 <label class="labeles3">Cod. Postal</label>
 </br>
-<input type="textbox" class="text-calle" name="textboxcolonia" id="textboxcalle" /> 
-<input type="textbox" name="textboxCP" id="textboxnum" /> 
+<input type="textbox" class="text-calle" name="textboxcolonia" id="textboxcalle" value="<?php echo empty($_POST['textboxcolonia']) ?'': $_POST['textboxcolonia']; ?>"/> 
+<input type="textbox" name="textboxCP" id="textboxnum" value="<?php echo empty($_POST['textboxCP']) ?'': $_POST['textboxCP']; ?>"/> 
 </br>
 <label>Entre calle 1</label>
 <label class="labeles4">Entre calle 2</label>
 </br>
-<input type="textbox" class="text-entre-calle" name="textboxCalle1" id="textboxcalle" /> 
-<input type="textbox" class="text-entre-calle" name="textboxCalle2" id="textboxnum" /> 
+<input type="textbox" class="text-entre-calle" name="textboxCalle1" id="textboxcalle" value="<?php echo empty($_POST['textboxCalle1']) ?'': $_POST['textboxCalle1']; ?>"/> 
+<input type="textbox" class="text-entre-calle" name="textboxCalle2" id="textboxnum" value="<?php echo empty($_POST['textboxCalle2']) ?'': $_POST['textboxCalle2']; ?>"/> 
 </br>
 </br>
 <label># de Empleos</label>
@@ -90,13 +99,16 @@
 <label class="labeles5">Inv. Estimada</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" name="textboxtelefono" id="textboxtelefono" /> 
-<input type="textbox" class="text" name="textboxEmail" id="textboxEmail" /> 
+<input type="textbox" name="textboxNumEmpleos" id="textboxtelefono" value="<?php echo empty($_POST['textboxNumEmpleos']) ?'': $_POST['textboxNumEmpleos']; ?>"/> 
+<input type="textbox" class="text" name="textboxInvEstimada" id="textboxEmail" value="<?php echo empty($_POST['textboxInvEstimada']) ?'': $_POST['textboxInvEstimada']; ?>"/> 
 </br>
 </br>
 <label class="labeles7"><font color="#7401DF">*</font></label>
 <label>Datos obligatorios </label>
-<input type="button" class="btn-imprimirr" name="buttonimprimir" id="textboxnum" value="Imprimir Solicitud" /> 
+<input type="submit" class="btn-imprimirr" name="buttonimprimir" id="textboxnum" value="Imprimir Solicitud" />
+</br>
+</br>
+<input type="reset" class="btn-limpiarr" name="buttonreset" id="textboxnum" value="Limpiar" /> 
 </form>
 </div>
 <?php

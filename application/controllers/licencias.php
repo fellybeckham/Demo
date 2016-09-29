@@ -35,7 +35,41 @@ class Licencias extends CI_Controller{
     }
 
      public function apertura() {
-        $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE); //True para pasar la vista como dato
+            
+    $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
+    $this->form_validation->set_rules('textboxMaterno', 'materno', 'required');
+        
+    if($this->form_validation->run() === true){
+        //Si la validación es correcta, cogemos los datos de la variable POST
+        //y los enviamos al modelo
+        $paterno = $this->input->post('textboxPaternoEmpresa');
+        $materno = $this->input->post('textboxMaterno');
+        $nombre = $this->input->post('textboxNombre');
+        $numtelefono = $this->input->post('textboxtelefono');
+        $email = $this->input->post('textboxEmail');
+        //$giro = $this->input->post('NOSE');
+        $establecimiento = $this->input->post('textboxNombreEstablecimiento');
+        $calle = $this->input->post('textboxcalle');
+        $numext = $this->input->post('textboxnum');
+        $colonia = $this->input->post('textboxcolonia');
+        $codpostal = $this->input->post('textboxCP');
+        $calle1 = $this->input->post('textboxCalle1');
+        $calle2 = $this->input->post('textboxCalle2');
+        $numempleos = $this->input->post('textboxNumEmpleos');
+        $Investimada = $this->input->post('textboxInvEstimada');
+       
+           
+        
+
+        //$this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
+        
+
+    }
+    $sesion = '1';
+        //$this->licencias_model->imprimirSolicitudApertura($sesion, $paterno, $materno); 
+    $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, /*$giro,*/ $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
+        //echo "lalo";
+    $data['vista'] = $this->load->view('licencias/apertura.php',$dataapertura, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);
      }
 
