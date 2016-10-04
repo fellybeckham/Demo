@@ -9,10 +9,10 @@ curl_setopt_array($curl, array(
     CURLOPT_POSTFIELDS => array(
         "paterno" => "JIMENEZ",
         "materno" => "ALVAREZ",
-        "nombre" => "JOSE ALFREDO",
+        "nombre" => "JOSE ALFREDOX",
         "numtelefono" => "3124567836",
         "email" => "alfredo.kiotech@gmail.com",
-        "giro" => "BISUTERIA",
+        "giro" => "1",
         "establecimiento" => "ELMASBARATO",
         "calle" => "moreno",
         "numext" => "232",
@@ -26,6 +26,10 @@ curl_setopt_array($curl, array(
     )
 ));
 $resp = curl_exec($curl);
-var_dump($resp);
+header('Content-type: application/pdf');
+echo $resp;
+//var_dump($resp);
 curl_close($curl);
+
+
 ?>

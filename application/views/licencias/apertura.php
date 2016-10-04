@@ -61,11 +61,11 @@ if (!empty($dataapertura)) {
 <label><font color="#7401DF">*</font></label>
 <label class="labeles6">Nombre Establecimiento</label>
 </br>
-<select class="form-control">
-<option>Lista de giros1</option>
-<option>Lista de giros2</option>
-<option>Lista de giros3</option>
-<option>Lista de giros4</option>
+<select class="form-control" name="imput_giro">
+<option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+<option value='4'>4</option>
 </select>
 <input type="textbox" class="text-complete" name="textboxNombreEstablecimiento" id="textboxEmail" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>"/> 
 </br>

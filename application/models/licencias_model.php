@@ -9,34 +9,39 @@ class Licencias_model extends CI_Model {
     }
 
     public function inicioSession(){
-    	//Leer archivo kiosko
-		$file = fopen("kiosko.txt", "r");//Se obtiene los datos de sesion
+		$file = fopen("Oficina.txt", "r");
 		while(!feof($file)) {
-		 $algo[] = fgets($file);//Se guardan en un array
+		 $algo[] = fgets($file);
 		}
 		fclose($file);
+    	// Get cURL resource
 		$curl = curl_init();
-		//URL PRODUCCION 
+		//URL PRODUCCION http://morelos.morelia.gob.mx:85/kiosco/inicio.php
 		curl_setopt_array($curl, array(
 		    CURLOPT_RETURNTRANSFER => 1,
-		    CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/ooapas/inicio.php',
+		    CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/practicas/inicio.php',
 		    CURLOPT_USERAGENT => 'Codular Sample cURL Request',
 		    CURLOPT_POST => 1,
 		    CURLOPT_POSTFIELDS => array(
-		        "kiosko" => trim($algo[0]),
+		        "modulorecauda" => trim($algo[0]),
 		        "usuario" => trim($algo[1]),
-		        "clave" => trim($algo[2])
+		        "password" => trim($algo[2])
 		    )
 		));
 		$resp = curl_exec($curl);
-		
-		$resp = (array) json_decode($resp);
-		
-		return $resp;
-		
+		$quitarcaracteres =      array('{', '"' , ':', ',', '}', '\'', '[', ']');
+		$remplazadocaracteres =  array('/', ''  , '/', '/', '' , ''  , '' , '');
+		$limpio = str_replace($quitarcaracteres, $remplazadocaracteres, $resp);
+		$porciones = explode("/", $limpio);
+		if ($porciones[2]==0) {
+			return "No hay Session";
+		}
+		else{
+			return( $porciones[6] );
+		}
 		// Close request to clear up some resources
 		curl_close($curl);
-    }
+	}
 
    
     public function Aguabusqueda($CodBarra,$NumeroContrato,$NexTer,$sesion){
@@ -106,11 +111,43 @@ class Licencias_model extends CI_Model {
     }*/
 /*$paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada,*/ 
      
-     public function imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, /*$giro,*/ $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion){
-      	echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. /*$giro,*/$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
-     
-    }
-      
+     public function imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion){
+      	//echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
+     //echo $sesion;
+     //echo $Investimada;
+     $curl = curl_init();
+curl_setopt_array($curl, array(
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/practicas/CapturaApertura.php',
+    CURLOPT_USERAGENT => 'Codular Sample cURL Request',
+    CURLOPT_POST => 1,
+    CURLOPT_POSTFIELDS => array(
+        "paterno" => $paterno,
+        "materno" => $materno,
+        "nombre" => $nombre,
+        "numtelefono" => $numtelefono,
+        "email" => $email,
+        "giro" => $giro,
+        "establecimiento" => $establecimiento,
+        "calle" => $calle,
+        "numext" => $numext,
+        "colonia" => $colonia,
+        "codpostal" => $codpostal,
+        "calle1" => $calle1,
+        "calle2" => $calle2,
+        "numempleos" => $numempleos,
+        "investimada" => $Investimada,
+        "sesion" => $sesion
+    )
+));
+
+$resp = curl_exec($curl);
+header('Content-type: application/pdf');
+echo $resp;
+//var_dump($resp);
+curl_close($curl);
+    
+     } 
 
 }
 
