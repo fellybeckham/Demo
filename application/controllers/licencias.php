@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-require_once APPPATH."/third_party/fpdf/code128.php";
+//require_once APPPATH."/third_party/fpdf/code128.php";
 class Licencias extends CI_Controller{
 
     private $data;
@@ -34,10 +34,18 @@ class Licencias extends CI_Controller{
         
     }
 
-     public function apertura() {
+     public function mostrarpdf() {
             
     $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
     $this->form_validation->set_rules('textboxMaterno', 'materno', 'required');
+    $this->form_validation->set_rules('textboxNombre', 'nombre', 'required');
+    $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required');
+    $this->form_validation->set_rules('textboxEmail', 'email', 'required');
+    $this->form_validation->set_rules('textboxcalle', 'calle', 'required');
+    $this->form_validation->set_rules('textboxnum', 'numext', 'required');
+    $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required');
+    $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required');
+    $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required');
         
     if($this->form_validation->run() === true){
         //Si la validación es correcta, cogemos los datos de la variable POST
@@ -61,7 +69,7 @@ class Licencias extends CI_Controller{
            
         //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
         $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
-        //$this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
+        
         
 
     }
@@ -70,8 +78,18 @@ class Licencias extends CI_Controller{
         //$this->licencias_model->imprimirSolicitudApertura($sesion, $paterno, $materno); 
     //$this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
         
-    $data['vista'] = $this->load->view('licencias/apertura.php','', TRUE); //True para pasar la vista como dato
+    //$data['vista'] = $this->load->view('licencias/apertura.php','', TRUE); //True para pasar la vista como dato
+            //$this->load->view('templates/layout', $data);
+     }
+
+     public function apertura(){
+        $sesion = $this->licencias_model->inicioSession();
+        //$giro = $this->licencias_model->obtenergiros($sesion);
+        $data['giro']=$this->licencias_model->obtenergiros($sesion);
+
+        $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);
+
      }
 
     public function revalidacion(){

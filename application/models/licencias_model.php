@@ -149,5 +149,29 @@ curl_close($curl);
     
      } 
 
+     public function obtenergiros($sesion){
+     	//echo $sesion;
+
+     	    $curl = curl_init();
+curl_setopt_array($curl, array(
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/practicas/filtrodegiros.php',
+    CURLOPT_USERAGENT => 'Codular Sample cURL Request',
+    CURLOPT_POST => 1,
+    CURLOPT_POSTFIELDS => array(
+        "sesion" => $sesion
+    )
+));
+
+	$resp = curl_exec($curl);
+	$resp  = str_replace("'", '"', $resp);
+	//var_dump($resp);
+	
+	
+	return $resp;
+//var_dump($resp);
+curl_close($curl);
+     }
+
 }
 

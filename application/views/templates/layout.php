@@ -42,7 +42,8 @@ function sonido(num) {  try {window.external.reproducirAudio(num);}catch(err) {}
   <body > <!-- oncontextmenu="return false;" -->
     <?php date_default_timezone_set("America/Mexico_City");//require 'logs.php';?>
 	  <div id="Contenido">
-		  <?php echo $vista ?>
+		  <?php echo $vista;
+      ?>
 	  </div>
   <?php include ('footer.php'); ?>
 </body>

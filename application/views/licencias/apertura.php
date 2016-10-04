@@ -1,14 +1,12 @@
 <script>  setTimeout ("window.external.regresarInicio()",120000); </script>
-<?php echo $MensajeAudio; 
+<?php //echo $MensajeAudio; 
 //echo $Oficinas; 
-
-if (!empty($dataapertura)) {
-    echo $dataapertura;
-    }
-    else{
-        echo $dataapertura;
-    }
-
+//$giros=json_decode($giro, True);
+//foreach ($giros as $key) {
+//print_r(($key['GirosId']));
+ // print_r(($key['giro']));  
+//}
+//var_dump(json_decode($giro));
 ?>
 <div class="fondolicencias">
 
@@ -38,7 +36,7 @@ if (!empty($dataapertura)) {
 <label><font color="#7401DF">*</font></label>
 </br>
 
-<form action="<?php echo base_url().'licencias/apertura'; ?>" method="POST">
+<form action="<?php echo base_url().'licencias/mostrarpdf'; ?>" method="POST">
 <input type="textbox" class="text" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_POST['textboxPaternoEmpresa']) ?'': $_POST['textboxPaternoEmpresa']; ?>"/> 
 <input type="textbox" class="text" name="textboxMaterno" id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ?'': $_POST['textboxMaterno']; ?>"/> 
 <input type="textbox" class="text" name="textboxNombre" id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ?'': $_POST['textboxNombre']; ?>"/> 
@@ -53,21 +51,27 @@ if (!empty($dataapertura)) {
 <input type="textbox" class="text" name="textboxEmail" id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>"/> 
 </div>
 </br>
-</br>
 <label>Datos del negocio</label>
 </br>
 </br>
 <label>Giro Principal</label>
 <label><font color="#7401DF">*</font></label>
-<label class="labeles6">Nombre Establecimiento</label>
+
 </br>
 <select class="form-control" name="imput_giro">
-<option value='1'>1</option>
-<option value='2'>2</option>
-<option value='3'>3</option>
-<option value='4'>4</option>
+<?php
+$giros=json_decode($giro, True);
+foreach ($giros as $key) {
+    echo "<option value='".$key['GirosId']."'".">".urldecode($key['giro'])."</option>"; 
+}
+
+?>
 </select>
-<input type="textbox" class="text-complete" name="textboxNombreEstablecimiento" id="textboxEmail" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>"/> 
+ </br>
+  </br>
+    <label class="labeles6">Nombre Establecimiento</label>
+    </br>
+<input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento" id="textboxEmail" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>"/> 
 </br>
 </br>
 
@@ -114,7 +118,7 @@ if (!empty($dataapertura)) {
 <?php
 echo form_close();
 ?>
-<label class="tex_MensajeErrorAgua"><?php echo $MensajeError; ?></label>
+<label class="tex_MensajeErrorAgua"><?php //echo $MensajeError; ?></label>
 <?php
 
 ?>

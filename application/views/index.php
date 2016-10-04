@@ -4,7 +4,7 @@
 		<a href="<?php echo base_url()?>predial" onclick="window.external.reproducirAudio('1')">
 			<div class="Logos logoPredial"></div>
 		</a>
-		<a href="<?php echo base_url()?>servicios/Trabajando"><!-- onclick="window.external.reproducirAudio('1')" -->
+		<a href="<?php echo base_url()?>licencias"><!-- onclick="window.external.reproducirAudio('1')" -->
 			<div class="Logos logoLicencias"></div>
 		</a>
 		<a href="<?php echo base_url()?>otrospagos" onclick="window.external.reproducirAudio('1')">

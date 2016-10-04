@@ -1445,6 +1445,9 @@ tr:nth-child(even) {
 .text-complete{
   width: 778px;
 }
+.text-nombre-establecimiento{
+  width: 890px;
+}
 .text-calle{
   width: 764px;
 }
