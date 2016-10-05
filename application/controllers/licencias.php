@@ -36,16 +36,33 @@ class Licencias extends CI_Controller{
 
      public function mostrarpdf() {
             
-    $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
-    $this->form_validation->set_rules('textboxMaterno', 'materno', 'required');
-    $this->form_validation->set_rules('textboxNombre', 'nombre', 'required');
-    $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required');
-    $this->form_validation->set_rules('textboxEmail', 'email', 'required');
-    $this->form_validation->set_rules('textboxcalle', 'calle', 'required');
-    $this->form_validation->set_rules('textboxnum', 'numext', 'required');
-    $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required');
-    $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required');
-    $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required');
+        if($_POST['checkboxPFISICA'] == "1") 
+        { 
+            // Realizas las acciones
+            $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
+            $this->form_validation->set_rules('textboxMaterno', 'materno', 'required');
+            $this->form_validation->set_rules('textboxNombre', 'nombre', 'required');
+            $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required');
+            $this->form_validation->set_rules('textboxEmail', 'email', 'required');
+            $this->form_validation->set_rules('textboxcalle', 'calle', 'required');
+            $this->form_validation->set_rules('textboxnum', 'numext', 'required');
+            $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required');
+            $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required');
+            $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required');
+        } 
+        else{
+            $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
+            
+            $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required');
+            $this->form_validation->set_rules('textboxEmail', 'email', 'required');
+            $this->form_validation->set_rules('textboxcalle', 'calle', 'required');
+            $this->form_validation->set_rules('textboxnum', 'numext', 'required');
+            $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required');
+            $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required');
+            $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required');
+        }
+
+    
         
     if($this->form_validation->run() === true){
         //Si la validación es correcta, cogemos los datos de la variable POST
@@ -72,6 +89,28 @@ class Licencias extends CI_Controller{
         
         
 
+    }else{
+     $data['paterno'] = $this->input->post('textboxPaternoEmpresa');  
+      $data['materno'] = $this->input->post('textboxMaterno'); 
+       $data['nombre'] = $this->input->post('textboxNombre'); 
+        $data['numtelefono'] = $this->input->post('textboxtelefono'); 
+         $data['email'] = $this->input->post('textboxEmail'); 
+          $data['test'] = $this->input->post('imput_giro'); 
+           $data['calle'] = $this->input->post('textboxcalle'); 
+            $data['numext'] = $this->input->post('textboxnum'); 
+             $data['colonia'] = $this->input->post('textboxcolonia'); 
+              $data['numempleos'] = $this->input->post('textboxNumEmpleos');  
+               $data['Investimada'] = $this->input->post('textboxInvEstimada');
+
+                $data['MensajeError'] = 'LOS CAMPOS EN COLOR ROJO DEBEN SER LLENADOS';
+
+                 $data['sesion']=$this->input->post('girooculto');
+                  $data['giro']=$this->licencias_model->obtenergiros($data['sesion']);
+                   $data['radiobutonpersona']= $this->input->post('checkboxPFISICA');
+                   $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE);
+                    $this->load->view('templates/layout', $data);
+
+
     }
    
     //$sesion = '1';
@@ -83,9 +122,9 @@ class Licencias extends CI_Controller{
      }
 
      public function apertura(){
-        $sesion = $this->licencias_model->inicioSession();
+        $data['sesion'] = $this->licencias_model->inicioSession();
         //$giro = $this->licencias_model->obtenergiros($sesion);
-        $data['giro']=$this->licencias_model->obtenergiros($sesion);
+        $data['giro']=$this->licencias_model->obtenergiros($data['sesion']);
 
         $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);

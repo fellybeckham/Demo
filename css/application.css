@@ -1448,6 +1448,12 @@ tr:nth-child(even) {
 .text-nombre-establecimiento{
   width: 890px;
 }
+.text-paterno-empresa1{
+      width: 290px;
+}
+.text-paterno-empresa2{
+     width: 890px;
+}
 .text-calle{
   width: 764px;
 }
@@ -1534,4 +1540,19 @@ position: center;
     margin-top: 5px;
     margin-left: 370px;
 position: center;
+}
+.yes_error{
+    border:1px solid red;
+    box-shadow: 0 0 5px 1px red;
+
+}
+.tex_MensajeErrorCamposValidacion{
+   position: absolute;
+   top: 675px;
+   left: 280px;
+   color: red;
+   font: 125% sans-serif;
+}
+.ocultaimputs{
+
 }
