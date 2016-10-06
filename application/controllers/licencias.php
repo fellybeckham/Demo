@@ -49,6 +49,7 @@ class Licencias extends CI_Controller{
             $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required|max_length[45]');
             $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required|max_length[6]');
             $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required|max_length[12]');
+            $this->form_validation->set_rules('imput_giro', 'giro', 'callback_imput_giro');
 
             // No requeridos
             $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
@@ -67,6 +68,8 @@ class Licencias extends CI_Controller{
             $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required|max_length[45]');
             $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required|max_length[6]');
             $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required|max_length[12]');
+            $this->form_validation->set_rules('imput_giro', 'giro', 'callback_imput_giro');
+
 
             // No requeridos
             $this->form_validation->set_rules('textboxMaterno', 'materno', 'max_length[100]');
@@ -82,29 +85,71 @@ class Licencias extends CI_Controller{
     if($this->form_validation->run() === true){
         //Si la validación es correcta, cogemos los datos de la variable POST
         //y los enviamos al modelo
-        $paterno = $this->input->post('textboxPaternoEmpresa');
-        $materno = $this->input->post('textboxMaterno');
-        $nombre = $this->input->post('textboxNombre');
-        $numtelefono = $this->input->post('textboxtelefono');
-        $email = $this->input->post('textboxEmail');
-        $giro = $this->input->post('imput_giro');
-        $establecimiento = $this->input->post('textboxNombreEstablecimiento');
-        $calle = $this->input->post('textboxcalle');
-        $numext = $this->input->post('textboxnum');
-        $colonia = $this->input->post('textboxcolonia');
-        $codpostal = $this->input->post('textboxCP');
-        $calle1 = $this->input->post('textboxCalle1');
-        $calle2 = $this->input->post('textboxCalle2');
-        $numempleos = $this->input->post('textboxNumEmpleos');
-        $Investimada = $this->input->post('textboxInvEstimada');
-        $sesion = $this->licencias_model->inicioSession();
-           
+
+         $paterno = strtoupper($this->input->post('textboxPaternoEmpresa'));
+            $materno = strtoupper($this->input->post('textboxMaterno'));
+            $nombre = strtoupper($this->input->post('textboxNombre'));
+            $numtelefono = strtoupper($this->input->post('textboxtelefono'));
+            $email = strtoupper($this->input->post('textboxEmail'));
+            $giro = $this->input->post('imput_giro');
+            $establecimiento = strtoupper($this->input->post('textboxNombreEstablecimiento'));
+            $calle = strtoupper($this->input->post('textboxcalle'));
+            $numext = strtoupper($this->input->post('textboxnum'));
+            $colonia = strtoupper($this->input->post('textboxcolonia'));
+            $codpostal = strtoupper($this->input->post('textboxCP'));
+            $calle1 = strtoupper($this->input->post('textboxCalle1'));
+            $calle2 = strtoupper($this->input->post('textboxCalle2'));
+            $numempleos = $this->input->post('textboxNumEmpleos');
+            $Investimada = $this->input->post('textboxInvEstimada');
+            $sesion = $this->licencias_model->inicioSession();
+         
         //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
         $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
-        
-        
 
-    }else{
+        //$giro = $this->input->post('imput_giro');
+        /*if ($giro > 0) {
+            $paterno = strtoupper($this->input->post('textboxPaternoEmpresa'));
+            $materno = strtoupper($this->input->post('textboxMaterno'));
+            $nombre = strtoupper($this->input->post('textboxNombre'));
+            $numtelefono = strtoupper($this->input->post('textboxtelefono'));
+            $email = strtoupper($this->input->post('textboxEmail'));
+            $giro = $this->input->post('imput_giro');
+            $establecimiento = strtoupper($this->input->post('textboxNombreEstablecimiento'));
+            $calle = strtoupper($this->input->post('textboxcalle'));
+            $numext = strtoupper($this->input->post('textboxnum'));
+            $colonia = strtoupper($this->input->post('textboxcolonia'));
+            $codpostal = strtoupper($this->input->post('textboxCP'));
+            $calle1 = strtoupper($this->input->post('textboxCalle1'));
+            $calle2 = strtoupper($this->input->post('textboxCalle2'));
+            $numempleos = $this->input->post('textboxNumEmpleos');
+            $Investimada = $this->input->post('textboxInvEstimada');
+            $sesion = $this->licencias_model->inicioSession();
+         
+        //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
+        $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
+        }else{
+            $data['paterno'] = $this->input->post('textboxPaternoEmpresa');  
+                $data['materno'] = $this->input->post('textboxMaterno'); 
+                    $data['nombre'] = $this->input->post('textboxNombre'); 
+                        $data['numtelefono'] = $this->input->post('textboxtelefono'); 
+                             $data['email'] = $this->input->post('textboxEmail'); 
+                                 $data['test'] = $this->input->post('imput_giro'); 
+                                     $data['calle'] = $this->input->post('textboxcalle'); 
+                                         $data['numext'] = $this->input->post('textboxnum'); 
+                                             $data['colonia'] = $this->input->post('textboxcolonia'); 
+                                                $data['numempleos'] = $this->input->post('textboxNumEmpleos');  
+                                                    $data['Investimada'] = $this->input->post('textboxInvEstimada');
+
+                                                    $data['MensajeError'] = 'DEBE SELECCIONAR UN GIRO';
+
+                                                        $data['sesion']=$this->input->post('girooculto');
+                                                    $data['giro']=$this->licencias_model->obtenergiros($data['sesion']);
+                                                $data['radiobutonpersona']= $this->input->post('checkboxPFISICA');
+                                             $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE);
+                                          $this->load->view('templates/layout', $data);
+        }*/
+       }
+    else{
      $data['paterno'] = $this->input->post('textboxPaternoEmpresa');  
       $data['materno'] = $this->input->post('textboxMaterno'); 
        $data['nombre'] = $this->input->post('textboxNombre'); 
@@ -128,6 +173,7 @@ class Licencias extends CI_Controller{
 
     }
    
+   
     //$sesion = '1';
         //$this->licencias_model->imprimirSolicitudApertura($sesion, $paterno, $materno); 
     //$this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
@@ -145,6 +191,18 @@ class Licencias extends CI_Controller{
             $this->load->view('templates/layout', $data);
 
      }
+
+    public function imput_giro($giro){
+    if ($giro == 0)
+                {
+                    //$this->form_validation->set_message('username_check', 'The {field} field can not be the word "test"');
+                    return FALSE;
+                }
+                else
+                {
+                    return TRUE;
+                }
+   }
 
     public function revalidacion(){
 
