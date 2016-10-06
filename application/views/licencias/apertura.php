@@ -38,9 +38,9 @@
 
 <!--<form action="<?php echo base_url().'licencias/mostrarpdf'; ?>" method="POST">-->
 <input type="hidden" class="text" name="indicadortipopersona" value=""/>
-<input type="textbox" class="<?php echo (form_error('textboxPaternoEmpresa') == '') ? '' : 'yes_error'; ?>  text-paterno-empresa1" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_POST['textboxPaternoEmpresa']) ?'': $_POST['textboxPaternoEmpresa']; ?>"/> 
-<input type="textbox" class="<?php echo (form_error('textboxMaterno') == '') ? '' : 'yes_error'; ?> text ocultaimputs" name="textboxMaterno" id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ?'': $_POST['textboxMaterno']; ?>"/> 
-<input type="textbox" class="<?php echo (form_error('textboxNombre') == '') ? '' : 'yes_error'; ?> text ocultaimputs" name="textboxNombre" id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ?'': $_POST['textboxNombre']; ?>"/> 
+<input type="textbox" class="<?php echo (form_error('textboxPaternoEmpresa') == '') ? '' : 'yes_error'; ?>  text-paterno-empresa1" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_POST['textboxPaternoEmpresa']) ?'': $_POST['textboxPaternoEmpresa']; ?>" maxlength="300"/> 
+<input type="textbox" class="<?php echo (form_error('textboxMaterno') == '') ? '' : 'yes_error'; ?> text ocultaimputs" name="textboxMaterno" id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ?'': $_POST['textboxMaterno']; ?>" maxlength="100"/> 
+<input type="textbox" class="<?php echo (form_error('textboxNombre') == '') ? '' : 'yes_error'; ?> text ocultaimputs" name="textboxNombre" id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ?'': $_POST['textboxNombre']; ?>" maxlength="100"/> 
 <br>
 
 <label>Num. de Telefono</label>
@@ -48,8 +48,8 @@
 <label>Email</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?>" name="textboxtelefono" id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>"/> 
-<input type="textbox" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> text" name="textboxEmail" id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>"/> 
+<input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?>" name="textboxtelefono" id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>" maxlength="15"/> 
+<input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> text" name="textboxEmail" id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>" maxlength="70"/> 
 
 </br>
 <label>Datos del negocio</label>
@@ -73,7 +73,7 @@ foreach ($giros as $key) {
   </br>
     <label class="labeles6">Nombre Establecimiento</label>
     </br>
-<input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento" id="textboxEmail" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>"/> 
+<input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento" id="textboxNombreEstablecimiento" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>" maxlength="50"/> 
 </br>
 </br>
 
@@ -82,22 +82,22 @@ foreach ($giros as $key) {
 <label class="labeles3">No. ext. No. Int.</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" class=" <?php echo (form_error('textboxcalle') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcalle" id="textboxcalle" value="<?php echo empty($_POST['textboxcalle']) ?'': $_POST['textboxcalle']; ?>"/> 
-<input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?>" name="textboxnum" id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ?'': $_POST['textboxnum']; ?>"/> 
+<input type="textbox" class=" <?php echo (form_error('textboxcalle') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcalle" id="textboxcalle" value="<?php echo empty($_POST['textboxcalle']) ?'': $_POST['textboxcalle']; ?>" maxlength="70"/> 
+<input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?>" name="textboxnum" id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ?'': $_POST['textboxnum']; ?>" maxlength="25"/> 
 </br>
 
 <label>Colonia</label>
 <label><font color="#7401DF">*</font></label>
 <label class="labeles3">Cod. Postal</label>
 </br>
-<input type="textbox" class="<?php echo (form_error('textboxcolonia') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcolonia" id="textboxcalle" value="<?php echo empty($_POST['textboxcolonia']) ?'': $_POST['textboxcolonia']; ?>"/> 
-<input type="textbox" name="textboxCP" id="textboxnum" value="<?php echo empty($_POST['textboxCP']) ?'': $_POST['textboxCP']; ?>"/> 
+<input type="textbox" class="<?php echo (form_error('textboxcolonia') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcolonia" id="textboxcolonia" value="<?php echo empty($_POST['textboxcolonia']) ?'': $_POST['textboxcolonia']; ?>" maxlength="45"/> 
+<input type="textbox" name="textboxCP" id="textboxCP" value="<?php echo empty($_POST['textboxCP']) ?'': $_POST['textboxCP']; ?>" maxlength="10"/> 
 </br>
 <label>Entre calle 1</label>
 <label class="labeles4">Entre calle 2</label>
 </br>
-<input type="textbox" class="text-entre-calle" name="textboxCalle1" id="textboxcalle" value="<?php echo empty($_POST['textboxCalle1']) ?'': $_POST['textboxCalle1']; ?>"/> 
-<input type="textbox" class="text-entre-calle" name="textboxCalle2" id="textboxnum" value="<?php echo empty($_POST['textboxCalle2']) ?'': $_POST['textboxCalle2']; ?>"/> 
+<input type="textbox" class="text-entre-calle" name="textboxCalle1" id="textboxCalle1" value="<?php echo empty($_POST['textboxCalle1']) ?'': $_POST['textboxCalle1']; ?>" maxlength="50"/> 
+<input type="textbox" class="text-entre-calle" name="textboxCalle2" id="textboxCalle2" value="<?php echo empty($_POST['textboxCalle2']) ?'': $_POST['textboxCalle2']; ?>" maxlength="50"/> 
 </br>
 </br>
 <label># de Empleos</label>
@@ -105,8 +105,8 @@ foreach ($giros as $key) {
 <label class="labeles5">Inv. Estimada</label>
 <label><font color="#7401DF">*</font></label>
 </br>
-<input type="textbox" class="<?php echo (form_error('textboxNumEmpleos') == '') ? '' : 'yes_error'; ?>" name="textboxNumEmpleos" id="textboxtelefono" value="<?php echo empty($_POST['textboxNumEmpleos']) ?'': $_POST['textboxNumEmpleos']; ?>"/> 
-<input type="textbox" class="<?php echo (form_error('textboxInvEstimada') == '') ? '' : 'yes_error'; ?> text" name="textboxInvEstimada" id="textboxEmail" value="<?php echo empty($_POST['textboxInvEstimada']) ?'': $_POST['textboxInvEstimada']; ?>"/> 
+<input type="textbox" class="<?php echo (form_error('textboxNumEmpleos') == '') ? '' : 'yes_error'; ?>" name="textboxNumEmpleos" id="textboxNumEmpleos" value="<?php echo empty($_POST['textboxNumEmpleos']) ?'': $_POST['textboxNumEmpleos']; ?>" maxlength="6"/> 
+<input type="textbox" class="<?php echo (form_error('textboxInvEstimada') == '') ? '' : 'yes_error'; ?> text" name="textboxInvEstimada" id="textboxInvEstimada" value="<?php echo empty($_POST['textboxInvEstimada']) ?'': $_POST['textboxInvEstimada']; ?>" maxlength="12"/> 
 </br>
 </br>
 <label class="labeles7"><font color="#7401DF">*</font></label>
@@ -136,16 +136,39 @@ echo form_close();
 </script>
 
 <script type="text/javascript">
-
-/*document.getElementById("CodBarra").focus();
-    $("#CodBarra").keypress(function(e) {
+//LETRAS Y NUMEROS
+$("#textboxPaternoEmpresa, #textboxMaterno, #textboxNombre, #textboxtelefono, #textboxNombreEstablecimiento, #textboxcalle, #textboxnum, #textboxcolonia, #textboxCP, #textboxCalle1, #textboxCalle2").keypress(function(e) {
+    var tecla = e.keyCode || e.which;           
+            if (tecla==8||tecla==13) return true; // 3
+            patron = /[A-Za-z0-9_]/; //numeros y letras
+            te = String.fromCharCode(tecla); // 5
+            return patron.test(te);
+    });
+//NUMEROS
+$("#textboxNumEmpleos, #textboxInvEstimada, #NumPredio").keypress(function(e) {
+    var tecla = e.keyCode || e.which;           
+            if (tecla==8||tecla==13) return true; // 3
+            patron = /[0-9]/; //numeros 
+            te = String.fromCharCode(tecla); // 5
+            return patron.test(te);
+    });
+//EMAIL
+/*$("#textboxEmail").keypress(function(e) {
+    var tecla = e.keyCode || e.which;           
+            if (tecla==8||tecla==13) return true; // 3
+            patron = /[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})/; //email
+            te = String.fromCharCode(tecla); // 5
+            return patron.test(te);
+    });*/
+/*document.getElementById("textboxPaternoEmpresa").focus();
+    $("#textboxPaternoEmpresa").keypress(function(e) {
     var tecla = e.keyCode || e.which;           
             if (tecla==8||tecla==13) return true; // 3
             patron = /^[0-9]+$/; //numeros y letras
             te = String.fromCharCode(tecla); // 5
             return patron.test(te);
     });
-    $('#CodBarra').keyup(function (e){
+    $('#textboxPaternoEmpresa').keyup(function (e){
         if($(this).val().length == 21) 
         {
             document.frm_agua.submit();

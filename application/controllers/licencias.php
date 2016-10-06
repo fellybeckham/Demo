@@ -38,28 +38,43 @@ class Licencias extends CI_Controller{
             
         if($_POST['checkboxPFISICA'] == "1") 
         { 
-            // Realizas las acciones
-            $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
-            $this->form_validation->set_rules('textboxMaterno', 'materno', 'required');
-            $this->form_validation->set_rules('textboxNombre', 'nombre', 'required');
-            $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required');
-            $this->form_validation->set_rules('textboxEmail', 'email', 'required');
-            $this->form_validation->set_rules('textboxcalle', 'calle', 'required');
-            $this->form_validation->set_rules('textboxnum', 'numext', 'required');
-            $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required');
-            $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required');
-            $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required');
+            // Requeridos
+            $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|max_length[300]');
+            $this->form_validation->set_rules('textboxMaterno', 'materno', 'required|max_length[100]');
+            $this->form_validation->set_rules('textboxNombre', 'nombre', 'required|max_length[100]');
+            $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required|max_length[15]');
+            $this->form_validation->set_rules('textboxEmail', 'email', 'required|max_length[70]');
+            $this->form_validation->set_rules('textboxcalle', 'calle', 'required|max_length[70]');
+            $this->form_validation->set_rules('textboxnum', 'numext', 'required|max_length[25]');
+            $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required|max_length[45]');
+            $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required|max_length[6]');
+            $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required|max_length[12]');
+
+            // No requeridos
+            $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
+            $this->form_validation->set_rules('textboxCP', 'codpostal', 'max_length[10]');
+            $this->form_validation->set_rules('textboxCalle1', 'calle1', 'max_length[50]');
+            $this->form_validation->set_rules('textboxCalle2', 'calle2', 'max_length[50]');
         } 
         else{
-            $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|min_length[3]');
+            // Requeridos
+            $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|max_length[300]');
             
-            $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required');
-            $this->form_validation->set_rules('textboxEmail', 'email', 'required');
-            $this->form_validation->set_rules('textboxcalle', 'calle', 'required');
-            $this->form_validation->set_rules('textboxnum', 'numext', 'required');
-            $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required');
-            $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required');
-            $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required');
+            $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required|max_length[15]');
+            $this->form_validation->set_rules('textboxEmail', 'email', 'required|max_length[70]');
+            $this->form_validation->set_rules('textboxcalle', 'calle', 'required|max_length[70]');
+            $this->form_validation->set_rules('textboxnum', 'numext', 'required|max_length[25]');
+            $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required|max_length[45]');
+            $this->form_validation->set_rules('textboxNumEmpleos', 'numempleos', 'required|max_length[6]');
+            $this->form_validation->set_rules('textboxInvEstimada', 'Investimada', 'required|max_length[12]');
+
+            // No requeridos
+            $this->form_validation->set_rules('textboxMaterno', 'materno', 'max_length[100]');
+            $this->form_validation->set_rules('textboxNombre', 'nombre', 'max_length[100]');
+            $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
+            $this->form_validation->set_rules('textboxCP', 'codpostal', 'max_length[10]');
+            $this->form_validation->set_rules('textboxCalle1', 'calle1', 'max_length[50]');
+            $this->form_validation->set_rules('textboxCalle2', 'calle2', 'max_length[50]');
         }
 
     
