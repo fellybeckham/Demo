@@ -111,10 +111,10 @@ foreach ($giros as $key) {
 </br>
 <label class="labeles7"><font color="#7401DF">*</font></label>
 <label>Datos obligatorios </label>
-<input type="submit" class="btn-imprimirr" name="buttonimprimir" id="buttonimprimir" value="Imprimir Solicitud" />
+<input type="submit" class="btn-imprimirr" name="buttonimprimir" id="buttonimprimir" value="" />
 </br>
 </br>
-<input type="reset" class="btn-limpiarr" name="buttonreset" id="textboxnum" value="Limpiar" /> 
+<input type="hidden" class="btn-limpiarr" name="buttonreset" id="textboxnum" value="Limpiar" /> 
 </form>
 </div>
 <?php
@@ -178,16 +178,18 @@ $("#textboxNumEmpleos, #textboxInvEstimada, #NumPredio").keypress(function(e) {
             return patron.test(te);
     });*/
 
-$(document).ready(function() {
+// EMAIL
+/*$(document).ready(function() {
     $('#buttonimprimir').click(function(){
         if($("#textboxEmail").val().indexOf('@', 0) == -1 || $("#textboxEmail").val().indexOf('.', 0) == -1) {
-            alert('El correo electrónico introducido no es correcto.');
-            return false;
+            //alert('El correo electrónico introducido no es correcto.');
+            //return false;
+             $('#textboxEmail').addClass( "yes_error");
         }
 
         //alert('El email introducido es correcto.');
     });
-});
+});*/
 /*document.getElementById("textboxPaternoEmpresa").focus();
     $("#textboxPaternoEmpresa").keypress(function(e) {
     var tecla = e.keyCode || e.which;           

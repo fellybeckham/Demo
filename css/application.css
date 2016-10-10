@@ -1473,9 +1473,18 @@ tr:nth-child(even) {
     padding-left: 56px;
 }
 .btn-imprimirr{
+    background-image: url(../img/imprimirsolicitudd.png);
     position: absolute;
-    top:445px;
-    left:771px;
+    width: 200px;
+    height: 70px;
+    top:430px;
+    left:700px;
+    overflow: visible;
+    background-repeat: no-repeat;
+    outline: none;
+    border:none; 
+    background-color:transparent;
+
 }
 .btn-limpiarr{
     position: absolute;

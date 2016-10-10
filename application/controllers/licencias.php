@@ -43,7 +43,7 @@ class Licencias extends CI_Controller{
             $this->form_validation->set_rules('textboxMaterno', 'materno', 'required|max_length[100]');
             $this->form_validation->set_rules('textboxNombre', 'nombre', 'required|max_length[100]');
             $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required|max_length[15]');
-            $this->form_validation->set_rules('textboxEmail', 'email', 'required|max_length[70]');
+            $this->form_validation->set_rules('textboxEmail', 'email', 'callback_imput_email|required|max_length[70]');
             $this->form_validation->set_rules('textboxcalle', 'calle', 'required|max_length[70]');
             $this->form_validation->set_rules('textboxnum', 'numext', 'required|max_length[25]');
             $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required|max_length[45]');
@@ -62,7 +62,7 @@ class Licencias extends CI_Controller{
             $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|max_length[300]');
             
             $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required|max_length[15]');
-            $this->form_validation->set_rules('textboxEmail', 'email', 'required|max_length[70]');
+            $this->form_validation->set_rules('textboxEmail', 'email', 'callback_imput_email|required|max_length[70]');
             $this->form_validation->set_rules('textboxcalle', 'calle', 'required|max_length[70]');
             $this->form_validation->set_rules('textboxnum', 'numext', 'required|max_length[25]');
             $this->form_validation->set_rules('textboxcolonia', 'colonia', 'required|max_length[45]');
@@ -201,6 +201,20 @@ class Licencias extends CI_Controller{
                 else
                 {
                     return TRUE;
+                }
+   }
+
+    public function imput_email($email){
+    if (filter_var($email, FILTER_VALIDATE_EMAIL))
+                {
+                    //$this->form_validation->set_message('username_check', 'The {field} field can not be the word "test"');
+                    return TRUE;
+                    //echo "OPCION1";
+                }
+                else
+                {
+                    return FALSE;
+                    //echo "OPCION2";
                 }
    }
 
