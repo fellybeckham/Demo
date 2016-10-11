@@ -7,10 +7,10 @@
 
 <div class ="opciones">
     <div class ="boton_apertura">
-        <a title="aperturar" href="<?echo base_url().'licencias/apertura'?>"><IMG SRC="img/icono_apertura_licencias_trans.png"></a>
+        <a title="aperturar" href="<?echo base_url().'licencias/apertura'?>"><IMG SRC="img/iconoapertura.png"></a>
     </div>
     <div class ="boton_revalidacion">
-        <a title="revalidar" href="revalidacion"><IMG SRC="img/icono_revalidacion_licencias_trans.png"></a>
+        <a title="revalidar" href="revalidacion"><IMG SRC="img/iconorevalidacion.png"></a>
     </div>        
 </div>
 <?php

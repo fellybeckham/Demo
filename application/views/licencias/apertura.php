@@ -8,7 +8,10 @@
 //}
 //var_dump(json_decode($giro));
 ?>
+
+
 <div class="fondolicencias">
+    <div class="contornolicencias">
 
 <div class="datoslicencias">
 <label>Datos del solicitante</label>
@@ -29,11 +32,12 @@
 </br>
 </br>
 <label>Paterno/Empresa</label>
-<label><font color="#7401DF">*</font></label>
+<!--<label><font color="#7401DF">*</font></label>-->
+<label><img src="../img/asteriscolicencias.png"></label>
 <label class="labeles ocultaimputs">Materno</label>
-<label class="ocultaimputs"><font color="#7401DF">*</font></label>
+<label class="ocultaimputs"><img src="../img/asteriscolicencias.png"></label>
 <label class="labeles2 ocultaimputs">Nombre</label>
-<label class="ocultaimputs"><font color="#7401DF">*</font></label>
+<label class="ocultaimputs"><img src="../img/asteriscolicencias.png"></label>
 </br>
 
 <!--<form action="<?php echo base_url().'licencias/mostrarpdf'; ?>" method="POST">-->
@@ -44,23 +48,23 @@
 <br>
 
 <label>Num. de Telefono</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 <label>Email</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 </br>
 <input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?>" name="textboxtelefono"  id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>" maxlength="15"/> 
-<input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> text" name="textboxEmail"  id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>" maxlength="70"/> 
+<input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> textEmail" name="textboxEmail"  id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>" maxlength="70"/> 
 
 </br>
 <label>Datos del negocio</label>
 </br>
 </br>
 <label>Giro Principal</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 
 </br>
 <input type="hidden" class="text" name="girooculto" id="girooculto" value="<?php echo $sesion ?>"/> 
-<select class=" <?php echo (form_error('imput_giro') == '') ? '' : 'yes_error'; ?> form-control" name="imput_giro" id="idselect">
+<select class=" <?php echo (form_error('imput_giro') == '') ? '' : 'yes_error'; ?> form-control caja" name="imput_giro" id="idselect">
 <?php
 $giros=json_decode($giro, True);
 foreach ($giros as $key) {
@@ -70,24 +74,24 @@ foreach ($giros as $key) {
 ?>
 </select>
  </br>
-  </br>
+  
     <label class="labeles6">Nombre Establecimiento</label>
-    </br>
+    
 <input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento"  id="textboxNombreEstablecimiento" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>" maxlength="50"/> 
 </br>
 </br>
 
 <label>Calle</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 <label class="labeles3">No. ext. No. Int.</label>
-<label><font color="#7401DF">*</font></label>
-</br>
+<label><img src="../img/asteriscolicencias.png"></label>
+
 <input type="textbox" class=" <?php echo (form_error('textboxcalle') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcalle"  id="textboxcalle" value="<?php echo empty($_POST['textboxcalle']) ?'': $_POST['textboxcalle']; ?>" maxlength="70"/> 
 <input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?>" name="textboxnum"  id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ?'': $_POST['textboxnum']; ?>" maxlength="25"/> 
 </br>
 
 <label>Colonia</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 <label class="labeles3">Cod. Postal</label>
 </br>
 <input type="textbox" class="<?php echo (form_error('textboxcolonia') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcolonia"  id="textboxcolonia" value="<?php echo empty($_POST['textboxcolonia']) ?'': $_POST['textboxcolonia']; ?>" maxlength="45"/> 
@@ -101,15 +105,15 @@ foreach ($giros as $key) {
 </br>
 </br>
 <label># de Empleos</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 <label class="labeles5">Inv. Estimada</label>
-<label><font color="#7401DF">*</font></label>
+<label><img src="../img/asteriscolicencias.png"></label>
 </br>
 <input type="textbox" class="<?php echo (form_error('textboxNumEmpleos') == '') ? '' : 'yes_error'; ?>" name="textboxNumEmpleos" id="textboxNumEmpleos" value="<?php echo empty($_POST['textboxNumEmpleos']) ?'': $_POST['textboxNumEmpleos']; ?>" maxlength="6"/> 
 <input type="textbox" class="<?php echo (form_error('textboxInvEstimada') == '') ? '' : 'yes_error'; ?> text" name="textboxInvEstimada" id="textboxInvEstimada" value="<?php echo empty($_POST['textboxInvEstimada']) ?'': $_POST['textboxInvEstimada']; ?>" maxlength="12"/> 
 </br>
 </br>
-<label class="labeles7"><font color="#7401DF">*</font></label>
+<label class="labeles7"><img src="../img/asteriscolicencias.png"></label>
 <label>Datos obligatorios </label>
 <input type="submit" class="btn-imprimirr" name="buttonimprimir" id="buttonimprimir" value="" />
 </br>
@@ -125,8 +129,9 @@ echo form_close();
 
 ?>
 </div>
+</div>
 
-<a href="<?php echo base_url().'licencias'; ?>" id="regresar" class="btn-regresar"></a>
+<a href="<?php echo base_url().'licencias'; ?>" id="regresar" class="btn-regresarlicencias"></a>
 
 <script type="text/javascript">
 //function submitform()

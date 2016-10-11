@@ -210,6 +210,20 @@ form .group-form select{
     background-image: url(../img/regresarpress.png);
     background-repeat: no-repeat;
     }
+.btn-regresarlicencias{
+    background: url('../img/regresarOn.png') no-repeat;
+    width: 175px;
+    height: 79px;
+    position: absolute;
+    top: 690px;
+    left: 40px;
+    overflow: visible;
+    cursor: pointer;
+}
+.btn-regresarlicencias:hover, .btn-regresarlicencias.hover_effect{      
+    background-image: url(../img/regresarpress.png);
+    background-repeat: no-repeat;
+    }
 
 .btn-pagar{
     background: url('../img/btn_pagar.jpg') no-repeat;
@@ -1421,8 +1435,8 @@ tr:nth-child(even) {
     /*top: 10px;*/
    height: 476px;
     width: 960px;
-    margin-left: 50px;
-    margin-top: 166px;
+    margin-left: 20px;
+    margin-top: 30px;
     
     /*border: 10px solid;*/
     /*border-color: green;*/
@@ -1431,16 +1445,23 @@ tr:nth-child(even) {
     margin-left: 425px;
 }
 .labeles{
-    padding-left: 163px;
+    padding-left: 151px;
 }
 .labeles2{
-    padding-left: 227px;
+    padding-left: 220px;
 }
 .labeles3{
-    padding-left: 726px;
+    padding-left: 710px;
+}
+.labeles4{
+    padding-left: 163px;
 }
 .text{
   width: 290px;
+}
+.textEmail{
+  width: 310px;
+  margin-left: 25px;
 }
 .text-complete{
   width: 778px;
@@ -1464,7 +1485,7 @@ tr:nth-child(even) {
     padding-left: 356px;
 }
 .labeles5{
-    padding-left: 26px;
+    padding-left: 7px;
 }
 .labeles6{
     padding-left: 13px;
@@ -1477,8 +1498,8 @@ tr:nth-child(even) {
     position: absolute;
     width: 200px;
     height: 70px;
-    top:430px;
-    left:700px;
+    top:400px;
+    left:650px;
     overflow: visible;
     background-repeat: no-repeat;
     outline: none;
@@ -1542,12 +1563,12 @@ tr:nth-child(even) {
 }
 .boton_apertura{
     margin-top: 200px;
-    margin-left: 380px;
+    margin-left: 400px;
 position: center;
 }
 .boton_revalidacion{
     margin-top: 5px;
-    margin-left: 370px;
+    margin-left: 380px;
 position: center;
 }
 .yes_error{
@@ -1557,11 +1578,60 @@ position: center;
 }
 .tex_MensajeErrorCamposValidacion{
    position: absolute;
-   top: 675px;
-   left: 280px;
+   top: 515px;
+   left: 300px;
    color: red;
    font: 125% sans-serif;
 }
 .ocultaimputs{
 
+}
+.contornolicencias{
+    position: relative;
+    background-image: url('../img/contenedorlicencias2.png');
+    width: 930px;
+    height: 500px;
+    left: 50%;
+    margin-left: -465px;
+    top: 180px;
+    /*margin-left: 50px;
+    margin-top: 180px;
+    width: 930px;
+    height: 500px;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    border: 4px solid #c9c9c9;
+    box-shadow: 0 0 15px 10 px;*/
+}
+.caja{
+    /*margin:20px auto 40px auto; */
+   border:1px solid #d9d9d9;
+   height:30px;
+   overflow: hidden;
+   width: 230px;
+   /*position:relative;*/
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 25px;
+   /*padding: 5px;*/
+   width: 250px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+    content:"\025be";
+    display:table-cell;
+    padding-top:7px;
+    text-align:center;
+    width:30px;
+    height:30px;
+    background-color:#8C2BB6;
+    position:absolute;
+    top:0;
+    right:0px;  
+    pointer-events: none;
 }
