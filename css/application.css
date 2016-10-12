@@ -1445,13 +1445,13 @@ tr:nth-child(even) {
     margin-left: 425px;
 }
 .labeles{
-    padding-left: 151px;
+    padding-left: 65px;
 }
 .labeles2{
-    padding-left: 220px;
+    padding-left: 129px;
 }
 .labeles3{
-    padding-left: 710px;
+    padding-left: 411px;
 }
 .labeles4{
     padding-left: 163px;
@@ -1461,25 +1461,37 @@ tr:nth-child(even) {
 }
 .textEmail{
   width: 310px;
-  margin-left: 25px;
+  margin-left: 1px;
+}
+.textTel{
+  width: 154px;  
 }
 .text-complete{
   width: 778px;
 }
 .text-nombre-establecimiento{
-  width: 890px;
+  width: 425px;
 }
 .text-paterno-empresa1{
-      width: 290px;
+      width: 192px;
 }
 .text-paterno-empresa2{
      width: 890px;
 }
+.nombre{
+      width: 192px;
+}
+.materno{
+      width: 192px;
+}
 .text-calle{
-  width: 764px;
+  width: 462px;
+}
+.text-num{
+    width: 123px;
 }
 .text-entre-calle{
-  width: 441px;
+  width: 293px;
 }
 .labeles4{
     padding-left: 356px;
@@ -1488,18 +1500,21 @@ tr:nth-child(even) {
     padding-left: 7px;
 }
 .labeles6{
-    padding-left: 13px;
+    padding-left: 53px;
 }
 .labeles7{
     padding-left: 56px;
+}
+.labeles8{
+    padding-left: 15px;
 }
 .btn-imprimirr{
     background-image: url(../img/imprimirsolicitudd.png);
     position: absolute;
     width: 200px;
     height: 70px;
-    top:400px;
-    left:650px;
+    top:462px;
+    left:483px;
     overflow: visible;
     background-repeat: no-repeat;
     outline: none;
@@ -1578,8 +1593,8 @@ position: center;
 }
 .tex_MensajeErrorCamposValidacion{
    position: absolute;
-   top: 515px;
-   left: 300px;
+   top: 564px;
+   left: 68px;
    color: red;
    font: 125% sans-serif;
 }
@@ -1588,15 +1603,15 @@ position: center;
 }
 .contornolicencias{
     position: relative;
-    background-image: url('../img/contenedorlicencias2.png');
-    width: 930px;
+    background-image: url('../img/contenedorlicencias3.png');
+    width: 700px;
     height: 500px;
     left: 50%;
-    margin-left: -465px;
+    margin-left: -350px;
     top: 180px;
-    /*margin-left: 50px;
+    /*margin-left: 150px;
     margin-top: 180px;
-    width: 930px;
+    width: 700px;
     height: 500px;
     border-radius: 21px 21px 21px 21px;
     -moz-border-radius: 21px 21px 21px 21px;
@@ -1604,12 +1619,50 @@ position: center;
     border: 4px solid #c9c9c9;
     box-shadow: 0 0 15px 10 px;*/
 }
+.solicitante{
+    /*position: relative;
+    background-image: url('../img/contenedorlicencias3.png');
+    width: 700px;
+    height: 500px;
+    left: 50%;
+    margin-left: -350px;
+    top: 180px;*/
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    width: 610px;
+    height: 121px;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    border: 4px solid #c9c9c9;
+    box-shadow: 0 0 15px 10 px;
+}
+.negocio{
+    /*position: relative;
+    background-image: url('../img/contenedorlicencias3.png');
+    width: 700px;
+    height: 500px;
+    left: 50%;
+    margin-left: -350px;
+    top: 180px;*/
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    width: 610px;
+    height: 212px;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    border: 4px solid #c9c9c9;
+    box-shadow: 0 0 15px 10 px;
+}
 .caja{
     /*margin:20px auto 40px auto; */
    border:1px solid #d9d9d9;
    height:30px;
    overflow: hidden;
-   width: 230px;
+   width: 167px;
    /*position:relative;*/
 }
 select {
@@ -1634,4 +1687,8 @@ select:focus{ outline: none;}
     top:0;
     right:0px;  
     pointer-events: none;
+}
+.radio-inline{
+    padding-top: 10px;
+
 }

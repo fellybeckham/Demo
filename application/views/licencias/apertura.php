@@ -17,9 +17,11 @@
 <label>Datos del solicitante</label>
 </br>
 </br>
+<div class="solicitante">
 <form action="<?php echo base_url().'licencias/mostrarpdf'; ?>" method="POST">
+ <input type="radio" name="checkboxPFISICA" id="checkboxPFISICA" value="1">
  <label class="radio-inline">
-  <input type="radio" name="checkboxPFISICA" id="checkboxPFISICA" value="1"> P. Fisica
+   P. Fisica
 </label>
 <!--<label class="radio-inline">
   <input type="radio" name="checkboxPMORAL" id="inlineRadio2" value="1"> 2
@@ -43,25 +45,26 @@
 <!--<form action="<?php echo base_url().'licencias/mostrarpdf'; ?>" method="POST">-->
 <input type="hidden" class="text" name="indicadortipopersona" value=""/>
 <input type="textbox" class="<?php echo (form_error('textboxPaternoEmpresa') == '') ? '' : 'yes_error'; ?>  text-paterno-empresa1" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_POST['textboxPaternoEmpresa']) ?'': $_POST['textboxPaternoEmpresa']; ?>" maxlength="300"/> 
-<input type="textbox" class="<?php echo (form_error('textboxMaterno') == '') ? '' : 'yes_error'; ?> text ocultaimputs" name="textboxMaterno"  id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ?'': $_POST['textboxMaterno']; ?>" maxlength="100"/> 
-<input type="textbox" class="<?php echo (form_error('textboxNombre') == '') ? '' : 'yes_error'; ?> text ocultaimputs" name="textboxNombre"  id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ?'': $_POST['textboxNombre']; ?>" maxlength="100"/> 
+<input type="textbox" class="<?php echo (form_error('textboxMaterno') == '') ? '' : 'yes_error'; ?> materno ocultaimputs" name="textboxMaterno"  id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ?'': $_POST['textboxMaterno']; ?>" maxlength="100"/> 
+<input type="textbox" class="<?php echo (form_error('textboxNombre') == '') ? '' : 'yes_error'; ?> nombre ocultaimputs" name="textboxNombre"  id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ?'': $_POST['textboxNombre']; ?>" maxlength="100"/> 
 <br>
 
 <label>Num. de Telefono</label>
 <label><img src="../img/asteriscolicencias.png"></label>
-<label>Email</label>
+<label class="labeles8">Email</label>
 <label><img src="../img/asteriscolicencias.png"></label>
 </br>
-<input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?>" name="textboxtelefono"  id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>" maxlength="15"/> 
+<input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?> textTel" name="textboxtelefono"  id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>" maxlength="15"/> 
 <input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> textEmail" name="textboxEmail"  id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>" maxlength="70"/> 
-
+</div>
 </br>
 <label>Datos del negocio</label>
 </br>
 </br>
+<div class = "negocio">
 <label>Giro Principal</label>
 <label><img src="../img/asteriscolicencias.png"></label>
-
+<label class="labeles6">Nombre Establecimiento</label>
 </br>
 <input type="hidden" class="text" name="girooculto" id="girooculto" value="<?php echo $sesion ?>"/> 
 <select class=" <?php echo (form_error('imput_giro') == '') ? '' : 'yes_error'; ?> form-control caja" name="imput_giro" id="idselect">
@@ -73,13 +76,8 @@ foreach ($giros as $key) {
 
 ?>
 </select>
- </br>
-  
-    <label class="labeles6">Nombre Establecimiento</label>
-    
+
 <input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento"  id="textboxNombreEstablecimiento" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ?'': $_POST['textboxNombreEstablecimiento']; ?>" maxlength="50"/> 
-</br>
-</br>
 
 <label>Calle</label>
 <label><img src="../img/asteriscolicencias.png"></label>
@@ -87,7 +85,7 @@ foreach ($giros as $key) {
 <label><img src="../img/asteriscolicencias.png"></label>
 
 <input type="textbox" class=" <?php echo (form_error('textboxcalle') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcalle"  id="textboxcalle" value="<?php echo empty($_POST['textboxcalle']) ?'': $_POST['textboxcalle']; ?>" maxlength="70"/> 
-<input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?>" name="textboxnum"  id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ?'': $_POST['textboxnum']; ?>" maxlength="25"/> 
+<input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?> text-num" name="textboxnum"  id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ?'': $_POST['textboxnum']; ?>" maxlength="25"/> 
 </br>
 
 <label>Colonia</label>
@@ -95,14 +93,13 @@ foreach ($giros as $key) {
 <label class="labeles3">Cod. Postal</label>
 </br>
 <input type="textbox" class="<?php echo (form_error('textboxcolonia') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcolonia"  id="textboxcolonia" value="<?php echo empty($_POST['textboxcolonia']) ?'': $_POST['textboxcolonia']; ?>" maxlength="45"/> 
-<input type="textbox" name="textboxCP"  id="textboxCP" value="<?php echo empty($_POST['textboxCP']) ?'': $_POST['textboxCP']; ?>" maxlength="10"/> 
+<input type="textbox" name="textboxCP" class="text-num" id="textboxCP" value="<?php echo empty($_POST['textboxCP']) ?'': $_POST['textboxCP']; ?>" maxlength="10"/> 
 </br>
 <label>Entre calle 1</label>
 <label class="labeles4">Entre calle 2</label>
 </br>
 <input type="textbox" class="text-entre-calle" name="textboxCalle1"  id="textboxCalle1" value="<?php echo empty($_POST['textboxCalle1']) ?'': $_POST['textboxCalle1']; ?>" maxlength="50"/> 
 <input type="textbox" class="text-entre-calle" name="textboxCalle2"  id="textboxCalle2" value="<?php echo empty($_POST['textboxCalle2']) ?'': $_POST['textboxCalle2']; ?>" maxlength="50"/> 
-</br>
 </br>
 <label># de Empleos</label>
 <label><img src="../img/asteriscolicencias.png"></label>
@@ -113,8 +110,10 @@ foreach ($giros as $key) {
 <input type="textbox" class="<?php echo (form_error('textboxInvEstimada') == '') ? '' : 'yes_error'; ?> text" name="textboxInvEstimada" id="textboxInvEstimada" value="<?php echo empty($_POST['textboxInvEstimada']) ?'': $_POST['textboxInvEstimada']; ?>" maxlength="12"/> 
 </br>
 </br>
+</div>
+</br>
 <label class="labeles7"><img src="../img/asteriscolicencias.png"></label>
-<label>Datos obligatorios </label>
+<label>Datos obligatorios</label>
 <input type="submit" class="btn-imprimirr" name="buttonimprimir" id="buttonimprimir" value="" />
 </br>
 </br>
