@@ -9,7 +9,6 @@
 //var_dump(json_decode($giro));
 ?>
 
-
 <div class="fondolicencias">
     <div class="contornolicencias">
 
@@ -20,7 +19,7 @@
 <div class="solicitante">
 <form action="<?php echo base_url().'licencias/mostrarpdf'; ?>" method="POST">
  <input type="radio" name="checkboxPFISICA" id="checkboxPFISICA" value="1">
- <label class="radio-inline">
+ <label class="radio-inline" for="checkboxPFISICA">
    P. Fisica
 </label>
 <!--<label class="radio-inline">
@@ -28,11 +27,11 @@
 </label>-->
 
 <input type="radio" name="checkboxPFISICA" id="checkboxPMORAL" value="2">
-<label>P. Moral</label>
+<label for="checkboxPMORAL">P. Moral</label>
 <!--<input type="radio" value="1" name="checkboxPMORAL" id="checkboxPMORAL"> 
 <label>P. Moral</label>-->
 </br>
-</br>
+<div class="solicitante1">
 <label>Paterno/Empresa</label>
 <!--<label><font color="#7401DF">*</font></label>-->
 <label><img src="../img/asteriscolicencias.png"></label>
@@ -56,6 +55,7 @@
 </br>
 <input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?> textTel" name="textboxtelefono"  id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ?'': $_POST['textboxtelefono']; ?>" maxlength="15"/> 
 <input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> textEmail" name="textboxEmail"  id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ?'': $_POST['textboxEmail']; ?>" maxlength="70"/> 
+</div>
 </div>
 </br>
 <label>Datos del negocio</label>
@@ -111,7 +111,7 @@ foreach ($giros as $key) {
 </br>
 </br>
 </div>
-</br>
+
 <label class="labeles7"><img src="../img/asteriscolicencias.png"></label>
 <label>Datos obligatorios</label>
 <input type="submit" class="btn-imprimirr" name="buttonimprimir" id="buttonimprimir" value="" />
