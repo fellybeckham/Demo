@@ -219,7 +219,10 @@ class Licencias extends CI_Controller{
    }
 
     public function revalidacion(){
-
+         $data['sesion'] = $this->licencias_model->inicioSession();
+        
+        $data['vista'] = $this->load->view('licencias/revalidacion.php',$data, TRUE); //True para pasar la vista como dato
+            $this->load->view('templates/layout', $data);
     }
 
     public function RegresarDatos()

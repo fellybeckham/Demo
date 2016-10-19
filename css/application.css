@@ -1508,6 +1508,12 @@ tr:nth-child(even) {
 .labeles8{
     padding-left: 15px;
 }
+.labeles9{
+    padding-left: 69px;
+}
+.labeles10{
+    padding-top: 20px;
+}
 .btn-imprimirr{
     background-image: url(../img/imprimirsolicitudd.png);
     position: absolute;
@@ -1619,6 +1625,26 @@ position: center;
     border: 4px solid #c9c9c9;
     box-shadow: 0 0 15px 10 px;*/
 }
+.contornolicenciasrevalidacion{
+    position: absolute;
+    background-image: url('../img/contornolicencias4.png');
+    width: 785px;
+    height: 500px;
+    left: 50%;
+    margin-left: -392.5px;
+    top: 180px;
+    padding-top: 41px;
+    background-repeat: no-repeat;
+    /*margin-left: 110px;
+    margin-top: 180px;
+    width: 785px;
+    height: 500px;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    border: 4px solid #c9c9c9;
+    box-shadow: 0 0 15px 10 px;*/
+}
 .solicitante{
     margin-left: 20px;
     padding-left: 10px; 
@@ -1648,6 +1674,14 @@ position: center;
    width: 167px;
    /*position:relative;*/
 }
+.cajatipolicencias{
+    /*margin:20px auto 40px auto; */
+   border:1px solid #d9d9d9;
+   height:30px;
+   overflow: hidden;
+   width: 251px;
+   /*position:relative;*/
+}
 select {
    background: transparent;
    border: none;
@@ -1674,4 +1708,36 @@ select:focus{ outline: none;}
 .radio-inline{
     padding-top: 10px;
 
+}
+.busquedalicencias{
+    margin-left: 110px;
+    margin-top:margin-left: 20px;
+    padding-left: 10px; 
+    padding-top: 10px;
+    width: 555px;
+    height: 305px;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    border: 4px solid #c9c9c9;
+    box-shadow: 0 0 15px 10 px;
+}
+.busquedal{
+    padding-left: 156px;
+}
+.busquedalicenciasimputs{
+     margin-left: 10px;
+    margin-top:margin-left: 20px;
+    padding-left: 10px; 
+    padding-top: 10px;
+    width: 508px;
+    height: 217px;
+    border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    border: 4px solid #c9c9c9;
+    box-shadow: 0 0 15px 10 px;
+}
+.text-Numlicencia{
+      width: 227px;
 }
