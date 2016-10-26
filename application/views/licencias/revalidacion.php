@@ -1,111 +1,135 @@
-<script>  setTimeout ("window.external.regresarInicio()",120000); </script>
-<?php //echo $MensajeAudio; 
-//echo $Oficinas; 
-//$giros=json_decode($giro, True);
-//foreach ($giros as $key) {
-//print_r(($key['GirosId']));
- // print_r(($key['giro']));  
-//}
-//var_dump(json_decode($giro));
+<script>  setTimeout("window.external.regresarInicio()", 120000);</script>
+<div class="contornolicenciasrevalidacion">
+    <div class="busquedalicencias">
 
-/*style="padding-left: 279px;
-                    position: relative;
-                    margin-top: 40px;">class="fondolicencias">*/
-?>
- 
-    <div class="contornolicenciasrevalidacion">
-        <div class="busquedalicencias">
-        <label class="busquedal"><img src="../img/busquedalicencia.png">
-           
-        </label>
-        <div class = "busquedalicenciasimputs">
-             <label>Numero de Licencia</label>
-             <label><img src="../img/asteriscolicencias.png"></label>
-                <label class="labeles9">Tipo de Licencia</label>
-                <label><img src="../img/asteriscolicencias.png"></label>
-            </br>
-             <input type="textbox" class="<?php echo (form_error('textboxNumlicencia') == '') ? '' : 'yes_error'; ?> text-Numlicencia" name="textboxNumlicencia" id="textboxNumlicencia" value="<?php echo empty($_POST['textboxNumlicencia']) ?'': $_POST['textboxNumlicencia']; ?>" maxlength="300"/> 
-             <select class=" <?php echo (form_error('imput_giro') == '') ? '' : 'yes_error'; ?> form-control cajatipolicencias" name="imput_giro" id="idselect">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-             </select>
-             <label class="labeles10">Ap. Paterno/Empresa</label>
-             <label><img src="../img/asteriscolicencias.png"></label>
-
+        <?php
+        $attributes = array('id' => 'frmDatosLicencia', 'name' => 'frmDatosLicencia');
+        echo form_open('licencias/busquedaLicencia', $attributes);
+        ?>
+        <div class="lblTitle"></div>
+        <div class="txtNoLicencia">
+            <label>Numero de licencia</label>
+            <input type="hidden" value="<?php echo $sesion; ?>" name="session" id="session"/>
+            <div class="asterisco ast-noLicencia"></div>
+            <input class="inputLicencia" value="" maxlength="13" name="noLicencia" type="text" id="noLicencia" value=""/>
+            <div class="errorNoLicencia"><?php echo form_error('noLicencia'); ?></div>
         </div>
-        
-       </div> 
-    </div>
+        <div class="txtTipoLicencia">
+            <label>Tipo de licencia</label>
+            <div class="asterisco ast-tipoLicencia"></div>
+            <div class="selectTipoLicencia">
+                <div class="styleSelect">
+                    <select  name="tipoLicencia" id="tipoLicencia">
+                        <?php
+                        $tipos = json_decode($tiposLicencia, True);
+                        foreach ($tipos as $licencia) {
+                            echo "<option value='" . $licencia['tipo'] . "'" . ">" . urldecode($licencia['genero']) . "</option>";
+                        }
+                        ?> 
+                    </select> 
+                </div>
+            </div>
+<!--            <select class="selectTipoLicencia" name="tipoLicencia" id="tipoLicencia">
+            <?php
+            $tipos = json_decode($tiposLicencia, True);
+            foreach ($tipos as $licencia) {
+                echo "<option value='" . $licencia['tipo'] . "'" . ">" . urldecode($licencia['genero']) . "</option>";
+            }
+            ?>
+            </select>-->
+            <div class="errorTipoLicencia"><?php echo form_error('tipoLicencia'); ?></div>
+        </div>
+        <div class="txtApPaterno">
+            <label>Ap. Paterno/Empresa</label>
+            <div class="asterisco ast-apPaterno"></div>
+            <input class="inputApPaterno" value="" maxlength="300" name="apPaterno" type="text" id="apPaterno" value=""/>
+            <div class="errorTipoLicencia"><?php echo form_error('apPaterno'); ?></div>
+        </div>
+        <div class="footerForm">
+            <div class="asterisco ast-obligatoro"></div>
+            <div class="lblOblg"><label>Datos obligatorios</label></div>
+            <input class="btnBuscar" type="submit" value=""/>
+        </div>
+        <?php form_close(); ?>
+    </div> 
 
-<a href="<?php echo base_url().'licencias'; ?>" id="regresar" class="btn-regresarlicencias"></a>
+</div>
+<a href="<?php echo base_url() . 'licencias'; ?>" id="regresar" class="btn-regresarlicencias"></a>
 
 <script type="text/javascript">
 //function submitform()
 //{
-  //  document.forms["myform"].submit();
+    //  document.forms["myform"].submit();
 //}
 </script>
 
 <script type="text/javascript">
 //LETRAS Y NUMEROS
- $("#textboxPaternoEmpresa, #textboxMaterno, #textboxNombre, #textboxtelefono, #textboxNombreEstablecimiento, #textboxcalle, #textboxnum, #textboxcolonia, #textboxCP, #textboxCalle1, #textboxCalle2").keypress(function(e){   
-                cadena = $(this).val();
-                cadenalength = cadena.length;
-                
-                var tecla = e.keyCode || e.which; 
-                if(cadena === "" && tecla==32 ){return false;}
-                if (tecla == 46) {return true;}                
-                if(cadena.substring(cadenalength-1) === " " && tecla === 32  ){return false;}                
-                
-                if (tecla==8||tecla==13||tecla==32) return true; // 3
-                if (tecla==32) return false; // 3
-                patron = /^[0-9a-zA-ZñÑÃ¡Ã©Ã­Ã³ÃºÃ Ã¨Ã¬Ã²Ã¹Ã€ÃˆÃŒÃ’Ã™Ã?Ã‰Ã?Ã“ÃšÃ±Ã‘Ã¼Ãœ'_\s]+$/; 
-                te = String.fromCharCode(tecla); // 5
-                $(this).val($(this).val().toUpperCase());
-                return patron.test(te);            
-            });
+    $("#textboxPaternoEmpresa, #textboxMaterno, #textboxNombre, #textboxtelefono, #textboxNombreEstablecimiento, #textboxcalle, #textboxnum, #textboxcolonia, #textboxCP, #textboxCalle1, #textboxCalle2").keypress(function (e) {
+        cadena = $(this).val();
+        cadenalength = cadena.length;
 
+        var tecla = e.keyCode || e.which;
+        if (cadena === "" && tecla == 32) {
+            return false;
+        }
+        if (tecla == 46) {
+            return true;
+        }
+        if (cadena.substring(cadenalength - 1) === " " && tecla === 32) {
+            return false;
+        }
 
-//NUMEROS
-$("#textboxNumEmpleos, #textboxInvEstimada, #NumPredio").keypress(function(e) {
-    var tecla = e.keyCode || e.which;           
-            if (tecla==8||tecla==13) return true; // 3
-            patron = /[0-9]/; //numeros 
-            te = String.fromCharCode(tecla); // 5
-            return patron.test(te);
+        if (tecla == 8 || tecla == 13 || tecla == 32)
+            return true; // 3
+        if (tecla == 32)
+            return false; // 3
+        patron = /^[0-9a-zA-ZñÑÃ¡Ã©Ã­Ã³ÃºÃ Ã¨Ã¬Ã²Ã¹Ã€ÃˆÃŒÃ’Ã™Ã?Ã‰Ã?Ã“ÃšÃ±Ã‘Ã¼Ãœ'_\s]+$/;
+        te = String.fromCharCode(tecla); // 5
+        $(this).val($(this).val().toUpperCase());
+        return patron.test(te);
     });
 
 
-var optionValue = search = "<?php echo $test; ?>"
-$("#idselect").val(optionValue).find("option[value=" + optionValue +"]").attr('selected', true);
-
-var radiooptionValue = search = "<?php echo $radiobutonpersona; ?>"
-if (radiooptionValue == 1 || radiooptionValue == '') {
-    $("#checkboxPFISICA").attr('checked', true);
-
-    $('.ocultaimputs').show();
-    $('#textboxPaternoEmpresa').removeClass( "text-paterno-empresa2" );
-}
-else{
-      $("#checkboxPMORAL").attr('checked', true);
-       $('.ocultaimputs').hide();
-        $('#textboxPaternoEmpresa').addClass( "text-paterno-empresa2");
-}
+//NUMEROS
+    $("#textboxNumEmpleos, #textboxInvEstimada, #NumPredio").keypress(function (e) {
+        var tecla = e.keyCode || e.which;
+        if (tecla == 8 || tecla == 13)
+            return true; // 3
+        patron = /[0-9]/; //numeros 
+        te = String.fromCharCode(tecla); // 5
+        return patron.test(te);
+    });
 
 
+    var optionValue = search = "<?php echo $test; ?>"
+    $("#idselect").val(optionValue).find("option[value=" + optionValue + "]").attr('selected', true);
 
-$('input[name="checkboxPFISICA"]').click(function() {
-//Se verifica si alguno de los radios esta seleccionado
-    if ($('#checkboxPFISICA').is(':checked')) {
-        //alert('Borrar telefono y email');
+    var radiooptionValue = search = "<?php echo $radiobutonpersona; ?>"
+    if (radiooptionValue == 1 || radiooptionValue == '') {
+        $("#checkboxPFISICA").attr('checked', true);
+
         $('.ocultaimputs').show();
-        $('#textboxPaternoEmpresa').removeClass( "text-paterno-empresa2" );
-       
+        $('#textboxPaternoEmpresa').removeClass("text-paterno-empresa2");
     } else {
+        $("#checkboxPMORAL").attr('checked', true);
         $('.ocultaimputs').hide();
-        $('#textboxPaternoEmpresa').addClass( "text-paterno-empresa2");
-        
+        $('#textboxPaternoEmpresa').addClass("text-paterno-empresa2");
     }
-});
+
+
+
+    $('input[name="checkboxPFISICA"]').click(function () {
+//Se verifica si alguno de los radios esta seleccionado
+        if ($('#checkboxPFISICA').is(':checked')) {
+            //alert('Borrar telefono y email');
+            $('.ocultaimputs').show();
+            $('#textboxPaternoEmpresa').removeClass("text-paterno-empresa2");
+
+        } else {
+            $('.ocultaimputs').hide();
+            $('#textboxPaternoEmpresa').addClass("text-paterno-empresa2");
+
+        }
+    });
 </script>

@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
 <title>Menu</title>
 <link href="<?php echo base_url(); ?>css/application.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url(),'js/funciones.js'?>"  type="text/javascript" />

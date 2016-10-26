@@ -1470,7 +1470,10 @@ tr:nth-child(even) {
   width: 778px;
 }
 .text-nombre-establecimiento{
-  width: 491px;
+  width: 450px;
+  top:-25px;
+  left: 210px;
+  position: relative;
 }
 .text-paterno-empresa1{
       width: 218px;
@@ -1500,7 +1503,7 @@ tr:nth-child(even) {
     padding-left: 7px;
 }
 .labeles6{
-    padding-left: 53px;
+    padding-left: 203px;
 }
 .labeles7{
     padding-left: 56px;
@@ -1508,11 +1511,10 @@ tr:nth-child(even) {
 .labeles8{
     padding-left: 15px;
 }
-.labeles9{
-    padding-left: 69px;
-}
-.labeles10{
-    padding-top: 20px;
+.divDatos
+{
+    position: relative;
+    top: -22px;
 }
 .btn-imprimirr{
     background-image: url(../img/imprimirsolicitudd.png);
@@ -1570,7 +1572,6 @@ tr:nth-child(even) {
     width: 793px;
     background-repeat: no-repeat;
 }
-}
 .opciones{
     position: absolute;
     /*top: 10px;*/
@@ -1578,9 +1579,6 @@ tr:nth-child(even) {
     width: 960px;
     margin-left: 50px;
     margin-top: 166px;
-    
-    /*border: 10px solid;*/
-    /*border-color: green;*/
 }
 .boton_apertura{
     margin-top: 200px;
@@ -1615,35 +1613,17 @@ position: center;
     left: 50%;
     margin-left: -392.5px;
     top: 180px;
-    /*margin-left: 110px;
-    margin-top: 180px;
-    width: 785px;
-    height: 500px;
-    border-radius: 21px 21px 21px 21px;
-    -moz-border-radius: 21px 21px 21px 21px;
-    -webkit-border-radius: 21px 21px 21px 21px;
-    border: 4px solid #c9c9c9;
-    box-shadow: 0 0 15px 10 px;*/
 }
 .contornolicenciasrevalidacion{
     position: absolute;
-    background-image: url('../img/contornolicencias4.png');
-    width: 785px;
-    height: 500px;
+    background-image: url('../img/contorno-revalidacion.png');
+    width: 466px;
+    height: 388px;
     left: 50%;
-    margin-left: -392.5px;
+    margin-left: -233px;
     top: 180px;
     padding-top: 41px;
     background-repeat: no-repeat;
-    /*margin-left: 110px;
-    margin-top: 180px;
-    width: 785px;
-    height: 500px;
-    border-radius: 21px 21px 21px 21px;
-    -moz-border-radius: 21px 21px 21px 21px;
-    -webkit-border-radius: 21px 21px 21px 21px;
-    border: 4px solid #c9c9c9;
-    box-shadow: 0 0 15px 10 px;*/
 }
 .solicitante{
     margin-left: 20px;
@@ -1666,14 +1646,15 @@ position: center;
     background-image: url('../img/contornonegocio.png');
     background-repeat: no-repeat;
 }
-.caja{
-    /*margin:20px auto 40px auto; */
+/*.caja{
+    margin:20px auto 40px auto; 
    border:1px solid #d9d9d9;
    height:30px;
    overflow: hidden;
-   width: 167px;
-   /*position:relative;*/
-}
+   width: 130px;
+   position:relative;
+   left: 70px;
+}*/
 .cajatipolicencias{
     /*margin:20px auto 40px auto; */
    border:1px solid #d9d9d9;
@@ -1683,7 +1664,7 @@ position: center;
    /*position:relative;*/
 }
 select {
-   background: transparent;
+   /*background: transparent;*/
    border: none;
    font-size: 14px;
    height: 25px;
@@ -1692,52 +1673,246 @@ select {
 }
 select:focus{ outline: none;}
 
-.caja::after{
-    content:"\025be";
-    display:table-cell;
-    padding-top:7px;
-    text-align:center;
-    width:30px;
-    height:30px;
-    background-color:#8C2BB6;
-    position:absolute;
-    top:0;
-    right:0px;  
-    pointer-events: none;
-}
 .radio-inline{
     padding-top: 10px;
 
 }
 .busquedalicencias{
-    margin-left: 110px;
-    margin-top:margin-left: 20px;
-    padding-left: 10px; 
-    padding-top: 10px;
-    width: 555px;
-    height: 305px;
-    border-radius: 21px 21px 21px 21px;
-    -moz-border-radius: 21px 21px 21px 21px;
-    -webkit-border-radius: 21px 21px 21px 21px;
-    border: 4px solid #c9c9c9;
-    box-shadow: 0 0 15px 10 px;
+    margin-left: 0px;
+    margin-top: -30px;
+    padding-left: 0px; 
+    height: 388px;
+    color: #999999;
 }
 .busquedal{
-    padding-left: 156px;
+    margin-left: 120px;
 }
-.busquedalicenciasimputs{
-     margin-left: 10px;
-    margin-top:margin-left: 20px;
-    padding-left: 10px; 
-    padding-top: 10px;
-    width: 508px;
+.busquedalicenciasinputs{
+    margin-top: 50px;
+    padding-left: 47px; 
+    width: 466px;
     height: 217px;
     border-radius: 21px 21px 21px 21px;
     -moz-border-radius: 21px 21px 21px 21px;
     -webkit-border-radius: 21px 21px 21px 21px;
-    border: 4px solid #c9c9c9;
-    box-shadow: 0 0 15px 10 px;
+    /*border: 4px solid #c9c9c9;*/
+    box-shadow: 0 0 15 10;
+    color: #999999;
 }
-.text-Numlicencia{
-      width: 227px;
+.lblTitle
+{
+    background: url('../img/busquedalicencia.png') no-repeat;
+    position: relative;
+    top: 1px;
+    height: 39px;
+    width: 226px;
+    left: 110px;
 }
+.licenciaArriba
+{
+    height: 104px;
+    top: 60px;
+    border: solid;
+    position: relative
+}
+.asterisco
+{
+    background: url('../img/asteriscolicencias.png') no-repeat;
+    position: relative;
+    
+}
+.ast-noLicencia{
+    top: -16px;
+    height: 39px;
+    width: 226px;
+    left: 140px;
+}
+.txtNoLicencia
+{
+    left: 50px;
+    position: relative;
+    top:40px;
+    width: 180px;
+}
+.inputLicencia{
+     width: 150px;
+     border:1px solid #d9d9d9;
+   height:25px;
+   top: -30px;
+   position: relative;
+}
+.errorNoLicencia{
+    position: relative;
+    left: 0px;
+    top: -15px;
+}
+.txtTipoLicencia
+{
+    left: 250px;
+    position: relative;
+    top:40px;
+}
+.ast-tipoLicencia{
+    top: -16px;
+    height: 39px;
+    width: 226px;
+    left: 120px;
+}
+.txtTipoLicencia
+{
+    left: 250px;
+    position: relative;
+    top:-45px;
+}
+.selectTipoLicencia{
+     width: 150px;
+  
+   top: -30px;
+   position: relative;
+   height:30px;
+   overflow: hidden;
+}
+.errorTipoLicencia{
+    position: relative;
+    left: 0px;
+    top: -25px;
+}
+.txtApPaterno
+{
+    left: 50px;
+    position: relative;
+    top:-45px;
+}
+
+.ast-apPaterno{
+    top: -17px;
+    height: 39px;
+    width: 226px;
+    left: 160px;
+}
+.inputApPaterno{
+     width: 355px;
+     border:1px solid #d9d9d9;
+   height:25px;
+   top:-30px;
+   position: relative;
+}
+.ast-obligatoro{
+    top: -40px;
+    height: 39px;
+    width: 226px;
+    left: 120px;
+}
+.lblOblg{
+    left: 65px;
+    position: relative;
+    top: -55px;
+}
+.btnBuscar
+{
+    position: relative;
+    background: url('../img/btn-buscar.png') no-repeat;
+    width: 196px;
+    height: 46px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    left: 220px;
+    top:-90px;
+}
+.contornodatosrevalidacion{
+    position: absolute;
+    background-image: url('../img/contorno-datos.png');
+    width: 631px;
+    height: 523px;
+    left: 50%;
+    margin-left: -320px;
+    top: 180px;
+    padding-top: 41px;
+    background-repeat: no-repeat;
+    color: #999999;
+    font-family: Raleway;
+    font-size: 16px;
+}
+.btnGuardaRevalidacion
+{
+    position: relative;
+    background: url('../img/btnGuardaRevalidacion.png') no-repeat;
+    width: 196px;
+    height: 46px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    left: 220px;
+    top:180px;
+}
+.lblTitleRevalida
+{
+    background: url('../img/txt-revalidacion.png') no-repeat;
+    position: relative;
+    top: 1px;
+    height: 31px;
+    width: 249px;
+    left: 181px;
+}
+.datosPropietario
+{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 530px;
+}
+.result
+{
+    position: relative;
+    left: 50px;
+    top: 180px;
+    width: 530px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+}
+.styleSelect select {
+    background: transparent; 
+    width: 168px; 
+    padding: 5px;
+    font-size: 16px; 
+    line-height: 1;
+    border: 0;
+    border-radius: 0; 
+    height: 34px; 
+    -webkit-appearance: none;
+    color: #000; 
+    outline: none;
+} 
+.styleSelect 
+{ 
+    width: 140px; 
+    height: 24px; 
+    overflow: hidden; 
+    background: url("../img/ico-select.png") no-repeat right #fff; border: 1px solid #d9d9d9; 
+}
+.styleSelectApertura select {
+    background: transparent; 
+    width: 228px; 
+    padding: 5px;
+    font-size: 16px; 
+    line-height: 1;
+    border: 0;
+    border-radius: 0; 
+    height: 34px; 
+    -webkit-appearance: none;
+    color: #000; 
+    outline: none;
+} 
+.styleSelectApertura 
+{ 
+    width: 200px; 
+    height: 24px; 
+    overflow: hidden; 
+    background: url("../img/ico-select.png") no-repeat right #fff; border: 1px solid #d9d9d9; 
+}
+
+
