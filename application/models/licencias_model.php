@@ -110,7 +110,7 @@ class Licencias_model extends CI_Model {
       } */
     /* $paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, */
 
-    public function imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion) {
+    public function imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $girocomple, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion) {
         //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
         //echo $sesion;
         //echo $Investimada;
@@ -127,6 +127,7 @@ class Licencias_model extends CI_Model {
                 "numtelefono" => $numtelefono,
                 "email" => $email,
                 "giro" => $giro,
+                "girocomple" => $girocomple,
                 "establecimiento" => $establecimiento,
                 "calle" => $calle,
                 "numext" => $numext,

@@ -9,29 +9,29 @@ $datosLicencia = json_decode($licencia, True);?>
         ?>
         <div class="lblTitleRevalida"></div>
         <div class="datosPropietario">
-            <label>Propietario:</label>
+            <label><b>Propietario:</b></label>
             <label><?php echo ucwords(strtolower(str_replace("%20", " ", $datosLicencia[0]['propietario'])));?></label>
             <br/><br/>
-            <label>Domicilio:</label>
+            <label><b>Domicilio:</b></label>
             <label><?php echo ucfirst(strtolower(str_replace("%20", " ", $datosLicencia[0]['domicilio']))) ;?></label>
             <br/><br/>
-            <label>Giro de actividad:</label>
+            <label><b>Giro de actividad:</b></label>
             <label><?php echo ucfirst(strtolower(str_replace("%20", " ", $datosLicencia[0]['giro'])));?></label>
             <br/><br/>
-            <label>Genero de Licencia:</label>
+            <label><b>Genero de Licencia:</b></label>
             <label><?php echo $datosLicencia[0]['Genero'];?></label>
             &nbsp;
-            <label>Num de Licencia:</label>
+            <label><b>Num de Licencia:</b></label>
             <label><?php echo $datosLicencia[0]['Licencia'];?></label>
              &nbsp;
-            <label>Num de Predio:</label>
+            <label><b>Num de Predio:</b></label>
             <label><?php echo $datosLicencia[0]['ctapredial'];?></label>
              <br/><br/>
-            <label>Ultimo Año Revalidado:</label>
+            <label><b>Ultimo Año Revalidado:</b></label>
             <label><?php echo $datosLicencia[0]['RevaUltima'];?></label>
         </div>
         
-    <input class="btnGuardaRevalidacion" type="submit" value=""/>
+    <input class="btnGuardaRevalidacion" type="submit" value="" name="guardarevalida" id = "guardarevalida"/>
     <?php form_close();
      }else
      {?>
@@ -43,4 +43,18 @@ $datosLicencia = json_decode($licencia, True);?>
 </div>
 
 <a href="<?php echo base_url() . 'licencias/revalidacion'; ?>" id="regresar" class="btn-regresarlicencias"></a>
+
+<script type="text/javascript">
+    $(function desactivar() {
+        var LastyearRevalidation = <?php echo $datosLicencia[0]['RevaUltima'];?>;
+        var CurrentYear = <?php echo date(Y);?>;
+    if(LastyearRevalidation == CurrentYear) {
+        $("#guardarevalida").attr('disabled', 'disabled');
+        console.log('se supone que deberia deshabilitarse');
+    }
+    else {
+        $("#guardarevalida").removeAttr("disabled");
+        console.log('deberia estar activo');
+}});
+</script>
 

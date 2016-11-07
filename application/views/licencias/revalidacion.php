@@ -11,7 +11,7 @@
             <label>Numero de licencia</label>
             <input type="hidden" value="<?php echo $sesion; ?>" name="session" id="session"/>
             <div class="asterisco ast-noLicencia"></div>
-            <input class="inputLicencia" value="" maxlength="13" name="noLicencia" type="text" id="noLicencia" value=""/>
+            <input class="inputLicencia" value="" maxlength="12" name="noLicencia" type="text" id="noLicencia" value=""/>
             <div class="errorNoLicencia"><?php echo form_error('noLicencia'); ?></div>
         </div>
         <div class="txtTipoLicencia">
@@ -92,7 +92,7 @@
 
 
 //NUMEROS
-    $("#textboxNumEmpleos, #textboxInvEstimada, #NumPredio").keypress(function (e) {
+    $("#textboxNumEmpleos, #textboxInvEstimada, #NumPredio,#noLicencia").keypress(function (e) {
         var tecla = e.keyCode || e.which;
         if (tecla == 8 || tecla == 13)
             return true; // 3

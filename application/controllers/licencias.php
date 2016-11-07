@@ -20,8 +20,8 @@ class Licencias extends CI_Controller {
         // $resp = $this->licencias_model->inicioSession();
         // $data['session']= $resp["sesion"];
         // $data['Barra']= "";
-        // $data['MensajeError'] = "";
-        // $data['MensajeAudio'] = "";
+         $data['MensajeError'] = "";
+         $data['MensajeAudio'] = "";
         // $this->logSW("Obtiene Session: ".var_export($resp["respuesta"],true)." ".var_export($resp["sesion"],true));
         // if ($resp['estatus']=='1') {
         $data['vista'] = $this->load->view('licencias/index.php', $data, TRUE); //True para pasar la vista como dato
@@ -33,11 +33,31 @@ class Licencias extends CI_Controller {
         //     $this->load->view('templates/layout', $data);
         // }
     }
+    public function variablesPDF($data){
+        $this->load->view('licencias/vending',$data);
+    }
 
     public function mostrarpdf() {
-
+        $_POST['checkboxPFISICA'] = strtoupper($this->input->get('checkboxPFISICA'));
         if ($_POST['checkboxPFISICA'] == "1") {
             // Requeridos
+             $_POST['textboxPaternoEmpresa'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
+            $_POST['textboxMaterno'] = strtoupper($this->input->get('textboxMaterno'));
+            $_POST['textboxNombre'] = strtoupper($this->input->get('textboxNombre'));
+            $_POST['textboxtelefono'] = strtoupper($this->input->get('textboxtelefono'));
+            $_POST['textboxEmail'] = strtoupper($this->input->get('textboxEmail'));
+            $_POST['imput_giro'] = $this->input->get('imput_giro');
+            $_POST['textboxgiroComplementario'] = strtoupper($this->input->get('textboxgiroComplementario'));
+            $_POST['textboxNombreEstablecimiento'] = strtoupper($this->input->get('textboxNombreEstablecimiento'));
+            $_POST['textboxcalle'] = strtoupper($this->input->get('textboxcalle'));
+            $_POST['textboxnum'] = strtoupper($this->input->get('textboxnum'));
+            $_POST['textboxcolonia'] = strtoupper($this->input->get('textboxcolonia'));
+            $_POST['textboxCP'] = strtoupper($this->input->get('textboxCP'));
+            $_POST['textboxCalle1'] = strtoupper($this->input->get('textboxCalle1'));
+            $_POST['textboxCalle2'] = strtoupper($this->input->get('textboxCalle2'));
+            $_POST['textboxNumEmpleos'] = $this->input->get('textboxNumEmpleos');
+            $_POST['textboxInvEstimada'] = $this->input->get('textboxInvEstimada');
+            // 
             $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|max_length[300]');
             $this->form_validation->set_rules('textboxMaterno', 'materno', 'required|max_length[100]');
             $this->form_validation->set_rules('textboxNombre', 'nombre', 'required|max_length[100]');
@@ -51,12 +71,30 @@ class Licencias extends CI_Controller {
             $this->form_validation->set_rules('imput_giro', 'giro', 'callback_imput_giro');
 
             // No requeridos
+            $this->form_validation->set_rules('textboxgiroComplementario','girocomple','max_length[200]');
             $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
             $this->form_validation->set_rules('textboxCP', 'codpostal', 'max_length[10]');
             $this->form_validation->set_rules('textboxCalle1', 'calle1', 'max_length[50]');
             $this->form_validation->set_rules('textboxCalle2', 'calle2', 'max_length[50]');
         } else {
             // Requeridos
+             $_POST['textboxPaternoEmpresa'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
+            $_POST['textboxMaterno'] = strtoupper($this->input->get('textboxMaterno'));
+            $_POST['textboxNombre'] = strtoupper($this->input->get('textboxNombre'));
+            $_POST['textboxtelefono'] = strtoupper($this->input->get('textboxtelefono'));
+            $_POST['textboxEmail'] = strtoupper($this->input->get('textboxEmail'));
+            $_POST['imput_giro'] = $this->input->get('imput_giro');
+            $_POST['textboxgiroComplementario'] = strtoupper($this->input->get('textboxgiroComplementario'));
+            $_POST['textboxNombreEstablecimiento'] = strtoupper($this->input->get('textboxNombreEstablecimiento'));
+            $_POST['textboxcalle'] = strtoupper($this->input->get('textboxcalle'));
+            $_POST['textboxnum'] = strtoupper($this->input->get('textboxnum'));
+            $_POST['textboxcolonia'] = strtoupper($this->input->get('textboxcolonia'));
+            $_POST['textboxCP'] = strtoupper($this->input->get('textboxCP'));
+            $_POST['textboxCalle1'] = strtoupper($this->input->get('textboxCalle1'));
+            $_POST['textboxCalle2'] = strtoupper($this->input->get('textboxCalle2'));
+            $_POST['textboxNumEmpleos'] = $this->input->get('textboxNumEmpleos');
+            $_POST['textboxInvEstimada'] = $this->input->get('textboxInvEstimada');
+            // 
             $this->form_validation->set_rules('textboxPaternoEmpresa', 'paterno', 'required|max_length[300]');
 
             $this->form_validation->set_rules('textboxtelefono', 'numtelefono', 'required|max_length[15]');
@@ -72,6 +110,7 @@ class Licencias extends CI_Controller {
             // No requeridos
             $this->form_validation->set_rules('textboxMaterno', 'materno', 'max_length[100]');
             $this->form_validation->set_rules('textboxNombre', 'nombre', 'max_length[100]');
+            $this->form_validation->set_rules('textboxgiroComplementario','girocomple','max_length[200]');
             $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
             $this->form_validation->set_rules('textboxCP', 'codpostal', 'max_length[10]');
             $this->form_validation->set_rules('textboxCalle1', 'calle1', 'max_length[50]');
@@ -84,25 +123,29 @@ class Licencias extends CI_Controller {
             //Si la validación es correcta, cogemos los datos de la variable POST
             //y los enviamos al modelo
 
-            $paterno = strtoupper($this->input->post('textboxPaternoEmpresa'));
-            $materno = strtoupper($this->input->post('textboxMaterno'));
-            $nombre = strtoupper($this->input->post('textboxNombre'));
-            $numtelefono = strtoupper($this->input->post('textboxtelefono'));
-            $email = strtoupper($this->input->post('textboxEmail'));
-            $giro = $this->input->post('imput_giro');
-            $establecimiento = strtoupper($this->input->post('textboxNombreEstablecimiento'));
-            $calle = strtoupper($this->input->post('textboxcalle'));
-            $numext = strtoupper($this->input->post('textboxnum'));
-            $colonia = strtoupper($this->input->post('textboxcolonia'));
-            $codpostal = strtoupper($this->input->post('textboxCP'));
-            $calle1 = strtoupper($this->input->post('textboxCalle1'));
-            $calle2 = strtoupper($this->input->post('textboxCalle2'));
-            $numempleos = $this->input->post('textboxNumEmpleos');
-            $Investimada = $this->input->post('textboxInvEstimada');
-            $sesion = $this->licencias_model->inicioSession();
-
+            $data['paterno'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
+            $data['materno'] = strtoupper($this->input->get('textboxMaterno'));
+            $data['nombre'] = strtoupper($this->input->get('textboxNombre'));
+            $data['numtelefono'] = strtoupper($this->input->get('textboxtelefono'));
+            $data['email'] = strtoupper($this->input->get('textboxEmail'));
+            $data['giro'] = $this->input->get('imput_giro');
+            $data['girocomple'] = strtoupper($this->input->get('textboxgiroComplementario'));
+            $data['establecimiento'] = strtoupper($this->input->get('textboxNombreEstablecimiento'));
+            $data['calle'] = strtoupper($this->input->get('textboxcalle'));
+            $data['numext'] = strtoupper($this->input->get('textboxnum'));
+            $data['colonia'] = strtoupper($this->input->get('textboxcolonia'));
+            $data['codpostal'] = strtoupper($this->input->get('textboxCP'));
+            $data['calle1'] = strtoupper($this->input->get('textboxCalle1'));
+            $data['calle2'] = strtoupper($this->input->get('textboxCalle2'));
+            $data['numempleos'] = $this->input->get('textboxNumEmpleos');
+            $data['Investimada'] = $this->input->get('textboxInvEstimada');
+            $data['sesion'] = $this->licencias_model->inicioSession();
+        
+        //$this->load->view('licencias/vending', TRUE);
+            //$data1['vista'] = $this->load->view('licencias/vending', TRUE);
+            $this->variablesPDF($data);
             //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
-            $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
+            //$this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $girocomple, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
 
             //$giro = $this->input->post('imput_giro');
             /* if ($giro > 0) {
@@ -147,23 +190,23 @@ class Licencias extends CI_Controller {
               $this->load->view('templates/layout', $data);
               } */
         } else {
-            $data['paterno'] = $this->input->post('textboxPaternoEmpresa');
-            $data['materno'] = $this->input->post('textboxMaterno');
-            $data['nombre'] = $this->input->post('textboxNombre');
-            $data['numtelefono'] = $this->input->post('textboxtelefono');
-            $data['email'] = $this->input->post('textboxEmail');
-            $data['test'] = $this->input->post('imput_giro');
-            $data['calle'] = $this->input->post('textboxcalle');
-            $data['numext'] = $this->input->post('textboxnum');
-            $data['colonia'] = $this->input->post('textboxcolonia');
-            $data['numempleos'] = $this->input->post('textboxNumEmpleos');
-            $data['Investimada'] = $this->input->post('textboxInvEstimada');
+            $data['paterno'] = $this->input->get('textboxPaternoEmpresa');
+            $data['materno'] = $this->input->get('textboxMaterno');
+            $data['nombre'] = $this->input->get('textboxNombre');
+            $data['numtelefono'] = $this->input->get('textboxtelefono');
+            $data['email'] = $this->input->get('textboxEmail');
+            $data['test'] = $this->input->get('imput_giro');
+            $data['calle'] = $this->input->get('textboxcalle');
+            $data['numext'] = $this->input->get('textboxnum');
+            $data['colonia'] = $this->input->get('textboxcolonia');
+            $data['numempleos'] = $this->input->get('textboxNumEmpleos');
+            $data['Investimada'] = $this->input->get('textboxInvEstimada');
 
             $data['MensajeError'] = 'LOS CAMPOS EN COLOR ROJO DEBEN SER LLENADOS';
 
-            $data['sesion'] = $this->input->post('girooculto');
+            $data['sesion'] = $this->input->get('girooculto');
             $data['giro'] = $this->licencias_model->obtenergiros($data['sesion']);
-            $data['radiobutonpersona'] = $this->input->post('checkboxPFISICA');
+            $data['radiobutonpersona'] = $this->input->get('checkboxPFISICA');
             $data['vista'] = $this->load->view('licencias/apertura.php', $data, TRUE);
             $this->load->view('templates/layout', $data);
         }
@@ -203,6 +246,28 @@ class Licencias extends CI_Controller {
             return FALSE;
             //echo "OPCION2";
         }
+    }
+
+    public function imprimirDocumentoApertura(){
+        $paterno = $this->input->get('paterno');
+        $materno = $this->input->get('materno');
+        $nombre = $this->input->get('nombre');
+        $numtelefono = $this->input->get('numtelefono');
+        $email = $this->input->get('email');
+        $giro = $this->input->get('giro');
+        $girocomple = $this->input->get('girocomple');
+        $establecimiento = $this->input->get('establecimiento');
+        $calle = $this->input->get('calle');
+        $numext = $this->input->get('numext');
+        $colonia = $this->input->get('colonia');
+        $codpostal = $this->input->get('codpostal');
+        $calle1 = $this->input->get('calle1');
+        $calle2 = $this->input->get('calle2');
+        $numempleos = $this->input->get('numempleos');
+        $Investimada = $this->input->get('Investimada');
+        $sesion = $this->input->get('sesion');
+        
+        $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $girocomple, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
     }
 
     public function revalidacion() {

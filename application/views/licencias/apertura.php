@@ -18,7 +18,7 @@
             </br>
             </br>
             <div class="solicitante">
-                <form action="<?php echo base_url() . 'licencias/mostrarpdf'; ?>" method="POST">
+                <form action="<?php echo base_url() . 'licencias/mostrarpdf'; ?>" method="GET">
                     <input type="radio" name="checkboxPFISICA" id="checkboxPFISICA" value="1">
                     <label class="radio-inline" for="checkboxPFISICA">
                         P. Fisica
@@ -42,11 +42,11 @@
                         <label class="ocultaimputs"><img src="../img/asteriscolicencias.png"></label>
                         </br>
 
-<!--<form action="<?php echo base_url() . 'licencias/mostrarpdf'; ?>" method="POST">-->
+<!--<form action="<?php //echo base_url() . 'licencias/mostrarpdf'; ?>" method="POST">-->
                         <input type="hidden" class="text" name="indicadortipopersona" value=""/>
-                        <input type="textbox" class="<?php echo (form_error('textboxPaternoEmpresa') == '') ? '' : 'yes_error'; ?>  text-paterno-empresa1" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_POST['textboxPaternoEmpresa']) ? '' : $_POST['textboxPaternoEmpresa']; ?>" maxlength="300"/> 
-                        <input type="textbox" class="<?php echo (form_error('textboxMaterno') == '') ? '' : 'yes_error'; ?> materno ocultaimputs" name="textboxMaterno"  id="textboxMaterno" value="<?php echo empty($_POST['textboxMaterno']) ? '' : $_POST['textboxMaterno']; ?>" maxlength="100"/> 
-                        <input type="textbox" class="<?php echo (form_error('textboxNombre') == '') ? '' : 'yes_error'; ?> nombre ocultaimputs" name="textboxNombre"  id="textboxNombre" value="<?php echo empty($_POST['textboxNombre']) ? '' : $_POST['textboxNombre']; ?>" maxlength="100"/> 
+                        <input type="textbox" class="<?php echo (form_error('textboxPaternoEmpresa') == '') ? '' : 'yes_error'; ?>  text-paterno-empresa1" name="textboxPaternoEmpresa" id="textboxPaternoEmpresa" value="<?php echo empty($_GET['textboxPaternoEmpresa']) ? '' : $_GET['textboxPaternoEmpresa']; ?>" maxlength="300"/> 
+                        <input type="textbox" class="<?php echo (form_error('textboxMaterno') == '') ? '' : 'yes_error'; ?> materno ocultaimputs" name="textboxMaterno"  id="textboxMaterno" value="<?php echo empty($_GET['textboxMaterno']) ? '' : $_GET['textboxMaterno']; ?>" maxlength="100"/> 
+                        <input type="textbox" class="<?php echo (form_error('textboxNombre') == '') ? '' : 'yes_error'; ?> nombre ocultaimputs" name="textboxNombre"  id="textboxNombre" value="<?php echo empty($_GET['textboxNombre']) ? '' : $_GET['textboxNombre']; ?>" maxlength="100"/> 
                         <br>
 
                         <label>Num. de Telefono</label>
@@ -54,8 +54,8 @@
                         <label class="labeles8">Email</label>
                         <label><img src="../img/asteriscolicencias.png"></label>
                         </br>
-                        <input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?> textTel" name="textboxtelefono"  id="textboxtelefono" value="<?php echo empty($_POST['textboxtelefono']) ? '' : $_POST['textboxtelefono']; ?>" maxlength="15"/> 
-                        <input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> textEmail" name="textboxEmail"  id="textboxEmail" value="<?php echo empty($_POST['textboxEmail']) ? '' : $_POST['textboxEmail']; ?>" maxlength="70"/> 
+                        <input type="textbox" class = "<?php echo (form_error('textboxtelefono') == '') ? '' : 'yes_error'; ?> textTel" name="textboxtelefono"  id="textboxtelefono" value="<?php echo empty($_GET['textboxtelefono']) ? '' : $_GET['textboxtelefono']; ?>" maxlength="15"/> 
+                        <input type="email" class="<?php echo (form_error('textboxEmail') == '') ? '' : 'yes_error'; ?> textEmail" name="textboxEmail"  id="textboxEmail" value="<?php echo empty($_GET['textboxEmail']) ? '' : $_GET['textboxEmail']; ?>" maxlength="70"/> 
                     </div>
             </div>
             </br>
@@ -65,6 +65,7 @@
             <div class = "negocio">
                 <label>Giro Principal</label>
                 <label><img src="../img/asteriscolicencias.png"></label>
+                <label class="labeles9">Giro complementario</label>
                 <label class="labeles6">Nombre Establecimiento</label>
                 </br>
                 <input type="hidden" class="text" name="girooculto" id="girooculto" value="<?php echo $sesion ?>"/> 
@@ -78,37 +79,38 @@
                         ?>
                     </select>
                 </div>
-                <input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento"  id="textboxNombreEstablecimiento" value="<?php echo empty($_POST['textboxNombreEstablecimiento']) ? '' : $_POST['textboxNombreEstablecimiento']; ?>" maxlength="50"/> 
+                <input type="textbox" class="text-giro-complementario" name="textboxgiroComplementario"  id="textboxgiroComplementario" value="<?php echo empty($_GET['textboxgiroComplementario']) ? '' : $_GET['textboxgiroComplementario']; ?>" maxlength="200"/>      
+                <input type="textbox" class="text-nombre-establecimiento" name="textboxNombreEstablecimiento"  id="textboxNombreEstablecimiento" value="<?php echo empty($_GET['textboxNombreEstablecimiento']) ? '' : $_GET['textboxNombreEstablecimiento']; ?>" maxlength="50"/>                 
                 <div class="divDatos">
                     <label>Calle</label>
                     <label><img src="../img/asteriscolicencias.png"></label>
                     <label class="labeles3">No. ext. No. Int.</label>
                     <label><img src="../img/asteriscolicencias.png"></label>
 
-                    <input type="textbox" class=" <?php echo (form_error('textboxcalle') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcalle"  id="textboxcalle" value="<?php echo empty($_POST['textboxcalle']) ? '' : $_POST['textboxcalle']; ?>" maxlength="70"/> 
-                    <input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?> text-num" name="textboxnum"  id="textboxnum" value="<?php echo empty($_POST['textboxnum']) ? '' : $_POST['textboxnum']; ?>" maxlength="25"/> 
+                    <input type="textbox" class=" <?php echo (form_error('textboxcalle') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcalle"  id="textboxcalle" value="<?php echo empty($_GET['textboxcalle']) ? '' : $_GET['textboxcalle']; ?>" maxlength="70"/> 
+                    <input type="textbox" class="<?php echo (form_error('textboxnum') == '') ? '' : 'yes_error'; ?> text-num" name="textboxnum"  id="textboxnum" value="<?php echo empty($_GET['textboxnum']) ? '' : $_GET['textboxnum']; ?>" maxlength="25"/> 
                     </br>
 
                     <label>Colonia</label>
                     <label><img src="../img/asteriscolicencias.png"></label>
                     <label class="labeles3">Cod. Postal</label>
                     </br>
-                    <input type="textbox" class="<?php echo (form_error('textboxcolonia') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcolonia"  id="textboxcolonia" value="<?php echo empty($_POST['textboxcolonia']) ? '' : $_POST['textboxcolonia']; ?>" maxlength="45"/> 
-                    <input type="textbox" name="textboxCP" class="text-num" id="textboxCP" value="<?php echo empty($_POST['textboxCP']) ? '' : $_POST['textboxCP']; ?>" maxlength="10"/> 
+                    <input type="textbox" class="<?php echo (form_error('textboxcolonia') == '') ? '' : 'yes_error'; ?> text-calle" name="textboxcolonia"  id="textboxcolonia" value="<?php echo empty($_GET['textboxcolonia']) ? '' : $_GET['textboxcolonia']; ?>" maxlength="45"/> 
+                    <input type="textbox" name="textboxCP" class="text-num" id="textboxCP" value="<?php echo empty($_GET['textboxCP']) ? '' : $_GET['textboxCP']; ?>" maxlength="10"/> 
                     </br>
                     <label>Entre calle 1</label>
                     <label class="labeles4">Entre calle 2</label>
                     </br>
-                    <input type="textbox" class="text-entre-calle" name="textboxCalle1"  id="textboxCalle1" value="<?php echo empty($_POST['textboxCalle1']) ? '' : $_POST['textboxCalle1']; ?>" maxlength="50"/> 
-                    <input type="textbox" class="text-entre-calle" name="textboxCalle2"  id="textboxCalle2" value="<?php echo empty($_POST['textboxCalle2']) ? '' : $_POST['textboxCalle2']; ?>" maxlength="50"/> 
+                    <input type="textbox" class="text-entre-calle" name="textboxCalle1"  id="textboxCalle1" value="<?php echo empty($_GET['textboxCalle1']) ? '' : $_GET['textboxCalle1']; ?>" maxlength="50"/> 
+                    <input type="textbox" class="text-entre-calle" name="textboxCalle2"  id="textboxCalle2" value="<?php echo empty($_GET['textboxCalle2']) ? '' : $_GET['textboxCalle2']; ?>" maxlength="50"/> 
                     </br>
                     <label># de Empleos</label>
                     <label><img src="../img/asteriscolicencias.png"></label>
                     <label class="labeles5">Inv. Estimada</label>
                     <label><img src="../img/asteriscolicencias.png"></label>
                     </br>
-                    <input type="textbox" class="<?php echo (form_error('textboxNumEmpleos') == '') ? '' : 'yes_error'; ?>" name="textboxNumEmpleos" id="textboxNumEmpleos" value="<?php echo empty($_POST['textboxNumEmpleos']) ? '' : $_POST['textboxNumEmpleos']; ?>" maxlength="6"/> 
-                    <input type="textbox" class="<?php echo (form_error('textboxInvEstimada') == '') ? '' : 'yes_error'; ?> text" name="textboxInvEstimada" id="textboxInvEstimada" value="<?php echo empty($_POST['textboxInvEstimada']) ? '' : $_POST['textboxInvEstimada']; ?>" maxlength="12"/> 
+                    <input type="textbox" class="<?php echo (form_error('textboxNumEmpleos') == '') ? '' : 'yes_error'; ?>" name="textboxNumEmpleos" id="textboxNumEmpleos" value="<?php echo empty($_GET['textboxNumEmpleos']) ? '' : $_GET['textboxNumEmpleos']; ?>" maxlength="6"/> 
+                    <input type="textbox" class="<?php echo (form_error('textboxInvEstimada') == '') ? '' : 'yes_error'; ?> text" name="textboxInvEstimada" id="textboxInvEstimada" value="<?php echo empty($_GET['textboxInvEstimada']) ? '' : $_GET['textboxInvEstimada']; ?>" maxlength="12"/> 
                 </div>
                 </br>
                 </br>
