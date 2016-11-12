@@ -20,8 +20,8 @@ class Licencias extends CI_Controller {
         // $resp = $this->licencias_model->inicioSession();
         // $data['session']= $resp["sesion"];
         // $data['Barra']= "";
-         $data['MensajeError'] = "";
-         $data['MensajeAudio'] = "";
+        $data['MensajeError'] = "";
+        $data['MensajeAudio'] = "";
         // $this->logSW("Obtiene Session: ".var_export($resp["respuesta"],true)." ".var_export($resp["sesion"],true));
         // if ($resp['estatus']=='1') {
         $data['vista'] = $this->load->view('licencias/index.php', $data, TRUE); //True para pasar la vista como dato
@@ -33,15 +33,24 @@ class Licencias extends CI_Controller {
         //     $this->load->view('templates/layout', $data);
         // }
     }
-    public function variablesPDF($data){
-        $this->load->view('licencias/vending',$data);
+
+    public function variablesPDF() {
+        $data['paterno'] = $this->input->get('referencia');
+        $this->load->view('licencias/vending', $data);
+    }
+
+    public function cargaXml($referencia) {
+        $data['url'] = base_url();
+        $data['referencia'] = $referencia;
+        $data['vista'] = $this->load->view('licencias/cargaXml', $data, true);
+        $this->load->view('templates/layout', $data);
     }
 
     public function mostrarpdf() {
         $_POST['checkboxPFISICA'] = strtoupper($this->input->get('checkboxPFISICA'));
         if ($_POST['checkboxPFISICA'] == "1") {
             // Requeridos
-             $_POST['textboxPaternoEmpresa'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
+            $_POST['textboxPaternoEmpresa'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
             $_POST['textboxMaterno'] = strtoupper($this->input->get('textboxMaterno'));
             $_POST['textboxNombre'] = strtoupper($this->input->get('textboxNombre'));
             $_POST['textboxtelefono'] = strtoupper($this->input->get('textboxtelefono'));
@@ -71,14 +80,14 @@ class Licencias extends CI_Controller {
             $this->form_validation->set_rules('imput_giro', 'giro', 'callback_imput_giro');
 
             // No requeridos
-            $this->form_validation->set_rules('textboxgiroComplementario','girocomple','max_length[200]');
+            $this->form_validation->set_rules('textboxgiroComplementario', 'girocomple', 'max_length[200]');
             $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
             $this->form_validation->set_rules('textboxCP', 'codpostal', 'max_length[10]');
             $this->form_validation->set_rules('textboxCalle1', 'calle1', 'max_length[50]');
             $this->form_validation->set_rules('textboxCalle2', 'calle2', 'max_length[50]');
         } else {
             // Requeridos
-             $_POST['textboxPaternoEmpresa'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
+            $_POST['textboxPaternoEmpresa'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
             $_POST['textboxMaterno'] = strtoupper($this->input->get('textboxMaterno'));
             $_POST['textboxNombre'] = strtoupper($this->input->get('textboxNombre'));
             $_POST['textboxtelefono'] = strtoupper($this->input->get('textboxtelefono'));
@@ -110,7 +119,7 @@ class Licencias extends CI_Controller {
             // No requeridos
             $this->form_validation->set_rules('textboxMaterno', 'materno', 'max_length[100]');
             $this->form_validation->set_rules('textboxNombre', 'nombre', 'max_length[100]');
-            $this->form_validation->set_rules('textboxgiroComplementario','girocomple','max_length[200]');
+            $this->form_validation->set_rules('textboxgiroComplementario', 'girocomple', 'max_length[200]');
             $this->form_validation->set_rules('textboxNombreEstablecimiento', 'establecimiento', 'max_length[50]');
             $this->form_validation->set_rules('textboxCP', 'codpostal', 'max_length[10]');
             $this->form_validation->set_rules('textboxCalle1', 'calle1', 'max_length[50]');
@@ -140,55 +149,12 @@ class Licencias extends CI_Controller {
             $data['numempleos'] = $this->input->get('textboxNumEmpleos');
             $data['Investimada'] = $this->input->get('textboxInvEstimada');
             $data['sesion'] = $this->licencias_model->inicioSession();
-        
-        //$this->load->view('licencias/vending', TRUE);
-            //$data1['vista'] = $this->load->view('licencias/vending', TRUE);
-            $this->variablesPDF($data);
-            //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
-            //$this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $girocomple, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
 
-            //$giro = $this->input->post('imput_giro');
-            /* if ($giro > 0) {
-              $paterno = strtoupper($this->input->post('textboxPaternoEmpresa'));
-              $materno = strtoupper($this->input->post('textboxMaterno'));
-              $nombre = strtoupper($this->input->post('textboxNombre'));
-              $numtelefono = strtoupper($this->input->post('textboxtelefono'));
-              $email = strtoupper($this->input->post('textboxEmail'));
-              $giro = $this->input->post('imput_giro');
-              $establecimiento = strtoupper($this->input->post('textboxNombreEstablecimiento'));
-              $calle = strtoupper($this->input->post('textboxcalle'));
-              $numext = strtoupper($this->input->post('textboxnum'));
-              $colonia = strtoupper($this->input->post('textboxcolonia'));
-              $codpostal = strtoupper($this->input->post('textboxCP'));
-              $calle1 = strtoupper($this->input->post('textboxCalle1'));
-              $calle2 = strtoupper($this->input->post('textboxCalle2'));
-              $numempleos = $this->input->post('textboxNumEmpleos');
-              $Investimada = $this->input->post('textboxInvEstimada');
-              $sesion = $this->licencias_model->inicioSession();
+            //Manda a llamar el modelo que descarga el pdf despues de consultar el WS
+            $this->licencias_model->imprimirSolicitudApertura($data);
 
-              //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
-              $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
-              }else{
-              $data['paterno'] = $this->input->post('textboxPaternoEmpresa');
-              $data['materno'] = $this->input->post('textboxMaterno');
-              $data['nombre'] = $this->input->post('textboxNombre');
-              $data['numtelefono'] = $this->input->post('textboxtelefono');
-              $data['email'] = $this->input->post('textboxEmail');
-              $data['test'] = $this->input->post('imput_giro');
-              $data['calle'] = $this->input->post('textboxcalle');
-              $data['numext'] = $this->input->post('textboxnum');
-              $data['colonia'] = $this->input->post('textboxcolonia');
-              $data['numempleos'] = $this->input->post('textboxNumEmpleos');
-              $data['Investimada'] = $this->input->post('textboxInvEstimada');
-
-              $data['MensajeError'] = 'DEBE SELECCIONAR UN GIRO';
-
-              $data['sesion']=$this->input->post('girooculto');
-              $data['giro']=$this->licencias_model->obtenergiros($data['sesion']);
-              $data['radiobutonpersona']= $this->input->post('checkboxPFISICA');
-              $data['vista'] = $this->load->view('licencias/apertura.php',$data, TRUE);
-              $this->load->view('templates/layout', $data);
-              } */
+            //Manda a llamar el metodo que carga la vista que a su vez carga la vista del xml
+            $this->cargaXml($data['paterno']);
         } else {
             $data['paterno'] = $this->input->get('textboxPaternoEmpresa');
             $data['materno'] = $this->input->get('textboxMaterno');
@@ -248,7 +214,7 @@ class Licencias extends CI_Controller {
         }
     }
 
-    public function imprimirDocumentoApertura(){
+    public function imprimirDocumentoApertura() {
         $paterno = $this->input->get('paterno');
         $materno = $this->input->get('materno');
         $nombre = $this->input->get('nombre');
@@ -266,7 +232,6 @@ class Licencias extends CI_Controller {
         $numempleos = $this->input->get('numempleos');
         $Investimada = $this->input->get('Investimada');
         $sesion = $this->input->get('sesion');
-        
         $this->licencias_model->imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $girocomple, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion);
     }
 
@@ -292,12 +257,12 @@ class Licencias extends CI_Controller {
         $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
         $data['tiposLicencia'] = $this->licencias_model->obtenerTipoLicencias($session);
         if ($this->form_validation->run() == TRUE) {
-        $data['licencia'] = $this->licencias_model->obtenerLicencia($session, $noLicencia, $tipoLicencia, $apPaterno);
+            $data['licencia'] = $this->licencias_model->obtenerLicencia($session, $noLicencia, $tipoLicencia, $apPaterno);
             $data['vista'] = $this->load->view('licencias/resultadoLicencia', $data, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);
         } else {
             $data['vista'] = $this->load->view('licencias/revalidacion.php', $data, TRUE); //True para pasar la vista como dato
-            $this->load->view('templates/layout', $data);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+            $this->load->view('templates/layout', $data);
         }
     }
 

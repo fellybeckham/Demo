@@ -110,7 +110,7 @@ class Licencias_model extends CI_Model {
       } */
     /* $paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, */
 
-    public function imprimirSolicitudApertura($paterno, $materno, $nombre, $numtelefono, $email, $giro, $girocomple, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, $sesion) {
+    public function imprimirSolicitudApertura($data) {
         //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
         //echo $sesion;
         //echo $Investimada;
@@ -121,31 +121,43 @@ class Licencias_model extends CI_Model {
             CURLOPT_USERAGENT => 'Codular Sample cURL Request',
             CURLOPT_POST => 1,
             CURLOPT_POSTFIELDS => array(
-                "paterno" => $paterno,
-                "materno" => $materno,
-                "nombre" => $nombre,
-                "numtelefono" => $numtelefono,
-                "email" => $email,
-                "giro" => $giro,
-                "girocomple" => $girocomple,
-                "establecimiento" => $establecimiento,
-                "calle" => $calle,
-                "numext" => $numext,
-                "colonia" => $colonia,
-                "codpostal" => $codpostal,
-                "calle1" => $calle1,
-                "calle2" => $calle2,
-                "numempleos" => $numempleos,
-                "investimada" => $Investimada,
-                "sesion" => $sesion
+                "paterno" => $data['paterno'],
+                "materno" => $data['materno'],
+                "nombre" => $data['nombre'],
+                "numtelefono" => $data['numtelefono'],
+                "email" => $data['email'],
+                "giro" => $data['giro'],
+                "girocomple" => $data['girocomple'],
+                "establecimiento" => $data['establecimiento'],
+                "calle" => $data['calle'],
+                "numext" => $data['numext'],
+                "colonia" => $data['colonia'],
+                "codpostal" => $data['codpostal'],
+                "calle1" => $data['calle1'],
+                "calle2" => $data['calle2'],
+                "numempleos" => $data['numempleos'],
+                "investimada" => $data['Investimada'],
+                "sesion" => $data['sesion']
             )
         ));
 
-        $resp = curl_exec($curl);
-        header('Content-type: application/pdf');
-        echo $resp;
-//var_dump($resp);
+//        $resp = curl_exec($curl);
+//        header('Content-type: application/pdf');
+//        echo $resp;
+////var_dump($resp);
+//        curl_close($curl);
+        $fp = fopen('archivo.pdf', 'w');
+        curl_setopt($curl, CURLOPT_FILE, $fp);
+        curl_exec($curl);
+//        header('Content-type: application/pdf');
+////        $name = 'archivo.pdf';
+////force_download($name, $resp);
+//        echo $resp;
         curl_close($curl);
+//        $output_filename ="prueba.pdf";
+//        $fp = fopen($output_filename, 'w');
+//    fwrite($fp, $resp);
+        fclose($fp);
     }
 
     public function obtenergiros($sesion) {
@@ -191,6 +203,7 @@ class Licencias_model extends CI_Model {
         //var_dump($resp);
         curl_close($curl);
     }
+
     public function obtenerLicencia($session, $noLicencia, $tipoLicencia, $apPaterno) {
         //echo $sesion;
 
@@ -202,7 +215,7 @@ class Licencias_model extends CI_Model {
             CURLOPT_POST => 1,
             CURLOPT_POSTFIELDS => array(
                 "licencia" => $noLicencia,
-                "genero"=> $tipoLicencia,
+                "genero" => $tipoLicencia,
                 "paterno" => $apPaterno,
                 "sesion" => $session
             )
