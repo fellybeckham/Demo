@@ -9,6 +9,7 @@ class Licencias_model extends CI_Model {
     }
 
     public function inicioSession() {
+        Licencias::logSW("Llama al metodo para iniciar sesion.");
         $file = fopen("Oficina.txt", "r");
         while (!feof($file)) {
             $algo[] = fgets($file);
@@ -34,8 +35,10 @@ class Licencias_model extends CI_Model {
         $limpio = str_replace($quitarcaracteres, $remplazadocaracteres, $resp);
         $porciones = explode("/", $limpio);
         if ($porciones[2] == 0) {
+            Licencias::logSW("No se pudo obtener la sesión.");
             return "No hay Session";
         } else {
+            Licencias::logSW("Sesion iniciada. Resultado " . $porciones[6]);
             return( $porciones[6] );
         }
         // Close request to clear up some resources
@@ -111,53 +114,58 @@ class Licencias_model extends CI_Model {
     /* $paterno, $materno, $nombre, $numtelefono, $email, $giro, $establecimiento, $calle, $numext, $colonia, $codpostal, $calle1, $calle2, $numempleos, $Investimada, */
 
     public function imprimirSolicitudApertura($data) {
-        //echo $sesion.' '.$paterno.' '.$materno.' '.$nombre.' '.$numtelefono.' '.$email.' '. $giro.' '.$establecimiento.' '.$calle.' '.$numext.' '.$colonia.' '.$codpostal.' '.$calle1.' '.$calle2.' '.$numempleos.' '.$Investimada;
-        //echo $sesion;
-        //echo $Investimada;
-        $curl = curl_init();
-        curl_setopt_array($curl, array(
-            CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/practicas/CapturaApertura.php',
-            CURLOPT_USERAGENT => 'Codular Sample cURL Request',
-            CURLOPT_POST => 1,
-            CURLOPT_POSTFIELDS => array(
-                "paterno" => $data['paterno'],
-                "materno" => $data['materno'],
-                "nombre" => $data['nombre'],
-                "numtelefono" => $data['numtelefono'],
-                "email" => $data['email'],
-                "giro" => $data['giro'],
-                "girocomple" => $data['girocomple'],
-                "establecimiento" => $data['establecimiento'],
-                "calle" => $data['calle'],
-                "numext" => $data['numext'],
-                "colonia" => $data['colonia'],
-                "codpostal" => $data['codpostal'],
-                "calle1" => $data['calle1'],
-                "calle2" => $data['calle2'],
-                "numempleos" => $data['numempleos'],
-                "investimada" => $data['Investimada'],
-                "sesion" => $data['sesion']
-            )
-        ));
+        Licencias::logSW("Entra a metodo para obtener y descargar el pdf.");
+        try {
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/practicas/CapturaApertura.php',
+                CURLOPT_USERAGENT => 'Codular Sample cURL Request',
+                CURLOPT_POST => 1,
+                CURLOPT_POSTFIELDS => array(
+                    "paterno" => $data['paterno'],
+                    "materno" => $data['materno'],
+                    "nombre" => $data['nombre'],
+                    "numtelefono" => $data['numtelefono'],
+                    "email" => $data['email'],
+                    "giro" => $data['giro'],
+                    "girocomple" => $data['girocomple'],
+                    "establecimiento" => $data['establecimiento'],
+                    "calle" => $data['calle'],
+                    "numext" => $data['numext'],
+                    "colonia" => $data['colonia'],
+                    "codpostal" => $data['codpostal'],
+                    "calle1" => $data['calle1'],
+                    "calle2" => $data['calle2'],
+                    "numempleos" => $data['numempleos'],
+                    "investimada" => $data['Investimada'],
+                    "sesion" => $data['sesion']
+                )
+            ));
 
-//        $resp = curl_exec($curl);
+       // $resp = curl_exec($curl);
 //        header('Content-type: application/pdf');
 //        echo $resp;
 ////var_dump($resp);
 //        curl_close($curl);
-        $fp = fopen('archivo.pdf', 'w');
-        curl_setopt($curl, CURLOPT_FILE, $fp);
-        curl_exec($curl);
+            $fp = fopen('archivo.pdf', 'w');
+            curl_setopt($curl, CURLOPT_FILE, $fp);
+            curl_exec($curl);
 //        header('Content-type: application/pdf');
 ////        $name = 'archivo.pdf';
 ////force_download($name, $resp);
 //        echo $resp;
-        curl_close($curl);
+            curl_close($curl);
 //        $output_filename ="prueba.pdf";
 //        $fp = fopen($output_filename, 'w');
 //    fwrite($fp, $resp);
-        fclose($fp);
+            fclose($fp);
+            Licencias::logSW("El archivo pdf fue descargado correctamente. ");
+            return "OK";
+        } catch (Exception $ex) {
+            Licencias::logSW("Error al descargar el pdf. ".$ex);
+           return "ERROR";
+        }
     }
 
     public function obtenergiros($sesion) {
@@ -178,7 +186,7 @@ class Licencias_model extends CI_Model {
         $resp = str_replace("'", '"', $resp);
         //var_dump($resp);
 
-
+        Licencias::logSW("Se consulto el metodo para obtener los giros. ".$resp);
         return $resp;
 //var_dump($resp);
         curl_close($curl);
@@ -199,6 +207,7 @@ class Licencias_model extends CI_Model {
 
         $resp = curl_exec($curl);
         $resp = str_replace("'", '"', $resp);
+        Licencias::logSW("Se consulto el metodo para obtener los tipos de licencia.".$resp);
         return $resp;
         //var_dump($resp);
         curl_close($curl);
@@ -223,6 +232,7 @@ class Licencias_model extends CI_Model {
 
         $resp = curl_exec($curl);
         $resp = str_replace("'", '"', $resp);
+        Licencias::logSW("Se conulto el metodo para obtener la licencia No".$noLicencia. ". Resp: ".$resp);
         return $resp;
 //        var_dump($resp);
         curl_close($curl);

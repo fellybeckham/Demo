@@ -19,7 +19,7 @@ $urlnegado = base_url().'frmErrorServicio.php';
 //'&#38;codpostal='.$codpostal.'&#38;calle1='.$calle1.'&#38;calle2='.$calle2.'&#38;numempleos='.$numempleos.'&#38;Investimada='.$Investimada.'&#38;sesion='.$sesion;
  //$document = $url.'licencias/imprimir';   
 $document = $url.'archivo.pdf';      
-    echo '<?xml version="1.0" encoding="utf-8"?>
+    $xml = '<?xml version="1.0" encoding="utf-8"?>
         <mensaje>
             <comando>imprimir</comando>
             <cantidad>1</cantidad>
@@ -27,6 +27,8 @@ $document = $url.'archivo.pdf';
             <referencia>'.$paterno.'</referencia>
             <documento>'.$document.'</documento>
         </mensaje>';
+    echo $xml;
+    Licencias::logSW("Vending xml ".$xml);
 ?>
 
 <?php 
