@@ -2,6 +2,7 @@
 <?php
 $datosLicencia = json_decode($licencia, True);?>
 <div class="contornodatosrevalidacion">
+    <?php echo form_open('licencias/imprimirRevalidacion', $attributes);?>
      <?php
      if ($datosLicencia[0]['estatus'] == 1)
      {
@@ -30,8 +31,13 @@ $datosLicencia = json_decode($licencia, True);?>
             <label><b>Ultimo Año Revalidado:</b></label>
             <label><?php echo $datosLicencia[0]['RevaUltima'];?></label>
         </div>
-        
-    <input class="btnGuardaRevalidacion" type="submit" value="" name="guardarevalida" id = "guardarevalida"/>
+        <div >
+            <input type="hidden" name="noLicencia" id="noLicencia" value="<?php echo $datosLicencia[0]['Licencia'];?>" />
+            <input type="hidden" name="genero" id="genero" value="<?php echo $datosLicencia[0]['Genero'];?>" />
+            <input type="hidden" name="giro" id="giro" value="<?php echo $datosLicencia[0]['girosid'];?>" />
+            <input type="hidden" name="paterno" id="paterno" value="<?php echo $datosLicencia[0]['paterno'];?>" />
+        </div>
+    <input class="btnGuardaRevalidacion" type="submit" value=""/>
     <?php form_close();
      }else
      {?>
@@ -39,7 +45,7 @@ $datosLicencia = json_decode($licencia, True);?>
             <?php echo ucfirst(strtolower(str_replace("%20", " ", $datosLicencia[0]['respuesta'])));?>
             </div>
     <?php }?>
-    
+    <?php form_close(); ?> 
 </div>
 
 <a href="<?php echo base_url() . 'licencias/revalidacion'; ?>" id="regresar" class="btn-regresarlicencias"></a>

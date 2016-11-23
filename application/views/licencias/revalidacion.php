@@ -11,8 +11,8 @@
             <label>Numero de licencia</label>
             <input type="hidden" value="<?php echo $sesion; ?>" name="session" id="session"/>
             <div class="asterisco ast-noLicencia"></div>
-            <input class="inputLicencia" value="" maxlength="12" name="noLicencia" type="text" id="noLicencia" value=""/>
-            <div class="errorNoLicencia"><?php echo form_error('noLicencia'); ?></div>
+            <input class="<?php echo (form_error('noLicencia') == '') ? '' : 'yes_error'; ?> inputLicencia" maxlength="12" name="noLicencia" type="text" id="noLicencia" value="<?php echo empty($noLicencia) ? '' : $noLicencia; ?>"/>
+            <!--div class="errorNoLicencia"><?php echo form_error('noLicencia'); ?></div-->
         </div>
         <div class="txtTipoLicencia">
             <label>Tipo de licencia</label>
@@ -42,8 +42,8 @@
         <div class="txtApPaterno">
             <label>Ap. Paterno/Empresa</label>
             <div class="asterisco ast-apPaterno"></div>
-            <input class="inputApPaterno" value="" maxlength="300" name="apPaterno" type="text" id="apPaterno" value=""/>
-            <div class="errorTipoLicencia"><?php echo form_error('apPaterno'); ?></div>
+            <input class="<?php echo (form_error('apPaterno') == '') ? '' : 'yes_error'; ?> inputApPaterno" maxlength="300" name="apPaterno" type="text" id="apPaterno" value="<?php echo empty($apPaterno) ? '' : $apPaterno; ?>"/>
+            <!--div class="errorTipoLicencia"><?php echo form_error('apPaterno'); ?></div-->
         </div>
         <div class="footerForm">
             <div class="asterisco ast-obligatoro"></div>
@@ -51,6 +51,9 @@
             <input class="btnBuscar" type="submit" value=""/>
         </div>
         <?php form_close(); ?>
+        <div class="msjError">
+            <label class="tex_MensajeErrorCamposValidacion"><?php echo $MensajeError; ?></label>
+        </div>
     </div> 
 
 </div>

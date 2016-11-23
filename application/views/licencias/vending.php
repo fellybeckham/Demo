@@ -14,11 +14,12 @@ $REFERENCIAS = "refer";
 
 $url =  base_url();
 $urlnegado = base_url().'frmErrorServicio.php';
+$archivo = $_GET["documento"];
 //$document = $url.'licencias/imprimirDocumentoApertura?paterno='.$paterno.'&#38;materno='.$materno.'&#38;nombre='.$nombre.'&#38;numtelefono='.$numtelefono.'&#38;email='.$email.
 //'&#38;giro='.$giro.'&#38;girocomple='.$girocomple.'&#38;establecimiento='.$establecimiento.'&#38;calle='.$calle.'&#38;numext='.$numext.'&#38;colonia='.$colonia.
 //'&#38;codpostal='.$codpostal.'&#38;calle1='.$calle1.'&#38;calle2='.$calle2.'&#38;numempleos='.$numempleos.'&#38;Investimada='.$Investimada.'&#38;sesion='.$sesion;
  //$document = $url.'licencias/imprimir';   
-$document = $url.'archivo.pdf';      
+$document = $url."archivosPDF/".$archivo;      
     $xml = '<?xml version="1.0" encoding="utf-8"?>
         <mensaje>
             <comando>imprimir</comando>

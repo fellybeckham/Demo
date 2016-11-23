@@ -27,7 +27,7 @@
                       <input type="radio" name="checkboxPMORAL" id="inlineRadio2" value="1"> 2
                     </label>-->
 
-                    <input type="radio" name="checkboxPFISICA" id="checkboxPMORAL" value="2">
+                    <input type="radio" name="checkboxPFISICA" id="checkboxPMORAL" value="0">
                     <label for="checkboxPMORAL">P. Moral</label>
                     <!--<input type="radio" value="1" name="checkboxPMORAL" id="checkboxPMORAL"> 
                     <label>P. Moral</label>-->
@@ -127,7 +127,7 @@
         <?php
         echo form_close();
         ?>
-        <label class="tex_MensajeErrorCamposValidacion"><?php echo $MensajeError; ?></label>
+        <label class="msjError"><?php echo $MensajeError; ?></label>
         <?php
         ?>
     </div>

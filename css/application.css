@@ -1612,6 +1612,14 @@ position: center;
    color: red;
    font: 125% sans-serif;
 }
+.msjError{
+   position: absolute;
+   top: -230px;
+   left: -18px;
+   color: red;
+   width: 450px;
+   font: 105% sans-serif;
+}
 .ocultaimputs{
 
 }

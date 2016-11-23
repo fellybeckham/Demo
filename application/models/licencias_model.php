@@ -123,6 +123,7 @@ class Licencias_model extends CI_Model {
                 CURLOPT_USERAGENT => 'Codular Sample cURL Request',
                 CURLOPT_POST => 1,
                 CURLOPT_POSTFIELDS => array(
+                    "tpersona" => $data['tipoPersona'],
                     "paterno" => $data['paterno'],
                     "materno" => $data['materno'],
                     "nombre" => $data['nombre'],
@@ -148,7 +149,7 @@ class Licencias_model extends CI_Model {
 //        echo $resp;
 ////var_dump($resp);
 //        curl_close($curl);
-            $fp = fopen('archivo.pdf', 'w');
+            $fp = fopen('archivosPDF/apertura.pdf', 'w');
             curl_setopt($curl, CURLOPT_FILE, $fp);
             curl_exec($curl);
 //        header('Content-type: application/pdf');
@@ -160,14 +161,42 @@ class Licencias_model extends CI_Model {
 //        $fp = fopen($output_filename, 'w');
 //    fwrite($fp, $resp);
             fclose($fp);
-            Licencias::logSW("El archivo pdf fue descargado correctamente. ");
+            Licencias::logSW("El archivo apertura.pdf fue descargado correctamente. ");
             return "OK";
         } catch (Exception $ex) {
-            Licencias::logSW("Error al descargar el pdf. ".$ex);
+            Licencias::logSW("Error al descargar el archivo apertura.pdf. ".$ex);
            return "ERROR";
         }
     }
-
+    public function imprimirSolicitudRevalidacion($data) {
+        //Licencias::logSW("Entra a metodo para obtener y descargar el pdf.");
+        try {
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+                CURLOPT_RETURNTRANSFER => 1,
+                CURLOPT_URL => 'http://morelos.morelia.gob.mx:85/kiosco/practicas/CapturaRevalidacion.php',
+                CURLOPT_USERAGENT => 'Codular Sample cURL Request',
+                CURLOPT_POST => 1,
+                CURLOPT_POSTFIELDS => array(
+                    "licencia" => $data['noLicencia'],
+                    "genero" => $data['genero'],
+                    "paterno" => $data['paterno'],
+                    "giro" => $data['giro'],
+                    "sesion" => $data['sesion']
+                )
+            ));;
+            $fp = fopen('archivosPDF/revalidacion.pdf', 'w');
+            curl_setopt($curl, CURLOPT_FILE, $fp);
+            curl_exec($curl);    
+            curl_close($curl);
+            fclose($fp);
+            Licencias::logSW("El archivo reavalidacion.pdf fue descargado correctamente. ");
+            return "OK";
+        } catch (Exception $ex) {
+           Licencias::logSW("Error al descargar el archivo revalidacion.pdf. ".$ex);
+           return "ERROR";
+        }
+    }
     public function obtenergiros($sesion) {
         //echo $sesion;
 
@@ -213,7 +242,7 @@ class Licencias_model extends CI_Model {
         curl_close($curl);
     }
 
-    public function obtenerLicencia($session, $noLicencia, $tipoLicencia, $apPaterno) {
+    public function obtenerLicencia($data) {
         //echo $sesion;
 
         $curl = curl_init();
@@ -223,16 +252,16 @@ class Licencias_model extends CI_Model {
             CURLOPT_USERAGENT => 'Codular Sample cURL Request',
             CURLOPT_POST => 1,
             CURLOPT_POSTFIELDS => array(
-                "licencia" => $noLicencia,
-                "genero" => $tipoLicencia,
-                "paterno" => $apPaterno,
-                "sesion" => $session
+                "licencia" => $data['noLicencia'],
+                "genero" => $data['tipoLicencia'],
+                "paterno" => $data['apPaterno'],
+                "sesion" => $data['sesion']
             )
         ));
 
         $resp = curl_exec($curl);
         $resp = str_replace("'", '"', $resp);
-        Licencias::logSW("Se conulto el metodo para obtener la licencia No".$noLicencia. ". Resp: ".$resp);
+        Licencias::logSW("Se conulto el metodo para obtener la licencia No".$data['noLicencia']. ". Resp: ".$resp);
         return $resp;
 //        var_dump($resp);
         curl_close($curl);

@@ -37,17 +37,20 @@ class Licencias extends CI_Controller {
 
     public function variablesPDF() {
         $data['paterno'] = $this->input->get('referencia');
+        $data['documento'] = $this->input->get('documento');
         $this->logSW("Carga xml vending con la siguiente referencia: ".$data['paterno']);
         $this->load->view('licencias/vending', $data);
     }
 
-    public function cargaXml($referencia) {
+    public function cargaXml($referencia, $documento) {
         $data['url'] = base_url();
         $data['referencia'] = $referencia;
-        $this->logSW("Carga vista que en ready manda a llamar el xml del vending.");
+        $data['documento'] = $documento;
+        $this->logSW("Carga vista que en ready manda a llamar el xml del vending, del documento ".$data['documento']);
         $data['vista'] = $this->load->view('licencias/cargaXml', $data, true);
         $this->load->view('templates/layout', $data);
     }
+    
 
     public function mostrarpdf() {
         $this->logSW("Entra a la validación del formulario de licencia apertura.");
@@ -137,6 +140,7 @@ class Licencias extends CI_Controller {
         if ($this->form_validation->run() === true) {
             //Si la validación es correcta, cogemos los datos de la variable POST
             //y los enviamos al modelo
+            $data['tipoPersona'] = strtoupper($this->input->get('checkboxPFISICA'));
             $data['paterno'] = strtoupper($this->input->get('textboxPaternoEmpresa'));
             $data['materno'] = strtoupper($this->input->get('textboxMaterno'));
             $data['nombre'] = strtoupper($this->input->get('textboxNombre'));
@@ -154,7 +158,7 @@ class Licencias extends CI_Controller {
             $data['numempleos'] = $this->input->get('textboxNumEmpleos');
             $data['Investimada'] = $this->input->get('textboxInvEstimada');
             $data['sesion'] = $this->licencias_model->inicioSession();
-            $this->logSW("El usuario ingreso los siguientes datos al formulario de solicitud de apertura: Ap. Paterno: ".$data['paterno'].", Ap. Materno: ".$data['materno'].", Nombre: ".$data['nombre'].
+            $this->logSW("El usuario ingreso los siguientes datos al formulario de solicitud de apertura: Tipo Persona: ". $data['tipoPersona'].", Paterno: ".$data['paterno'].", Ap. Materno: ".$data['materno'].", Nombre: ".$data['nombre'].
                     ", No Telefono: ".$data['numtelefono'].", Email: ".$data['email'].", Giro: ".$data['giro'].", Giro complementario: ".$data['girocomple'].", Establecimiento: ".$data['establecimiento'].", Calle: ".$data['calle'].
                     ", Numero: ".$data['numext'].", colonia: ".$data['colonia'].", CP: ".$data['codpostal'].", Calle 1: ".$data['calle1'].", Calle 2: ".$data['calle2'].", No Emp:  ".$data['numepleos'].", Inv. Estimada: ".$data['Investimada'].","
                     . " Sesion: ".$data['sesion']);
@@ -165,7 +169,7 @@ class Licencias extends CI_Controller {
             {
                 //Manda a llamar el metodo que carga la vista que a su vez carga la vista del xml
                 $this->logSW("Se manda a llamar el metodo que carga el xml");
-                $this->cargaXml($data['paterno']);
+                $this->cargaXml($data['paterno'], "apertura.pdf");
             }
             else
             {
@@ -236,7 +240,6 @@ class Licencias extends CI_Controller {
             //echo "OPCION2";
         }
     }
-
     public function imprimirDocumentoApertura() {
         $paterno = $this->input->get('paterno');
         $materno = $this->input->get('materno');
@@ -262,36 +265,55 @@ class Licencias extends CI_Controller {
         $data['sesion'] = $this->licencias_model->inicioSession();
         $data['tiposLicencia'] = $this->licencias_model->obtenerTipoLicencias($data['sesion']);
         $this->logSW("Carga vista con formulario para revalidación de licencias");
-        $data['vista'] = $this->load->view('licencias/revalidacion.php', $data, TRUE); //True para pasar la vista como dato
+        $data['vista'] = $this->load->view('licencias/revalidacion', $data, TRUE); //True para pasar la vista como dato
         $this->load->view('templates/layout', $data);
     }
 
     public function busquedaLicencia() {
-        $noLicencia = $this->input->post('noLicencia');
+        $data['noLicencia'] = $this->input->post('noLicencia');
         $session = $this->input->post('session');
-        $tipoLicencia = $this->input->post('tipoLicencia');
-        $apPaterno = $this->input->post('apPaterno');
+        $data['tipoLicencia'] = $this->input->post('tipoLicencia');
+        $data['apPaterno'] = $this->input->post('apPaterno');
         $data['sesion'] = $session;
-        $this->form_validation->set_rules('noLicencia', 'Licencia', 'required|min_length[5]|max_length[13]');
-        $this->form_validation->set_message('required', 'Campo obligatorio');
-        $this->form_validation->set_message('min_length', 'Licencia no válida');
-        $this->form_validation->set_rules('apPaterno', 'Ap. Paterno', 'required|min_length[4]|max_length[300]');
-        $this->form_validation->set_message('required', 'Campo obligatorio');
-        $this->form_validation->set_message('min_length', 'Ap. Paterno no válido');
-        $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+        $this->form_validation->set_rules('noLicencia', 'Licencia', 'required|max_length[13]');
+        $this->form_validation->set_rules('apPaterno', 'Ap. Paterno', 'required|max_length[300]');
         $data['tiposLicencia'] = $this->licencias_model->obtenerTipoLicencias($session);
         if ($this->form_validation->run() == TRUE) {
-            $this->logSW("El usuario lleno correctamente el formulario para la revalidación de licencias. Datos: No Licencia: ".$noLicencia.", session: ".$session.", tipoLicencia: ".$tipoLicencia. ", Ap Paterno:".$apPaterno);
-            $data['licencia'] = $this->licencias_model->obtenerLicencia($session, $noLicencia, $tipoLicencia, $apPaterno);
+            $this->logSW("El usuario lleno correctamente el formulario para la revalidación de licencias. Datos: No Licencia: ".$data['noLicencia'].", session: ".$session.", tipoLicencia: ".$tipoLicencia. ", Ap Paterno:".$apPaterno);
+            $data['licencia'] = $this->licencias_model->obtenerLicencia($data);
             $data['vista'] = $this->load->view('licencias/resultadoLicencia', $data, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);
         } else {
             $this->logSW("El usuario no lleno correctamente el formulario para la revalidación de licencias.");
-            $data['vista'] = $this->load->view('licencias/revalidacion.php', $data, TRUE); //True para pasar la vista como dato
+            $data['MensajeError'] = 'LOS CAMPOS EN COLOR ROJO DEBEN SER LLENADOS';
+            $data['vista'] = $this->load->view('licencias/revalidacion', $data, TRUE); //True para pasar la vista como dato
             $this->load->view('templates/layout', $data);
         }
     }
-
+    public function imprimirRevalidacion()
+    {
+        $data['noLicencia'] = $this->input->post('noLicencia');
+        $data['sesion'] = $this->licencias_model->inicioSession();
+        $data['genero'] = $this->input->post('genero'); 
+        $data['paterno'] = $this->input->post('paterno');
+        $data['giro'] = $this->input->post('giro');
+       //Manda a llamar el modelo para obtener el archivo pdf
+        $this->logSW("Llama a metodo del modelo para obtener el archivo pdf, se enviaron los siguientes datos: No Licencia: ".$data['noLicencia'].", Session: ".$data['sesion'].", Genero: ".$data['genero'].", Paterno: ".$data['paterno'].", Giro: ".$data['giro']);
+       $result = $this->licencias_model->imprimirSolicitudRevalidacion($data);
+            if($result == "OK")
+            {
+                //Manda a llamar el metodo que carga la vista que a su vez carga la vista del xml
+                $this->logSW("Se manda a llamar el metodo que carga el xml de revalidacion");
+                $this->cargaXml($data['paterno'], "revalidacion.pdf");
+            }
+            else
+            {
+                //Se muestra pagina de error
+                $this->logSW("Ocurrio un error al descargar el pdf y no se termino la trasaccion. Muestra pagina de error");
+                $data['vista'] = $this->load->view('licencias/index.php', $data, TRUE); //True para pasar la vista como dato
+                $this->load->view('templates/layout', $data);
+            }
+    }
     public function RegresarDatos() {
         $pagina = $this->input->post('pagina');
         $session = $this->input->post('sesion2');

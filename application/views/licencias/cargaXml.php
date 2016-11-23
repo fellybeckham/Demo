@@ -4,8 +4,9 @@ $(document).ready(function(){
 	var url = "<?php echo $url;?>";
 	//Alamacena la referencia
 	var referencia = "<?php echo $referencia;?>";
+        var documento = "<?php echo $documento;?>";
 	//Carga la vista que contiene el xml para imprimir el archivo pdf
         //alert(url+"licencias/variablesPDF?referencia="+referencia);
-   window.location.replace(url+"licencias/variablesPDF?referencia="+referencia);
+   window.location.replace(url+"licencias/variablesPDF?referencia="+referencia+"&documento="+documento);
 });
 </script>
