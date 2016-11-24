@@ -1,0 +1,28 @@
+24/11/2016 03:58:13   Llama al metodo para iniciar sesion.
+24/11/2016 03:58:13   Sesion iniciada. Resultado 7gjricmccg6ckie8b5g05f5j46
+24/11/2016 03:58:14   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+24/11/2016 03:58:14   Carga vista con formulario para revalidación de licencias
+24/11/2016 03:58:20   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+24/11/2016 03:58:20   El usuario lleno correctamente el formulario para la revalidación de licencias. Datos: No Licencia: 41713, session: 7gjricmccg6ckie8b5g05f5j46, tipoLicencia: , Ap Paterno:
+24/11/2016 03:58:20   Se conulto el metodo para obtener la licencia No41713. Resp: 	[{"estatus":1,"respuesta":"TODO%20BIEN","Licencia":41713,"Genero":"A","propietario":"JUANA%20CORTES%20ORTIZ","giro":"DULCERIA","domicilio":"SOLEDAD%20GUTIERREZ%20DE%20FIGAREDO%20490-A%20ELIAS%20PEREZ%20AV,%20ENTRE%20CALLE%20,%20Y","RevaUltima":2012,"ctapredial":"101-1-999999","paterno":"CORTES","girosid":38}]
+24/11/2016 03:58:44   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+24/11/2016 03:58:44   El usuario lleno correctamente el formulario para la revalidación de licencias. Datos: No Licencia: 41713, session: 7gjricmccg6ckie8b5g05f5j46, tipoLicencia: , Ap Paterno:
+24/11/2016 03:58:44   Se conulto el metodo para obtener la licencia No41713. Resp: 	[{"estatus":1,"respuesta":"TODO%20BIEN","Licencia":41713,"Genero":"A","propietario":"JUANA%20CORTES%20ORTIZ","giro":"DULCERIA","domicilio":"SOLEDAD%20GUTIERREZ%20DE%20FIGAREDO%20490-A%20ELIAS%20PEREZ%20AV,%20ENTRE%20CALLE%20,%20Y","RevaUltima":2012,"ctapredial":"101-1-999999","paterno":"CORTES","girosid":38}]
+24/11/2016 03:58:54   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+24/11/2016 03:58:54   El usuario lleno correctamente el formulario para la revalidación de licencias. Datos: No Licencia: 41713, session: 7gjricmccg6ckie8b5g05f5j46, tipoLicencia: , Ap Paterno:
+24/11/2016 03:58:54   Se conulto el metodo para obtener la licencia No41713. Resp: 	[{"estatus":1,"respuesta":"TODO%20BIEN","Licencia":41713,"Genero":"A","propietario":"JUANA%20CORTES%20ORTIZ","giro":"DULCERIA","domicilio":"SOLEDAD%20GUTIERREZ%20DE%20FIGAREDO%20490-A%20ELIAS%20PEREZ%20AV,%20ENTRE%20CALLE%20,%20Y","RevaUltima":2012,"ctapredial":"101-1-999999","paterno":"CORTES","girosid":38}]
+24/11/2016 03:59:00   Llama al metodo para iniciar sesion.
+24/11/2016 03:59:00   Sesion iniciada. Resultado 7gjricmccg6ckie8b5g05f5j46
+24/11/2016 03:59:00   Llama a metodo del modelo para obtener el archivo pdf, se enviaron los siguientes datos: No Licencia: 41713, Session: 7gjricmccg6ckie8b5g05f5j46, Genero: A, Paterno: CORTES, Giro: 38
+24/11/2016 03:59:15   El archivo reavalidacion.pdf fue descargado correctamente. 
+24/11/2016 03:59:15   Se manda a llamar el metodo que carga el xml de revalidacion
+24/11/2016 03:59:15   Carga vista que en ready manda a llamar el xml del vending, del documento revalidacion.pdf
+24/11/2016 03:59:15   Carga xml vending con la siguiente referencia: CORTES
+24/11/2016 03:59:15   Vending xml <?xml version="1.0" encoding="utf-8"?>
+        <mensaje>
+            <comando>imprimir</comando>
+            <cantidad>1</cantidad>
+            <idservicio>30</idservicio>
+            <referencia>CORTES</referencia>
+            <documento>http://127.0.0.1:80/MoreliaPruebas/archivosPDF/revalidacion.pdf</documento>
+        </mensaje>

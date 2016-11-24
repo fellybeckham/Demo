@@ -37,7 +37,7 @@ $datosLicencia = json_decode($licencia, True);?>
             <input type="hidden" name="giro" id="giro" value="<?php echo $datosLicencia[0]['girosid'];?>" />
             <input type="hidden" name="paterno" id="paterno" value="<?php echo $datosLicencia[0]['paterno'];?>" />
         </div>
-    <input class="btnGuardaRevalidacion" type="submit" value=""/>
+    <input class="btnImprimeRevalidacion" type="submit" value=""/>
     <?php form_close();
      }else
      {?>
