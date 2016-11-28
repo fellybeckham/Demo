@@ -1,0 +1,12 @@
+28/11/2016 07:51:38   Carga vista principal de licencias.
+28/11/2016 07:51:41   Llama al metodo para iniciar sesion.
+28/11/2016 07:51:42   Sesion iniciada. Resultado 7gjricmccg6ckie8b5g05f5j46
+28/11/2016 07:51:42   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+28/11/2016 07:51:42   Carga vista con formulario para revalidación de licencias
+28/11/2016 07:51:49   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+28/11/2016 07:51:49   El usuario lleno correctamente el formulario para la revalidación de licencias. Datos: No Licencia: 54747, session: 7gjricmccg6ckie8b5g05f5j46, tipoLicencia: , Ap Paterno:
+28/11/2016 07:51:49   Se conulto el metodo para obtener la licencia No54747. Resp: 	[{"estatus":1,"respuesta":"TODO%20BIEN","Licencia":54747,"Genero":"B","propietario":"ASOCIACION%20DE%20INVIDENTES%20DEL%20ESTADO%20DE%20MICH%20AC","giro":"ESCUELA%20DE%20ENSENANZA%20TECNICA%20PARA%20OFICIOS","domicilio":"JUAN%20DE%20SALDIVAR%20235%20COL.%20%20ENRIQUE%20RAMIREZ,%20ENTRE%20CALLE%20TULEROS%20DE%20PURENCHECUARO,%20Y%20SOMBREREROS%20DE%20JARACUARO","RevaUltima":2016,"ctapredial":"101-1-999999","paterno":"ASOCIACION%20DE%20INVIDENTES%20DEL%20ESTADO%20DE%20MICH%20AC","girosid":110}]
+28/11/2016 07:51:52   Llama al metodo para iniciar sesion.
+28/11/2016 07:51:53   Sesion iniciada. Resultado 7gjricmccg6ckie8b5g05f5j46
+28/11/2016 07:51:53   Se consulto el metodo para obtener los tipos de licencia.[{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"A","genero":"A(Blancas)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"B","genero":"B(Verdes)"},{"estatus":1,"respuesta":"TODO%20BIEN","tipo":"C","genero":"C(Rojas)"}]
+28/11/2016 07:51:53   Carga vista con formulario para revalidación de licencias

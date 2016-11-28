@@ -1,4 +1,4 @@
-<script>  setTimeout("window.external.regresarInicio()", 120000);</script>
+<script>  setTimeout("window.external.regresarInicio()", 300000);</script>
 <div class="contornolicenciasrevalidacion">
     <div class="busquedalicencias">
 
