@@ -29,7 +29,7 @@ $url_host= $url1.':'.$puerto;
 //$config['base_url']	= 'http://'+$url_host+'/nayarit/';
 //$config['base_url']	= 'http://192.168.10.109:80/nayarit/';
 //$config['base_url']	= 'http://localhost:8080/nayarit/';
-$config['base_url']	= 'http://'.gethostbyname($_SERVER['SERVER_NAME']).':' .$puerto.'/MoreliaPruebas/';
+$config['base_url']	= 'http://'.gethostbyname($_SERVER['SERVER_NAME']).':' .$puerto.'/Demo/';
 //$config['base_url']	= 'http://'.gethostbyname($_SERVER['SERVER_NAME']).'/Kio_Pinos/CURP_codeigniter/';
 
 
